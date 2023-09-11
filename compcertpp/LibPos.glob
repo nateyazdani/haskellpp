@@ -1,0 +1,468 @@
+FLibPos
+R15 Coqlib <> <> lib
+R38 Coq.ZArith.ZArith <> <> lib
+R61 Tactics <> <> lib
+prf 89 <> Plt_rev_trans
+R152 Coqlib <> Plt def
+R141 Coqlib <> Plt def
+R118 Coqlib <> Plt def
+R191 Coqlib <> Plt_trans thm
+R191 Coqlib <> Plt_trans thm
+prf 214 <> Ple_Plt_trans
+R279 Coqlib <> Plt def
+R268 Coqlib <> Plt def
+R257 Coqlib <> Ple def
+R246 Coq.NArith.BinPos <> positive ind
+R246 Coq.NArith.BinPos <> positive ind
+R246 Coq.NArith.BinPos <> positive ind
+prf 341 <> Ple_antisym
+R391 Coq.Init.Logic "x = y" not
+R378 Coqlib <> Ple def
+R367 Coqlib <> Ple def
+R444 Coq.Init.Logic "x = y" not
+R437 Coq.ZArith.BinInt <> Zpos constr
+R446 Coq.ZArith.BinInt <> Zpos constr
+R444 Coq.Init.Logic "x = y" not
+R437 Coq.ZArith.BinInt <> Zpos constr
+R446 Coq.ZArith.BinInt <> Zpos constr
+sec 494 <> Bounded_gt
+var 516 Bounded_gt p
+R520 Coq.NArith.BinPos <> positive ind
+ind 541 <> bounded_gt
+constr 588 <> bounded_gt_intro
+R566 Coq.NArith.BinPos <> positive ind
+R554 Coq.NArith.BinPos <> positive ind
+R643 LibPos <> bounded_gt ind
+R632 Coqlib <> Plt def
+R621 Coqlib <> Plt def
+R695 Coq.Init.Datatypes <> nat ind
+R683 Coq.NArith.BinPos <> positive ind
+R718 Coq.ZArith.BinInt "x - y" not
+R711 Coq.ZArith.BinInt <> Zpos constr
+R720 Coq.ZArith.BinInt <> Zpos constr
+R741 Coq.ZArith.BinInt <> Zpos constr
+R751 Coq.NArith.BinPos <> nat_of_P def
+R773 Coq.Init.Datatypes <> O constr
+R683 Coq.NArith.BinPos <> positive ind
+R695 Coq.Init.Datatypes <> nat ind
+R718 Coq.ZArith.BinInt "x - y" not
+R711 Coq.ZArith.BinInt <> Zpos constr
+R720 Coq.ZArith.BinInt <> Zpos constr
+R741 Coq.ZArith.BinInt <> Zpos constr
+R751 Coq.NArith.BinPos <> nat_of_P def
+R773 Coq.Init.Datatypes <> O constr
+R683 Coq.NArith.BinPos <> positive ind
+prf 791 <> bounded_gt_wf
+R807 Coq.Init.Wf <> well_founded def
+R820 LibPos <> bounded_gt ind
+R897 Coq.Init.Wf <> Acc ind
+R901 LibPos <> bounded_gt ind
+R890 Coq.Init.Logic "x = y" not
+R879 LibPos <> bound_gt def
+R897 Coq.Init.Wf <> Acc ind
+R901 LibPos <> bounded_gt ind
+R890 Coq.Init.Logic "x = y" not
+R879 LibPos <> bound_gt def
+R953 Coq.Init.Wf <> well_founded_ind thm
+R970 Coq.Arith.Wf_nat <> lt_wf thm
+R953 Coq.Init.Wf <> well_founded_ind thm
+R970 Coq.Arith.Wf_nat <> lt_wf thm
+R1048 Coq.ZArith.BinInt "x - y" not
+R1041 Coq.ZArith.BinInt <> Zpos constr
+R1050 Coq.ZArith.BinInt <> Zpos constr
+R1048 Coq.ZArith.BinInt "x - y" not
+R1041 Coq.ZArith.BinInt <> Zpos constr
+R1050 Coq.ZArith.BinInt <> Zpos constr
+R1088 Coq.Init.Logic "x = y" not
+R1081 Coq.ZArith.BinInt <> Zpos constr
+R1090 Coq.ZArith.BinInt <> Zpos constr
+R1088 Coq.Init.Logic "x = y" not
+R1081 Coq.ZArith.BinInt <> Zpos constr
+R1090 Coq.ZArith.BinInt <> Zpos constr
+R1191 Coq.Init.Logic <> False_rect def
+R1191 Coq.Init.Logic <> False_rect def
+R1215 Coqlib <> Plt_strict thm
+R1215 Coqlib <> Plt_strict thm
+R1244 Coqlib <> Plt_trans thm
+R1244 Coqlib <> Plt_trans thm
+R1334 Coq.ZArith.BinInt "x > y" not
+R1327 Coq.ZArith.BinInt <> Zpos constr
+R1336 Coq.ZArith.BinInt <> Zpos constr
+R1334 Coq.ZArith.BinInt "x > y" not
+R1327 Coq.ZArith.BinInt <> Zpos constr
+R1336 Coq.ZArith.BinInt <> Zpos constr
+R1369 Coq.ZArith.BinInt "x > y" not
+R1360 Coq.ZArith.BinInt "x - y" not
+R1353 Coq.ZArith.BinInt <> Zpos constr
+R1362 Coq.ZArith.BinInt <> Zpos constr
+R1371 Coq.ZArith.BinInt "" not
+R1369 Coq.ZArith.BinInt "x > y" not
+R1360 Coq.ZArith.BinInt "x - y" not
+R1353 Coq.ZArith.BinInt <> Zpos constr
+R1362 Coq.ZArith.BinInt <> Zpos constr
+R1371 Coq.ZArith.BinInt "" not
+R1453 Coq.ZArith.BinInt "x < y" not
+R1444 Coq.ZArith.BinInt "x - y" not
+R1437 Coq.ZArith.BinInt <> Zpos constr
+R1446 Coq.ZArith.BinInt <> Zpos constr
+R1462 Coq.ZArith.BinInt "x - y" not
+R1455 Coq.ZArith.BinInt <> Zpos constr
+R1464 Coq.ZArith.BinInt <> Zpos constr
+R1453 Coq.ZArith.BinInt "x < y" not
+R1444 Coq.ZArith.BinInt "x - y" not
+R1437 Coq.ZArith.BinInt <> Zpos constr
+R1446 Coq.ZArith.BinInt <> Zpos constr
+R1462 Coq.ZArith.BinInt "x - y" not
+R1455 Coq.ZArith.BinInt <> Zpos constr
+R1464 Coq.ZArith.BinInt <> Zpos constr
+R1509 Coq.ZArith.BinInt "x > y" not
+R1500 Coq.ZArith.BinInt "x - y" not
+R1493 Coq.ZArith.BinInt <> Zpos constr
+R1502 Coq.ZArith.BinInt <> Zpos constr
+R1511 Coq.ZArith.BinInt "" not
+R1509 Coq.ZArith.BinInt "x > y" not
+R1500 Coq.ZArith.BinInt "x - y" not
+R1493 Coq.ZArith.BinInt <> Zpos constr
+R1502 Coq.ZArith.BinInt <> Zpos constr
+R1511 Coq.ZArith.BinInt "" not
+R1561 Coq.ZArith.BinInt "x - y" not
+R1554 Coq.ZArith.BinInt <> Zpos constr
+R1563 Coq.ZArith.BinInt <> Zpos constr
+R1561 Coq.ZArith.BinInt "x - y" not
+R1554 Coq.ZArith.BinInt <> Zpos constr
+R1563 Coq.ZArith.BinInt <> Zpos constr
+R1728 Coq.NArith.Pnat <> nat_of_P_lt_Lt_compare_morphism thm
+R1728 Coq.NArith.Pnat <> nat_of_P_lt_Lt_compare_morphism thm
+R1869 Coq.ZArith.BinInt "x < y" not
+R1862 Coq.ZArith.BinInt <> Zpos constr
+R1871 Coq.ZArith.BinInt <> Zpos constr
+R1869 Coq.ZArith.BinInt "x < y" not
+R1862 Coq.ZArith.BinInt <> Zpos constr
+R1871 Coq.ZArith.BinInt <> Zpos constr
+R1904 Coq.ZArith.BinInt "x < y" not
+R1895 Coq.ZArith.BinInt "x - y" not
+R1888 Coq.ZArith.BinInt <> Zpos constr
+R1897 Coq.ZArith.BinInt <> Zpos constr
+R1906 Coq.ZArith.BinInt "" not
+R1904 Coq.ZArith.BinInt "x < y" not
+R1895 Coq.ZArith.BinInt "x - y" not
+R1888 Coq.ZArith.BinInt <> Zpos constr
+R1897 Coq.ZArith.BinInt <> Zpos constr
+R1906 Coq.ZArith.BinInt "" not
+R1962 Coqlib <> Plt def
+R1962 Coqlib <> Plt def
+R2033 Coqlib <> Plt_strict thm
+R2033 Coqlib <> Plt_strict thm
+R2061 Coqlib <> Plt_trans thm
+R2061 Coqlib <> Plt_trans thm
+R2083 LibPos Bounded_gt <> sec
+sec 2105 <> Bounded_exists
+var 2131 Bounded_exists p
+R2147 Coq.Init.Datatypes <> bool ind
+R2135 Coq.NArith.BinPos <> positive ind
+prf 2161 <> bounded_exists
+R2219 Coq.Init.Specif "A + { B }" not
+R2191 Coq.Init.Specif "{ x  |  P }" not
+R2204 Coq.Init.Logic "A /\ B" not
+R2196 Coqlib <> Plt def
+R2211 Coq.Init.Logic "x = y" not
+R2213 Coq.Init.Datatypes <> true constr
+R2247 Coq.Init.Logic "x = y" not
+R2249 Coq.Init.Datatypes <> false constr
+R2232 Coqlib <> Plt def
+R2295 Coq.NArith.BinPos <> Prec def
+R2295 Coq.NArith.BinPos <> Prec def
+R2416 Coqlib <> Plt_succ thm
+R2416 Coqlib <> Plt_succ thm
+R2539 Coqlib <> Plt_succ thm
+R2549 Coqlib <> Plt_trans thm
+R2539 Coqlib <> Plt_succ thm
+R2549 Coqlib <> Plt_trans thm
+R2617 Coqlib <> Plt_succ_inv thm
+R2617 Coqlib <> Plt_succ_inv thm
+R2679 LibPos Bounded_exists <> sec
+def 2720 <> lcm
+R2733 Coq.ZArith.BinInt "x * y" not
+R2738 Coq.ZArith.Zdiv "x / y" not
+R2740 Coq.ZArith.Znumtheory <> Zgcd def
+prf 2758 <> lcm_positive
+R2813 Coq.ZArith.BinInt "x < y" not
+R2811 Coq.ZArith.BinInt "" not
+R2815 LibPos <> lcm def
+R2804 Coq.ZArith.BinInt "x < y" not
+R2802 Coq.ZArith.BinInt "" not
+R2785 Coq.ZArith.BinInt "x < y" not
+R2783 Coq.ZArith.BinInt "" not
+R2865 Coq.ZArith.BinInt "" not
+R2875 Coq.ZArith.BinInt "x * y" not
+R2877 Coq.ZArith.BinInt "" not
+R2865 Coq.ZArith.BinInt "" not
+R2875 Coq.ZArith.BinInt "x * y" not
+R2877 Coq.ZArith.BinInt "" not
+R2897 Coq.ZArith.Zorder <> Zmult_lt_compat_l thm
+R2897 Coq.ZArith.Zorder <> Zmult_lt_compat_l thm
+R2945 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R2945 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R3037 Coq.Init.Logic <> False ind
+R3030 Coq.Init.Logic "x = y" not
+R3021 Coq.ZArith.Znumtheory <> Zgcd def
+R3032 Coq.ZArith.BinInt "" not
+R3037 Coq.Init.Logic <> False ind
+R3030 Coq.Init.Logic "x = y" not
+R3021 Coq.ZArith.Znumtheory <> Zgcd def
+R3032 Coq.ZArith.BinInt "" not
+R3070 Coq.ZArith.Znumtheory <> Zgcd_inv_0_r thm
+R3070 Coq.ZArith.Znumtheory <> Zgcd_inv_0_r thm
+R3145 Coq.ZArith.Zdiv <> Z_div_mult_full thm
+R3145 Coq.ZArith.Zdiv <> Z_div_mult_full thm
+R3176 Coq.ZArith.Znumtheory <> Zgcd_is_pos thm
+R3176 Coq.ZArith.Znumtheory <> Zgcd_is_pos thm
+R3236 Coq.ZArith.BinInt "x < y" not
+R3234 Coq.ZArith.BinInt "" not
+R3238 Coq.ZArith.Znumtheory <> Zgcd def
+R3236 Coq.ZArith.BinInt "x < y" not
+R3234 Coq.ZArith.BinInt "" not
+R3238 Coq.ZArith.Znumtheory <> Zgcd def
+R3272 Coq.ZArith.Zorder <> Zmult_lt_0_reg_r thm
+R3272 Coq.ZArith.Zorder <> Zmult_lt_0_reg_r thm
+prf 3318 <> lcm_prop
+R3401 Coq.ZArith.Znumtheory "( a | b )" not
+R3402 LibPos <> lcm def
+R3390 Coq.ZArith.Znumtheory "( a | b )" not
+R3379 Coq.ZArith.Znumtheory "( a | b )" not
+R3360 Coq.ZArith.BinInt "x < y" not
+R3358 Coq.ZArith.BinInt "" not
+R3341 Coq.ZArith.BinInt "x < y" not
+R3339 Coq.ZArith.BinInt "" not
+R3493 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R3493 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R3584 Coq.ZArith.Znumtheory <> Zgcd_is_pos thm
+R3584 Coq.ZArith.Znumtheory <> Zgcd_is_pos thm
+R3624 Coq.ZArith.BinInt "x < y" not
+R3622 Coq.ZArith.BinInt "" not
+R3626 Coq.ZArith.Znumtheory <> Zgcd def
+R3624 Coq.ZArith.BinInt "x < y" not
+R3622 Coq.ZArith.BinInt "" not
+R3626 Coq.ZArith.Znumtheory <> Zgcd def
+R3661 Coq.Init.Logic <> False ind
+R3654 Coq.Init.Logic "x = y" not
+R3645 Coq.ZArith.Znumtheory <> Zgcd def
+R3656 Coq.ZArith.BinInt "" not
+R3661 Coq.Init.Logic <> False ind
+R3654 Coq.Init.Logic "x = y" not
+R3645 Coq.ZArith.Znumtheory <> Zgcd def
+R3656 Coq.ZArith.BinInt "" not
+R3718 Coq.ZArith.Znumtheory <> Zgcd_inv_0_l thm
+R3718 Coq.ZArith.Znumtheory <> Zgcd_inv_0_l thm
+R3762 Coq.ZArith.BinInt "x > y" not
+R3764 Coq.ZArith.BinInt "" not
+R3762 Coq.ZArith.BinInt "x > y" not
+R3764 Coq.ZArith.BinInt "" not
+R3796 Coq.ZArith.BinInt "x >= y" not
+R3787 Coq.ZArith.Znumtheory <> Zgcd def
+R3799 Coq.ZArith.BinInt "" not
+R3796 Coq.ZArith.BinInt "x >= y" not
+R3787 Coq.ZArith.Znumtheory <> Zgcd def
+R3799 Coq.ZArith.BinInt "" not
+R3826 Coq.ZArith.Znumtheory <> Zis_gcd_rel_prime thm
+R3826 Coq.ZArith.Znumtheory <> Zis_gcd_rel_prime thm
+R3917 Coq.ZArith.Znumtheory <> Zgcd def
+R3917 Coq.ZArith.Znumtheory <> Zgcd def
+R3959 Coq.Init.Logic "x <> y" not
+R3962 Coq.ZArith.BinInt "" not
+R3959 Coq.Init.Logic "x <> y" not
+R3962 Coq.ZArith.BinInt "" not
+R4006 Coq.ZArith.Zdiv "x / y" not
+R4002 Coq.ZArith.BinInt "x * y" not
+R4006 Coq.ZArith.Zdiv "x / y" not
+R4002 Coq.ZArith.BinInt "x * y" not
+R4038 Coq.ZArith.Zdiv "x / y" not
+R4034 Coq.ZArith.BinInt "x * y" not
+R4038 Coq.ZArith.Zdiv "x / y" not
+R4034 Coq.ZArith.BinInt "x * y" not
+R4085 Coq.ZArith.BinInt <> Zmult_assoc thm
+R4085 Coq.ZArith.BinInt <> Zmult_assoc thm
+R4108 Coq.ZArith.BinInt <> Zmult_assoc thm
+R4108 Coq.ZArith.BinInt <> Zmult_assoc thm
+R4145 Coq.ZArith.BinInt <> Zmult_reg_r thm
+R4145 Coq.ZArith.BinInt <> Zmult_reg_r thm
+R4191 Coq.ZArith.Znumtheory "( a | b )" not
+R4191 Coq.ZArith.Znumtheory "( a | b )" not
+R4211 Coq.ZArith.Znumtheory <> Gauss thm
+R4211 Coq.ZArith.Znumtheory <> Gauss thm
+R4250 Coq.ZArith.BinInt <> Zmult_comm thm
+R4250 Coq.ZArith.BinInt <> Zmult_comm thm
+R4286 Coq.ZArith.Znumtheory <> rel_prime_sym thm
+R4286 Coq.ZArith.Znumtheory <> rel_prime_sym thm
+R4372 Coq.ZArith.Zdiv <> Z_div_mult_full thm
+R4372 Coq.ZArith.Zdiv <> Z_div_mult_full thm
+R4408 Coq.ZArith.Zdiv <> Z_div_mult_full thm
+R4408 Coq.ZArith.Zdiv <> Z_div_mult_full thm
+prf 4447 <> lcm_divides_left
+R4478 Coq.ZArith.Znumtheory "( a | b )" not
+R4483 LibPos <> lcm def
+R4536 Coq.ZArith.Zdiv "x / y" not
+R4538 Coq.ZArith.Znumtheory <> Zgcd def
+R4536 Coq.ZArith.Zdiv "x / y" not
+R4538 Coq.ZArith.Znumtheory <> Zgcd def
+R4559 Coq.ZArith.BinInt <> Zmult_comm thm
+R4559 Coq.ZArith.BinInt <> Zmult_comm thm
+prf 4594 <> lcm_divides_right
+R4635 Coq.ZArith.Znumtheory "( a | b )" not
+R4640 LibPos <> lcm def
+R4628 Coq.ZArith.BinInt "x < y" not
+R4626 Coq.ZArith.BinInt "" not
+R4707 Coq.Init.Logic <> False ind
+R4700 Coq.Init.Logic "x = y" not
+R4691 Coq.ZArith.Znumtheory <> Zgcd def
+R4702 Coq.ZArith.BinInt "" not
+R4707 Coq.Init.Logic <> False ind
+R4700 Coq.Init.Logic "x = y" not
+R4691 Coq.ZArith.Znumtheory <> Zgcd def
+R4702 Coq.ZArith.BinInt "" not
+R4740 Coq.ZArith.Znumtheory <> Zgcd_inv_0_r thm
+R4740 Coq.ZArith.Znumtheory <> Zgcd_inv_0_r thm
+R4786 Coq.ZArith.Znumtheory <> Zgcd_is_pos thm
+R4786 Coq.ZArith.Znumtheory <> Zgcd_is_pos thm
+R4826 Coq.ZArith.BinInt "x < y" not
+R4824 Coq.ZArith.BinInt "" not
+R4828 Coq.ZArith.Znumtheory <> Zgcd def
+R4826 Coq.ZArith.BinInt "x < y" not
+R4824 Coq.ZArith.BinInt "" not
+R4828 Coq.ZArith.Znumtheory <> Zgcd def
+R4862 Coq.ZArith.Znumtheory <> Zgcd_div_swap0 thm
+R4862 Coq.ZArith.Znumtheory <> Zgcd_div_swap0 thm
+R4900 Coq.ZArith.Zdiv "x / y" not
+R4902 Coq.ZArith.Znumtheory <> Zgcd def
+R4900 Coq.ZArith.Zdiv "x / y" not
+R4902 Coq.ZArith.Znumtheory <> Zgcd def
+prf 4937 <> incr_align
+R4981 Coq.Init.Specif "{ x  |  P }" not
+R4993 Coq.Init.Logic "A /\ B" not
+R4988 Coq.ZArith.BinInt "x <= y" not
+R4996 Coq.ZArith.Znumtheory "( a | b )" not
+R4963 Coq.ZArith.BinInt "x < y" not
+R4961 Coq.ZArith.BinInt "" not
+R5037 Coq.ZArith.BinInt "x > y" not
+R5039 Coq.ZArith.BinInt "" not
+R5037 Coq.ZArith.BinInt "x > y" not
+R5039 Coq.ZArith.BinInt "" not
+R5065 Coq.ZArith.Zdiv <> Z_div_mod thm
+R5065 Coq.ZArith.Zdiv <> Z_div_mod thm
+R5094 Coq.ZArith.Zdiv <> Zdiv_eucl def
+R5094 Coq.ZArith.Zdiv <> Zdiv_eucl def
+R5134 Coq.ZArith.ZArith_dec <> Z_eq_dec def
+R5146 Coq.ZArith.BinInt "" not
+R5134 Coq.ZArith.ZArith_dec <> Z_eq_dec def
+R5146 Coq.ZArith.BinInt "" not
+R5212 Coq.ZArith.BinInt <> Zmult_comm thm
+R5212 Coq.ZArith.BinInt <> Zmult_comm thm
+R5248 Coq.ZArith.BinInt "x - y" not
+R5244 Coq.ZArith.BinInt "x + y" not
+R5248 Coq.ZArith.BinInt "x - y" not
+R5244 Coq.ZArith.BinInt "x + y" not
+R5283 Coq.ZArith.BinInt "x + y" not
+R5285 Coq.ZArith.BinInt "" not
+R5283 Coq.ZArith.BinInt "x + y" not
+R5285 Coq.ZArith.BinInt "" not
+R5306 Coq.ZArith.BinInt <> Zmult_plus_distr_l thm
+R5306 Coq.ZArith.BinInt <> Zmult_plus_distr_l thm
+R5335 Coq.ZArith.BinInt <> Zmult_comm thm
+R5335 Coq.ZArith.BinInt <> Zmult_comm thm
+R5359 Coq.ZArith.BinInt "x * y" not
+R5357 Coq.ZArith.BinInt "" not
+R5359 Coq.ZArith.BinInt "x * y" not
+R5357 Coq.ZArith.BinInt "" not
+sec 5618 <> Bounded
+var 5650 Bounded align
+R5658 Coq.ZArith.BinInt <> Z ind
+var 5685 Bounded align_pos
+R5699 Coq.ZArith.BinInt "x < y" not
+R5697 Coq.ZArith.BinInt "" not
+var 5731 Bounded low_bound
+var 5741 Bounded high_bound
+R5754 Coq.ZArith.BinInt <> Z ind
+var 5780 Bounded f
+R5789 Coq.Init.Datatypes <> bool ind
+R5784 Coq.ZArith.BinInt <> Z ind
+def 5820 <> bounded_offset
+R5837 Coq.Init.Specif "{ x  |  P }" not
+R5857 Coq.Init.Logic "A /\ B" not
+R5852 Coq.ZArith.BinInt "x <= y" not
+R5872 Coq.Init.Logic "A /\ B" not
+R5860 Coq.ZArith.Znumtheory "( a | b )" not
+R5892 Coq.Init.Logic "A \/ B" not
+R5887 Coq.ZArith.BinInt "x <= y" not
+R5899 Coq.Init.Logic "x = y" not
+R5901 Coq.Init.Datatypes <> true constr
+R6016 Coq.Init.Specif "{ x  |  P }" not
+R6030 Coq.Init.Logic "A /\ B" not
+R6024 Coq.ZArith.BinInt "x <= y" not
+R6046 Coq.Init.Logic "A /\ B" not
+R6033 Coq.ZArith.Znumtheory "( a | b )" not
+R6067 Coq.Init.Logic "A \/ B" not
+R6061 Coq.ZArith.BinInt "x <= y" not
+R6075 Coq.Init.Logic "x = y" not
+R6077 Coq.Init.Datatypes <> true constr
+R6009 Coq.Init.Logic "x = y" not
+R6005 Coq.ZArith.BinInt "x - y" not
+R5979 Coq.ZArith.Znumtheory "( a | b )" not
+R5961 Coq.ZArith.BinInt "x <= y" not
+R5959 Coq.ZArith.BinInt "" not
+R6016 Coq.Init.Specif "{ x  |  P }" not
+R6030 Coq.Init.Logic "A /\ B" not
+R6024 Coq.ZArith.BinInt "x <= y" not
+R6046 Coq.Init.Logic "A /\ B" not
+R6033 Coq.ZArith.Znumtheory "( a | b )" not
+R6067 Coq.Init.Logic "A \/ B" not
+R6061 Coq.ZArith.BinInt "x <= y" not
+R6075 Coq.Init.Logic "x = y" not
+R6077 Coq.Init.Datatypes <> true constr
+R6009 Coq.Init.Logic "x = y" not
+R6005 Coq.ZArith.BinInt "x - y" not
+R5979 Coq.ZArith.Znumtheory "( a | b )" not
+R5961 Coq.ZArith.BinInt "x <= y" not
+R5959 Coq.ZArith.BinInt "" not
+R6135 LibPos <> incr_align thm
+R6135 LibPos <> incr_align thm
+R6222 Coq.ZArith.ZArith_dec <> Z_le_dec def
+R6245 Coq.ZArith.BinInt "x - y" not
+R6231 Coq.ZArith.BinInt "" not
+R6222 Coq.ZArith.ZArith_dec <> Z_le_dec def
+R6245 Coq.ZArith.BinInt "x - y" not
+R6231 Coq.ZArith.BinInt "" not
+R6291 Coq.Init.Logic <> refl_equal constr
+R6291 Coq.Init.Logic <> refl_equal constr
+R6709 Coq.ZArith.Wf_Z <> Z_lt_rec thm
+R6709 Coq.ZArith.Wf_Z <> Z_lt_rec thm
+R7040 Coq.ZArith.Znumtheory "( a | b )" not
+R7051 Coq.ZArith.BinInt "x + y" not
+R7075 Coq.ZArith.Znumtheory <> Zdivide_plus_r thm
+R7091 Coq.ZArith.Znumtheory <> Zdivide_refl thm
+R7040 Coq.ZArith.Znumtheory "( a | b )" not
+R7051 Coq.ZArith.BinInt "x + y" not
+R7075 Coq.ZArith.Znumtheory <> Zdivide_plus_r thm
+R7091 Coq.ZArith.Znumtheory <> Zdivide_refl thm
+R7129 Coq.ZArith.ZArith_dec <> Z_le_dec def
+R7154 Coq.ZArith.BinInt "x + y" not
+R7129 Coq.ZArith.ZArith_dec <> Z_le_dec def
+R7154 Coq.ZArith.BinInt "x + y" not
+R7190 Coq.ZArith.BinInt "x + y" not
+R7190 Coq.ZArith.BinInt "x + y" not
+R7352 Coq.ZArith.BinInt "x <= y < z" not
+R7350 Coq.ZArith.BinInt "" not
+R7366 Coq.ZArith.BinInt "x - y" not
+R7371 Coq.ZArith.BinInt "x + y" not
+R7366 Coq.ZArith.BinInt "x - y" not
+R7371 Coq.ZArith.BinInt "x + y" not
+R7393 Coq.ZArith.BinInt "x - y" not
+R7352 Coq.ZArith.BinInt "x <= y < z" not
+R7350 Coq.ZArith.BinInt "" not
+R7366 Coq.ZArith.BinInt "x - y" not
+R7371 Coq.ZArith.BinInt "x + y" not
+R7366 Coq.ZArith.BinInt "x - y" not
+R7371 Coq.ZArith.BinInt "x + y" not
+R7393 Coq.ZArith.BinInt "x - y" not
+R7445 Coq.Init.Logic <> refl_equal constr
+R7445 Coq.Init.Logic <> refl_equal constr
+R7612 LibPos Bounded <> sec

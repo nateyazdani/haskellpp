@@ -1,0 +1,198 @@
+FProgressInv
+R15 Coq.Relations.Relations <> <> lib
+R41 Coqlib <> <> lib
+R64 LibPos <> <> lib
+R87 Maps <> <> lib
+R108 LibLists <> <> lib
+R133 Cppsem <> <> lib
+R156 Cplusconcepts <> <> lib
+R186 CplusWf <> <> lib
+R210 Events <> <> lib
+R233 Smallstep <> <> lib
+R259 Coq.Wellfounded.Wellfounded <> <> lib
+R287 CplusWf <> <> lib
+R311 Progress <> <> lib
+R336 Invariant <> <> lib
+R362 Preservation <> <> lib
+R391 Constrorder <> <> lib
+sec 543 <> Progress
+var 563 Progress A
+R567 BuiltinTypes ATOM t rec
+var 584 Progress nativeop
+var 611 Progress prog
+R618 Cppsem Program t rec
+syndef 649 <> hier
+R658 Cppsem Program hierarchy proj
+var 695 Progress hierarchy_wf
+R710 CplusWf Well_formed_hierarchy prop rec
+R737 ProgressInv <> hier syndef
+var 790 Progress cppsem
+R799 Cppsem <> cppsemparam rec
+var 821 Progress sem
+R827 BuiltinTypes <> semparam rec
+prf 859 <> progress
+R1204 Coq.Init.Logic "'exists' x , p" not
+R1215 Coq.Init.Logic "'exists' x , p" not
+R1227 Coq.Init.Logic "'exists' x , p" not
+R1284 Coq.Init.Logic "A /\ B" not
+R1258 Coq.Init.Logic "x = y" not
+R1247 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1261 Cplusconcepts Globals new def
+R1295 Coq.Init.Logic "'exists' x , p" not
+R1305 Coq.Init.Logic "'exists' x , p" not
+R1319 Coq.Init.Logic "'exists' x , p" not
+R1331 Coq.Init.Logic "'exists' x , p" not
+R1343 Coq.Init.Logic "'exists' x , p" not
+R1527 Coq.Init.Logic "A /\ B" not
+R1368 Smallstep <> star ind
+R1423 Cppsem State make constr
+R1435 Cppsem State codepoint constr
+R1497 Coq.Lists.List "x :: y" not
+R1466 Cppsem BlockPoint make constr
+R1487 Coq.Init.Datatypes <> Some constr
+R1461 Coq.Lists.List <> nil constr
+R1377 Cppsem <> step ind
+R1656 Coq.Init.Logic "A /\ B" not
+R1546 Coq.Init.Logic "x = y" not
+R1548 Maps PTree set def
+R1570 Cplusconcepts Value ptr constr
+R1581 Cplusconcepts Value subobject constr
+R1638 Coq.Lists.List "x :: y" not
+R1641 Coq.Lists.List <> nil constr
+R1607 Cplusconcepts Class.Inheritance Repeated constr
+R1605 Coq.ZArith.BinInt "" not
+R1601 Coq.Lists.List <> nil constr
+R1723 Coq.Init.Logic "A /\ B" not
+R1696 Coq.Init.Logic "x = y" not
+R1688 Maps "a ! b" not
+R1672 Cplusconcepts Globals heap proj
+R1715 Maps "a ! b" not
+R1699 Cplusconcepts Globals heap proj
+R1738 Coq.Init.Logic "'exists' x , p" not
+R1782 Coq.Init.Logic "A /\ B" not
+R1773 Coq.Init.Logic "x = y" not
+R1765 Maps "a ! b" not
+R1749 Cplusconcepts Globals heap proj
+R1775 Coq.Init.Datatypes <> Some constr
+R1819 Coq.Init.Logic "A /\ B" not
+R1814 Coq.Init.Logic "x = y" not
+R1799 Cplusconcepts Object class proj
+R1875 Coq.Init.Logic "A /\ B" not
+R1855 Coq.Init.Logic "x = y" not
+R1836 Cplusconcepts Object arraysize proj
+R2021 Coq.Init.Logic "x = y" not
+R1934 LibLists <> assoc def
+R1960 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1966 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1967 Coq.Lists.List <> nil constr
+R1975 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1976 Cplusconcepts Class.Inheritance Repeated constr
+R2007 Coq.Lists.List "x :: y" not
+R2010 Coq.Lists.List <> nil constr
+R1942 Cplusconcepts <> pointer_eq_dec thm
+R2023 Coq.Init.Datatypes <> Some constr
+R2028 Cppsem <> Constructed constr
+R1904 Coq.ZArith.BinInt "x <= y < z" not
+R1902 Coq.ZArith.BinInt "" not
+R1178 Invariant <> invariant rec
+R1033 Coq.Init.Logic "x = y" not
+R1036 Cppsem State make constr
+R1048 Cppsem State codepoint constr
+R1070 Cppsem <> Sblock constr
+R1116 Cppsem <> Sconstructor constr
+R1132 Coq.Lists.List <> nil constr
+R1078 Coq.Init.Datatypes <> Some constr
+R1083 Coq.Init.Datatypes "( x , y , .. , z )" not
+R954 Coq.ZArith.BinInt "x < y" not
+R952 Coq.ZArith.BinInt "" not
+R883 Progress <> has_nearly_trivial_constructor ind
+R2078 Progress <> progress thm
+R2078 Progress <> progress thm
+R2188 Smallstep <> star_invariant thm
+R2206 Preservation <> goal thm
+R2188 Smallstep <> star_invariant thm
+R2206 Preservation <> goal thm
+R2485 Invariant <> constructed_stack_objects_correct proj
+R2485 Invariant <> constructed_stack_objects_correct proj
+prf 2611 <> progress_destr
+R3038 Coq.Init.Logic "'exists' x , p" not
+R3050 Coq.Init.Logic "'exists' x , p" not
+R3062 Coq.Init.Logic "'exists' x , p" not
+R3235 Coq.Init.Logic "A /\ B" not
+R3087 Smallstep <> star ind
+R3152 Cppsem State make constr
+R3228 Coq.Lists.List "x :: y" not
+R3164 Cppsem State codepoint constr
+R3138 Events <> E0 proj
+R3095 Cppsem <> step ind
+R3301 Coq.Init.Logic "A /\ B" not
+R3275 Coq.Init.Logic "x = y" not
+R3267 Maps "a ! b" not
+R3251 Cplusconcepts Globals heap proj
+R3293 Maps "a ! b" not
+R3278 Cplusconcepts Globals heap proj
+R3314 Coq.Init.Logic "'exists' x , p" not
+R3370 Coq.Init.Logic "A /\ B" not
+R3361 Coq.Init.Logic "x = y" not
+R3353 Maps "a ! b" not
+R3338 Cplusconcepts Globals heap proj
+R3363 Coq.Init.Datatypes <> Some constr
+R3539 Coq.Init.Logic "x = y" not
+R3440 LibLists <> assoc def
+R3466 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3472 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3473 Coq.Lists.List <> nil constr
+R3481 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3482 Cplusconcepts Class.Inheritance Repeated constr
+R3525 Coq.Lists.List "x :: y" not
+R3510 Cplusconcepts Object class proj
+R3528 Coq.Lists.List <> nil constr
+R3448 Cplusconcepts <> pointer_eq_dec thm
+R3541 Coq.Init.Datatypes <> Some constr
+R3546 Cppsem <> Destructed constr
+R3397 Coq.ZArith.BinInt "x <= y < z" not
+R3395 Coq.ZArith.BinInt "" not
+R3404 Cplusconcepts Object arraysize proj
+R2917 Coq.Init.Logic "x = y" not
+R2920 Cppsem State make constr
+R2932 Cppsem State codepoint constr
+R3000 Coq.Lists.List "x :: y" not
+R2969 Cppsem BlockPoint make constr
+R2990 Coq.Init.Datatypes <> Some constr
+R2834 Coq.Init.Logic "x = y" not
+R2814 Cppsem <> exit_succ def
+R2836 Coq.Init.Datatypes <> Some constr
+R2726 Progress <> has_trivial_destructor ind
+R2755 Cplusconcepts Object class proj
+R2714 Coq.Init.Logic "x = y" not
+R2706 Maps "a ! b" not
+R2691 Cplusconcepts Globals heap proj
+R2716 Coq.Init.Datatypes <> Some constr
+R2640 Invariant <> invariant rec
+R3607 Invariant <> stack_objects_exist proj
+R3630 Coq.Init.Logic <> or_introl constr
+R3643 Coq.Init.Logic <> refl_equal constr
+R3607 Invariant <> stack_objects_exist proj
+R3630 Coq.Init.Logic <> or_introl constr
+R3643 Coq.Init.Logic <> refl_equal constr
+R3695 Maps "a ! b" not
+R3680 Cplusconcepts Globals heap proj
+R3695 Maps "a ! b" not
+R3680 Cplusconcepts Globals heap proj
+R3762 Invariant <> object_arraysizes_nonnegative proj
+R3762 Invariant <> object_arraysizes_nonnegative proj
+R3851 Progress <> progress_destr thm
+R3851 Progress <> progress_destr thm
+R3973 Smallstep <> star_invariant thm
+R3991 Preservation <> goal thm
+R3973 Smallstep <> star_invariant thm
+R3991 Preservation <> goal thm
+R4101 Constrorder <> star_object thm
+R4101 Constrorder <> star_object thm
+R4205 Invariant <> deallocated_objects_destructed proj
+R4240 Coq.Init.Logic <> or_introl constr
+R4253 Coq.Init.Logic <> refl_equal constr
+R4205 Invariant <> deallocated_objects_destructed proj
+R4240 Coq.Init.Logic <> or_introl constr
+R4253 Coq.Init.Logic <> refl_equal constr
+R4284 ProgressInv Progress <> sec

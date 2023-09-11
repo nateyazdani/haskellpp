@@ -1,0 +1,308 @@
+FMangle
+R15 Coq.ZArith.ZArith <> <> lib
+R38 Coq.Lists.List <> <> lib
+sec 65 <> Injection_with_decode
+var 99 Injection_with_decode A
+var 101 Injection_with_decode B
+var 122 Injection_with_decode encode
+var 150 Injection_with_decode decode
+var 178 Injection_with_decode decode_encode_id
+R229 Coq.Init.Logic "x = y" not
+prf 241 <> encode_inj_with_decode
+R308 Coq.Init.Logic "x = y" not
+R290 Coq.Init.Logic "x = y" not
+R423 Mangle Injection_with_decode <> sec
+prf 453 <> inj_comp
+R672 Coq.Init.Logic "x = y" not
+R651 Coq.Init.Logic "x = y" not
+R625 Coq.Init.Logic "x = y" not
+R610 Coq.Init.Logic "x = y" not
+R546 Coq.Init.Logic "x = y" not
+R531 Coq.Init.Logic "x = y" not
+R759 Coq.Lists.List <> list ind
+R764 Coq.Init.Datatypes <> bool ind
+R736 Coq.NArith.BinPos <> positive ind
+R793 Coq.NArith.BinPos <> xH constr
+R799 Coq.Lists.List <> nil constr
+R809 Coq.NArith.BinPos <> xO constr
+R824 Coq.Lists.List "x :: y" not
+R818 Coq.Init.Datatypes <> false constr
+R827 Mangle <> bits_of_pos def
+R848 Coq.NArith.BinPos <> xI constr
+R862 Coq.Lists.List "x :: y" not
+R857 Coq.Init.Datatypes <> true constr
+R865 Mangle <> bits_of_pos def
+R736 Coq.NArith.BinPos <> positive ind
+R736 Coq.NArith.BinPos <> positive ind
+R759 Coq.Lists.List <> list ind
+R764 Coq.Init.Datatypes <> bool ind
+R793 Coq.NArith.BinPos <> xH constr
+R799 Coq.Lists.List <> nil constr
+R809 Coq.NArith.BinPos <> xO constr
+R824 Coq.Lists.List "x :: y" not
+R818 Coq.Init.Datatypes <> false constr
+R827 Mangle <> bits_of_pos def
+R848 Coq.NArith.BinPos <> xI constr
+R862 Coq.Lists.List "x :: y" not
+R857 Coq.Init.Datatypes <> true constr
+R865 Mangle <> bits_of_pos def
+R938 Coq.NArith.BinPos <> positive ind
+R914 Coq.Lists.List <> list ind
+R919 Coq.Init.Datatypes <> bool ind
+R971 Coq.Lists.List <> nil constr
+R978 Coq.NArith.BinPos <> xH constr
+R993 Coq.Lists.List "x :: y" not
+R987 Coq.Init.Datatypes <> false constr
+R1002 Coq.NArith.BinPos <> xO constr
+R1006 Mangle <> pos_of_bits def
+R1033 Coq.Lists.List "x :: y" not
+R1028 Coq.Init.Datatypes <> true constr
+R1042 Coq.NArith.BinPos <> xI constr
+R1046 Mangle <> pos_of_bits def
+R914 Coq.Lists.List <> list ind
+R919 Coq.Init.Datatypes <> bool ind
+R914 Coq.Lists.List <> list ind
+R919 Coq.Init.Datatypes <> bool ind
+R938 Coq.NArith.BinPos <> positive ind
+R971 Coq.Lists.List <> nil constr
+R978 Coq.NArith.BinPos <> xH constr
+R993 Coq.Lists.List "x :: y" not
+R987 Coq.Init.Datatypes <> false constr
+R1002 Coq.NArith.BinPos <> xO constr
+R1006 Mangle <> pos_of_bits def
+R1033 Coq.Lists.List "x :: y" not
+R1028 Coq.Init.Datatypes <> true constr
+R1042 Coq.NArith.BinPos <> xI constr
+R1046 Mangle <> pos_of_bits def
+prf 1076 <> bits_of_pos_of_bits
+R1136 Coq.Init.Logic "x = y" not
+R1108 Mangle <> bits_of_pos def
+R1121 Mangle <> pos_of_bits def
+prf 1234 <> pos_of_bits_of_pos
+R1293 Coq.Init.Logic "x = y" not
+R1265 Mangle <> pos_of_bits def
+R1278 Mangle <> bits_of_pos def
+R1430 Coq.Lists.List <> list ind
+R1435 Coq.Init.Datatypes <> bool ind
+R1405 Coq.Lists.List <> list ind
+R1410 Coq.Init.Datatypes <> bool ind
+R1405 Coq.Lists.List <> list ind
+R1410 Coq.Init.Datatypes <> bool ind
+R1465 Coq.Lists.List <> nil constr
+R1478 Coq.Lists.List "x :: y" not
+R1472 Coq.Init.Datatypes <> false constr
+R1486 Coq.Lists.List "x :: y" not
+R1481 Coq.Init.Datatypes <> true constr
+R1501 Coq.Lists.List "x :: y" not
+R1541 Coq.Lists.List <> nil constr
+R1554 Coq.Lists.List "x :: y" not
+R1548 Coq.Init.Datatypes <> false constr
+R1563 Coq.Lists.List "x :: y" not
+R1557 Coq.Init.Datatypes <> false constr
+R1582 Coq.Lists.List "x :: y" not
+R1597 Coq.Lists.List "x :: y" not
+R1592 Coq.Init.Datatypes <> true constr
+R1603 Coq.Lists.List "x :: y" not
+R1609 Coq.Lists.List "x :: y" not
+R1612 Mangle <> encode_couple_bool_aux def
+R1405 Coq.Lists.List <> list ind
+R1410 Coq.Init.Datatypes <> bool ind
+R1405 Coq.Lists.List <> list ind
+R1410 Coq.Init.Datatypes <> bool ind
+R1405 Coq.Lists.List <> list ind
+R1410 Coq.Init.Datatypes <> bool ind
+R1430 Coq.Lists.List <> list ind
+R1435 Coq.Init.Datatypes <> bool ind
+R1465 Coq.Lists.List <> nil constr
+R1478 Coq.Lists.List "x :: y" not
+R1472 Coq.Init.Datatypes <> false constr
+R1486 Coq.Lists.List "x :: y" not
+R1481 Coq.Init.Datatypes <> true constr
+R1501 Coq.Lists.List "x :: y" not
+R1541 Coq.Lists.List <> nil constr
+R1554 Coq.Lists.List "x :: y" not
+R1548 Coq.Init.Datatypes <> false constr
+R1563 Coq.Lists.List "x :: y" not
+R1557 Coq.Init.Datatypes <> false constr
+R1582 Coq.Lists.List "x :: y" not
+R1597 Coq.Lists.List "x :: y" not
+R1592 Coq.Init.Datatypes <> true constr
+R1603 Coq.Lists.List "x :: y" not
+R1609 Coq.Lists.List "x :: y" not
+R1612 Mangle <> encode_couple_bool_aux def
+def 1672 <> encode_couple_bool
+R1745 Mangle <> encode_couple_bool_aux def
+R1706 Coq.Init.Datatypes "x * y" not
+R1696 Coq.Lists.List <> list ind
+R1701 Coq.Init.Datatypes <> bool ind
+R1708 Coq.Lists.List <> list ind
+R1713 Coq.Init.Datatypes <> bool ind
+R1843 Coq.Init.Datatypes "x * y" not
+R1833 Coq.Lists.List <> list ind
+R1838 Coq.Init.Datatypes <> bool ind
+R1845 Coq.Lists.List <> list ind
+R1850 Coq.Init.Datatypes <> bool ind
+R1809 Coq.Lists.List <> list ind
+R1814 Coq.Init.Datatypes <> bool ind
+R1884 Coq.Lists.List "x :: y" not
+R1879 Coq.Init.Datatypes <> true constr
+R1890 Coq.Lists.List "x :: y" not
+R1896 Coq.Lists.List "x :: y" not
+R1927 Mangle <> decode_couple_bool def
+R1960 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1964 Coq.Lists.List "x :: y" not
+R1974 Coq.Lists.List "x :: y" not
+R1993 Coq.Lists.List "x :: y" not
+R1987 Coq.Init.Datatypes <> false constr
+R2002 Coq.Lists.List "x :: y" not
+R1996 Coq.Init.Datatypes <> false constr
+R2011 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2016 Coq.Lists.List <> nil constr
+R2033 Coq.Lists.List "x :: y" not
+R2027 Coq.Init.Datatypes <> false constr
+R2041 Coq.Lists.List "x :: y" not
+R2036 Coq.Init.Datatypes <> true constr
+R2050 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2051 Coq.Lists.List <> nil constr
+R2071 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2072 Coq.Lists.List <> nil constr
+R2077 Coq.Lists.List <> nil constr
+R1809 Coq.Lists.List <> list ind
+R1814 Coq.Init.Datatypes <> bool ind
+R1809 Coq.Lists.List <> list ind
+R1814 Coq.Init.Datatypes <> bool ind
+R1843 Coq.Init.Datatypes "x * y" not
+R1833 Coq.Lists.List <> list ind
+R1838 Coq.Init.Datatypes <> bool ind
+R1845 Coq.Lists.List <> list ind
+R1850 Coq.Init.Datatypes <> bool ind
+R1884 Coq.Lists.List "x :: y" not
+R1879 Coq.Init.Datatypes <> true constr
+R1890 Coq.Lists.List "x :: y" not
+R1896 Coq.Lists.List "x :: y" not
+R1927 Mangle <> decode_couple_bool def
+R1960 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1964 Coq.Lists.List "x :: y" not
+R1974 Coq.Lists.List "x :: y" not
+R1993 Coq.Lists.List "x :: y" not
+R1987 Coq.Init.Datatypes <> false constr
+R2002 Coq.Lists.List "x :: y" not
+R1996 Coq.Init.Datatypes <> false constr
+R2011 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2016 Coq.Lists.List <> nil constr
+R2033 Coq.Lists.List "x :: y" not
+R2027 Coq.Init.Datatypes <> false constr
+R2041 Coq.Lists.List "x :: y" not
+R2036 Coq.Init.Datatypes <> true constr
+R2050 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2051 Coq.Lists.List <> nil constr
+R2071 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2072 Coq.Lists.List <> nil constr
+R2077 Coq.Lists.List <> nil constr
+prf 2111 <> decode_encode_couple_bool
+R2191 Coq.Init.Logic "x = y" not
+R2149 Mangle <> decode_couple_bool def
+R2169 Mangle <> encode_couple_bool def
+def 2351 <> encode_couple_pos
+R2411 Mangle <> pos_of_bits def
+R2424 Mangle <> encode_couple_bool def
+R2443 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2444 Mangle <> bits_of_pos def
+R2460 Mangle <> bits_of_pos def
+R2376 Coq.Init.Datatypes "x * y" not
+prf 2485 <> encode_couple_pos_inj
+R2575 Coq.Init.Logic "x = y" not
+R2544 Coq.Init.Logic "x = y" not
+R2523 Mangle <> encode_couple_pos def
+R2546 Mangle <> encode_couple_pos def
+R2670 Mangle <> encode_inj_with_decode thm
+R2693 Mangle <> bits_of_pos_of_bits thm
+R2670 Mangle <> encode_inj_with_decode thm
+R2693 Mangle <> bits_of_pos_of_bits thm
+R2741 Mangle <> encode_inj_with_decode thm
+R2764 Mangle <> decode_encode_couple_bool thm
+R2741 Mangle <> encode_inj_with_decode thm
+R2764 Mangle <> decode_encode_couple_bool thm
+R2829 Mangle <> encode_inj_with_decode thm
+R2852 Mangle <> pos_of_bits_of_pos thm
+R2829 Mangle <> encode_inj_with_decode thm
+R2852 Mangle <> pos_of_bits_of_pos thm
+R2887 Mangle <> encode_inj_with_decode thm
+R2910 Mangle <> pos_of_bits_of_pos thm
+R2887 Mangle <> encode_inj_with_decode thm
+R2910 Mangle <> pos_of_bits_of_pos thm
+prf 2957 <> encode_couple_pos_never_xH
+R3016 Coq.Init.Logic "x <> y" not
+R2996 Mangle <> encode_couple_pos def
+R3019 Coq.NArith.BinPos <> xH constr
+sec 3158 <> Encode_couple
+var 3185 Encode_couple A
+var 3206 Encode_couple encodeA
+R3221 Coq.NArith.BinPos <> positive ind
+var 3244 Encode_couple encodeA_inj
+R3302 Coq.Init.Logic "x = y" not
+R3283 Coq.Init.Logic "x = y" not
+var 3319 Encode_couple B
+var 3340 Encode_couple encodeB
+R3355 Coq.NArith.BinPos <> positive ind
+var 3378 Encode_couple encodeB_inj
+R3436 Coq.Init.Logic "x = y" not
+R3417 Coq.Init.Logic "x = y" not
+def 3456 <> encode_couple
+R3514 Mangle <> encode_couple_pos def
+R3532 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3477 Coq.Init.Datatypes "x * y" not
+prf 3565 <> encode_couple_inj
+R3641 Coq.Init.Logic "x = y" not
+R3616 Coq.Init.Logic "x = y" not
+R3599 Mangle <> encode_couple def
+R3618 Mangle <> encode_couple def
+R3744 Mangle <> encode_couple_pos_inj thm
+R3744 Mangle <> encode_couple_pos_inj thm
+R3880 Mangle Encode_couple <> sec
+sec 3904 <> Encode_list
+var 3929 Encode_list A
+var 3950 Encode_list encode
+R3964 Coq.NArith.BinPos <> positive ind
+R4022 Coq.NArith.BinPos <> positive ind
+R4001 Coq.Lists.List <> list ind
+R4055 Coq.Lists.List <> nil constr
+R4062 Coq.NArith.BinPos <> xH constr
+R4073 Coq.Lists.List "x :: y" not
+R4082 Mangle <> encode_couple_pos def
+R4100 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4111 Mangle <> encode_list def
+R4001 Coq.Lists.List <> list ind
+R4001 Coq.Lists.List <> list ind
+R4022 Coq.NArith.BinPos <> positive ind
+R4055 Coq.Lists.List <> nil constr
+R4062 Coq.NArith.BinPos <> xH constr
+R4073 Coq.Lists.List "x :: y" not
+R4082 Mangle <> encode_couple_pos def
+R4100 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4111 Mangle <> encode_list def
+var 4146 Encode_list encode_inj
+R4201 Coq.Init.Logic "x = y" not
+R4183 Coq.Init.Logic "x = y" not
+prf 4214 <> encode_list_inj
+R4288 Coq.Init.Logic "x = y" not
+R4263 Coq.Init.Logic "x = y" not
+R4248 Mangle <> encode_list def
+R4265 Mangle <> encode_list def
+R4310 Mangle <> encode_couple_pos def
+R4426 Mangle <> encode_couple_pos_never_xH thm
+R4426 Mangle <> encode_couple_pos_never_xH thm
+R4502 Mangle <> encode_couple_pos_never_xH thm
+R4502 Mangle <> encode_couple_pos_never_xH thm
+R4556 Mangle <> encode_couple_pos_inj thm
+R4556 Mangle <> encode_couple_pos_inj thm
+R4683 Mangle Encode_list <> sec
+sec 4705 <> Identity
+var 4724 Identity A
+def 4745 <> id
+prf 4768 <> id_inj
+R4811 Coq.Init.Logic "x = y" not
+R4797 Coq.Init.Logic "x = y" not
+R4791 Mangle <> id def
+R4799 Mangle <> id def
+R4851 Mangle Identity <> sec

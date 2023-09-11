@@ -1,0 +1,1135 @@
+FTarget
+R15 BuiltinTypes <> <> lib
+R44 Coqlib <> <> lib
+R67 LibLists <> <> lib
+R92 Tactics <> <> lib
+R116 LibMaps <> <> lib
+R140 Coq.Relations.Relations <> <> lib
+R166 Events <> <> lib
+R182 Memory <> <> lib
+syndef 232 <> var
+R240 Coq.NArith.BinPos <> positive ind
+sec 275 <> Target
+var 294 Target A
+R298 BuiltinTypes ATOM t rec
+var 317 Target nativeop
+var 344 Target sem
+R350 BuiltinTypes <> semparam rec
+constr 398 <> ROMTypes
+rec 379 <> romtypes
+proj 411 <> InitVTT
+proj 429 <> SubVTT
+proj 446 <> VTTAccess
+proj 466 <> VTableAccess
+proj 489 <> VtblPath
+proj 508 <> VBase
+proj 524 <> DCast
+proj 540 <> Dispatch
+proj 559 <> PVTT
+proj 574 <> PVTable
+var 602 Target romty
+R610 Target <> romtypes rec
+ind 631 <> ROMop
+constr 649 <> initVTT
+constr 679 <> subVTT
+constr 729 <> vtable
+constr 781 <> vbase_offset
+constr 840 <> dyncast_exists
+constr 875 <> dyncast_offset
+constr 910 <> dispatch_function
+constr 976 <> dispatch_offset
+R676 Target <> ROMop ind
+R662 Target <> InitVTT proj
+R726 Target <> ROMop ind
+R713 Target <> SubVTT proj
+R691 Target <> VTTAccess proj
+R778 Target <> ROMop ind
+R763 Target <> VtblPath proj
+R741 Target <> VTTAccess proj
+R837 Target <> ROMop ind
+R825 Target <> VBase proj
+R800 Target <> VTableAccess proj
+R872 Target <> ROMop ind
+R860 Target <> DCast proj
+R907 Target <> ROMop ind
+R895 Target <> DCast proj
+R973 Target <> ROMop ind
+R958 Target <> Dispatch proj
+R933 Target <> VTableAccess proj
+R1037 Target <> ROMop ind
+R1022 Target <> Dispatch proj
+R997 Target <> VTableAccess proj
+ind 1051 <> calltype
+constr 1070 <> Static
+constr 1079 <> Dynamic
+R1076 Target <> calltype ind
+R1086 Target <> calltype ind
+ind 1105 <> stmt
+constr 1128 <> skip
+constr 1141 <> seq
+constr 1166 <> test
+constr 1212 <> block
+constr 1268 <> exit
+constr 1330 <> loop
+constr 1357 <> native
+constr 1431 <> ret
+constr 1460 <> move
+constr 1523 <> call
+constr 1605 <> thunkcall
+constr 1777 <> load
+constr 1895 <> store
+constr 1992 <> null
+constr 2047 <> ptrshift
+constr 2145 <> ptrshiftmult
+constr 2301 <> ptreq
+constr 2419 <> romop
+R1132 Target <> stmt ind
+R1157 Target <> stmt ind
+R1152 Target <> stmt ind
+R1152 Target <> stmt ind
+R1203 Target <> stmt ind
+R1198 Target <> stmt ind
+R1198 Target <> stmt ind
+R1179 Target <> var syndef
+R1259 Target <> stmt ind
+R1254 Target <> stmt ind
+R1228 Coq.Init.Datatypes <> option ind
+R1240 Coq.Init.Datatypes "x * y" not
+R1236 Target <> var syndef
+R1242 Coq.ZArith.BinInt <> Z ind
+R1282 Target <> stmt ind
+R1278 Coq.Init.Datatypes <> nat ind
+R1348 Target <> stmt ind
+R1343 Target <> stmt ind
+R1422 Target <> stmt ind
+R1411 Coq.Init.Datatypes <> option ind
+R1418 Target <> var syndef
+R1391 Coq.Lists.List <> list ind
+R1396 Target <> var syndef
+R1451 Target <> stmt ind
+R1440 Coq.Init.Datatypes <> option ind
+R1447 Target <> var syndef
+R1480 Target <> stmt ind
+R1476 Target <> var syndef
+R1476 Target <> var syndef
+R1596 Target <> stmt ind
+R1585 Coq.Init.Datatypes <> option ind
+R1592 Target <> var syndef
+R1567 Coq.Lists.List <> list ind
+R1572 Target <> var syndef
+R1548 Coq.NArith.BinPos <> positive ind
+R1533 Target <> calltype ind
+R1712 Target <> stmt ind
+R1701 Coq.Init.Datatypes <> option ind
+R1708 Target <> var syndef
+R1683 Coq.Lists.List <> list ind
+R1688 Target <> var syndef
+R1658 Target <> Dispatch proj
+R1633 Target <> VTableAccess proj
+R1623 Target <> var syndef
+R1834 Target <> stmt ind
+R1830 Target <> var syndef
+R1817 Coq.ZArith.BinInt <> Z ind
+R1805 Target <> var syndef
+R1795 Coq.ZArith.BinInt <> Z ind
+R1955 Target <> stmt ind
+R1951 Target <> var syndef
+R1936 Coq.ZArith.BinInt <> Z ind
+R1924 Target <> var syndef
+R1914 Coq.ZArith.BinInt <> Z ind
+R2009 Target <> stmt ind
+R2005 Target <> var syndef
+R2090 Target <> stmt ind
+R2086 Target <> var syndef
+R2075 Coq.ZArith.BinInt <> Z ind
+R2063 Target <> var syndef
+R2209 Target <> stmt ind
+R2205 Target <> var syndef
+R2194 Coq.ZArith.BinInt <> Z ind
+R2179 Target <> var syndef
+R2165 Target <> var syndef
+R2339 Target <> stmt ind
+R2335 Target <> var syndef
+R2320 Target <> var syndef
+R2320 Target <> var syndef
+R2470 Target <> stmt ind
+R2466 Target <> var syndef
+R2452 Target <> ROMop ind
+R2433 Coq.Init.Datatypes <> option ind
+R2440 Target <> var syndef
+constr 2504 <> Func
+rec 2489 <> func
+proj 2519 <> vargs
+proj 2545 <> body
+R2527 Coq.Lists.List <> list ind
+R2532 Target <> var syndef
+R2552 Target <> stmt ind
+constr 2651 <> VTable
+rec 2634 <> vTable
+proj 2668 <> vboff
+proj 2708 <> dyncast
+proj 2763 <> dispfunc
+proj 2816 <> dispoff
+R2676 Coq.Lists.List <> list ind
+R2694 Coq.Init.Datatypes "x * y" not
+R2682 Target <> VBase proj
+R2696 Coq.ZArith.BinInt <> Z ind
+R2718 Coq.Lists.List <> list ind
+R2736 Coq.Init.Datatypes "x * y" not
+R2724 Target <> DCast proj
+R2751 Coq.ZArith.BinInt <> Z ind
+R2774 Coq.Lists.List <> list ind
+R2795 Coq.Init.Datatypes "x * y" not
+R2780 Target <> Dispatch proj
+R2797 Coq.NArith.BinPos <> positive ind
+R2826 Coq.Lists.List <> list ind
+R2847 Coq.Init.Datatypes "x * y" not
+R2832 Target <> Dispatch proj
+R2849 Coq.ZArith.BinInt <> Z ind
+constr 2895 <> VTT
+rec 2881 <> vTT
+proj 2909 <> subvtt
+proj 2960 <> pvtable
+R2918 Coq.Lists.List <> list ind
+R2937 Coq.Init.Datatypes "x * y" not
+R2924 Target <> SubVTT proj
+R2939 Target <> PVTT proj
+R2970 Coq.Lists.List <> list ind
+R2991 Coq.Init.Datatypes "x * y" not
+R2976 Target <> VtblPath proj
+R2993 Target <> PVTable proj
+R3079 Coq.Init.Specif "{ A } + { B }" not
+R3083 Coq.Init.Logic "x = y" not
+R3095 Coq.Init.Logic "x <> y" not
+constr 3164 <> ROMopsemparam
+rec 3140 <> romopsemparam
+proj 3188 <> initvtt
+proj 3241 <> InitVTT_eq_dec
+proj 3291 <> vtt
+proj 3332 <> PVTT_eq_dec
+proj 3376 <> SubVTT_eq_dec
+proj 3424 <> VtblPath_eq_dec
+proj 3476 <> vtables
+proj 3525 <> PVTable_eq_dec
+proj 3575 <> VBase_eq_dec
+proj 3621 <> DCast_eq_dec
+proj 3667 <> Dispatch_eq_dec
+proj 3719 <> vtable_access
+proj 3789 <> vtable_access_sharing
+proj 3872 <> vtable_access_vbase
+proj 3944 <> vtable_access_dispatch
+proj 4022 <> vtt_access
+R3198 Coq.Lists.List <> list ind
+R3218 Coq.Init.Datatypes "x * y" not
+R3204 Target <> InitVTT proj
+R3220 Target <> PVTT proj
+R3258 Target "( 'EqDec' ty )" not
+R3266 Target <> InitVTT proj
+R3266 Target <> InitVTT proj
+R3297 Coq.Lists.List <> list ind
+R3314 Coq.Init.Datatypes "x * y" not
+R3303 Target <> PVTT proj
+R3317 Target <> vTT rec
+R3346 Target "( 'EqDec' ty )" not
+R3354 Target <> PVTT proj
+R3354 Target <> PVTT proj
+R3392 Target "( 'EqDec' ty )" not
+R3400 Target <> SubVTT proj
+R3400 Target <> SubVTT proj
+R3442 Target "( 'EqDec' ty )" not
+R3450 Target <> VtblPath proj
+R3450 Target <> VtblPath proj
+R3486 Coq.Lists.List <> list ind
+R3506 Coq.Init.Datatypes "x * y" not
+R3492 Target <> PVTable proj
+R3508 Target <> vTable rec
+R3542 Target "( 'EqDec' ty )" not
+R3550 Target <> PVTable proj
+R3550 Target <> PVTable proj
+R3590 Target "( 'EqDec' ty )" not
+R3598 Target <> VBase proj
+R3598 Target <> VBase proj
+R3636 Target "( 'EqDec' ty )" not
+R3644 Target <> DCast proj
+R3644 Target <> DCast proj
+R3685 Target "( 'EqDec' ty )" not
+R3693 Target <> Dispatch proj
+R3693 Target <> Dispatch proj
+R3752 Coq.Init.Datatypes <> option ind
+R3760 Target <> VTableAccess proj
+R3735 Target <> PVTable proj
+R3835 Coq.Init.Datatypes <> option ind
+R3843 Target <> VTableAccess proj
+R3813 Target <> VTableAccess proj
+R3916 Coq.Lists.List <> list ind
+R3922 Target <> VBase proj
+R3894 Target <> VTableAccess proj
+R3991 Coq.Lists.List <> list ind
+R3997 Target <> Dispatch proj
+R3969 Target <> VTableAccess proj
+R4049 Coq.Init.Datatypes <> option ind
+R4057 Target <> VTTAccess proj
+R4035 Target <> PVTT proj
+sec 4098 Target Vtable_access
+var 4130 Target.Vtable_access vtable_access_sharing
+R4176 Coq.Init.Datatypes <> option ind
+R4184 Target <> VTableAccess proj
+R4154 Target <> VTableAccess proj
+def 4225 <> vtable_access_prec
+R4308 Coq.Init.Logic "x = y" not
+R4310 Coq.Init.Datatypes <> Some constr
+R4251 Target <> VTableAccess proj
+R4251 Target <> VTableAccess proj
+def 4338 <> vtable_access_lt
+R4358 Coq.Relations.Relation_Operators <> clos_trans ind
+R4371 Target <> vtable_access_prec def
+def 4411 <> vtable_access_le
+R4431 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R4449 Target <> vtable_access_prec def
+R4479 Target Target.Vtable_access <> sec
+constr 4526 <> Program
+rec 4508 <> program
+proj 4544 <> funcs
+proj 4574 <> main
+proj 4595 <> rom
+proj 4624 <> vtable_access_wf
+R4552 Maps PTree t def
+R4560 Target <> func rec
+R4581 Target <> stmt ind
+R4601 Target <> romopsemparam rec
+R4643 Coq.Init.Wf <> well_founded def
+R4657 Target <> vtable_access_lt def
+R4675 Target <> vtable_access_sharing proj
+R4697 Target <> rom meth
+sec 4727 Target Sem
+var 4742 Target.Sem mblock
+ind 4768 <> val
+constr 4784 <> Ptr
+constr 4853 <> Fptr
+constr 4902 <> Vptr
+constr 4954 <> VTTptr
+constr 5002 <> Atom
+R4813 Target <> val ind
+R4793 Coq.Init.Datatypes <> option ind
+R4808 Coq.Init.Datatypes "x * y" not
+R4810 Coq.ZArith.BinInt <> Z ind
+R4872 Target <> val ind
+R4863 Coq.NArith.BinPos <> positive ind
+R4926 Target <> val ind
+R4912 Target <> PVTable proj
+R4977 Target <> val ind
+R4966 Target <> PVTT proj
+R5054 Target <> val ind
+R5032 BuiltinTypes ATOM val proj
+R5014 BuiltinTypes ATOM ty proj
+ind 5121 <> valtype
+constr 5141 <> tyAtom
+constr 5166 <> tyPtr
+constr 5174 <> tyFptr
+constr 5183 <> tyVptr
+constr 5192 <> tyVTTptr
+R5163 Target <> valtype ind
+R5153 BuiltinTypes ATOM ty proj
+R5171 Target <> valtype ind
+R5180 Target <> valtype ind
+R5189 Target <> valtype ind
+R5200 Target <> valtype ind
+R5239 Target <> valtype ind
+R5232 Target <> val ind
+R5271 Target <> Atom constr
+R5285 Target <> tyAtom constr
+R5302 Target <> Ptr constr
+R5311 Target <> tyPtr constr
+R5323 Target <> Fptr constr
+R5333 Target <> tyFptr constr
+R5346 Target <> Vptr constr
+R5356 Target <> tyVptr constr
+R5369 Target <> VTTptr constr
+R5381 Target <> tyVTTptr constr
+R5232 Target <> val ind
+R5239 Target <> valtype ind
+R5271 Target <> Atom constr
+R5285 Target <> tyAtom constr
+R5302 Target <> Ptr constr
+R5311 Target <> tyPtr constr
+R5323 Target <> Fptr constr
+R5333 Target <> tyFptr constr
+R5346 Target <> Vptr constr
+R5356 Target <> tyVptr constr
+R5369 Target <> VTTptr constr
+R5381 Target <> tyVTTptr constr
+R5232 Target <> val ind
+def 5409 <> typedata
+R5432 Target <> valtype ind
+def 5458 <> valdata
+R5516 Target <> type_of_value def
+R5501 Target <> val ind
+R5484 Target <> typedata def
+ind 5545 <> datakind
+constr 5566 <> Size
+constr 5573 <> Align
+R5570 Target <> datakind ind
+R5578 Target <> datakind ind
+def 5592 <> valop'
+R5625 Target <> valtype ind
+R5613 Target <> datakind ind
+var 5649 Target.Sem vop'
+R5656 Target <> valop' def
+R5663 Coq.ZArith.BinInt <> Z ind
+def 5678 <> valop
+R5687 Memory <> Valop constr
+R5723 Target <> valdata def
+R5737 Target <> Align constr
+R5701 Target <> valdata def
+R5715 Target <> Size constr
+var 5765 Target.Sem memblocks
+var 5775 Target.Sem memvalues
+var 5811 Target.Sem memop
+R5819 Memory <> op rec
+R5829 Target <> val ind
+ind 5880 <> frame
+constr 5907 <> Block
+constr 5969 <> Callframe
+R5958 Target <> frame ind
+R5948 Coq.Lists.List <> list ind
+R5953 Target <> stmt ind
+R5924 Coq.Init.Datatypes <> option ind
+R6043 Target <> frame ind
+R6032 Coq.Init.Datatypes <> option ind
+R6039 Target <> var syndef
+R6011 Maps PTree t def
+R6019 Target <> val ind
+R5991 Coq.Lists.List <> list ind
+R5996 Target <> stmt ind
+constr 6086 <> Mem
+rec 6072 <> mem
+proj 6102 <> mblocks
+proj 6133 <> mvalues
+constr 6196 <> State
+rec 6180 <> state
+proj 6214 <> current
+proj 6240 <> further
+proj 6271 <> vars
+proj 6301 <> stack
+proj 6341 <> memory
+R6224 Target <> stmt ind
+R6250 Coq.Lists.List <> list ind
+R6255 Target <> stmt ind
+R6278 Maps PTree t def
+R6286 Target <> val ind
+R6309 Coq.Lists.List <> list ind
+R6314 Target <> frame ind
+R6350 Target <> mem rec
+var 6383 Target.Sem prog
+R6390 Target <> program rec
+syndef 6417 <> romopsem
+R6430 Target <> rom proj
+ind 6467 <> ROMopsem
+constr 6518 <> ROMopsem_initVTT
+constr 6663 <> ROMopsem_subVTT
+constr 6949 <> ROMopsem_vtable
+constr 7233 <> ROMopsem_vboff
+constr 7723 <> ROMopsem_dyncast_exists
+constr 8096 <> ROMopsem_dyncast_offset
+constr 8395 <> ROMopsem_dispatch_function
+constr 8850 <> ROMopsem_dispatch_offset
+R6501 Target <> val ind
+R6492 Target <> ROMop ind
+R6478 Coq.Init.Datatypes <> option ind
+R6485 Target <> val ind
+R6621 Target <> ROMopsem ind
+R6649 Target <> VTTptr constr
+R6636 Target <> initVTT constr
+R6630 Coq.Init.Datatypes <> None constr
+R6606 Coq.Init.Logic "x = y" not
+R6552 LibLists <> assoc def
+R6588 Target <> initvtt proj
+R6596 Target <> romopsem syndef
+R6559 Target <> InitVTT_eq_dec proj
+R6574 Target <> romopsem syndef
+R6608 Coq.Init.Datatypes <> Some constr
+R6890 Target <> ROMopsem ind
+R6934 Target <> VTTptr constr
+R6919 Target <> subVTT constr
+R6900 Coq.Init.Datatypes <> Some constr
+R6906 Target <> VTTptr constr
+R6873 Coq.Init.Logic "x = y" not
+R6850 Target <> vtt_access proj
+R6861 Target <> romopsem syndef
+R6875 Coq.Init.Datatypes <> Some constr
+R6821 Coq.Init.Logic "x = y" not
+R6776 LibLists <> assoc def
+R6811 Target <> subvtt proj
+R6783 Target <> SubVTT_eq_dec proj
+R6797 Target <> romopsem syndef
+R6823 Coq.Init.Datatypes <> Some constr
+R6743 Coq.Init.Logic "x = y" not
+R6696 LibLists <> assoc def
+R6729 Target <> vtt proj
+R6733 Target <> romopsem syndef
+R6703 Target <> PVTT_eq_dec proj
+R6715 Target <> romopsem syndef
+R6745 Coq.Init.Datatypes <> Some constr
+R7178 Target <> ROMopsem ind
+R7222 Target <> Vptr constr
+R7207 Target <> vtable constr
+R7188 Coq.Init.Datatypes <> Some constr
+R7194 Target <> VTTptr constr
+R7161 Coq.Init.Logic "x = y" not
+R7138 Target <> vtt_access proj
+R7149 Target <> romopsem syndef
+R7163 Coq.Init.Datatypes <> Some constr
+R7111 Coq.Init.Logic "x = y" not
+R7062 LibLists <> assoc def
+R7099 Target <> pvtable proj
+R7069 Target <> VtblPath_eq_dec proj
+R7085 Target <> romopsem syndef
+R7113 Coq.Init.Datatypes <> Some constr
+R7030 Coq.Init.Logic "x = y" not
+R6983 LibLists <> assoc def
+R7016 Target <> vtt proj
+R7020 Target <> romopsem syndef
+R6990 Target <> PVTT_eq_dec proj
+R7002 Target <> romopsem syndef
+R7032 Coq.Init.Datatypes <> Some constr
+R7662 Target <> ROMopsem ind
+R7711 Target <> Atom constr
+R7689 Target <> vbase_offset constr
+R7672 Coq.Init.Datatypes <> Some constr
+R7678 Target <> Vptr constr
+R7608 Coq.Lists.List <> In def
+R7615 Target <> vtable_access_vbase proj
+R7635 Target <> romopsem syndef
+R7536 Target <> vtable_access_le def
+R7554 Target <> vtable_access_sharing proj
+R7576 Target <> romopsem syndef
+R7501 Coq.Init.Logic "x = y" not
+R7475 Target <> vtable_access proj
+R7489 Target <> romopsem syndef
+R7503 Coq.Init.Datatypes <> Some constr
+R7436 Coq.Init.Logic "x = y" not
+R7423 BuiltinTypes <> Zsem proj
+R7438 Coq.Init.Specif <> existT constr
+R7391 Coq.Init.Logic "x = y" not
+R7348 LibLists <> assoc def
+R7382 Target <> vboff proj
+R7355 Target <> VBase_eq_dec proj
+R7368 Target <> romopsem syndef
+R7393 Coq.Init.Datatypes <> Some constr
+R7319 Coq.Init.Logic "x = y" not
+R7265 LibLists <> assoc def
+R7301 Target <> vtables proj
+R7309 Target <> romopsem syndef
+R7272 Target <> PVTable_eq_dec proj
+R7287 Target <> romopsem syndef
+R7321 Coq.Init.Datatypes <> Some constr
+R8043 Target <> ROMopsem ind
+R8070 Target <> dyncast_exists constr
+R8053 Coq.Init.Datatypes <> Some constr
+R8059 Target <> Vptr constr
+R7851 Coq.Init.Logic "x = y" not
+R7859 LibLists <> assoc def
+R7893 Target <> dyncast proj
+R7866 Target <> DCast_eq_dec proj
+R7879 Target <> romopsem syndef
+R7936 Coq.Init.Datatypes <> Some constr
+R7946 Target <> Atom constr
+R7952 BuiltinTypes <> TRUE proj
+R7994 Target <> Atom constr
+R8000 BuiltinTypes <> FALSE proj
+R7818 Coq.Init.Logic "x = y" not
+R7764 LibLists <> assoc def
+R7800 Target <> vtables proj
+R7808 Target <> romopsem syndef
+R7771 Target <> PVTable_eq_dec proj
+R7786 Target <> romopsem syndef
+R7820 Coq.Init.Datatypes <> Some constr
+R8336 Target <> ROMopsem ind
+R8383 Target <> Atom constr
+R8363 Target <> dyncast_offset constr
+R8346 Coq.Init.Datatypes <> Some constr
+R8352 Target <> Vptr constr
+R8310 Coq.Init.Logic "x = y" not
+R8297 BuiltinTypes <> Zsem proj
+R8312 Coq.Init.Specif <> existT constr
+R8265 Coq.Init.Logic "x = y" not
+R8220 LibLists <> assoc def
+R8254 Target <> dyncast proj
+R8227 Target <> DCast_eq_dec proj
+R8240 Target <> romopsem syndef
+R8267 Coq.Init.Datatypes <> Some constr
+R8191 Coq.Init.Logic "x = y" not
+R8137 LibLists <> assoc def
+R8173 Target <> vtables proj
+R8181 Target <> romopsem syndef
+R8144 Target <> PVTable_eq_dec proj
+R8159 Target <> romopsem syndef
+R8193 Coq.Init.Datatypes <> Some constr
+R8784 Target <> ROMopsem ind
+R8838 Target <> Fptr constr
+R8811 Target <> dispatch_function constr
+R8794 Coq.Init.Datatypes <> Some constr
+R8800 Target <> Vptr constr
+R8729 Coq.Lists.List <> In def
+R8736 Target <> vtable_access_dispatch proj
+R8759 Target <> romopsem syndef
+R8659 Target <> vtable_access_le def
+R8677 Target <> vtable_access_sharing proj
+R8699 Target <> romopsem syndef
+R8626 Coq.Init.Logic "x = y" not
+R8600 Target <> vtable_access proj
+R8614 Target <> romopsem syndef
+R8628 Coq.Init.Datatypes <> Some constr
+R8570 Coq.Init.Logic "x = y" not
+R8521 LibLists <> assoc def
+R8558 Target <> dispfunc proj
+R8528 Target <> Dispatch_eq_dec proj
+R8544 Target <> romopsem syndef
+R8572 Coq.Init.Datatypes <> Some constr
+R8493 Coq.Init.Logic "x = y" not
+R8439 LibLists <> assoc def
+R8475 Target <> vtables proj
+R8483 Target <> romopsem syndef
+R8446 Target <> PVTable_eq_dec proj
+R8461 Target <> romopsem syndef
+R8495 Coq.Init.Datatypes <> Some constr
+R9303 Target <> ROMopsem ind
+R9355 Target <> Atom constr
+R9330 Target <> dispatch_offset constr
+R9313 Coq.Init.Datatypes <> Some constr
+R9319 Target <> Vptr constr
+R9265 Coq.Init.Logic "x = y" not
+R9252 BuiltinTypes <> Zsem proj
+R9267 Coq.Init.Specif <> existT constr
+R9183 Coq.Lists.List <> In def
+R9190 Target <> vtable_access_dispatch proj
+R9213 Target <> romopsem syndef
+R9113 Target <> vtable_access_le def
+R9131 Target <> vtable_access_sharing proj
+R9153 Target <> romopsem syndef
+R9080 Coq.Init.Logic "x = y" not
+R9054 Target <> vtable_access proj
+R9068 Target <> romopsem syndef
+R9082 Coq.Init.Datatypes <> Some constr
+R9023 Coq.Init.Logic "x = y" not
+R8975 LibLists <> assoc def
+R9012 Target <> dispoff proj
+R8982 Target <> Dispatch_eq_dec proj
+R8998 Target <> romopsem syndef
+R9025 Coq.Init.Datatypes <> Some constr
+R8946 Coq.Init.Logic "x = y" not
+R8892 LibLists <> assoc def
+R8928 Target <> vtables proj
+R8936 Target <> romopsem syndef
+R8899 Target <> PVTable_eq_dec proj
+R8914 Target <> romopsem syndef
+R8948 Coq.Init.Datatypes <> Some constr
+ind 9385 <> initial_state
+constr 9428 <> initial_state_intro
+R9401 Target <> state rec
+R9460 Target <> initial_state ind
+R9475 Target <> State constr
+R9518 Target <> Mem constr
+R9548 Memory <> initmemval proj
+R9523 Memory <> initmembl proj
+R9513 Coq.Lists.List <> nil constr
+R9498 Maps PTree empty def
+R9493 Coq.Lists.List <> nil constr
+R9482 Target <> main proj
+ind 9608 <> final_state
+constr 9671 <> final_state_intro
+R9631 Events <> outcome proj
+R9640 BuiltinTypes <> evtr proj
+R9622 Target <> state rec
+R9853 Target <> final_state ind
+R9866 Target <> State constr
+R9896 Coq.Lists.List <> nil constr
+R9873 Target <> ret constr
+R9878 Coq.Init.Datatypes <> Some constr
+R9784 BuiltinTypes <> outcome_sem proj
+R9731 Coq.Init.Logic "x = y" not
+R9727 Maps "a ! b" not
+R9733 Coq.Init.Datatypes <> Some constr
+R9739 Target <> Atom constr
+R9994 Maps PTree t def
+R10003 Target <> val ind
+R9970 Coq.Lists.List <> list ind
+R9975 Target <> var syndef
+R9955 Coq.Lists.List <> list ind
+R9960 Target <> val ind
+R10056 Coq.Lists.List "x :: y" not
+R10066 Coq.Lists.List "x :: y" not
+R10075 Maps PTree set def
+R10092 Target <> set_params def
+R10132 Maps PTree empty def
+R10145 Target <> val ind
+R9970 Coq.Lists.List <> list ind
+R9975 Target <> var syndef
+R9955 Coq.Lists.List <> list ind
+R9960 Target <> val ind
+R9955 Coq.Lists.List <> list ind
+R9960 Target <> val ind
+R9970 Coq.Lists.List <> list ind
+R9975 Target <> var syndef
+R9994 Maps PTree t def
+R10003 Target <> val ind
+R10056 Coq.Lists.List "x :: y" not
+R10066 Coq.Lists.List "x :: y" not
+R10075 Maps PTree set def
+R10092 Target <> set_params def
+R10132 Maps PTree empty def
+R10145 Target <> val ind
+R10206 Coq.Init.Datatypes <> option ind
+R10213 Target <> stmt ind
+R10198 Target <> stmt ind
+R10258 Target <> ret constr
+R10268 Coq.Init.Datatypes <> Some constr
+R10274 Target <> ret constr
+R10296 Target <> exit constr
+R10302 Coq.Init.Datatypes <> S constr
+R10310 Coq.Init.Datatypes <> Some constr
+R10316 Target <> exit constr
+R10343 Coq.Init.Datatypes <> None constr
+R10198 Target <> stmt ind
+R10206 Coq.Init.Datatypes <> option ind
+R10213 Target <> stmt ind
+R10258 Target <> ret constr
+R10268 Coq.Init.Datatypes <> Some constr
+R10274 Target <> ret constr
+R10296 Target <> exit constr
+R10302 Coq.Init.Datatypes <> S constr
+R10310 Coq.Init.Datatypes <> Some constr
+R10316 Target <> exit constr
+R10343 Coq.Init.Datatypes <> None constr
+R10198 Target <> stmt ind
+constr 10404 <> Targetsem
+rec 10379 <> targetsemparam
+proj 10426 <> allow_function_pointers
+proj 10468 <> allow_thunk_call
+R10452 Coq.Init.Datatypes <> bool ind
+R10487 Coq.Init.Datatypes <> bool ind
+var 10521 Target.Sem targetsem
+R10533 Target <> targetsemparam rec
+ind 10568 <> step
+constr 10632 <> step_skip
+constr 10800 <> step_seq
+constr 10974 <> step_loop
+constr 11153 <> step_test
+constr 11581 <> step_block_none
+constr 11803 <> step_block_some
+constr 12248 <> step_exit_O
+constr 12437 <> step_exit_S_return_cons
+constr 12925 <> step_return_nil
+constr 13419 <> step_native
+constr 14186 <> step_move
+constr 14515 <> step_call
+constr 15218 <> step_thunkcall
+constr 16831 <> step_load
+constr 17330 <> step_store
+constr 17916 <> step_null
+constr 18203 <> step_ptrshift
+constr 18637 <> step_ptrshiftmult
+constr 19216 <> step_ptreq
+constr 19799 <> step_romop
+R10604 Target <> state rec
+R10584 Events <> trace proj
+R10591 BuiltinTypes <> evtr proj
+R10575 Target <> state rec
+R10683 Target <> step ind
+R10761 Target <> State constr
+R10747 Events <> E0 proj
+R10699 Target <> State constr
+R10715 Coq.Lists.List "x :: y" not
+R10705 Target <> skip constr
+R10852 Target <> step ind
+R10928 Target <> State constr
+R10941 Coq.Lists.List "x :: y" not
+R10914 Events <> E0 proj
+R10868 Target <> State constr
+R10875 Target <> seq constr
+R11025 Target <> step ind
+R11100 Target <> State constr
+R11120 Coq.Lists.List "x :: y" not
+R11111 Target <> loop constr
+R11086 Events <> E0 proj
+R11041 Target <> State constr
+R11048 Target <> loop constr
+R11413 Target <> step ind
+R11523 Target <> State constr
+R11503 Events <> E0 proj
+R11435 Target <> State constr
+R11442 Target <> test constr
+R11325 Coq.Init.Logic "x = y" not
+R11278 Coq.Init.Logic "x = y" not
+R11261 BuiltinTypes <> sembool proj
+R11280 Coq.Init.Datatypes <> Some constr
+R11214 Coq.Init.Logic "x = y" not
+R11207 Maps "a ! b" not
+R11216 Coq.Init.Datatypes <> Some constr
+R11223 Target <> Atom constr
+R11643 Target <> step ind
+R11729 Target <> State constr
+R11764 Coq.Lists.List "x :: y" not
+R11749 Target <> Block constr
+R11755 Coq.Init.Datatypes <> None constr
+R11739 Coq.Lists.List <> nil constr
+R11715 Events <> E0 proj
+R11659 Target <> State constr
+R11666 Target <> block constr
+R11672 Coq.Init.Datatypes <> None constr
+R12046 Target <> step ind
+R12169 Target <> State constr
+R12220 Target <> Mem constr
+R12209 Coq.Lists.List "x :: y" not
+R12190 Target <> Block constr
+R12197 Coq.Init.Datatypes <> Some constr
+R12179 Coq.Lists.List <> nil constr
+R12149 Events <> E0 proj
+R12068 Target <> State constr
+R12117 Target <> Mem constr
+R12075 Target <> block constr
+R12082 Coq.Init.Datatypes <> Some constr
+R12087 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11947 Coq.Init.Logic "x = y" not
+R11949 Maps PTree set def
+R11962 Target <> Ptr constr
+R11967 Coq.Init.Datatypes <> Some constr
+R11972 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11976 Coq.ZArith.BinInt "" not
+R11882 Coq.Init.Logic "x = y" not
+R11855 Memory <> alloc proj
+R11884 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12302 Target <> step ind
+R12380 Target <> State constr
+R12387 Target <> skip constr
+R12366 Events <> E0 proj
+R12318 Target <> State constr
+R12325 Target <> exit constr
+R12330 Coq.Init.Datatypes <> O constr
+R12746 Target <> step ind
+R12853 Target <> State constr
+R12881 Target <> Mem constr
+R12841 Events <> E0 proj
+R12766 Target <> State constr
+R12811 Target <> Mem constr
+R12800 Coq.Lists.List "x :: y" not
+R12786 Target <> Block constr
+R12672 Coq.Init.Logic "x = y" not
+R12658 Target <> exit_succ def
+R12674 Coq.Init.Datatypes <> Some constr
+R12501 Coq.Init.Logic "x = y" not
+R12539 Coq.Init.Datatypes <> Some constr
+R12549 Memory <> free proj
+R13244 Target <> step ind
+R13359 Target <> State constr
+R13365 Target <> skip constr
+R13343 Events <> E0 proj
+R13262 Target <> State constr
+R13313 Coq.Lists.List "x :: y" not
+R13287 Target <> Callframe constr
+R13269 Target <> ret constr
+R13016 Coq.Init.Datatypes <> None constr
+R13034 Coq.Init.Logic "A /\ B" not
+R13027 Coq.Init.Logic "x = y" not
+R13029 Coq.Init.Datatypes <> None constr
+R13044 Coq.Init.Logic "x = y" not
+R13066 Coq.Init.Datatypes <> Some constr
+R13077 Coq.Init.Logic "'exists' x , p" not
+R13099 Coq.Init.Logic "A /\ B" not
+R13090 Coq.Init.Logic "x = y" not
+R13092 Coq.Init.Datatypes <> Some constr
+R13102 Coq.Init.Logic "'exists' x , p" not
+R13134 Coq.Init.Logic "A /\ B" not
+R13123 Coq.Init.Logic "x = y" not
+R13119 Maps "a ! b" not
+R13125 Coq.Init.Datatypes <> Some constr
+R13144 Coq.Init.Logic "x = y" not
+R13146 Maps PTree set def
+R14024 Target <> step ind
+R14142 Target <> State constr
+R14148 Target <> skip constr
+R14048 Target <> State constr
+R14055 Target <> native constr
+R13785 Coq.Init.Datatypes <> None constr
+R13807 Coq.Init.Logic "A /\ B" not
+R13800 Coq.Init.Logic "x = y" not
+R13802 Coq.Init.Datatypes <> None constr
+R13816 Coq.Init.Logic "x = y" not
+R13843 Coq.Init.Datatypes <> Some constr
+R13849 Coq.Init.Specif <> existT constr
+R13868 Coq.Init.Logic "'exists' x , p" not
+R13900 Coq.Init.Logic "A /\ B" not
+R13888 Coq.Init.Logic "x = y" not
+R13890 Coq.Init.Datatypes <> Some constr
+R13909 Coq.Init.Logic "x = y" not
+R13911 Maps PTree set def
+R13927 Target <> Atom constr
+R13671 BuiltinTypes <> nativeop_sem proj
+R13563 Coq.Init.Logic "x = y" not
+R13480 Coq.Lists.List <> map def
+R13542 Coq.Init.Datatypes <> Some constr
+R13548 Target <> Atom constr
+R13493 Coq.Init.Specif <> sigT ind
+R13499 BuiltinTypes ATOM val proj
+R13586 Coq.Lists.List <> map def
+R13600 Maps PTree get def
+R14375 Target <> step ind
+R14471 Target <> State constr
+R14477 Target <> skip constr
+R14453 Events <> E0 proj
+R14395 Target <> State constr
+R14402 Target <> move constr
+R14293 Coq.Init.Logic "x = y" not
+R14295 Maps PTree set def
+R14247 Coq.Init.Logic "x = y" not
+R14241 Maps "a ! b" not
+R14249 Coq.Init.Datatypes <> Some constr
+R15026 Target <> step ind
+R15145 Target <> State constr
+R15191 Coq.Lists.List "x :: y" not
+R15167 Target <> Callframe constr
+R15156 Coq.Lists.List <> nil constr
+R15123 Events <> E0 proj
+R15050 Target <> State constr
+R15057 Target <> call constr
+R14936 Coq.Init.Logic "x = y" not
+R14938 Target <> set_params def
+R14855 Coq.Init.Logic "x = y" not
+R14836 Coq.Lists.List <> map def
+R14842 Coq.Init.Datatypes <> Some constr
+R14857 Coq.Lists.List <> map def
+R14876 Maps "a ! b" not
+R14764 Coq.Init.Logic "x = y" not
+R14756 Maps "a ! b" not
+R14746 Target <> funcs proj
+R14766 Coq.Init.Datatypes <> Some constr
+R14772 Target <> Func constr
+R14588 Target <> Static constr
+R14602 Coq.Init.Logic "x = y" not
+R14619 Target <> Dynamic constr
+R14658 Coq.Init.Logic "A /\ B" not
+R14640 Coq.Init.Logic "x = y" not
+R14635 Maps "a ! b" not
+R14642 Coq.Init.Datatypes <> Some constr
+R14648 Target <> Fptr constr
+R14695 Coq.Init.Logic "x = y" not
+R14661 Target <> allow_function_pointers proj
+R14697 Coq.Init.Datatypes <> true constr
+R16531 Target <> step ind
+R16711 Target <> State constr
+R16768 Target <> Mem constr
+R16757 Coq.Lists.List "x :: y" not
+R16733 Target <> Callframe constr
+R16722 Coq.Lists.List <> nil constr
+R16675 Events <> E0 proj
+R16569 Target <> State constr
+R16627 Target <> Mem constr
+R16576 Target <> thunkcall constr
+R16387 Coq.Init.Logic "x = y" not
+R16389 Target <> set_params def
+R16425 Coq.Lists.List "x :: y" not
+R16401 Target <> Ptr constr
+R16406 Coq.Init.Datatypes <> Some constr
+R16411 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16417 Coq.ZArith.BinInt "x + y" not
+R16274 Coq.Init.Logic "x = y" not
+R16255 Coq.Lists.List <> map def
+R16261 Coq.Init.Datatypes <> Some constr
+R16276 Coq.Lists.List <> map def
+R16295 Maps "a ! b" not
+R16127 Coq.Lists.List <> In def
+R16136 Target <> vtable_access_dispatch proj
+R16159 Target <> romopsem syndef
+R16041 Target <> vtable_access_le def
+R16059 Target <> vtable_access_sharing proj
+R16081 Target <> romopsem syndef
+R15966 Coq.Init.Logic "x = y" not
+R15938 Target <> vtable_access proj
+R15952 Target <> romopsem syndef
+R15968 Coq.Init.Datatypes <> Some constr
+R15875 Coq.Init.Logic "x = y" not
+R15867 Maps "a ! b" not
+R15857 Target <> funcs proj
+R15877 Coq.Init.Datatypes <> Some constr
+R15883 Target <> Func constr
+R15782 Coq.Init.Logic "x = y" not
+R15729 LibLists <> assoc def
+R15768 Target <> dispoff proj
+R15736 Target <> Dispatch_eq_dec proj
+R15752 Target <> romopsem syndef
+R15784 Coq.Init.Datatypes <> Some constr
+R15685 Coq.Init.Logic "x = y" not
+R15631 LibLists <> assoc def
+R15670 Target <> dispfunc proj
+R15638 Target <> Dispatch_eq_dec proj
+R15654 Target <> romopsem syndef
+R15687 Coq.Init.Datatypes <> Some constr
+R15583 Coq.Init.Logic "x = y" not
+R15527 LibLists <> assoc def
+R15565 Target <> vtables proj
+R15573 Target <> romopsem syndef
+R15534 Target <> PVTable_eq_dec proj
+R15549 Target <> romopsem syndef
+R15585 Coq.Init.Datatypes <> Some constr
+R15462 Coq.Init.Logic "x = y" not
+R15408 Memory <> load proj
+R15455 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15437 Target <> tyVptr constr
+R15432 Target <> Size constr
+R15464 Coq.Init.Datatypes <> Some constr
+R15470 Target <> Vptr constr
+R15333 Coq.Init.Logic "x = y" not
+R15326 Maps "a ! b" not
+R15335 Coq.Init.Datatypes <> Some constr
+R15341 Target <> Ptr constr
+R15346 Coq.Init.Datatypes <> Some constr
+R15351 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15271 Coq.Init.Logic "x = y" not
+R15244 Target <> allow_thunk_call proj
+R15273 Coq.Init.Datatypes <> true constr
+R17124 Target <> step ind
+R17239 Target <> State constr
+R17267 Target <> Mem constr
+R17245 Target <> skip constr
+R17221 Events <> E0 proj
+R17144 Target <> State constr
+R17191 Target <> Mem constr
+R17151 Target <> load constr
+R17051 Coq.Init.Logic "x = y" not
+R17053 Maps PTree set def
+R17002 Coq.Init.Logic "x = y" not
+R16958 Memory <> load proj
+R16989 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16995 Coq.ZArith.BinInt "x + y" not
+R17004 Coq.Init.Datatypes <> Some constr
+R16883 Coq.Init.Logic "x = y" not
+R16877 Maps "a ! b" not
+R16885 Coq.Init.Datatypes <> Some constr
+R16891 Target <> Ptr constr
+R16896 Coq.Init.Datatypes <> Some constr
+R16901 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17695 Target <> step ind
+R17819 Target <> State constr
+R17846 Target <> Mem constr
+R17825 Target <> skip constr
+R17799 Events <> E0 proj
+R17717 Target <> State constr
+R17767 Target <> Mem constr
+R17724 Target <> store constr
+R17631 Coq.Init.Logic "x = y" not
+R17584 Memory <> store proj
+R17616 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17622 Coq.ZArith.BinInt "x + y" not
+R17633 Coq.Init.Datatypes <> Some constr
+R17502 Coq.Init.Logic "x = y" not
+R17504 Memory <> valsize proj
+R17519 Target <> valop def
+R17466 Coq.Init.Logic "x = y" not
+R17455 Maps "a ! b" not
+R17468 Coq.Init.Datatypes <> Some constr
+R17383 Coq.Init.Logic "x = y" not
+R17377 Maps "a ! b" not
+R17385 Coq.Init.Datatypes <> Some constr
+R17391 Target <> Ptr constr
+R17396 Coq.Init.Datatypes <> Some constr
+R17401 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18049 Target <> step ind
+R18133 Target <> State constr
+R18139 Target <> skip constr
+R18117 Events <> E0 proj
+R18067 Target <> State constr
+R18074 Target <> null constr
+R17968 Coq.Init.Logic "x = y" not
+R17970 Maps PTree set def
+R17989 Target <> Ptr constr
+R17993 Coq.Init.Datatypes <> None constr
+R18440 Target <> step ind
+R18542 Target <> State constr
+R18548 Target <> skip constr
+R18524 Events <> E0 proj
+R18460 Target <> State constr
+R18467 Target <> ptrshift constr
+R18339 Coq.Init.Logic "x = y" not
+R18341 Maps PTree set def
+R18360 Target <> Ptr constr
+R18365 Coq.Init.Datatypes <> Some constr
+R18370 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18376 Coq.ZArith.BinInt "x + y" not
+R18259 Coq.Init.Logic "x = y" not
+R18253 Maps "a ! b" not
+R18261 Coq.Init.Datatypes <> Some constr
+R18268 Target <> Ptr constr
+R18273 Coq.Init.Datatypes <> Some constr
+R18278 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19049 Target <> step ind
+R19176 Target <> State constr
+R19182 Target <> skip constr
+R19154 Events <> E0 proj
+R19073 Target <> State constr
+R19080 Target <> ptrshiftmult constr
+R18930 Coq.Init.Logic "x = y" not
+R18932 Maps PTree set def
+R18952 Target <> Ptr constr
+R18957 Coq.Init.Datatypes <> Some constr
+R18962 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18968 Coq.ZArith.BinInt "x + y" not
+R18974 Coq.ZArith.BinInt "x * y" not
+R18856 Coq.Init.Logic "x = y" not
+R18841 BuiltinTypes <> semZ proj
+R18858 Coq.Init.Datatypes <> Some constr
+R18786 Coq.Init.Logic "x = y" not
+R18778 Maps "a ! b" not
+R18788 Coq.Init.Datatypes <> Some constr
+R18797 Target <> Atom constr
+R18697 Coq.Init.Logic "x = y" not
+R18691 Maps "a ! b" not
+R18699 Coq.Init.Datatypes <> Some constr
+R18706 Target <> Ptr constr
+R18711 Coq.Init.Datatypes <> Some constr
+R18716 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19645 Target <> step ind
+R19759 Target <> State constr
+R19765 Target <> skip constr
+R19737 Events <> E0 proj
+R19669 Target <> State constr
+R19676 Target <> ptreq constr
+R19561 Coq.Init.Logic "x = y" not
+R19563 Maps PTree set def
+R19460 Coq.Init.Logic "x = y" not
+R19498 Target <> Atom constr
+R19504 BuiltinTypes <> FALSE proj
+R19474 Target <> Atom constr
+R19480 BuiltinTypes <> TRUE proj
+R19424 Coq.Init.Logic "x <> y" not
+R19407 Coq.Init.Logic "x = y" not
+R19373 Coq.Init.Datatypes <> bool ind
+R19330 Coq.Init.Logic "x = y" not
+R19323 Maps "a ! b" not
+R19332 Coq.Init.Datatypes <> Some constr
+R19339 Target <> Ptr constr
+R19271 Coq.Init.Logic "x = y" not
+R19264 Maps "a ! b" not
+R19273 Coq.Init.Datatypes <> Some constr
+R19280 Target <> Ptr constr
+R20167 Target <> step ind
+R20272 Target <> State constr
+R20278 Target <> skip constr
+R20252 Events <> E0 proj
+R20189 Target <> State constr
+R20196 Target <> romop constr
+R20087 Coq.Init.Logic "x = y" not
+R20089 Maps PTree set def
+R20028 Target <> ROMopsem ind
+R19883 Coq.Init.Datatypes <> Some constr
+R19896 Coq.Init.Logic "'exists' x , p" not
+R19927 Coq.Init.Logic "A /\ B" not
+R19918 Coq.Init.Logic "x = y" not
+R19911 Maps "a ! b" not
+R19920 Coq.Init.Datatypes <> Some constr
+R19933 Coq.Init.Logic "x = y" not
+R19935 Coq.Init.Datatypes <> Some constr
+R19956 Coq.Init.Datatypes <> None constr
+R19967 Coq.Init.Logic "x = y" not
+R19969 Coq.Init.Datatypes <> None constr
+R20330 Target Target.Sem <> sec
+R20340 Target Target <> sec

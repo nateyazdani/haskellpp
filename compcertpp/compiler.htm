@@ -1,0 +1,125 @@
+<html>
+<head><title>Verified compilation of C++ Multiple Inheritance</title></head>
+<p>Copyright 2009, 2010, 2011 <a href="/~tramanan">Tahina Ramananandro</a>, <a href="/">Gallium</a> (<a href="http://www.inria.fr">INRIA</a>)</p>
+<body>
+<h1>Verified compilation of C++ Multiple Inheritance</h1>
+<p>The work presented here is a formalization of a verified compiler for the object-oriented subset of C++ described in the <a href="../construction">object construction and destruction</a> part of my PhD thesis, using an extension of the target language described in the <a href="../object-layout">object layout</a> part of my PhD thesis. It is a step towards a formally verified, realistic compiler for a subset of the object-oriented part of C++, within the framework of the <a href="http://compcert.inria.fr">Compcert</a> verified compiler.</p>
+<h2>Browse the Coq development</h2>
+<h3>The languages and their semantics</h3>
+<p>The compiler involves three languages k++, Ds++, CVcm:</p>
+<ul>
+<li>k++ is the source language including fundamental C++ object-oriented features (virtual function dispatch, static and dynamic cast, access to data members) as well as object construction and destruction.</li>
+<li>Ds++ is an intermediate language including fundamental C++ object-oriented features but generalizing the notion of dynamic type to any objects without referring to any construction or destruction context.</li>
+<li>CVcm is the target language including 3-address-style low-level memory accesses along with read-only accesses to virtual tables and virtual table tables (VTT) to model C++-flavoured polymorphism.</li>
+</ul>
+<h3>Summary of theories</h3>
+<table>
+<tr><td colspan=2><strong>Language-independent infrastructure (part of <a href="http://compcert.inria.fr">Compcert</a>)</strong></td></tr>
+<tr><td><a href="Coqlib.html"><kbd>Coqlib</kbd></td><td>Additional libraries complement to the Coq standard library.</td></tr>
+<tr><td><a href="Maps.html"><kbd>Maps</kbd></td><td>Applicative finite maps</td></tr>
+<tr><td><a href="Events.html"><kbd>Events</kbd></td><td>Trace semantics</td></tr>
+<tr><td><a href="Smallstep.html"><kbd>Smallstep</kbd></td><td>Small-step semantics</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr><td colspan=2><strong>Language-independent infrastructure (unrelated to Compcert)</strong></td></tr>
+<tr><td><a href="BuiltinTypes.html"><kbd>BuiltinTypes</kbd></td><td>Axiomatization of built-in types (booleans, numerical types...)</td></tr>
+<tr><td><a href="ForLoop.html"><kbd>ForLoop</kbd></td><td>"For" loops with bounds known at compile time</td></tr>
+<tr><td><a href="Mangle.html"><kbd>Mangle</kbd></td><td>Language-independent tools for name mangling</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr><td colspan=2><strong>Foundations of C++ object-oriented features</strong></td></tr>
+<tr><td><a href="Cplusconcepts.html"><kbd>Cplusconcepts</kbd></td><td>Basic concepts of C++ multiple inheritance. Virtual base construction order.</td></tr>
+<tr><td><a href="CplusWf.html"><kbd>CplusWf</kbd></td><td>Well-formed hierarchies and decidability properties</td></tr>
+<tr><td><a href="Dynamic.html"><kbd>Dynamic</kbd></td><td>Dynamic (= polymorphic) classes</td></tr>
+<tr><td><a href="DynamicWf.html"><kbd>DynamicWf</kbd></td><td>If the hierarchy is well-formed, then it is decidable whether a class is dynamic.</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr><td colspan=2><strong>k++: C++ Object Construction and Destruction</strong></td></tr>
+<tr><td><a href="Cppsem.html"><kbd>Cppsem</kbd></td><td>Syntax and operational semantics of a subset of C++ with object construction and destruction. The construction states of an object.</td></tr>
+<tr><td><a href="SubobjectOrdering.html"><kbd>SubobjectOrdering</kbd></td><td>Relations between subobjects: "direct subobject", "occurs before" and "subobject lifetime order" relations.</td></tr>
+<tr><td><a href="Invariant.html"><kbd>Invariant</kbd></td><td>Run-time invariant. Stack objects.</td></tr>
+<tr><td><a href="ConstrSubobjectOrdering.html"><kbd>ConstrSubobjectOrdering</kbd></td><td>Properties of subobject relations on states verifying the run-time invariant. Relations between subobject relations and lifetime.</td></tr>
+<tr><td><a href="Dyntype.html"><kbd>Dyntype</kbd></td><td>The generalized dynamic type of an object, if any, is unique.</td></tr>
+<tr><td><a href="Preservation.html"><kbd>Preservation</kbd></td><td>Proof of preservation for the run-time invariant. This proof takes more than 2 hours to compile. It is split into several files, namely: <br>
+<a href="IncludeHeader.html"><kbd>IncludeHeader</kbd></a><br>
+<a href="NotationHeader.html"><kbd>NotationHeader</kbd></a><br>
+<a href="NotationLightHeader.html"><kbd>NotationLightHeader</kbd></a><br>
+<a href="PreservationHeader.html"><kbd>PreservationHeader</kbd></a><br>
+<a href="PreservationStack2Header.html"><kbd>PreservationStack2Header</kbd></a><br>
+<a href="PreservationAux.html"><kbd>PreservationAux</kbd></a><br>
+<a href="PreservationBreadthArrays.html"><kbd>PreservationBreadthArrays</kbd></a><br>
+<a href="PreservationBreadthDirectNonVirtual.html"><kbd>PreservationBreadthDirectNonVirtual</kbd></a><br>
+<a href="PreservationBreadthFields.html"><kbd>PreservationBreadthFields</kbd></a><br>
+<a href="PreservationBreadthVirtualDirectNonVirtual.html"><kbd>PreservationBreadthVirtualDirectNonVirtual</kbd></a><br>
+<a href="PreservationBreadthVirtual.html"><kbd>PreservationBreadthVirtual</kbd></a><br>
+<a href="PreservationConstructionStatesDirectNonVirtual.html"><kbd>PreservationConstructionStatesDirectNonVirtual</kbd></a><br>
+<a href="PreservationConstructionStatesFields.html"><kbd>PreservationConstructionStatesFields</kbd></a><br>
+<a href="PreservationConstructionStatesStructureFields.html"><kbd>PreservationConstructionStatesStructureFields</kbd></a><br>
+<a href="PreservationConstructionStatesVirtual.html"><kbd>PreservationConstructionStatesVirtual</kbd></a><br>
+<a href="PreservationKind.html"><kbd>PreservationKind</kbd></a><br>
+<a href="PreservationStack2Kconstrarray.html"><kbd>PreservationStack2Kconstrarray</kbd></a><br>
+<a href="PreservationStack2Kconstrothercells.html"><kbd>PreservationStack2Kconstrothercells</kbd></a><br>
+<a href="PreservationStack2Kconstrother.html"><kbd>PreservationStack2Kconstrother</kbd></a><br>
+<a href="PreservationStack2KConstr.html"><kbd>PreservationStack2KConstr</kbd></a><br>
+<a href="PreservationStack2Kdestr.html"><kbd>PreservationStack2Kdestr</kbd></a><br>
+<a href="PreservationStack2.html"><kbd>PreservationStack2</kbd></a><br>
+<a href="PreservationStackKconstrotherBase.html"><kbd>PreservationStackKconstrotherBase</kbd></a><br>
+<a href="PreservationStackKconstrothercells.html"><kbd>PreservationStackKconstrothercells</kbd></a><br>
+<a href="PreservationStackKconstrotherField.html"><kbd>PreservationStackKconstrotherField</kbd></a><br>
+<a href="PreservationStackKdestrcell.html"><kbd>PreservationStackKdestrcell</kbd></a><br>
+<a href="PreservationStackKdestrotherBase.html"><kbd>PreservationStackKdestrotherBase</kbd></a><br>
+<a href="PreservationStackKdestrotherField.html"><kbd>PreservationStackKdestrotherField</kbd></a><br>
+<a href="PreservationStackStateWf.html"><kbd>PreservationStackStateWf</kbd></a><br>
+<a href="PreservationStack.html"><kbd>PreservationStack</kbd></a><br>
+<a href="PreservationStackWf.html"><kbd>PreservationStackWf</kbd></a><br>
+</td></tr>
+<tr><td><a href="Constrorder.html"><kbd>Constrorder</kbd></td><td>Properties about object lifetime during run-time executions (needing the proof of preservation of the invariant): construction state increase, intermediate values theorem, dynamic type evolution, subobjects destructed in the reverse order of their construction, RAII.</td></tr>
+<tr><td><a href="ScalarFields.html"><kbd>ScalarFields</kbd></td><td>A scalar field has a value only if it is Constructed.</td></tr>
+<tr><td colspan="2">The following further properties are irrelevant to compilation.</td></tr>
+<tr><td><a href="ConstrorderOther.html"><kbd>ConstrorderOther</kbd></td><td>Further properties about the lifetime of subobjects of different complete objects.</td></tr>
+<tr><td><a href="Progress.html"><kbd>Progress</kbd></td><td>Construction (resp. destruction) progress for classes with nearly trivial constructors, (resp. trivial destructors). This proof does not need the invariant.</td></tr>
+<tr><td><a href="ProgressInv.html"><kbd>ProgressInv</kbd></td><td>More complete theorems about progress (stating that objects are constructed when entering a block, and destructed after exiting the block). This proof needs the Invariant.</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr><td colspan=2><strong>Ds++: C++ fundamental features with generalized dynamic type</strong></tr>
+<tr><td><a href="IntermSetDynType.html"><kbd>IntermSetDynType</kbd></td><td>Specification of the "set dynamic type" operator</td></tr>
+<tr><td><a href="Interm.html"><kbd>Interm</kbd></td><td>Syntax and Semantics of the Ds++ intermediate language.</td></tr>
+<tr><td><a href="IntermSetDynTypeWf.html"><kbd>IntermSetDynTypeWf</kbd></td><td>If the class hierarchy is well-formed, then the "set dynamic type" operator is well-defined.</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr><td colspan=2><strong>k++-to-Ds++ verified compiler</strong></tr>
+<tr><td><a href="Cppsem2IntermAux.html"><kbd>Cppsem2IntermAux</kbd></td><td>Compilation of k++ statements, and proof of semantics preservation. This proof takes more than half an hour to compile.</td></tr>
+<tr><td><a href="Cppsem2Interm.html"><kbd>Cppsem2Interm</kbd></td><td>Construction of an Ds++ program from k++ functions, constructors and destructors</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr><td colspan=2><strong>CVcm: low-level 3-address-style target language</strong></tr>
+<tr><td><a href="Memory.html"><kbd>Memory</kbd></td><td>Axiomatization of a <a href="http://compcert.inria.fr">Compcert</a>-like low-level memory model</td></tr>
+<tr><td><a href="Target.html"><kbd>Target</kbd></td><td>Syntax and Semantics of the CVcm target language.</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr><td colspan=2><strong>Ds++-to-CVcm verified compiler</strong></tr>
+<tr><td><a href="LayoutConstraints.html"><kbd>LayoutConstraints</kbd></td><td>Soundness conditions for low-level layout of C++ objects, and their proofs of correctness. <strong>Unchanged since <a href="../object-layout">object layout (POPL 2011)</a>.</strong></td></tr>
+<tr><td><a href="CPP.html"><kbd>CPP</kbd></td><td>A definition of dynamic classes, used only for layout algorithms</td></tr>
+<tr><td><a href="Vtables.html"><kbd>Vtables</kbd></td><td>Construction of virtual tables and virtual table tables.</td></tr>
+<tr><td><a href="CompileSetDynType.html"><kbd>CompileSetDynType</kbd></td><td>Compilation of the Ds++ "set dynamic type" operation</td></tr>
+<tr><td><a href="Interm2Target.html"><kbd>Interm2Target</kbd></td><td>Verified compilation of an Ds++ program to CVcm, expecting a layout algorithm compliant with the abovementioned soundness conditions</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan=2><strong>Layout algorithms</strong></tr>
+<tr><td><a href="CommonVendorABILayout.html"><kbd>CommonVendorABI</kbd></td><td>A layout algorithm derived from the <a href="http://codesourcery.com/public/cxx-abi">Common Vendor ABI for Itanium</a></td></tr>
+<tr><td><a href="CCCPP.html"><kbd>CCCPP</kbd></td><td>Our optimized version of this algorithm, to take empty member optimizations into account</td></tr>
+
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr><td colspan=2><strong>Other library files</strong></tr>
+<tr><td><a href="Param.html"><kbd>Param</kbd></td><td>Settings for implicit arguments, etc. This file is used as a verbatim include for other files (using the Coq command <kbd>Load</kbd>), rather than as a library.</td></tr>
+<tr><td><a href="Tactics.html"><kbd>Tactics</kbd></td><td>Tactics</td></tr>
+<tr><td><a href="LibLists.html"><kbd>LibLists</kbd></td><td>Lists</td></tr>
+<tr><td><a href="LibPos.html"><kbd>LibPos</kbd></td><td>Integers</td></tr>
+<tr><td><a href="LibMaps.html"><kbd>LibMaps</kbd></td><td>Finite maps</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+</table>
+<h2>Download</h2>
+<p>You can also <a href="compiler.tbz2">download a TAr.BZ2</a> archive of the whole Coq development.</p>
+<p><strong>Note:</strong> you will need <a href="http://coq.inria.fr/V8.2pl1">Coq 8.2pl1</a> (and an estimated 3 hours) to process the files.</p>
+</body>
+</html>

@@ -1,0 +1,371 @@
+FPreservationStackStateWf
+R15 Coq.Relations.Relations <> <> lib
+R41 Coqlib <> <> lib
+R64 LibPos <> <> lib
+R87 Maps <> <> lib
+R108 LibLists <> <> lib
+R133 Cppsem <> <> lib
+R156 Cplusconcepts <> <> lib
+R186 CplusWf <> <> lib
+R210 Events <> <> lib
+R233 Invariant <> <> lib
+R259 Coq.Logic.Eqdep_dec <> <> lib
+R285 SubobjectOrdering <> <> lib
+R319 ConstrSubobjectOrdering <> <> lib
+sec 385 <> Preservation
+var 30 Preservation A
+R34 BuiltinTypes ATOM t rec
+var 51 Preservation nativeop
+var 78 Preservation prog
+R85 Cppsem Program t rec
+var 117 Preservation cppsem
+R126 Cppsem <> cppsemparam rec
+var 148 Preservation sem
+R154 BuiltinTypes <> semparam rec
+var 186 Preservation s1
+R191 Cppsem State t rec
+var 371 Preservation Hs1
+R377 Invariant <> invariant rec
+var 430 Preservation s2
+R435 Cppsem State t rec
+var 464 Preservation t
+R468 Events <> trace proj
+R475 BuiltinTypes <> evtr proj
+var 498 Preservation step
+R505 Cppsem <> step ind
+var 543 Preservation hierarchy_wf
+R558 CplusWf Well_formed_hierarchy prop rec
+R586 Cppsem Program hierarchy proj
+syndef 9 <> evtr
+R18 BuiltinTypes <> evtr proj
+syndef 53 <> trace
+R63 Events <> trace proj
+R69 PreservationStackStateWf <> evtr syndef
+syndef 100 <> hier
+R109 Cppsem Program hierarchy proj
+syndef 158 <> aux_constr_state_key_eq_dec
+R190 Cppsem <> aux_constr_state_key_eq_dec thm
+syndef 253 <> relptr_gt
+R267 SubobjectOrdering <> relptr_gt ind
+R277 PreservationStackStateWf <> hier syndef
+prf 32 <> goal
+R46 Cppsem State kind proj
+R88 Cppsem State constr constr
+R268 Coq.Init.Logic "A /\ B" not
+R232 PreservationStackStateWf <> relptr_gt syndef
+R254 Coq.Init.Datatypes "( x , y , .. , z )" not
+R242 Coq.Init.Datatypes "( x , y , .. , z )" not
+R202 Coq.Init.Logic "x = y" not
+R186 Invariant <> frame_pointer def
+R204 Coq.Init.Datatypes <> Some constr
+R209 Coq.Init.Datatypes "( x , y , .. , z )" not
+R320 Coq.Init.Logic "'exists' x , p" not
+R334 Coq.Init.Logic "x = y" not
+R340 Coq.Lists.List "x ++ y" not
+R299 Coq.Init.Logic "x = y" not
+R285 Invariant <> frame_array def
+R301 Coq.Init.Datatypes <> Some constr
+R306 Coq.Init.Datatypes "( x , y , .. , z )" not
+R140 Coq.Lists.List <> In def
+R146 Cppsem State stack proj
+R370 Cppsem State constr_array constr
+R496 Coq.Init.Logic "'exists' x , p" not
+R522 Coq.Init.Logic "A /\ B" not
+R510 Coq.Init.Logic "x = y" not
+R516 Coq.Lists.List "x ++ y" not
+R528 Coq.Init.Logic "x <> y" not
+R531 Coq.Lists.List <> nil constr
+R475 Coq.Init.Logic "x = y" not
+R456 Invariant <> frame_array_weak def
+R477 Coq.Init.Datatypes <> Some constr
+R482 Coq.Init.Datatypes "( x , y , .. , z )" not
+R419 Coq.Lists.List <> In def
+R425 Cppsem State stack proj
+R558 Cppsem State destr constr
+R581 Cppsem Constructor base constr
+R598 Cppsem Constructor virtual constr
+R710 Coq.Init.Logic "'exists' x , p" not
+R736 Coq.Init.Logic "A /\ B" not
+R724 Coq.Init.Logic "x = y" not
+R730 Coq.Lists.List "x ++ y" not
+R742 Coq.Init.Logic "x <> y" not
+R745 Coq.Lists.List <> nil constr
+R689 Coq.Init.Logic "x = y" not
+R670 Invariant <> frame_array_weak def
+R691 Coq.Init.Datatypes <> Some constr
+R696 Coq.Init.Datatypes "( x , y , .. , z )" not
+R633 Coq.Lists.List <> In def
+R639 Cppsem State stack proj
+R772 Cppsem State destr constr
+R943 Coq.Init.Logic "A /\ B" not
+R907 PreservationStackStateWf <> relptr_gt syndef
+R929 Coq.Init.Datatypes "( x , y , .. , z )" not
+R917 Coq.Init.Datatypes "( x , y , .. , z )" not
+R877 Coq.Init.Logic "x = y" not
+R861 Invariant <> frame_pointer def
+R879 Coq.Init.Datatypes <> Some constr
+R884 Coq.Init.Datatypes "( x , y , .. , z )" not
+R995 Coq.Init.Logic "'exists' x , p" not
+R1009 Coq.Init.Logic "x = y" not
+R1015 Coq.Lists.List "x ++ y" not
+R974 Coq.Init.Logic "x = y" not
+R960 Invariant <> frame_array def
+R976 Coq.Init.Datatypes <> Some constr
+R981 Coq.Init.Datatypes "( x , y , .. , z )" not
+R815 Coq.Lists.List <> In def
+R821 Cppsem State stack proj
+R1045 Cppsem State destr_array constr
+R1164 Coq.Init.Logic "'exists' x , p" not
+R1190 Coq.Init.Logic "A /\ B" not
+R1178 Coq.Init.Logic "x = y" not
+R1184 Coq.Lists.List "x ++ y" not
+R1196 Coq.Init.Logic "x <> y" not
+R1199 Coq.Lists.List <> nil constr
+R1143 Coq.Init.Logic "x = y" not
+R1124 Invariant <> frame_array_weak def
+R1145 Coq.Init.Datatypes <> Some constr
+R1150 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1087 Coq.Lists.List <> In def
+R1093 Cppsem State stack proj
+R1231 Coq.Init.Logic <> True ind
+R1294 Coq.ZArith.BinInt <> Zminus def
+R1570 Cplusconcepts Globals valid_none proj
+R1603 Coqlib <> Ple_refl thm
+R1570 Cplusconcepts Globals valid_none proj
+R1603 Coqlib <> Ple_refl thm
+R1679 Coq.Init.Logic <> False_rect def
+R1679 Coq.Init.Logic <> False_rect def
+R1829 LibLists <> member_extract thm
+R1829 LibLists <> member_extract thm
+R1888 Coq.Lists.List <> rev_involutive thm
+R1888 Coq.Lists.List <> rev_involutive thm
+R1918 Coq.Lists.List <> rev def
+R1918 Coq.Lists.List <> rev def
+R2084 Coq.Lists.List <> app_ass thm
+R2084 Coq.Lists.List <> app_ass thm
+R2140 Coq.Init.Logic <> refl_equal constr
+R2140 Coq.Init.Logic <> refl_equal constr
+R2163 Invariant <> is_code_frame_dec thm
+R2163 Invariant <> is_code_frame_dec thm
+R2337 LibLists <> member_extract thm
+R2337 LibLists <> member_extract thm
+R2396 Coq.Lists.List <> rev_involutive thm
+R2396 Coq.Lists.List <> rev_involutive thm
+R2426 Coq.Lists.List <> rev def
+R2426 Coq.Lists.List <> rev def
+R2549 Coq.Lists.List <> app_ass thm
+R2549 Coq.Lists.List <> app_ass thm
+R2605 Coq.Init.Logic <> refl_equal constr
+R2605 Coq.Init.Logic <> refl_equal constr
+R2628 Invariant <> is_code_frame_dec thm
+R2628 Invariant <> is_code_frame_dec thm
+R2866 LibLists <> member_extract thm
+R2866 LibLists <> member_extract thm
+R2909 Coq.Lists.List <> rev_involutive thm
+R2909 Coq.Lists.List <> rev_involutive thm
+R2940 Coq.Lists.List <> rev def
+R2940 Coq.Lists.List <> rev def
+R3156 Coq.Lists.List <> app_ass thm
+R3156 Coq.Lists.List <> app_ass thm
+R3213 Coq.Init.Logic <> refl_equal constr
+R3213 Coq.Init.Logic <> refl_equal constr
+R3265 Invariant <> is_code_frame_dec thm
+R3265 Invariant <> is_code_frame_dec thm
+R3703 Coq.Lists.List <> nil constr
+R3703 Coq.Lists.List <> nil constr
+R3721 Coq.Lists.List <> app_nil_end thm
+R3721 Coq.Lists.List <> app_nil_end thm
+R3798 Coq.Init.Logic <> refl_equal constr
+R3791 Coq.Lists.List <> nil constr
+R3798 Coq.Init.Logic <> refl_equal constr
+R3791 Coq.Lists.List <> nil constr
+R3839 Coq.Init.Logic <> refl_equal constr
+R3839 Coq.Init.Logic <> refl_equal constr
+R3896 Invariant <> frame_pointer_frame_array_weak thm
+R3896 Invariant <> frame_pointer_frame_array_weak thm
+R4010 Invariant <> frame_array_frame_array_weak thm
+R4010 Invariant <> frame_array_frame_array_weak thm
+R4142 Coq.Init.Logic <> refl_equal constr
+R4135 Coq.Lists.List <> nil constr
+R4142 Coq.Init.Logic <> refl_equal constr
+R4135 Coq.Lists.List <> nil constr
+R4177 Coq.Init.Logic <> refl_equal constr
+R4177 Coq.Init.Logic <> refl_equal constr
+R4368 Invariant <> frame_array_weak_inv thm
+R4368 Invariant <> frame_array_weak_inv thm
+R4457 SubobjectOrdering <> relptr_gt_array thm
+R4457 SubobjectOrdering <> relptr_gt_array thm
+R4495 Coq.Lists.List <> app_ass thm
+R4495 Coq.Lists.List <> app_ass thm
+R4603 Coq.Lists.List <> app_ass thm
+R4603 Coq.Lists.List <> app_ass thm
+R4799 PreservationStackStateWf <> relptr_gt syndef
+R5078 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5086 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4815 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4828 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4851 Cppsem Constructor direct_non_virtual constr
+R4895 Cppsem Constructor virtual constr
+R4918 Cplusconcepts Class.Inheritance Shared constr
+R4980 Cppsem Constructor direct_non_virtual constr
+R5016 Coq.Lists.List "x ++ y" not
+R5021 Coq.Lists.List "x :: y" not
+R5024 Coq.Lists.List <> nil constr
+R5035 Cppsem Constructor virtual constr
+R5060 Coq.Lists.List "x :: y" not
+R5063 Coq.Lists.List <> nil constr
+R4799 PreservationStackStateWf <> relptr_gt syndef
+R5078 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5086 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4815 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4828 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4851 Cppsem Constructor direct_non_virtual constr
+R4895 Cppsem Constructor virtual constr
+R4918 Cplusconcepts Class.Inheritance Shared constr
+R4980 Cppsem Constructor direct_non_virtual constr
+R5016 Coq.Lists.List "x ++ y" not
+R5021 Coq.Lists.List "x :: y" not
+R5024 Coq.Lists.List <> nil constr
+R5035 Cppsem Constructor virtual constr
+R5060 Coq.Lists.List "x :: y" not
+R5063 Coq.Lists.List <> nil constr
+R5220 Coq.Lists.List "x ++ y" not
+R5214 Coq.Lists.List "x :: y" not
+R5217 Coq.Lists.List <> nil constr
+R5227 Coq.Lists.List "x :: y" not
+R5230 Coq.Lists.List <> nil constr
+R5220 Coq.Lists.List "x ++ y" not
+R5214 Coq.Lists.List "x :: y" not
+R5217 Coq.Lists.List <> nil constr
+R5227 Coq.Lists.List "x :: y" not
+R5230 Coq.Lists.List <> nil constr
+R5513 Coq.Init.Logic "x = y" not
+R5337 Coq.Lists.List <> In_dec thm
+R5390 Cplusconcepts Class super proj
+R5357 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5358 Cplusconcepts Class.Inheritance Repeated constr
+R5344 Cplusconcepts <> super_eq_dec thm
+R5508 Coq.Init.Datatypes <> false constr
+R5426 Maps "a ! b" not
+R5421 PreservationStackStateWf <> hier syndef
+R5446 Coq.Init.Datatypes <> Some constr
+R5456 Coq.Init.Datatypes <> true constr
+R5472 Coq.Init.Datatypes <> None constr
+R5480 Coq.Init.Datatypes <> false constr
+R5517 Coq.Init.Datatypes <> true constr
+R5513 Coq.Init.Logic "x = y" not
+R5337 Coq.Lists.List <> In_dec thm
+R5390 Cplusconcepts Class super proj
+R5357 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5358 Cplusconcepts Class.Inheritance Repeated constr
+R5344 Cplusconcepts <> super_eq_dec thm
+R5508 Coq.Init.Datatypes <> false constr
+R5426 Maps "a ! b" not
+R5421 PreservationStackStateWf <> hier syndef
+R5446 Coq.Init.Datatypes <> Some constr
+R5456 Coq.Init.Datatypes <> true constr
+R5472 Coq.Init.Datatypes <> None constr
+R5480 Coq.Init.Datatypes <> false constr
+R5517 Coq.Init.Datatypes <> true constr
+R5555 Coq.Lists.List <> In_dec thm
+R5608 Cplusconcepts Class super proj
+R5575 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5576 Cplusconcepts Class.Inheritance Repeated constr
+R5562 Cplusconcepts <> super_eq_dec thm
+R5555 Coq.Lists.List <> In_dec thm
+R5608 Cplusconcepts Class super proj
+R5575 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5576 Cplusconcepts Class.Inheritance Repeated constr
+R5562 Cplusconcepts <> super_eq_dec thm
+R5644 CplusWf Well_formed_hierarchy complete proj
+R5644 CplusWf Well_formed_hierarchy complete proj
+R5714 Maps "a ! b" not
+R5709 PreservationStackStateWf <> hier syndef
+R5714 Maps "a ! b" not
+R5709 PreservationStackStateWf <> hier syndef
+R5756 Coq.Lists.List <> In def
+R5764 Coq.Lists.List "x ++ y" not
+R5769 Coq.Lists.List "x :: y" not
+R5801 Coq.Lists.List <> in_or_app thm
+R5756 Coq.Lists.List <> In def
+R5764 Coq.Lists.List "x ++ y" not
+R5769 Coq.Lists.List "x :: y" not
+R5801 Coq.Lists.List <> in_or_app thm
+R5894 LibLists <> map_elim thm
+R5894 LibLists <> map_elim thm
+R5975 Coq.Lists.List <> filter_In thm
+R5975 Coq.Lists.List <> filter_In thm
+R6059 Cplusconcepts <> concat def
+R6098 Coqlib <> peq def
+R6098 Coqlib <> peq def
+R6177 Coq.Lists.List "x ++ y" not
+R6173 Coq.Lists.List <> nil constr
+R6182 Coq.Lists.List "x :: y" not
+R6185 Coq.Lists.List <> nil constr
+R6177 Coq.Lists.List "x ++ y" not
+R6173 Coq.Lists.List <> nil constr
+R6182 Coq.Lists.List "x :: y" not
+R6185 Coq.Lists.List <> nil constr
+R6214 Cplusconcepts <> is_virtual_base_of ind
+R6233 PreservationStackStateWf <> hier syndef
+R6267 Cplusconcepts <> vborder_list_virtual_base thm
+R6320 Coq.Lists.List <> in_or_app thm
+R6214 Cplusconcepts <> is_virtual_base_of ind
+R6233 PreservationStackStateWf <> hier syndef
+R6267 Cplusconcepts <> vborder_list_virtual_base thm
+R6320 Coq.Lists.List <> in_or_app thm
+R6449 CplusWf Well_formed_hierarchy is_virtual_base_of_defined_base thm
+R6449 CplusWf Well_formed_hierarchy is_virtual_base_of_defined_base thm
+R6537 Maps "a ! b" not
+R6532 PreservationStackStateWf <> hier syndef
+R6537 Maps "a ! b" not
+R6532 PreservationStackStateWf <> hier syndef
+R6769 Coq.Init.Logic <> refl_equal constr
+R6762 Coq.Lists.List <> nil constr
+R6769 Coq.Init.Logic <> refl_equal constr
+R6762 Coq.Lists.List <> nil constr
+R6812 Coq.Init.Logic <> refl_equal constr
+R6812 Coq.Init.Logic <> refl_equal constr
+R6871 SubobjectOrdering <> relptr_gt_trans thm
+R6871 SubobjectOrdering <> relptr_gt_trans thm
+R6968 Coq.Init.Logic <> refl_equal constr
+R6961 Coq.Lists.List <> nil constr
+R6968 Coq.Init.Logic <> refl_equal constr
+R6961 Coq.Lists.List <> nil constr
+R7075 Coq.Init.Logic <> refl_equal constr
+R7068 Coq.Lists.List <> nil constr
+R7075 Coq.Init.Logic <> refl_equal constr
+R7068 Coq.Lists.List <> nil constr
+R7191 Coq.Init.Logic <> refl_equal constr
+R7184 Coq.Lists.List <> nil constr
+R7191 Coq.Init.Logic <> refl_equal constr
+R7184 Coq.Lists.List <> nil constr
+R7287 Coq.Init.Logic <> refl_equal constr
+R7280 Coq.Lists.List <> nil constr
+R7287 Coq.Init.Logic <> refl_equal constr
+R7280 Coq.Lists.List <> nil constr
+R7503 Invariant <> frame_array_weak_inv thm
+R7503 Invariant <> frame_array_weak_inv thm
+R7652 Coq.Lists.List <> app_ass thm
+R7652 Coq.Lists.List <> app_ass thm
+R7763 Coq.Lists.List <> app_ass thm
+R7763 Coq.Lists.List <> app_ass thm
+R7922 Coq.Init.Logic <> refl_equal constr
+R7915 Coq.Lists.List <> nil constr
+R7922 Coq.Init.Logic <> refl_equal constr
+R7915 Coq.Lists.List <> nil constr
+R8070 Coq.Init.Logic <> refl_equal constr
+R8063 Coq.Lists.List <> nil constr
+R8070 Coq.Init.Logic <> refl_equal constr
+R8063 Coq.Lists.List <> nil constr
+R8070 Coq.Init.Logic <> refl_equal constr
+R8063 Coq.Lists.List <> nil constr
+R8217 Coq.Init.Logic <> refl_equal constr
+R8210 Coq.Lists.List <> nil constr
+R8217 Coq.Init.Logic <> refl_equal constr
+R8210 Coq.Lists.List <> nil constr
+R8477 Coq.Init.Logic <> or_introl constr
+R8490 Coq.Init.Logic <> refl_equal constr
+R8477 Coq.Init.Logic <> or_introl constr
+R8490 Coq.Init.Logic <> refl_equal constr
+R8528 PreservationStackStateWf Preservation <> sec

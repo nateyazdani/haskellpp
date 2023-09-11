@@ -1,0 +1,516 @@
+FDyntype
+R54 Coq.Relations.Relations <> <> lib
+R80 Coqlib <> <> lib
+R103 LibPos <> <> lib
+R126 Maps <> <> lib
+R147 LibLists <> <> lib
+R172 Cppsem <> <> lib
+R195 Cplusconcepts <> <> lib
+R225 CplusWf <> <> lib
+R249 Events <> <> lib
+R272 Invariant <> <> lib
+R298 SubobjectOrdering <> <> lib
+R332 ConstrSubobjectOrdering <> <> lib
+prf 398 <> constructed_sibling_before_not_bases_constructed
+R645 Coq.Init.Logic <> False ind
+R605 Coq.Init.Logic "A \/ B" not
+R581 Coq.Init.Logic "x = y" not
+R583 Coq.Init.Datatypes <> Some constr
+R588 Cppsem <> BasesConstructed constr
+R611 Coq.Init.Logic "x = y" not
+R613 Coq.Init.Datatypes <> Some constr
+R618 Cppsem <> StartedDestructing constr
+R537 Coq.Init.Logic "A \/ B" not
+R513 Coq.Init.Logic "x = y" not
+R515 Coq.Init.Datatypes <> Some constr
+R520 Cppsem <> BasesConstructed constr
+R543 Coq.Init.Logic "x = y" not
+R545 Coq.Init.Datatypes <> Some constr
+R550 Cppsem <> StartedDestructing constr
+R469 Invariant <> constructed_sibling_before rec
+R683 Invariant <> cs_le_dec_2 thm
+R699 Coq.Init.Datatypes <> Some constr
+R704 Cppsem <> Constructed constr
+R683 Invariant <> cs_le_dec_2 thm
+R699 Coq.Init.Datatypes <> Some constr
+R704 Cppsem <> Constructed constr
+R733 Invariant <> cs_le_dec_2 thm
+R746 Coq.Init.Datatypes <> Some constr
+R751 Cppsem <> Constructed constr
+R733 Invariant <> cs_le_dec_2 thm
+R746 Coq.Init.Datatypes <> Some constr
+R751 Cppsem <> Constructed constr
+R791 Cppsem <> cs_le_antisym thm
+R791 Cppsem <> cs_le_antisym thm
+R857 Invariant <> constructed_sibling_before_none proj
+R857 Invariant <> constructed_sibling_before_none proj
+R938 Invariant <> constructed_sibling_before_destructed proj
+R938 Invariant <> constructed_sibling_before_destructed proj
+prf 1021 <> constructed_base_child_of_not_bases_constructed
+R1266 Coq.Init.Logic <> False ind
+R1226 Coq.Init.Logic "A \/ B" not
+R1202 Coq.Init.Logic "x = y" not
+R1204 Coq.Init.Datatypes <> Some constr
+R1209 Cppsem <> BasesConstructed constr
+R1232 Coq.Init.Logic "x = y" not
+R1234 Coq.Init.Datatypes <> Some constr
+R1239 Cppsem <> StartedDestructing constr
+R1158 Coq.Init.Logic "A \/ B" not
+R1134 Coq.Init.Logic "x = y" not
+R1136 Coq.Init.Datatypes <> Some constr
+R1141 Cppsem <> BasesConstructed constr
+R1164 Coq.Init.Logic "x = y" not
+R1166 Coq.Init.Datatypes <> Some constr
+R1171 Cppsem <> StartedDestructing constr
+R1091 Invariant <> constructed_base_child_of rec
+R1303 Coq.Init.Logic "x = y" not
+R1305 Coq.Init.Datatypes <> Some constr
+R1310 Cppsem <> Constructed constr
+R1303 Coq.Init.Logic "x = y" not
+R1305 Coq.Init.Datatypes <> Some constr
+R1310 Cppsem <> Constructed constr
+R1334 Invariant <> constructed_base_child_of_constructed proj
+R1334 Invariant <> constructed_base_child_of_constructed proj
+sec 1506 <> DynamicType
+var 1529 DynamicType A
+R1533 BuiltinTypes ATOM t rec
+sec 1573 DynamicType Get_dynamic_type
+var 1603 DynamicType.Get_dynamic_type hierarchy
+R1615 Maps PTree t def
+R1624 Cplusconcepts Class t rec
+var 1648 DynamicType.Get_dynamic_type heap
+R1655 Maps PTree t def
+R1663 Cplusconcepts Object t rec
+var 1685 DynamicType.Get_dynamic_type construction_states
+R1707 Coq.Lists.List <> list ind
+R1777 Coq.Init.Datatypes "x * y" not
+R1720 Coq.Init.Datatypes "x * y" not
+R1714 Cplusconcepts <> ident def
+R1740 Coq.Init.Datatypes "x * y" not
+R1736 Coq.Init.Datatypes "x * y" not
+R1723 Cplusconcepts <> array_path def
+R1738 Coq.ZArith.BinInt <> Z ind
+R1763 Coq.Init.Datatypes "x * y" not
+R1743 Cplusconcepts Class.Inheritance t ind
+R1765 Coq.Lists.List <> list ind
+R1770 Cplusconcepts <> ident def
+R1781 Cppsem <> construction_state ind
+var 1814 DynamicType.Get_dynamic_type obj
+R1820 Cplusconcepts <> ident def
+var 1841 DynamicType.Get_dynamic_type ar
+R1846 Cplusconcepts <> array_path def
+var 1874 DynamicType.Get_dynamic_type i
+R1878 Coq.ZArith.BinInt <> Z ind
+ind 1894 <> get_dynamic_type
+constr 1962 <> get_dynamic_type_most_derived_constructed
+constr 2396 <> get_dynamic_type_constructing_or_destructing
+R1936 Coq.Lists.List <> list ind
+R1941 Cplusconcepts <> ident def
+R1913 Cplusconcepts Class.Inheritance t ind
+R2327 Dyntype <> get_dynamic_type ind
+R2384 Coq.Lists.List "x :: y" not
+R2387 Coq.Lists.List <> nil constr
+R2348 Cplusconcepts Class.Inheritance Repeated constr
+R2301 Coq.Init.Logic "x = y" not
+R2196 LibLists <> assoc def
+R2222 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2228 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2236 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2237 Cplusconcepts Class.Inheritance Repeated constr
+R2269 Coq.Lists.List "x :: y" not
+R2272 Coq.Lists.List <> nil constr
+R2204 Cplusconcepts <> pointer_eq_dec thm
+R2303 Coq.Init.Datatypes <> Some constr
+R2308 Cppsem <> Constructed constr
+R2175 Coq.ZArith.BinInt "x <= y < z" not
+R2173 Coq.ZArith.BinInt "" not
+R2083 Cplusconcepts <> valid_array_path ind
+R2140 Cplusconcepts Object arraysize proj
+R2123 Cplusconcepts Object class proj
+R2039 Coq.Init.Logic "x = y" not
+R2031 Maps "a ! b" not
+R2041 Coq.Init.Datatypes <> Some constr
+R2893 Dyntype <> get_dynamic_type ind
+R2848 Coq.Init.Logic "A \/ B" not
+R2824 Coq.Init.Logic "x = y" not
+R2826 Coq.Init.Datatypes <> Some constr
+R2831 Cppsem <> BasesConstructed constr
+R2856 Coq.Init.Logic "x = y" not
+R2858 Coq.Init.Datatypes <> Some constr
+R2863 Cppsem <> StartedDestructing constr
+R2732 Coq.Init.Logic "x = y" not
+R2734 LibLists <> assoc def
+R2760 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2766 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2774 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2742 Cplusconcepts <> pointer_eq_dec thm
+R2667 Cplusconcepts <> path ind
+R2611 Coq.ZArith.BinInt "x <= y < z" not
+R2609 Coq.ZArith.BinInt "" not
+R2519 Cplusconcepts <> valid_array_path ind
+R2576 Cplusconcepts Object arraysize proj
+R2559 Cplusconcepts Object class proj
+R2475 Coq.Init.Logic "x = y" not
+R2467 Maps "a ! b" not
+R2477 Coq.Init.Datatypes <> Some constr
+prf 2941 <> dynamic_type_get_dynamic_type
+R3081 Dyntype <> get_dynamic_type ind
+R3001 Cppsem <> dynamic_type ind
+prf 3192 <> get_dynamic_type_dynamic_type
+R3428 Cppsem <> dynamic_type ind
+R3388 Coq.Init.Logic "x = y" not
+R3379 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3390 Cplusconcepts <> concat def
+R3406 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3397 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3327 Cplusconcepts <> path ind
+R3291 Coq.Init.Logic "x = y" not
+R3283 LibLists <> last def
+R3293 Coq.Init.Datatypes <> Some constr
+R3242 Dyntype <> get_dynamic_type ind
+R3584 Cplusconcepts <> concat_trivial_left thm
+R3584 Cplusconcepts <> concat_trivial_left thm
+R3693 Cplusconcepts <> path_last thm
+R3693 Cplusconcepts <> path_last thm
+prf 3771 <> get_dynamic_type_prop
+R3838 Coq.Init.Logic "'exists' x , p" not
+R3875 Coq.Init.Logic "A /\ B" not
+R3866 Coq.Init.Logic "x = y" not
+R3858 Maps "a ! b" not
+R3868 Coq.Init.Datatypes <> Some constr
+R3883 Coq.Init.Logic "'exists' x , p" not
+R3895 Coq.Init.Logic "'exists' x , p" not
+R3994 Coq.Init.Logic "A /\ B" not
+R3914 Cplusconcepts <> valid_array_path ind
+R3971 Cplusconcepts Object arraysize proj
+R3954 Cplusconcepts Object class proj
+R4017 Coq.Init.Logic "A /\ B" not
+R4006 Coq.ZArith.BinInt "x <= y < z" not
+R4004 Coq.ZArith.BinInt "" not
+R4184 Coq.Init.Logic "A \/ B" not
+R4091 Coq.Init.Logic "A /\ B" not
+R4048 Coq.Init.Logic "x = y" not
+R4039 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4050 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4051 Cplusconcepts Class.Inheritance Repeated constr
+R4083 Coq.Lists.List "x :: y" not
+R4086 Coq.Lists.List <> nil constr
+R4166 Coq.Init.Logic "x = y" not
+R4094 LibLists <> assoc def
+R4120 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4126 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4134 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4102 Cplusconcepts <> pointer_eq_dec thm
+R4168 Coq.Init.Datatypes <> Some constr
+R4173 Cppsem <> Constructed constr
+R4207 Coq.Init.Logic "'exists' x , p" not
+R4275 Coq.Init.Logic "A /\ B" not
+R4231 Cplusconcepts <> path ind
+R4401 Coq.Init.Logic "A \/ B" not
+R4377 Coq.Init.Logic "x = y" not
+R4304 LibLists <> assoc def
+R4330 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4336 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4344 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4312 Cplusconcepts <> pointer_eq_dec thm
+R4379 Coq.Init.Datatypes <> Some constr
+R4384 Cppsem <> BasesConstructed constr
+R4490 Coq.Init.Logic "x = y" not
+R4417 LibLists <> assoc def
+R4443 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4449 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4457 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4425 Cplusconcepts <> pointer_eq_dec thm
+R4492 Coq.Init.Datatypes <> Some constr
+R4497 Cppsem <> StartedDestructing constr
+R3812 Dyntype <> get_dynamic_type ind
+R4591 Dyntype DynamicType.Get_dynamic_type <> sec
+var 4619 DynamicType nativeop
+var 4645 DynamicType sem
+R4651 BuiltinTypes <> semparam rec
+var 4682 DynamicType prog
+R4689 Cppsem Program t rec
+var 4723 DynamicType hierarchy_wf
+R4738 CplusWf Well_formed_hierarchy prop rec
+R4766 Cppsem Program hierarchy proj
+var 4804 DynamicType state
+R4812 Cppsem State t rec
+var 4845 DynamicType Hinv
+R4851 Invariant <> invariant rec
+var 4886 DynamicType obj
+R4892 Cplusconcepts <> ident def
+var 4913 DynamicType ar
+R4918 Cplusconcepts <> array_path def
+var 4946 DynamicType i
+R4950 Coq.ZArith.BinInt <> Z ind
+prf 4962 <> bases_constructed_unique
+R5818 Coq.Init.Logic "x = y" not
+R5805 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5820 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5759 Coq.Init.Logic "A \/ B" not
+R5735 Coq.Init.Logic "x = y" not
+R5737 Coq.Init.Datatypes <> Some constr
+R5742 Cppsem <> BasesConstructed constr
+R5768 Coq.Init.Logic "x = y" not
+R5770 Coq.Init.Datatypes <> Some constr
+R5775 Cppsem <> StartedDestructing constr
+R5628 Coq.Init.Logic "x = y" not
+R5630 LibLists <> assoc def
+R5686 Cppsem State construction_states proj
+R5656 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5662 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5670 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5638 Cplusconcepts <> pointer_eq_dec thm
+R5548 Cplusconcepts <> path ind
+R5554 Cppsem Program hierarchy proj
+R5471 Coq.Init.Logic "A \/ B" not
+R5447 Coq.Init.Logic "x = y" not
+R5449 Coq.Init.Datatypes <> Some constr
+R5454 Cppsem <> BasesConstructed constr
+R5480 Coq.Init.Logic "x = y" not
+R5482 Coq.Init.Datatypes <> Some constr
+R5487 Cppsem <> StartedDestructing constr
+R5340 Coq.Init.Logic "x = y" not
+R5342 LibLists <> assoc def
+R5398 Cppsem State construction_states proj
+R5368 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5374 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5382 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5350 Cplusconcepts <> pointer_eq_dec thm
+R5260 Cplusconcepts <> path ind
+R5266 Cppsem Program hierarchy proj
+R5207 Coq.ZArith.BinInt "x <= y < z" not
+R5205 Coq.ZArith.BinInt "" not
+R5104 Cplusconcepts <> valid_array_path ind
+R5172 Cplusconcepts Object arraysize proj
+R5155 Cplusconcepts Object class proj
+R5122 Cppsem Program hierarchy proj
+R5060 Coq.Init.Logic "x = y" not
+R5052 Maps "a ! b" not
+R5019 Cplusconcepts Globals heap proj
+R5033 Cppsem State global proj
+R5062 Coq.Init.Datatypes <> Some constr
+R5881 Cplusconcepts <> path_eq_dec thm
+R5906 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5893 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5881 Cplusconcepts <> path_eq_dec thm
+R5906 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5893 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5948 Coq.Init.Logic <> False_rect def
+R5948 Coq.Init.Logic <> False_rect def
+R5976 ConstrSubobjectOrdering <> inheritance_construction_states_total thm
+R5976 ConstrSubobjectOrdering <> inheritance_construction_states_total thm
+R6099 Dyntype <> constructed_sibling_before_not_bases_constructed thm
+R6150 Dyntype <> constructed_base_child_of_not_bases_constructed thm
+R6099 Dyntype <> constructed_sibling_before_not_bases_constructed thm
+R6150 Dyntype <> constructed_base_child_of_not_bases_constructed thm
+R6099 Dyntype <> constructed_sibling_before_not_bases_constructed thm
+R6150 Dyntype <> constructed_base_child_of_not_bases_constructed thm
+R6099 Dyntype <> constructed_sibling_before_not_bases_constructed thm
+R6150 Dyntype <> constructed_base_child_of_not_bases_constructed thm
+R6099 Dyntype <> constructed_sibling_before_not_bases_constructed thm
+R6150 Dyntype <> constructed_base_child_of_not_bases_constructed thm
+prf 6217 <> get_dynamic_type_unique
+R6575 Coq.Init.Logic "x = y" not
+R6562 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6577 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6423 Dyntype <> get_dynamic_type ind
+R6503 Cppsem State construction_states proj
+R6467 Cplusconcepts Globals heap proj
+R6481 Cppsem State global proj
+R6442 Cppsem Program hierarchy proj
+R6265 Dyntype <> get_dynamic_type ind
+R6344 Cppsem State construction_states proj
+R6308 Cplusconcepts Globals heap proj
+R6322 Cppsem State global proj
+R6283 Cppsem Program hierarchy proj
+R6712 Cplusconcepts <> valid_array_path_last thm
+R6712 Cplusconcepts <> valid_array_path_last thm
+R6823 Cplusconcepts <> valid_array_path_last thm
+R6823 Cplusconcepts <> valid_array_path_last thm
+R6885 SubobjectOrdering <> inclusion_inheritance_subobject_of_full_object thm
+R6885 SubobjectOrdering <> inclusion_inheritance_subobject_of_full_object thm
+R6968 ConstrSubobjectOrdering <> inclusion_construction_order thm
+R6968 ConstrSubobjectOrdering <> inclusion_construction_order thm
+R7036 ConstrSubobjectOrdering <> construction_includes_constructed proj
+R7036 ConstrSubobjectOrdering <> construction_includes_constructed proj
+R7228 Cplusconcepts <> valid_array_path_last thm
+R7228 Cplusconcepts <> valid_array_path_last thm
+R7290 SubobjectOrdering <> inclusion_inheritance_subobject_of_full_object thm
+R7290 SubobjectOrdering <> inclusion_inheritance_subobject_of_full_object thm
+R7373 ConstrSubobjectOrdering <> inclusion_construction_order thm
+R7373 ConstrSubobjectOrdering <> inclusion_construction_order thm
+R7442 ConstrSubobjectOrdering <> construction_includes_constructed proj
+R7442 ConstrSubobjectOrdering <> construction_includes_constructed proj
+R7609 Cplusconcepts <> valid_array_path_last thm
+R7609 Cplusconcepts <> valid_array_path_last thm
+R7670 Dyntype <> bases_constructed_unique thm
+R7670 Dyntype <> bases_constructed_unique thm
+prf 7712 <> dynamic_type_unique_very_strong
+R8143 Coq.Init.Logic "x = y" not
+R8130 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8145 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7976 Cppsem <> dynamic_type ind
+R8052 Cppsem State construction_states proj
+R8016 Cplusconcepts Globals heap proj
+R8030 Cppsem State global proj
+R7991 Cppsem Program hierarchy proj
+R7786 Cppsem <> dynamic_type ind
+R7861 Cppsem State construction_states proj
+R7825 Cplusconcepts Globals heap proj
+R7839 Cppsem State global proj
+R7800 Cppsem Program hierarchy proj
+R8188 Dyntype <> dynamic_type_get_dynamic_type thm
+R8219 Dyntype <> get_dynamic_type_unique thm
+R8188 Dyntype <> dynamic_type_get_dynamic_type thm
+R8219 Dyntype <> get_dynamic_type_unique thm
+sec 8258 DynamicType Dynamic_type_unique
+var 8291 DynamicType.Dynamic_type_unique h
+R8294 Cplusconcepts Class.Inheritance t ind
+var 8329 DynamicType.Dynamic_type_unique p
+R8332 Coq.Lists.List <> list ind
+R8337 Cplusconcepts <> ident def
+prf 8359 <> dynamic_type_same_complement
+R8752 Coq.Init.Logic "x = y" not
+R8739 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8754 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8589 Cppsem <> dynamic_type ind
+R8665 Cppsem State construction_states proj
+R8629 Cplusconcepts Globals heap proj
+R8643 Cppsem State global proj
+R8603 Cppsem Program hierarchy proj
+R8419 Cppsem <> dynamic_type ind
+R8495 Cppsem State construction_states proj
+R8459 Cplusconcepts Globals heap proj
+R8473 Cppsem State global proj
+R8433 Cppsem Program hierarchy proj
+R8808 Cppsem <> dynamic_type_prop thm
+R8808 Cppsem <> dynamic_type_prop thm
+R8868 Cppsem <> dynamic_type_prop thm
+R8868 Cppsem <> dynamic_type_prop thm
+R8976 Cplusconcepts <> valid_array_path_last thm
+R8976 Cplusconcepts <> valid_array_path_last thm
+R9035 Cplusconcepts <> path_last thm
+R9035 Cplusconcepts <> path_last thm
+R9061 Cplusconcepts <> path_last thm
+R9061 Cplusconcepts <> path_last thm
+R9113 CplusWf Well_formed_hierarchy concat_path_unique thm
+R9113 CplusWf Well_formed_hierarchy concat_path_unique thm
+R9219 Coq.Init.Logic <> trans_equal def
+R9219 Coq.Init.Logic <> trans_equal def
+prf 9330 <> dynamic_type_unique
+R9733 Coq.Init.Logic "x = y" not
+R9720 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9735 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9568 Cppsem <> dynamic_type ind
+R9644 Cppsem State construction_states proj
+R9608 Cplusconcepts Globals heap proj
+R9622 Cppsem State global proj
+R9583 Cppsem Program hierarchy proj
+R9386 Cppsem <> dynamic_type ind
+R9461 Cppsem State construction_states proj
+R9425 Cplusconcepts Globals heap proj
+R9439 Cppsem State global proj
+R9400 Cppsem Program hierarchy proj
+R9770 Dyntype <> dynamic_type_unique_very_strong thm
+R9770 Dyntype <> dynamic_type_unique_very_strong thm
+prf 9819 <> dynamic_type_unique_strong
+R10243 Coq.Init.Logic "x = y" not
+R10216 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10245 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10064 Cppsem <> dynamic_type ind
+R10140 Cppsem State construction_states proj
+R10104 Cplusconcepts Globals heap proj
+R10118 Cppsem State global proj
+R10079 Cppsem Program hierarchy proj
+R9882 Cppsem <> dynamic_type ind
+R9957 Cppsem State construction_states proj
+R9921 Cplusconcepts Globals heap proj
+R9935 Cppsem State global proj
+R9896 Cppsem Program hierarchy proj
+R10302 Dyntype <> dynamic_type_unique thm
+R10302 Dyntype <> dynamic_type_unique thm
+R10371 Dyntype <> dynamic_type_same_complement thm
+R10371 Dyntype <> dynamic_type_same_complement thm
+prf 10433 <> dynamic_type_not_deallocated
+R10693 Coq.Init.Logic <> False ind
+R10648 Coq.Lists.List <> In def
+R10656 Cppsem State deallocated_objects proj
+R10499 Cppsem <> dynamic_type ind
+R10574 Cppsem State construction_states proj
+R10538 Cplusconcepts Globals heap proj
+R10552 Cppsem State global proj
+R10513 Cppsem Program hierarchy proj
+R10727 Dyntype <> dynamic_type_get_dynamic_type thm
+R10727 Dyntype <> dynamic_type_get_dynamic_type thm
+R10771 Cppsem <> dynamic_type_prop thm
+R10771 Cppsem <> dynamic_type_prop thm
+R10817 Cplusconcepts <> valid_relative_pointer ind
+R10896 Cplusconcepts Object arraysize proj
+R10879 Cplusconcepts Object class proj
+R10848 Cppsem Program hierarchy proj
+R10817 Cplusconcepts <> valid_relative_pointer ind
+R10896 Cplusconcepts Object arraysize proj
+R10879 Cplusconcepts Object class proj
+R10848 Cppsem Program hierarchy proj
+R10981 SubobjectOrdering <> inclusion_subobject_of_full_object thm
+R10981 SubobjectOrdering <> inclusion_subobject_of_full_object thm
+R11051 Invariant <> deallocated_objects_destructed proj
+R11094 Coq.Init.Logic <> conj constr
+R11051 Invariant <> deallocated_objects_destructed proj
+R11094 Coq.Init.Logic <> conj constr
+R11131 ConstrSubobjectOrdering <> inclusion_construction_order thm
+R11131 ConstrSubobjectOrdering <> inclusion_construction_order thm
+R11195 ConstrSubobjectOrdering <> construction_includes_destructed proj
+R11195 ConstrSubobjectOrdering <> construction_includes_destructed proj
+R11341 Dyntype DynamicType.Dynamic_type_unique <> sec
+prf 11373 <> get_dynamic_type_not_deallocated
+R11612 Coq.Init.Logic <> False ind
+R11567 Coq.Lists.List <> In def
+R11575 Cppsem State deallocated_objects proj
+R11431 Dyntype <> get_dynamic_type ind
+R11510 Cppsem State construction_states proj
+R11474 Cplusconcepts Globals heap proj
+R11488 Cppsem State global proj
+R11449 Cppsem Program hierarchy proj
+R11646 Dyntype <> get_dynamic_type_prop thm
+R11646 Dyntype <> get_dynamic_type_prop thm
+R11695 Coq.Init.Logic "'exists' x , p" not
+R11705 Cplusconcepts <> path ind
+R11711 Cppsem Program hierarchy proj
+R11695 Coq.Init.Logic "'exists' x , p" not
+R11705 Cplusconcepts <> path ind
+R11711 Cppsem Program hierarchy proj
+R11849 Coq.Lists.List <> nil constr
+R11861 Coq.Lists.List <> nil constr
+R11849 Coq.Lists.List <> nil constr
+R11861 Coq.Lists.List <> nil constr
+R11946 Maps "a ! b" not
+R11924 Cppsem Program hierarchy proj
+R11946 Maps "a ! b" not
+R11924 Cppsem Program hierarchy proj
+R11981 Coq.Init.Logic <> False_rect def
+R11995 CplusWf Well_formed_hierarchy array_path_valid thm
+R11981 Coq.Init.Logic <> False_rect def
+R11995 CplusWf Well_formed_hierarchy array_path_valid thm
+R12072 Invariant <> valid_object_classes proj
+R12072 Invariant <> valid_object_classes proj
+R12109 Dyntype <> dynamic_type_not_deallocated thm
+R12109 Dyntype <> dynamic_type_not_deallocated thm
+R12146 Dyntype <> get_dynamic_type_dynamic_type thm
+R12146 Dyntype <> get_dynamic_type_dynamic_type thm
+R12202 Cplusconcepts <> path_last thm
+R12202 Cplusconcepts <> path_last thm
+R12231 Coq.Lists.List <> nil constr
+R12243 Coq.Lists.List <> nil constr
+R12231 Coq.Lists.List <> nil constr
+R12243 Coq.Lists.List <> nil constr
+R12325 Maps "a ! b" not
+R12303 Cppsem Program hierarchy proj
+R12325 Maps "a ! b" not
+R12303 Cppsem Program hierarchy proj
+R12364 Cplusconcepts <> path_defined_to thm
+R12364 Cplusconcepts <> path_defined_to thm
+R12425 Cplusconcepts <> concat_trivial_right thm
+R12425 Cplusconcepts <> concat_trivial_right thm
+R12482 Dyntype DynamicType <> sec

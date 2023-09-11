@@ -1,0 +1,24 @@
+WARNING: compiling proofs may take more than 2 hours. To compile
+proofs, type: make proof
+
+To compile HTML documentation, type: make doc
+
+The best result is given if each $file.v theory comes with its
+companion $file.glob (which should be present in the original
+archive), but if absent (or outdated), compilation does not fail:
+instead, $file.html will contain no link (or incorrect links) to other
+theories.
+
+You can compile the proof $theory.vo for one given theory $theory.v,
+to do so type: make $theory.vo
+In that case, the corresponding $theory.glob will be regenerated.
+
+Each $file.src describes a theory package. You can build an archive by
+typing: make $file.tar
+or: make $file.tgz
+or: make $file.tbz2
+The built package contains all relevant *.v theories, along with their
+*.glob files needed to build the documentation, if any.
+
+Copyright (C) 2009, 2010, 2011 Tahina Ramananandro (INRIA)
+These files are distributed WITH NO WARRANTY whatsoever.

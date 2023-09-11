@@ -1,0 +1,153 @@
+FDynamicWf
+R15 LibLists <> <> lib
+R40 Cplusconcepts <> <> lib
+R70 CplusWf <> <> lib
+R94 Coqlib <> <> lib
+R117 Tactics <> <> lib
+R141 LibMaps <> <> lib
+R165 LibPos <> <> lib
+R188 Dynamic <> <> lib
+sec 218 <> DYN
+var 233 DYN A
+R237 BuiltinTypes ATOM t rec
+var 255 DYN hierarchy
+R267 Maps PTree t def
+R276 Cplusconcepts Class t rec
+var 300 DYN hierarchy_wf
+R315 CplusWf Well_formed_hierarchy prop rec
+prf 360 <> is_dynamic_dec
+R387 Coq.Init.Specif "{ A } + { B }" not
+R388 Dynamic <> is_dynamic ind
+R415 Coq.Init.Logic "~ x" not
+R417 Dynamic <> is_dynamic ind
+R470 Coq.Init.Wf <> well_founded_induction thm
+R493 Coqlib <> Plt_wf thm
+R470 Coq.Init.Wf <> well_founded_induction thm
+R493 Coqlib <> Plt_wf thm
+R542 Maps "a ! b" not
+R542 Maps "a ! b" not
+R574 Coq.Lists.List <> filter def
+R613 Cplusconcepts Class methods proj
+R587 Cplusconcepts Method virtual proj
+R574 Coq.Lists.List <> filter def
+R613 Cplusconcepts Class methods proj
+R587 Cplusconcepts Method virtual proj
+R707 Coq.Init.Datatypes "( x , y , .. , z )" not
+R708 Cplusconcepts Class.Inheritance Shared constr
+R740 Coq.Init.Datatypes <> true constr
+R752 Coq.Init.Datatypes <> false constr
+R682 Coq.Init.Datatypes "x * y" not
+R684 Cplusconcepts <> ident def
+R707 Coq.Init.Datatypes "( x , y , .. , z )" not
+R708 Cplusconcepts Class.Inheritance Shared constr
+R740 Coq.Init.Datatypes <> true constr
+R752 Coq.Init.Datatypes <> false constr
+R682 Coq.Init.Datatypes "x * y" not
+R684 Cplusconcepts <> ident def
+R777 Coq.Lists.List <> filter def
+R792 Cplusconcepts Class super proj
+R777 Coq.Lists.List <> filter def
+R792 Cplusconcepts Class super proj
+R863 CplusWf Well_formed_hierarchy well_founded proj
+R863 CplusWf Well_formed_hierarchy well_founded proj
+R1027 Coqlib <> Plt def
+R1001 Coq.Lists.List <> In def
+R1009 Cplusconcepts Class super proj
+R1085 Coq.Init.Datatypes <> pair constr
+R960 Coq.Init.Datatypes "x * y" not
+R1027 Coqlib <> Plt def
+R1001 Coq.Lists.List <> In def
+R1009 Cplusconcepts Class super proj
+R1085 Coq.Init.Datatypes <> pair constr
+R960 Coq.Init.Datatypes "x * y" not
+R1184 LibLists <> tag_list thm
+R1184 LibLists <> tag_list thm
+R1365 Coq.Init.Specif <> existT constr
+R1462 Coq.Init.Datatypes <> bool ind
+R1416 Coqlib <> Plt def
+R1487 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1550 Coq.Init.Datatypes <> false constr
+R1540 Coq.Init.Datatypes <> true constr
+R1245 Coq.Init.Specif <> sigT ind
+R1289 Coqlib <> Plt def
+R1281 Coq.Init.Datatypes "x * y" not
+R1261 Cplusconcepts Class.Inheritance t ind
+R1365 Coq.Init.Specif <> existT constr
+R1462 Coq.Init.Datatypes <> bool ind
+R1416 Coqlib <> Plt def
+R1487 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1550 Coq.Init.Datatypes <> false constr
+R1540 Coq.Init.Datatypes <> true constr
+R1245 Coq.Init.Specif <> sigT ind
+R1289 Coqlib <> Plt def
+R1281 Coq.Init.Datatypes "x * y" not
+R1261 Cplusconcepts Class.Inheritance t ind
+R1614 Coq.Lists.List <> filter def
+R1614 Coq.Lists.List <> filter def
+R1805 Coq.Lists.List <> filter_In thm
+R1844 Cplusconcepts Class methods proj
+R1816 Cplusconcepts Method virtual proj
+R1805 Coq.Lists.List <> filter_In thm
+R1844 Cplusconcepts Class methods proj
+R1816 Cplusconcepts Method virtual proj
+R2039 Coq.Lists.List <> filter_In thm
+R2082 Cplusconcepts Class super proj
+R2051 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2052 Cplusconcepts Class.Inheritance Shared constr
+R2039 Coq.Lists.List <> filter_In thm
+R2082 Cplusconcepts Class super proj
+R2051 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2052 Cplusconcepts Class.Inheritance Shared constr
+R2164 Coq.Init.Logic <> conj constr
+R2173 Coq.Init.Logic <> refl_equal constr
+R2164 Coq.Init.Logic <> conj constr
+R2173 Coq.Init.Logic <> refl_equal constr
+R2323 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2323 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2448 Coq.Init.Logic "x = y" not
+R2429 Coq.Init.Specif <> existT constr
+R2438 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2450 Coq.Init.Datatypes <> true constr
+R2448 Coq.Init.Logic "x = y" not
+R2429 Coq.Init.Specif <> existT constr
+R2438 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2450 Coq.Init.Datatypes <> true constr
+R2564 Coq.Lists.List <> filter_In thm
+R2577 Coq.Init.Specif <> existT constr
+R2586 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2564 Coq.Lists.List <> filter_In thm
+R2577 Coq.Init.Specif <> existT constr
+R2586 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2646 Coq.Init.Logic <> conj constr
+R2646 Coq.Init.Logic <> conj constr
+R2741 Coq.Lists.List <> In def
+R2747 Coq.Lists.List <> filter def
+R2741 Coq.Lists.List <> In def
+R2747 Coq.Lists.List <> filter def
+R2826 Coq.Lists.List <> filter_In thm
+R2826 Coq.Lists.List <> filter_In thm
+R3036 Coq.Init.Logic <> ex_intro constr
+R3036 Coq.Init.Logic <> ex_intro constr
+R3131 Dynamic <> is_dynamic_base constr
+R3131 Dynamic <> is_dynamic_base constr
+R3281 Coq.Lists.List <> In def
+R3287 Coq.Lists.List <> filter def
+R3297 Cplusconcepts Class super proj
+R3281 Coq.Lists.List <> In def
+R3287 Coq.Lists.List <> filter def
+R3297 Cplusconcepts Class super proj
+R3376 Coq.Lists.List <> filter_In thm
+R3391 Cplusconcepts Class super proj
+R3376 Coq.Lists.List <> filter_In thm
+R3391 Cplusconcepts Class super proj
+R3575 Dynamic <> is_dynamic_direct_virtual_base constr
+R3575 Dynamic <> is_dynamic_direct_virtual_base constr
+R3672 Dynamic <> is_dynamic_virtual_methods constr
+R3672 Dynamic <> is_dynamic_virtual_methods constr
+R3741 Coq.Lists.List <> filter_In thm
+R3780 Cplusconcepts Class methods proj
+R3752 Cplusconcepts Method virtual proj
+R3741 Coq.Lists.List <> filter_In thm
+R3780 Cplusconcepts Class methods proj
+R3752 Cplusconcepts Method virtual proj
+R3906 DynamicWf DYN <> sec

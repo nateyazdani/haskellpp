@@ -1,0 +1,418 @@
+FLibMaps
+R15 Maps <> <> lib
+R36 Coqlib <> <> lib
+R59 LibPos <> <> lib
+sec 88 <> Maxindex
+var 107 Maxindex A
+prf 125 <> max_index
+R161 Coq.Init.Specif "{ x  |  P }" not
+R193 Coqlib <> Plt def
+R182 Coq.Init.Logic "x <> y" not
+R178 Maps "a ! b" not
+R185 Coq.Init.Datatypes <> None constr
+R148 Maps PTree t def
+R224 Coq.Init.Specif "{ x  |  P }" not
+R273 Coqlib <> Plt def
+R241 Coq.Lists.List <> In def
+R252 Maps PTree elements def
+R244 Coq.Init.Datatypes "( x , y , .. , z )" not
+R224 Coq.Init.Specif "{ x  |  P }" not
+R273 Coqlib <> Plt def
+R241 Coq.Lists.List <> In def
+R252 Maps PTree elements def
+R244 Coq.Init.Datatypes "( x , y , .. , z )" not
+R332 Maps "a ! b" not
+R332 Maps "a ! b" not
+R364 Maps PTree elements_correct thm
+R364 Maps PTree elements_correct thm
+R438 Maps PTree elements def
+R438 Maps PTree elements def
+R500 Coq.NArith.BinPos "" not
+R500 Coq.NArith.BinPos "" not
+R563 Coqlib <> plt def
+R563 Coqlib <> plt def
+R639 Coq.NArith.BinPos <> Psucc def
+R639 Coq.NArith.BinPos <> Psucc def
+R706 Coqlib <> Plt_succ thm
+R706 Coqlib <> Plt_succ thm
+R760 Coqlib <> Plt_trans thm
+R760 Coqlib <> Plt_trans thm
+R821 Coq.ZArith.BinInt <> Zpos_succ_morphism thm
+R821 Coq.ZArith.BinInt <> Zpos_succ_morphism thm
+R876 LibMaps Maxindex <> sec
+sec 953 <> Progressive
+var 977 Progressive A
+var 998 Progressive P
+R1002 Coq.NArith.BinPos <> positive ind
+var 1037 Progressive f
+R1178 Coq.Init.Specif "{ x : A  & P }" not
+R1156 Coq.Init.Logic "x = y" not
+R1152 Maps "a ! b" not
+R1158 Coq.Init.Datatypes <> Some constr
+R1113 Coq.Init.Logic "x <> y" not
+R1109 Maps "a ! b" not
+R1116 Coq.Init.Datatypes <> None constr
+R1096 Coqlib <> Plt def
+R1059 Maps PTree t def
+prf 1205 <> progressive
+R1231 Coq.Init.Specif "{ x : A  & P }" not
+R1280 Coq.Init.Datatypes "x * y" not
+R1273 Coq.Init.Logic "x <> y" not
+R1269 Maps "a ! b" not
+R1276 Coq.Init.Datatypes <> None constr
+R1256 Coqlib <> Plt def
+R1306 Coq.Init.Logic "x = y" not
+R1302 Maps "a ! b" not
+R1308 Coq.Init.Datatypes <> Some constr
+R1357 Coqlib <> peq def
+R1363 Coq.NArith.BinPos "" not
+R1357 Coqlib <> peq def
+R1363 Coq.NArith.BinPos "" not
+R1394 Maps PTree empty def
+R1394 Maps PTree empty def
+R1511 Maps PTree gempty thm
+R1511 Maps PTree gempty thm
+R1560 Coq.ZArith.BinInt "x > y" not
+R1553 Coq.ZArith.BinInt <> Zpos constr
+R1562 Coq.ZArith.BinInt "" not
+R1560 Coq.ZArith.BinInt "x > y" not
+R1553 Coq.ZArith.BinInt <> Zpos constr
+R1562 Coq.ZArith.BinInt "" not
+R1605 Coq.Init.Logic "x <> y" not
+R1598 Coq.ZArith.BinInt <> Zpos constr
+R1608 Coq.ZArith.BinInt "" not
+R1605 Coq.Init.Logic "x <> y" not
+R1598 Coq.ZArith.BinInt <> Zpos constr
+R1608 Coq.ZArith.BinInt "" not
+R1646 Coq.ZArith.BinInt "x > y" not
+R1642 Coq.ZArith.BinInt "x - y" not
+R1635 Coq.ZArith.BinInt <> Zpos constr
+R1644 Coq.ZArith.BinInt "" not
+R1648 Coq.ZArith.BinInt "" not
+R1646 Coq.ZArith.BinInt "x > y" not
+R1642 Coq.ZArith.BinInt "x - y" not
+R1635 Coq.ZArith.BinInt <> Zpos constr
+R1644 Coq.ZArith.BinInt "" not
+R1648 Coq.ZArith.BinInt "" not
+R1690 Coq.ZArith.BinInt "x - y" not
+R1683 Coq.ZArith.BinInt <> Zpos constr
+R1692 Coq.ZArith.BinInt "" not
+R1690 Coq.ZArith.BinInt "x - y" not
+R1683 Coq.ZArith.BinInt <> Zpos constr
+R1692 Coq.ZArith.BinInt "" not
+R1759 Coq.Init.Logic <> False_rect def
+R1759 Coq.Init.Logic <> False_rect def
+R1826 Coq.Init.Logic "x = y" not
+R1828 Coq.NArith.BinPos <> Psucc def
+R1826 Coq.Init.Logic "x = y" not
+R1828 Coq.NArith.BinPos <> Psucc def
+R1853 Coq.Init.Logic "x = y" not
+R1846 Coq.ZArith.BinInt <> Zpos constr
+R1855 Coq.ZArith.BinInt <> Zpos constr
+R1861 Coq.NArith.BinPos <> Psucc def
+R1853 Coq.Init.Logic "x = y" not
+R1846 Coq.ZArith.BinInt <> Zpos constr
+R1855 Coq.ZArith.BinInt <> Zpos constr
+R1861 Coq.NArith.BinPos <> Psucc def
+R1898 Coqlib <> Psucc_Zsucc thm
+R1898 Coqlib <> Psucc_Zsucc thm
+R2117 Coq.Init.Specif "{ x : A  & P }" not
+R2180 Coq.Init.Datatypes "x * y" not
+R2173 Coq.Init.Logic "x <> y" not
+R2169 Maps "a ! b" not
+R2176 Coq.Init.Datatypes <> None constr
+R2147 Coqlib <> Plt def
+R2154 Coq.NArith.BinPos <> Psucc def
+R2211 Coq.Init.Logic "x = y" not
+R2207 Maps "a ! b" not
+R2213 Coq.Init.Datatypes <> Some constr
+R2083 Coq.Init.Logic "x = y" not
+R2079 Maps "a ! b" not
+R2085 Coq.Init.Datatypes <> Some constr
+R2046 Coq.Init.Logic "x <> y" not
+R2042 Maps "a ! b" not
+R2049 Coq.Init.Datatypes <> None constr
+R2029 Coqlib <> Plt def
+R1993 Coqlib <> Plt def
+R2000 Coq.NArith.BinPos <> Psucc def
+R2117 Coq.Init.Specif "{ x : A  & P }" not
+R2180 Coq.Init.Datatypes "x * y" not
+R2173 Coq.Init.Logic "x <> y" not
+R2169 Maps "a ! b" not
+R2176 Coq.Init.Datatypes <> None constr
+R2147 Coqlib <> Plt def
+R2154 Coq.NArith.BinPos <> Psucc def
+R2211 Coq.Init.Logic "x = y" not
+R2207 Maps "a ! b" not
+R2213 Coq.Init.Datatypes <> Some constr
+R2083 Coq.Init.Logic "x = y" not
+R2079 Maps "a ! b" not
+R2085 Coq.Init.Datatypes <> Some constr
+R2046 Coq.Init.Logic "x <> y" not
+R2042 Maps "a ! b" not
+R2049 Coq.Init.Datatypes <> None constr
+R2029 Coqlib <> Plt def
+R1993 Coqlib <> Plt def
+R2000 Coq.NArith.BinPos <> Psucc def
+R2271 Maps PTree empty def
+R2258 Coq.NArith.BinPos "" not
+R2271 Maps PTree empty def
+R2258 Coq.NArith.BinPos "" not
+R2312 Coqlib <> Psucc_Zsucc thm
+R2312 Coqlib <> Psucc_Zsucc thm
+R2358 Coq.ZArith.BinInt "x > y" not
+R2351 Coq.ZArith.BinInt <> Zpos constr
+R2360 Coq.ZArith.BinInt "" not
+R2358 Coq.ZArith.BinInt "x > y" not
+R2351 Coq.ZArith.BinInt <> Zpos constr
+R2360 Coq.ZArith.BinInt "" not
+R2488 Maps PTree gempty thm
+R2488 Maps PTree gempty thm
+R2540 Coq.Init.Wf <> well_founded_induction_type thm
+R2569 LibPos <> bounded_gt_wf thm
+R2584 Coq.NArith.BinPos <> Psucc def
+R2540 Coq.Init.Wf <> well_founded_induction_type thm
+R2569 LibPos <> bounded_gt_wf thm
+R2584 Coq.NArith.BinPos <> Psucc def
+R2651 Coqlib <> Ple def
+R2666 Coq.NArith.BinPos <> Psucc def
+R2656 Coq.NArith.BinPos <> Psucc def
+R2651 Coqlib <> Ple def
+R2666 Coq.NArith.BinPos <> Psucc def
+R2656 Coq.NArith.BinPos <> Psucc def
+R2724 Coqlib <> Psucc_Zsucc thm
+R2724 Coqlib <> Psucc_Zsucc thm
+R2724 Coqlib <> Psucc_Zsucc thm
+R2724 Coqlib <> Psucc_Zsucc thm
+R2831 Coq.Init.Logic "x <> y" not
+R2825 Maps "a ! b" not
+R2810 Maps PTree set def
+R2834 Coq.Init.Datatypes <> None constr
+R2789 Coqlib <> Plt def
+R2796 Coq.NArith.BinPos <> Psucc def
+R2831 Coq.Init.Logic "x <> y" not
+R2825 Maps "a ! b" not
+R2810 Maps PTree set def
+R2834 Coq.Init.Datatypes <> None constr
+R2789 Coqlib <> Plt def
+R2796 Coq.NArith.BinPos <> Psucc def
+R2864 Coqlib <> peq def
+R2864 Coqlib <> peq def
+R2895 Maps PTree gss thm
+R2895 Maps PTree gss thm
+R2931 Maps PTree gso thm
+R2931 Maps PTree gso thm
+R2983 Coqlib <> Psucc_Zsucc thm
+R2983 Coqlib <> Psucc_Zsucc thm
+R3039 Coq.Init.Logic "x <> y" not
+R3032 Coq.ZArith.BinInt <> Zpos constr
+R3042 Coq.ZArith.BinInt <> Zpos constr
+R3039 Coq.Init.Logic "x <> y" not
+R3032 Coq.ZArith.BinInt <> Zpos constr
+R3042 Coq.ZArith.BinInt <> Zpos constr
+R3133 Coq.Init.Logic "x = y" not
+R3127 Maps "a ! b" not
+R3112 Maps PTree set def
+R3135 Coq.Init.Datatypes <> Some constr
+R3133 Coq.Init.Logic "x = y" not
+R3127 Maps "a ! b" not
+R3112 Maps PTree set def
+R3135 Coq.Init.Datatypes <> Some constr
+R3179 Coqlib <> peq def
+R3179 Coqlib <> peq def
+R3210 Maps PTree gss thm
+R3210 Maps PTree gss thm
+R3246 Maps PTree gso thm
+R3246 Maps PTree gso thm
+R3284 Coqlib <> peq def
+R3284 Coqlib <> peq def
+R3313 Maps PTree set def
+R3313 Maps PTree set def
+R3348 Coqlib <> Plt def
+R3363 Coq.NArith.BinPos <> Psucc def
+R3353 Coq.NArith.BinPos <> Psucc def
+R3348 Coqlib <> Plt def
+R3363 Coq.NArith.BinPos <> Psucc def
+R3353 Coq.NArith.BinPos <> Psucc def
+R3415 Coqlib <> Psucc_Zsucc thm
+R3415 Coqlib <> Psucc_Zsucc thm
+R3415 Coqlib <> Psucc_Zsucc thm
+R3415 Coqlib <> Psucc_Zsucc thm
+R3469 Coq.Init.Logic "x <> y" not
+R3462 Coq.ZArith.BinInt <> Zpos constr
+R3472 Coq.ZArith.BinInt <> Zpos constr
+R3469 Coq.Init.Logic "x <> y" not
+R3462 Coq.ZArith.BinInt <> Zpos constr
+R3472 Coq.ZArith.BinInt <> Zpos constr
+R3512 LibPos <> bounded_gt ind
+R3534 Coq.NArith.BinPos <> Psucc def
+R3524 Coq.NArith.BinPos <> Psucc def
+R3512 LibPos <> bounded_gt ind
+R3534 Coq.NArith.BinPos <> Psucc def
+R3524 Coq.NArith.BinPos <> Psucc def
+R3571 Coqlib <> Plt_succ thm
+R3571 Coqlib <> Plt_succ thm
+R3670 LibMaps Progressive <> sec
+R3699 LibLists <> <> lib
+sec 3718 <> Assoc_to_ptree
+var 3745 Assoc_to_ptree K
+var 3747 Assoc_to_ptree U
+var 3749 Assoc_to_ptree V
+var 3768 Assoc_to_ptree f
+R3782 Coq.Init.Datatypes <> option ind
+R3799 Coq.Init.Datatypes "x * y" not
+R3790 Coq.NArith.BinPos <> positive ind
+R3878 Maps PTree t def
+R3854 Maps PTree t def
+R3835 Coq.Lists.List <> list ind
+R3843 Coq.Init.Datatypes "x * y" not
+R3912 Coq.Lists.List <> nil constr
+R3934 Coq.Lists.List "x :: y" not
+R3927 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3976 Coq.Init.Datatypes <> None constr
+R3984 LibMaps <> assoc_to_ptree def
+R4014 Coq.Init.Datatypes <> Some constr
+R4019 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4029 Maps PTree set def
+R4044 LibMaps <> assoc_to_ptree def
+R3854 Maps PTree t def
+R3835 Coq.Lists.List <> list ind
+R3843 Coq.Init.Datatypes "x * y" not
+R3835 Coq.Lists.List <> list ind
+R3843 Coq.Init.Datatypes "x * y" not
+R3854 Maps PTree t def
+R3878 Maps PTree t def
+R3912 Coq.Lists.List <> nil constr
+R3934 Coq.Lists.List "x :: y" not
+R3927 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3976 Coq.Init.Datatypes <> None constr
+R3984 LibMaps <> assoc_to_ptree def
+R4014 Coq.Init.Datatypes <> Some constr
+R4019 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4029 Maps PTree set def
+R4044 LibMaps <> assoc_to_ptree def
+var 4094 Assoc_to_ptree f_func
+R4192 Coq.Init.Logic "A \/ B" not
+R4187 Coq.Init.Logic "x = y" not
+R4197 Coq.Init.Logic "x = y" not
+R4167 Coq.Init.Logic "x = y" not
+R4169 Coq.Init.Datatypes <> Some constr
+R4174 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4125 Coq.Init.Logic "x = y" not
+R4127 Coq.Init.Datatypes <> Some constr
+R4132 Coq.Init.Datatypes "( x , y , .. , z )" not
+var 4215 Assoc_to_ptree K_eq_dec
+R4244 Coq.Init.Specif "{ A } + { B }" not
+R4248 Coq.Init.Logic "x = y" not
+R4260 Coq.Init.Logic "x <> y" not
+prf 4277 <> assoc_to_ptree_some
+R4424 Coq.Init.Logic "x = y" not
+R4418 Maps "a ! b" not
+R4400 LibMaps <> assoc_to_ptree def
+R4426 Coq.Init.Datatypes <> Some constr
+R4366 Coq.Init.Logic "x = y" not
+R4368 Coq.Init.Datatypes <> Some constr
+R4373 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4334 Coq.Init.Logic "x = y" not
+R4315 LibLists <> assoc def
+R4336 Coq.Init.Datatypes <> Some constr
+R4631 Maps PTree gss thm
+R4631 Maps PTree gss thm
+R4722 Coqlib <> peq def
+R4722 Coqlib <> peq def
+R4815 Maps PTree gss thm
+R4815 Maps PTree gss thm
+R4850 Maps PTree gso thm
+R4850 Maps PTree gso thm
+prf 4920 <> assoc_to_ptree_other
+R5036 Coq.Init.Logic "x = y" not
+R5030 Maps "a ! b" not
+R5012 LibMaps <> assoc_to_ptree def
+R5040 Maps "a ! b" not
+R4976 Coq.Init.Logic "x <> y" not
+R4979 Coq.Init.Datatypes <> Some constr
+R4984 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5159 Maps PTree gso thm
+R5159 Maps PTree gso thm
+R5227 LibMaps Assoc_to_ptree <> sec
+sec 5252 <> Ptree_to_ptree
+var 5278 Ptree_to_ptree U
+prf 5295 <> ptree_assoc
+R5378 Coq.Init.Logic "x = y" not
+R5347 LibLists <> assoc def
+R5360 Maps PTree elements def
+R5353 Coqlib <> peq def
+R5380 Coq.Init.Datatypes <> Some constr
+R5335 Coq.Init.Logic "x = y" not
+R5331 Maps "a ! b" not
+R5337 Coq.Init.Datatypes <> Some constr
+R5421 Coq.Lists.List <> In_split thm
+R5435 Maps PTree elements_correct thm
+R5421 Coq.Lists.List <> In_split thm
+R5435 Maps PTree elements_correct thm
+R5548 Maps PTree elements_keys_norepet thm
+R5548 Maps PTree elements_keys_norepet thm
+R5595 Maps PTree elements def
+R5595 Maps PTree elements def
+R5808 Coqlib <> peq def
+R5808 Coqlib <> peq def
+R5889 Coq.Init.Logic <> refl_equal constr
+R5889 Coq.Init.Logic <> refl_equal constr
+R5918 Coqlib <> peq def
+R5918 Coqlib <> peq def
+R5981 Coq.Lists.List <> map_app thm
+R5981 Coq.Lists.List <> map_app thm
+R6015 Coq.Lists.List <> in_or_app thm
+R6015 Coq.Lists.List <> in_or_app thm
+var 6041 Ptree_to_ptree V
+var 6060 Ptree_to_ptree f
+R6081 Coq.Init.Datatypes <> option ind
+R6098 Coq.Init.Datatypes "x * y" not
+R6089 Coq.NArith.BinPos <> positive ind
+R6064 Coq.NArith.BinPos <> positive ind
+def 6116 <> ptree_to_ptree
+R6167 Maps PTree t def
+R6182 LibMaps <> assoc_to_ptree def
+R6200 Maps PTree elements def
+R6154 Maps PTree t def
+R6137 Maps PTree t def
+var 6235 Ptree_to_ptree f_func
+R6333 Coq.Init.Logic "A \/ B" not
+R6328 Coq.Init.Logic "x = y" not
+R6338 Coq.Init.Logic "x = y" not
+R6308 Coq.Init.Logic "x = y" not
+R6310 Coq.Init.Datatypes <> Some constr
+R6315 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6266 Coq.Init.Logic "x = y" not
+R6268 Coq.Init.Datatypes <> Some constr
+R6273 Coq.Init.Datatypes "( x , y , .. , z )" not
+prf 6353 <> ptree_to_ptree_some
+R6492 Coq.Init.Logic "x = y" not
+R6486 Maps "a ! b" not
+R6466 LibMaps <> ptree_to_ptree def
+R6494 Coq.Init.Datatypes <> Some constr
+R6431 Coq.Init.Logic "x = y" not
+R6433 Coq.Init.Datatypes <> Some constr
+R6438 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6399 Coq.Init.Logic "x = y" not
+R6395 Maps "a ! b" not
+R6401 Coq.Init.Datatypes <> Some constr
+R6591 Coqlib <> peq def
+R6553 LibMaps <> assoc_to_ptree_some thm
+R6609 LibMaps <> ptree_assoc thm
+R6591 Coqlib <> peq def
+R6553 LibMaps <> assoc_to_ptree_some thm
+R6609 LibMaps <> ptree_assoc thm
+R6609 LibMaps <> ptree_assoc thm
+R6609 LibMaps <> ptree_assoc thm
+prf 6636 <> ptree_to_ptree_other
+R6752 Coq.Init.Logic "x = y" not
+R6746 Maps "a ! b" not
+R6728 LibMaps <> ptree_to_ptree def
+R6756 Maps "a ! b" not
+R6692 Coq.Init.Logic "x <> y" not
+R6695 Coq.Init.Datatypes <> Some constr
+R6700 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6804 LibMaps <> assoc_to_ptree_other thm
+R6804 LibMaps <> assoc_to_ptree_other thm
+R6836 LibMaps Ptree_to_ptree <> sec

@@ -1,0 +1,1088 @@
+FInterm
+R15 Coqlib <> <> lib
+R38 Cplusconcepts <> <> lib
+R68 LibLists <> <> lib
+R93 Tactics <> <> lib
+R117 LibMaps <> <> lib
+R141 Coq.Relations.Relations <> <> lib
+R167 Dynamic <> <> lib
+R191 Events <> <> lib
+R214 IntermSetDynType <> <> lib
+syndef 274 <> var
+R282 Cplusconcepts <> ident def
+sec 318 <> Source
+ind 339 <> path_operation
+constr 368 <> rootpath
+constr 475 <> addbase
+R389 Interm <> path_operation ind
+R383 Cplusconcepts <> ident def
+R533 Interm <> path_operation ind
+R527 Cplusconcepts <> ident def
+R500 Cplusconcepts Class.Inheritance t ind
+R488 Cplusconcepts <> ident def
+var 610 Source A
+R614 BuiltinTypes ATOM t rec
+var 632 Source nativeop
+ind 662 <> callkind
+constr 678 <> NonVirtual
+constr 733 <> Static
+R728 Interm <> callkind ind
+R708 Cplusconcepts MethodSignature t rec
+R695 Cplusconcepts <> ident def
+R753 Interm <> callkind ind
+R747 Cplusconcepts <> ident def
+ind 788 <> stmt
+constr 811 <> skip
+constr 824 <> seq
+constr 849 <> move
+constr 884 <> test
+constr 930 <> block
+constr 997 <> exit
+constr 1059 <> loop
+constr 1086 <> native
+constr 1159 <> ret
+constr 1188 <> call
+constr 1328 <> null
+constr 1415 <> ptreq
+constr 1462 <> getfield
+constr 1554 <> putfield
+constr 1650 <> statcast
+constr 1725 <> dyncast
+constr 1799 <> arrayindex
+constr 1878 <> invoke
+constr 2026 <> pathop
+constr 2099 <> setdyntype
+constr 2335 <> casttobase
+R815 Interm <> stmt ind
+R840 Interm <> stmt ind
+R835 Interm <> stmt ind
+R835 Interm <> stmt ind
+R875 Interm <> stmt ind
+R871 Interm <> var syndef
+R871 Interm <> var syndef
+R921 Interm <> stmt ind
+R916 Interm <> stmt ind
+R916 Interm <> stmt ind
+R897 Interm <> var syndef
+R988 Interm <> stmt ind
+R983 Interm <> stmt ind
+R945 Coq.Init.Datatypes <> option ind
+R959 Coq.Init.Datatypes "x * y" not
+R953 Cplusconcepts <> ident def
+R968 Coq.Init.Datatypes "x * y" not
+R962 Cplusconcepts <> ident def
+R970 Coq.ZArith.BinInt <> Z ind
+R1011 Interm <> stmt ind
+R1007 Coq.Init.Datatypes <> nat ind
+R1077 Interm <> stmt ind
+R1072 Interm <> stmt ind
+R1150 Interm <> stmt ind
+R1139 Coq.Init.Datatypes <> option ind
+R1146 Interm <> var syndef
+R1119 Coq.Lists.List <> list ind
+R1124 Interm <> var syndef
+R1179 Interm <> stmt ind
+R1168 Coq.Init.Datatypes <> option ind
+R1175 Interm <> var syndef
+R1249 Interm <> stmt ind
+R1238 Coq.Init.Datatypes <> option ind
+R1245 Interm <> var syndef
+R1218 Coq.Lists.List <> list ind
+R1223 Interm <> var syndef
+R1199 Interm <> callkind ind
+R1363 Interm <> stmt ind
+R1359 Interm <> var syndef
+R1342 Cplusconcepts <> ident def
+R1453 Interm <> stmt ind
+R1449 Interm <> var syndef
+R1434 Interm <> var syndef
+R1434 Interm <> var syndef
+R1545 Interm <> stmt ind
+R1541 Interm <> var syndef
+R1526 Interm <> var syndef
+R1496 Cplusconcepts FieldSignature t rec
+R1480 Cplusconcepts <> ident def
+R1641 Interm <> stmt ind
+R1637 Interm <> var syndef
+R1618 Cplusconcepts <> ident def
+R1588 Cplusconcepts FieldSignature t rec
+R1572 Cplusconcepts <> ident def
+R1716 Interm <> stmt ind
+R1712 Interm <> var syndef
+R1697 Interm <> var syndef
+R1680 Cplusconcepts <> ident def
+R1667 Cplusconcepts <> ident def
+R1790 Interm <> stmt ind
+R1786 Interm <> var syndef
+R1771 Interm <> var syndef
+R1754 Cplusconcepts <> ident def
+R1741 Cplusconcepts <> ident def
+R1869 Interm <> stmt ind
+R1865 Interm <> var syndef
+R1850 Interm <> var syndef
+R1835 Interm <> var syndef
+R1819 Cplusconcepts <> ident def
+R1982 Interm <> stmt ind
+R1971 Coq.Init.Datatypes <> option ind
+R1978 Interm <> var syndef
+R1951 Coq.Lists.List <> list ind
+R1956 Interm <> var syndef
+R1922 Cplusconcepts MethodSignature t rec
+R1909 Cplusconcepts <> ident def
+R1895 Interm <> var syndef
+R2090 Interm <> stmt ind
+R2086 Interm <> var syndef
+R2064 Coq.Init.Datatypes <> option ind
+R2071 Interm <> var syndef
+R2038 Interm <> path_operation ind
+R2173 Interm <> stmt ind
+R2169 Interm <> var syndef
+R2169 Interm <> var syndef
+R2147 Cplusconcepts <> ident def
+R2132 Coq.Init.Datatypes <> bool ind
+R2432 Interm <> stmt ind
+R2428 Interm <> var syndef
+R2411 Cplusconcepts <> ident def
+R2382 Cplusconcepts Class.Inheritance t ind
+R2367 Cplusconcepts <> ident def
+R2356 Interm <> var syndef
+constr 2584 <> Method_body
+rec 2562 <> method_body
+proj 2606 <> mthis
+proj 2627 <> margs
+proj 2653 <> mcode
+R2614 Interm <> var syndef
+R2635 Coq.Lists.List <> list ind
+R2640 Interm <> var syndef
+R2661 Interm <> stmt ind
+constr 2710 <> Static_fun
+rec 2689 <> static_fun
+proj 2731 <> sargs
+proj 2759 <> scode
+R2741 Coq.Lists.List <> list ind
+R2746 Interm <> var syndef
+R2769 Interm <> stmt ind
+constr 2816 <> Program
+rec 2798 <> program
+proj 2834 <> hierarchy
+proj 2875 <> methods
+proj 2914 <> statics
+proj 2952 <> main
+R2846 Maps PTree t def
+R2855 Cplusconcepts Class t rec
+R2885 Maps PTree t def
+R2893 Interm <> method_body rec
+R2924 Maps PTree t def
+R2932 Interm <> static_fun rec
+R2959 Interm <> stmt ind
+sec 2993 Source Sem
+ind 3017 <> value
+constr 3043 <> Val
+constr 3073 <> Path
+R3062 Interm <> value ind
+R3052 Cplusconcepts Value t ind
+R3132 Interm <> value ind
+R3121 Coq.Lists.List <> list ind
+R3126 Cplusconcepts <> ident def
+R3095 Cplusconcepts Class.Inheritance t ind
+R3083 Cplusconcepts <> ident def
+constr 3246 <> Global
+rec 3223 <> global_state
+proj 3265 <> globals
+proj 3408 <> dynamic_type
+R3275 Cplusconcepts Globals t rec
+R3423 IntermSetDynType <> list_dynamic_type def
+ind 3768 <> frame
+constr 3794 <> Block
+constr 3858 <> Callframe
+R3847 Interm <> frame ind
+R3837 Coq.Lists.List <> list ind
+R3842 Interm <> stmt ind
+R3811 Coq.Init.Datatypes <> option ind
+R3818 Coq.NArith.BinPos <> positive ind
+R3934 Interm <> frame ind
+R3923 Coq.Init.Datatypes <> option ind
+R3930 Interm <> var syndef
+R3900 Maps PTree t def
+R3908 Interm <> value ind
+R3880 Coq.Lists.List <> list ind
+R3885 Interm <> stmt ind
+constr 3979 <> State
+rec 3963 <> state
+proj 3997 <> current
+proj 4023 <> further
+proj 4054 <> vars
+proj 4086 <> stack
+proj 4116 <> global
+R4007 Interm <> stmt ind
+R4033 Coq.Lists.List <> list ind
+R4038 Interm <> stmt ind
+R4061 Maps PTree t def
+R4069 Interm <> value ind
+R4094 Coq.Lists.List <> list ind
+R4099 Interm <> frame ind
+R4125 Interm <> global_state rec
+syndef 4175 <> atom
+R4197 Interm <> Val constr
+R4202 Cplusconcepts Value atom constr
+R4278 Coq.Init.Datatypes <> option ind
+R4285 Interm <> stmt ind
+R4270 Interm <> stmt ind
+R4330 Interm <> exit constr
+R4336 Coq.Init.Datatypes <> S constr
+R4344 Coq.Init.Datatypes <> Some constr
+R4350 Interm <> exit constr
+R4372 Interm <> ret constr
+R4382 Coq.Init.Datatypes <> Some constr
+R4388 Interm <> ret constr
+R4415 Coq.Init.Datatypes <> None constr
+R4270 Interm <> stmt ind
+R4278 Coq.Init.Datatypes <> option ind
+R4285 Interm <> stmt ind
+R4330 Interm <> exit constr
+R4336 Coq.Init.Datatypes <> S constr
+R4344 Coq.Init.Datatypes <> Some constr
+R4350 Interm <> exit constr
+R4372 Interm <> ret constr
+R4382 Coq.Init.Datatypes <> Some constr
+R4388 Interm <> ret constr
+R4415 Coq.Init.Datatypes <> None constr
+R4270 Interm <> stmt ind
+sec 4452 Source.Sem Path_operation_sem
+var 4492 Source.Sem.Path_operation_sem hierarchy
+R4504 Maps PTree t def
+R4513 Cplusconcepts Class t rec
+ind 4546 <> path_operation_sem
+constr 4633 <> path_operation_sem_rootpath
+constr 4831 <> path_operation_sem_addbase
+R4602 Interm <> value ind
+R4585 Coq.Init.Datatypes <> option ind
+R4592 Interm <> value ind
+R4567 Interm <> path_operation ind
+R4718 Interm <> path_operation_sem ind
+R4757 Interm <> Path constr
+R4797 Coq.Lists.List "x :: y" not
+R4800 Coq.Lists.List <> nil constr
+R4766 Cplusconcepts Class.Inheritance Repeated constr
+R4751 Coq.Init.Datatypes <> None constr
+R4738 Interm <> rootpath constr
+R5493 Interm <> path_operation_sem ind
+R5553 Interm <> Path constr
+R5532 Coq.Init.Datatypes <> Some constr
+R5538 Interm <> Path constr
+R5513 Interm <> addbase constr
+R5208 Cplusconcepts Class.Inheritance Repeated constr
+R5238 Coq.Init.Logic "'exists' x , p" not
+R5272 Coq.Init.Logic "A /\ B" not
+R5263 Coq.Init.Logic "x = y" not
+R5258 Maps "a ! b" not
+R5265 Coq.Init.Datatypes <> Some constr
+R5275 Coq.Lists.List <> In def
+R5311 Cplusconcepts Class super proj
+R5278 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5279 Cplusconcepts Class.Inheritance Repeated constr
+R5344 Cplusconcepts Class.Inheritance Shared constr
+R5421 Coq.Init.Logic "A /\ B" not
+R5379 Coq.Init.Logic "x = y" not
+R5372 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5381 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5382 Cplusconcepts Class.Inheritance Repeated constr
+R5413 Coq.Lists.List "x :: y" not
+R5416 Coq.Lists.List <> nil constr
+R5424 Cplusconcepts <> is_virtual_base_of ind
+R4959 Coq.Init.Logic "x = y" not
+R4950 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5008 Cplusconcepts Class.Inheritance Repeated constr
+R5038 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5044 Coq.Lists.List "x ++ y" not
+R5049 Coq.Lists.List "x :: y" not
+R5052 Coq.Lists.List <> nil constr
+R5075 Cplusconcepts Class.Inheritance Shared constr
+R5103 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5104 Cplusconcepts Class.Inheritance Shared constr
+R5132 Coq.Lists.List "x :: y" not
+R5135 Coq.Lists.List <> nil constr
+R4890 Cplusconcepts <> path ind
+R5599 Interm Source.Sem.Path_operation_sem <> sec
+R5688 Maps PTree t def
+R5697 Interm <> value ind
+R5662 Coq.Lists.List <> list ind
+R5667 Cplusconcepts <> ident def
+R5645 Coq.Lists.List <> list ind
+R5650 Interm <> value ind
+R5734 Coq.Lists.List "x :: y" not
+R5744 Coq.Lists.List "x :: y" not
+R5753 Maps PTree set def
+R5770 Interm <> set_params def
+R5800 Maps PTree empty def
+R5813 Interm <> value ind
+R5662 Coq.Lists.List <> list ind
+R5667 Cplusconcepts <> ident def
+R5645 Coq.Lists.List <> list ind
+R5650 Interm <> value ind
+R5645 Coq.Lists.List <> list ind
+R5650 Interm <> value ind
+R5662 Coq.Lists.List <> list ind
+R5667 Cplusconcepts <> ident def
+R5688 Maps PTree t def
+R5697 Interm <> value ind
+R5734 Coq.Lists.List "x :: y" not
+R5744 Coq.Lists.List "x :: y" not
+R5753 Maps PTree set def
+R5770 Interm <> set_params def
+R5800 Maps PTree empty def
+R5813 Interm <> value ind
+var 5845 Source.Sem prog
+R5852 Interm <> program rec
+syndef 5878 <> hierarchy
+R5892 Interm <> hierarchy proj
+var 5942 Source.Sem sem
+R5948 BuiltinTypes <> semparam rec
+var 5986 Source.Sem is_primary_path
+R6018 Coq.Init.Datatypes <> bool ind
+R6004 Coq.Lists.List <> list ind
+R6009 Cplusconcepts <> ident def
+ind 6043 <> initial_state
+constr 6086 <> initial_state_intro
+R6059 Interm <> state rec
+R6118 Interm <> initial_state ind
+R6133 Interm <> State constr
+R6176 Interm <> Global constr
+R6201 Coq.Lists.List <> nil constr
+R6184 Cplusconcepts Globals empty def
+R6171 Coq.Lists.List <> nil constr
+R6156 Maps PTree empty def
+R6151 Coq.Lists.List <> nil constr
+R6140 Interm <> main proj
+ind 6227 <> final_state
+constr 6290 <> final_state_intro
+R6250 Events <> outcome proj
+R6259 BuiltinTypes <> evtr proj
+R6241 Interm <> state rec
+R6426 Interm <> final_state ind
+R6439 Interm <> State constr
+R6467 Coq.Lists.List <> nil constr
+R6446 Interm <> ret constr
+R6451 Coq.Init.Datatypes <> Some constr
+R6397 BuiltinTypes <> outcome_sem proj
+R6353 Coq.Init.Logic "x = y" not
+R6348 Maps "a ! b" not
+R6355 Coq.Init.Datatypes <> Some constr
+R6361 Interm <> Val constr
+R6366 Cplusconcepts Value atom constr
+ind 6515 <> step
+constr 6579 <> step_skip
+constr 6762 <> step_seq
+constr 6951 <> step_move
+constr 7318 <> step_test
+constr 7730 <> step_loop
+constr 7928 <> step_block_None
+constr 8149 <> step_block_Some
+constr 8760 <> step_exit_O
+constr 8948 <> step_exit_S_return_cons
+constr 9439 <> step_return_nil
+constr 9896 <> step_call
+constr 11030 <> step_native
+constr 11811 <> step_null
+constr 12157 <> step_ptreq
+constr 13107 <> step_getfield
+constr 14049 <> step_putfield
+constr 15072 <> step_statcast
+constr 16275 <> step_dyncast
+constr 18035 <> step_invoke
+constr 20136 <> step_arrayindex
+constr 21195 <> step_pathop
+constr 21782 <> step_setdyntype
+constr 22915 <> step_casttobase
+R6551 Interm <> state rec
+R6531 Events <> trace proj
+R6538 BuiltinTypes <> evtr proj
+R6522 Interm <> state rec
+R6635 Interm <> step ind
+R6718 Interm <> State constr
+R6704 Events <> E0 proj
+R6651 Interm <> State constr
+R6667 Coq.Lists.List "x :: y" not
+R6657 Interm <> skip constr
+R6819 Interm <> step ind
+R6900 Interm <> State constr
+R6913 Coq.Lists.List "x :: y" not
+R6886 Events <> E0 proj
+R6835 Interm <> State constr
+R6842 Interm <> seq constr
+R7154 Interm <> step ind
+R7262 Interm <> State constr
+R7268 Interm <> skip constr
+R7242 Events <> E0 proj
+R7176 Interm <> State constr
+R7183 Interm <> move constr
+R7070 Coq.Init.Logic "x = y" not
+R7072 Maps PTree set def
+R7009 Coq.Init.Logic "x = y" not
+R7000 Maps "a ! b" not
+R7011 Coq.Init.Datatypes <> Some constr
+R7578 Interm <> step ind
+R7688 Interm <> State constr
+R7668 Events <> E0 proj
+R7600 Interm <> State constr
+R7607 Interm <> test constr
+R7490 Coq.Init.Logic "x = y" not
+R7443 Coq.Init.Logic "x = y" not
+R7426 BuiltinTypes <> sembool proj
+R7445 Coq.Init.Datatypes <> Some constr
+R7379 Coq.Init.Logic "x = y" not
+R7372 Maps "a ! b" not
+R7381 Coq.Init.Datatypes <> Some constr
+R7388 Interm <> atom syndef
+R7787 Interm <> step ind
+R7868 Interm <> State constr
+R7890 Coq.Lists.List "x :: y" not
+R7880 Interm <> loop constr
+R7854 Events <> E0 proj
+R7803 Interm <> State constr
+R7810 Interm <> loop constr
+R7990 Interm <> step ind
+R8076 Interm <> State constr
+R8111 Coq.Lists.List "x :: y" not
+R8096 Interm <> Block constr
+R8102 Coq.Init.Datatypes <> None constr
+R8086 Coq.Lists.List <> nil constr
+R8062 Events <> E0 proj
+R8006 Interm <> State constr
+R8013 Interm <> block constr
+R8019 Coq.Init.Datatypes <> None constr
+R8550 Interm <> step ind
+R8679 Interm <> State constr
+R8732 Interm <> Global constr
+R8721 Coq.Lists.List "x :: y" not
+R8700 Interm <> Block constr
+R8707 Coq.Init.Datatypes <> Some constr
+R8689 Coq.Lists.List <> nil constr
+R8659 Events <> E0 proj
+R8572 Interm <> State constr
+R8627 Interm <> Global constr
+R8579 Interm <> block constr
+R8586 Coq.Init.Datatypes <> Some constr
+R8591 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8595 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8384 Coq.Init.Logic "x = y" not
+R8386 Maps PTree set def
+R8399 Interm <> Val constr
+R8404 Cplusconcepts Value ptr constr
+R8415 Cplusconcepts Value subobject constr
+R8472 Coq.Lists.List "x :: y" not
+R8475 Coq.Lists.List <> nil constr
+R8441 Cplusconcepts Class.Inheritance Repeated constr
+R8439 Coq.ZArith.BinInt "" not
+R8435 Coq.Lists.List <> nil constr
+R8326 Coq.Init.Logic "x = y" not
+R8305 Cplusconcepts Globals new def
+R8328 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8251 Coq.Init.Logic "x <> y" not
+R8246 Maps "a ! b" not
+R8236 Interm <> hierarchy syndef
+R8254 Coq.Init.Datatypes <> None constr
+R8192 Coq.ZArith.BinInt "x < y" not
+R8190 Coq.ZArith.BinInt "" not
+R8814 Interm <> step ind
+R8892 Interm <> State constr
+R8898 Interm <> skip constr
+R8878 Events <> E0 proj
+R8830 Interm <> State constr
+R8837 Interm <> exit constr
+R8842 Coq.Init.Datatypes <> O constr
+R9260 Interm <> step ind
+R9375 Interm <> State constr
+R9403 Interm <> Global constr
+R9357 Events <> E0 proj
+R9280 Interm <> State constr
+R9327 Interm <> Global constr
+R9316 Coq.Lists.List "x :: y" not
+R9300 Interm <> Block constr
+R9187 Coq.Init.Logic "x = y" not
+R9173 Interm <> exit_succ def
+R9189 Coq.Init.Datatypes <> Some constr
+R9008 Coq.Init.Logic "x = y" not
+R9046 Coq.Init.Datatypes <> None constr
+R9077 Coq.Init.Datatypes <> Some constr
+R9089 Cplusconcepts Globals remove def
+R9740 Interm <> step ind
+R9848 Interm <> State constr
+R9854 Interm <> skip constr
+R9834 Events <> E0 proj
+R9756 Interm <> State constr
+R9806 Coq.Lists.List "x :: y" not
+R9781 Interm <> Callframe constr
+R9763 Interm <> ret constr
+R9529 Coq.Init.Datatypes <> None constr
+R9547 Coq.Init.Logic "A /\ B" not
+R9540 Coq.Init.Logic "x = y" not
+R9542 Coq.Init.Datatypes <> None constr
+R9557 Coq.Init.Logic "x = y" not
+R9579 Coq.Init.Datatypes <> Some constr
+R9590 Coq.Init.Logic "'exists' x , p" not
+R9612 Coq.Init.Logic "A /\ B" not
+R9603 Coq.Init.Logic "x = y" not
+R9605 Coq.Init.Datatypes <> Some constr
+R9615 Coq.Init.Logic "'exists' x , p" not
+R9647 Coq.Init.Logic "A /\ B" not
+R9636 Coq.Init.Logic "x = y" not
+R9632 Maps "a ! b" not
+R9638 Coq.Init.Datatypes <> Some constr
+R9657 Coq.Init.Logic "x = y" not
+R9659 Maps PTree set def
+R10829 Interm <> step ind
+R10945 Interm <> State constr
+R10992 Coq.Lists.List "x :: y" not
+R10968 Interm <> Callframe constr
+R10957 Coq.Lists.List <> nil constr
+R10923 Events <> E0 proj
+R10853 Interm <> State constr
+R10860 Interm <> call constr
+R10737 Coq.Init.Logic "x = y" not
+R10739 Interm <> set_params def
+R10103 Interm <> Static constr
+R10135 Coq.Init.Logic "'exists' x , p" not
+R10175 Coq.Init.Logic "A /\ B" not
+R10166 Coq.Init.Logic "x = y" not
+R10158 Maps "a ! b" not
+R10146 Interm <> statics proj
+R10168 Coq.Init.Datatypes <> Some constr
+R10215 Coq.Init.Logic "A /\ B" not
+R10205 Coq.Init.Logic "x = y" not
+R10207 Interm <> sargs proj
+R10244 Coq.Init.Logic "x = y" not
+R10246 Interm <> scode proj
+R10272 Interm <> NonVirtual constr
+R10310 Coq.Init.Logic "'exists' x , p" not
+R10344 Coq.Init.Logic "A /\ B" not
+R10335 Coq.Init.Logic "x = y" not
+R10330 Maps "a ! b" not
+R10320 Interm <> hierarchy syndef
+R10337 Coq.Init.Datatypes <> Some constr
+R10367 Coq.Init.Logic "'exists' x , p" not
+R10419 Coq.Init.Logic "A /\ B" not
+R10410 Coq.Init.Logic "x = y" not
+R10377 Cplusconcepts Method find def
+R10393 Cplusconcepts Class methods proj
+R10412 Coq.Init.Datatypes <> Some constr
+R10444 Coq.Init.Logic "'exists' x , p" not
+R10492 Coq.Init.Logic "A /\ B" not
+R10470 Coq.Init.Logic "x = y" not
+R10456 Cplusconcepts Method kind proj
+R10472 Cplusconcepts Method concrete constr
+R10519 Coq.Init.Logic "'exists' x , p" not
+R10561 Coq.Init.Logic "A /\ B" not
+R10551 Coq.Init.Logic "x = y" not
+R10543 Maps "a ! b" not
+R10531 Interm <> methods proj
+R10553 Coq.Init.Datatypes <> Some constr
+R10620 Coq.Init.Logic "A /\ B" not
+R10597 Coq.Init.Logic "x = y" not
+R10608 Coq.Lists.List "x :: y" not
+R10599 Interm <> mthis proj
+R10611 Interm <> margs proj
+R10655 Coq.Init.Logic "x = y" not
+R10657 Interm <> mcode proj
+R9974 Coq.Init.Logic "x = y" not
+R9955 Coq.Lists.List <> map def
+R9961 Coq.Init.Datatypes <> Some constr
+R9976 Coq.Lists.List <> map def
+R9990 Maps PTree get def
+R11619 Interm <> step ind
+R11737 Interm <> State constr
+R11743 Interm <> skip constr
+R11643 Interm <> State constr
+R11650 Interm <> native constr
+R11384 Coq.Init.Datatypes <> None constr
+R11405 Coq.Init.Logic "A /\ B" not
+R11398 Coq.Init.Logic "x = y" not
+R11415 Coq.Init.Logic "x = y" not
+R11417 Coq.Init.Datatypes <> None constr
+R11438 Coq.Init.Datatypes <> Some constr
+R11444 Coq.Init.Specif <> existT constr
+R11463 Coq.Init.Logic "'exists' x , p" not
+R11495 Coq.Init.Logic "A /\ B" not
+R11483 Coq.Init.Logic "x = y" not
+R11485 Coq.Init.Datatypes <> Some constr
+R11504 Coq.Init.Logic "x = y" not
+R11506 Maps PTree set def
+R11522 Interm <> atom syndef
+R11276 BuiltinTypes <> nativeop_sem proj
+R11173 Coq.Init.Logic "x = y" not
+R11087 Coq.Lists.List <> map def
+R11149 Coq.Init.Datatypes <> Some constr
+R11155 Interm <> atom syndef
+R11100 Coq.Init.Specif <> sigT ind
+R11106 BuiltinTypes ATOM val proj
+R11194 Coq.Lists.List <> map def
+R11208 Maps PTree get def
+R11988 Interm <> step ind
+R12089 Interm <> State constr
+R12095 Interm <> skip constr
+R12071 Events <> E0 proj
+R12008 Interm <> State constr
+R12015 Interm <> null constr
+R11871 Coq.Init.Logic "x = y" not
+R11873 Maps PTree set def
+R11891 Interm <> Val constr
+R11896 Cplusconcepts Value ptr constr
+R11907 Cplusconcepts Value null constr
+R12912 Interm <> step ind
+R13033 Interm <> State constr
+R13061 Interm <> Global constr
+R13039 Interm <> skip constr
+R13013 Events <> E0 proj
+R12934 Interm <> State constr
+R12977 Interm <> Global constr
+R12941 Interm <> ptreq constr
+R12594 Coq.Init.Logic "x = y" not
+R12596 Maps PTree set def
+R12631 Cplusconcepts Value pointer_eq_dec thm
+R12787 Interm <> atom syndef
+R12825 BuiltinTypes <> FALSE proj
+R12793 BuiltinTypes <> tyFALSE proj
+R12701 Interm <> atom syndef
+R12738 BuiltinTypes <> TRUE proj
+R12707 BuiltinTypes <> tyTRUE proj
+R12509 Coq.Init.Logic "x = y" not
+R12478 Cplusconcepts Value type_of def
+R12493 Cplusconcepts Value ptr constr
+R12511 Cplusconcepts Value type_of def
+R12526 Cplusconcepts Value ptr constr
+R12414 Cplusconcepts <> valid_pointer ind
+R12439 Cplusconcepts Globals heap proj
+R12428 Interm <> hierarchy syndef
+R12371 Coq.Init.Logic "x = y" not
+R12366 Maps "a ! b" not
+R12373 Coq.Init.Datatypes <> Some constr
+R12379 Interm <> Val constr
+R12384 Cplusconcepts Value ptr constr
+R12273 Cplusconcepts <> valid_pointer ind
+R12298 Cplusconcepts Globals heap proj
+R12287 Interm <> hierarchy syndef
+R12209 Coq.Init.Logic "x = y" not
+R12204 Maps "a ! b" not
+R12211 Coq.Init.Datatypes <> Some constr
+R12217 Interm <> Val constr
+R12222 Cplusconcepts Value ptr constr
+R13817 Interm <> step ind
+R13975 Interm <> State constr
+R14003 Interm <> Global constr
+R13981 Interm <> skip constr
+R13947 Events <> E0 proj
+R13847 Interm <> State constr
+R13903 Interm <> Global constr
+R13854 Interm <> getfield constr
+R13714 Coq.Init.Logic "x = y" not
+R13716 Maps PTree set def
+R13734 Interm <> Val constr
+R13637 Coq.Init.Logic "x = y" not
+R13564 Cplusconcepts Globals get_field def
+R13612 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13625 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13583 Cplusconcepts Globals field_values proj
+R13639 Coq.Init.Datatypes <> Some constr
+R13498 Coq.Lists.List <> In def
+R13505 Cplusconcepts Class fields proj
+R13461 Coq.Init.Logic "x = y" not
+R13453 Maps "a ! b" not
+R13443 Interm <> hierarchy syndef
+R13463 Coq.Init.Datatypes <> Some constr
+R13405 Coq.Init.Logic "x = y" not
+R13398 LibLists <> last def
+R13407 Coq.Init.Datatypes <> Some constr
+R13279 Cplusconcepts <> valid_pointer ind
+R13326 Cplusconcepts Value subobject constr
+R13304 Cplusconcepts Globals heap proj
+R13293 Interm <> hierarchy syndef
+R13181 Coq.Init.Logic "x = y" not
+R13172 Maps "a ! b" not
+R13183 Coq.Init.Datatypes <> Some constr
+R13189 Interm <> Val constr
+R13194 Cplusconcepts Value ptr constr
+R13206 Cplusconcepts Value subobject constr
+R14834 Interm <> step ind
+R14994 Interm <> State constr
+R15021 Interm <> Global constr
+R15000 Interm <> skip constr
+R14966 Events <> E0 proj
+R14864 Interm <> State constr
+R14922 Interm <> Global constr
+R14871 Interm <> putfield constr
+R14736 Coq.Init.Logic "x = y" not
+R14738 Cplusconcepts Globals update def
+R14679 Coq.Init.Logic "x = y" not
+R14604 Cplusconcepts Globals put_field def
+R14652 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14665 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14623 Cplusconcepts Globals field_values proj
+R14681 Coq.Init.Datatypes <> Some constr
+R14533 Coq.Init.Logic "x = y" not
+R14522 Maps "a ! b" not
+R14535 Coq.Init.Datatypes <> Some constr
+R14541 Interm <> Val constr
+R14434 Coq.Lists.List <> In def
+R14441 Cplusconcepts Class fields proj
+R14395 Coq.Init.Logic "x = y" not
+R14387 Maps "a ! b" not
+R14377 Interm <> hierarchy syndef
+R14397 Coq.Init.Datatypes <> Some constr
+R14337 Coq.Init.Logic "x = y" not
+R14330 LibLists <> last def
+R14339 Coq.Init.Datatypes <> Some constr
+R14221 Cplusconcepts <> valid_pointer ind
+R14268 Cplusconcepts Value subobject constr
+R14246 Cplusconcepts Globals heap proj
+R14235 Interm <> hierarchy syndef
+R14123 Coq.Init.Logic "x = y" not
+R14114 Maps "a ! b" not
+R14125 Coq.Init.Datatypes <> Some constr
+R14131 Interm <> Val constr
+R14136 Cplusconcepts Value ptr constr
+R14148 Cplusconcepts Value subobject constr
+R16041 Interm <> step ind
+R16197 Interm <> State constr
+R16225 Interm <> Global constr
+R16203 Interm <> skip constr
+R16169 Events <> E0 proj
+R16071 Interm <> State constr
+R16126 Interm <> Global constr
+R16078 Interm <> statcast constr
+R15891 Coq.Init.Logic "x = y" not
+R15893 Maps PTree set def
+R15911 Interm <> Val constr
+R15916 Cplusconcepts Value ptr constr
+R15928 Cplusconcepts Value subobject constr
+R15774 Cplusconcepts <> static_cast ind
+R15786 Interm <> hierarchy syndef
+R15630 Cplusconcepts <> valid_relative_pointer ind
+R15681 Cplusconcepts Object arraysize proj
+R15664 Cplusconcepts Object class proj
+R15653 Interm <> hierarchy syndef
+R15570 Coq.Init.Logic "x = y" not
+R15562 Maps "a ! b" not
+R15543 Cplusconcepts Globals heap proj
+R15572 Coq.Init.Datatypes <> Some constr
+R15296 Coq.Init.Logic "x <> y" not
+R15244 LibLists <> assoc def
+R15270 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15276 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15284 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15252 Cplusconcepts <> pointer_eq_dec thm
+R15299 Coq.Init.Datatypes <> None constr
+R15148 Coq.Init.Logic "x = y" not
+R15139 Maps "a ! b" not
+R15150 Coq.Init.Datatypes <> Some constr
+R15156 Interm <> Val constr
+R15161 Cplusconcepts Value ptr constr
+R15173 Cplusconcepts Value subobject constr
+R17807 Interm <> step ind
+R17963 Interm <> State constr
+R17991 Interm <> Global constr
+R17969 Interm <> skip constr
+R17935 Events <> E0 proj
+R17837 Interm <> State constr
+R17891 Interm <> Global constr
+R17844 Interm <> dyncast constr
+R17690 Coq.Init.Logic "x = y" not
+R17692 Maps PTree set def
+R17710 Interm <> Val constr
+R17715 Cplusconcepts Value ptr constr
+R17498 Coq.Init.Logic <> False ind
+R17464 Cplusconcepts <> path ind
+R17469 Interm <> hierarchy syndef
+R17405 Coq.Init.Logic "x = y" not
+R17408 Cplusconcepts Value null constr
+R17388 Coq.Init.Logic <> False ind
+R17337 Cplusconcepts <> dynamic_cast ind
+R17350 Interm <> hierarchy syndef
+R17161 Coq.Init.Logic "'exists' x , p" not
+R17172 Coq.Init.Logic "'exists' x , p" not
+R17219 Coq.Init.Logic "A /\ B" not
+R17192 Coq.Init.Logic "x = y" not
+R17183 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17194 Cplusconcepts <> concat def
+R17210 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17201 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17222 Coq.Init.Logic "'exists' x , p" not
+R17241 Coq.Init.Logic "x = y" not
+R17245 Cplusconcepts Value subobject constr
+R17110 Cplusconcepts <> dynamic_cast ind
+R17123 Interm <> hierarchy syndef
+R16953 Dynamic <> is_dynamic ind
+R16964 Interm <> hierarchy syndef
+R16922 Coq.Init.Logic "x = y" not
+R16915 LibLists <> last def
+R16924 Coq.Init.Datatypes <> Some constr
+R16846 Coq.Init.Logic "x = y" not
+R16838 LibLists <> last def
+R16848 Coq.Init.Datatypes <> Some constr
+R16635 Coq.Init.Logic "x = y" not
+R16583 LibLists <> assoc def
+R16609 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16615 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16623 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16591 Cplusconcepts <> pointer_eq_dec thm
+R16637 Coq.Init.Datatypes <> Some constr
+R16642 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16643 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16653 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16452 Cplusconcepts <> valid_pointer ind
+R16500 Cplusconcepts Value subobject constr
+R16477 Cplusconcepts Globals heap proj
+R16466 Interm <> hierarchy syndef
+R16350 Coq.Init.Logic "x = y" not
+R16341 Maps "a ! b" not
+R16352 Coq.Init.Datatypes <> Some constr
+R16358 Interm <> Val constr
+R16363 Cplusconcepts Value ptr constr
+R16375 Cplusconcepts Value subobject constr
+R19797 Interm <> step ind
+R19998 Interm <> State constr
+R20055 Interm <> Global constr
+R20044 Coq.Lists.List "x :: y" not
+R20020 Interm <> Callframe constr
+R20009 Coq.Lists.List <> nil constr
+R19956 Events <> E0 proj
+R19841 Interm <> State constr
+R19898 Interm <> Global constr
+R19848 Interm <> invoke constr
+R19685 Coq.Init.Logic "x = y" not
+R19687 Interm <> mcode proj
+R19531 Coq.Init.Logic "x = y" not
+R19533 Interm <> set_params def
+R19617 Coq.Lists.List "x :: y" not
+R19608 Interm <> mthis proj
+R19620 Interm <> margs proj
+R19598 Coq.Lists.List "x :: y" not
+R19545 Interm <> Val constr
+R19550 Cplusconcepts Value ptr constr
+R19561 Cplusconcepts Value subobject constr
+R19415 Coq.Init.Logic "x = y" not
+R19406 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19417 Cplusconcepts <> concat def
+R19433 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19424 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19295 Coq.Init.Logic "x = y" not
+R19276 Coq.Lists.List <> map def
+R19282 Coq.Init.Datatypes <> Some constr
+R19297 Coq.Lists.List <> map def
+R19316 Maps "a ! b" not
+R19186 Coq.Init.Logic "x = y" not
+R19178 Maps "a ! b" not
+R19166 Interm <> methods proj
+R19188 Coq.Init.Datatypes <> Some constr
+R19103 Coq.Init.Logic "x = y" not
+R19089 Cplusconcepts Method kind proj
+R19105 Cplusconcepts Method concrete constr
+R19041 Coq.Init.Logic "x = y" not
+R19007 Cplusconcepts Method find def
+R19023 Cplusconcepts Class methods proj
+R19043 Coq.Init.Datatypes <> Some constr
+R18962 Coq.Init.Logic "x = y" not
+R18956 Maps "a ! b" not
+R18946 Interm <> hierarchy syndef
+R18964 Coq.Init.Datatypes <> Some constr
+R18877 Coq.Init.Logic "x = y" not
+R18869 LibLists <> last def
+R18879 Coq.Init.Datatypes <> Some constr
+R18761 Cplusconcepts <> method_dispatch ind
+R18777 Interm <> hierarchy syndef
+R18691 Coq.Init.Logic "x = y" not
+R18684 LibLists <> last def
+R18693 Coq.Init.Datatypes <> Some constr
+R18611 Coq.Init.Logic "x = y" not
+R18603 LibLists <> last def
+R18613 Coq.Init.Datatypes <> Some constr
+R18343 Cplusconcepts <> valid_pointer ind
+R18391 Cplusconcepts Value subobject constr
+R18368 Cplusconcepts Globals heap proj
+R18357 Interm <> hierarchy syndef
+R18271 Coq.Init.Logic "x = y" not
+R18219 LibLists <> assoc def
+R18245 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18251 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18259 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18227 Cplusconcepts <> pointer_eq_dec thm
+R18273 Coq.Init.Datatypes <> Some constr
+R18278 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18279 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18289 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18109 Coq.Init.Logic "x = y" not
+R18100 Maps "a ! b" not
+R18111 Coq.Init.Datatypes <> Some constr
+R18117 Interm <> Val constr
+R18122 Cplusconcepts Value ptr constr
+R18134 Cplusconcepts Value subobject constr
+R20949 Interm <> step ind
+R21100 Interm <> State constr
+R21128 Interm <> Global constr
+R21106 Interm <> skip constr
+R21076 Events <> E0 proj
+R20975 Interm <> State constr
+R21036 Interm <> Global constr
+R20982 Interm <> arrayindex constr
+R20779 Coq.Init.Logic "x = y" not
+R20781 Maps PTree set def
+R20799 Interm <> Val constr
+R20804 Cplusconcepts Value ptr constr
+R20815 Cplusconcepts Value subobject constr
+R20846 Cplusconcepts Class.Inheritance Repeated constr
+R20841 Coq.ZArith.BinInt "x + y" not
+R20706 Coq.ZArith.BinInt "x <= y < z" not
+R20704 Coq.ZArith.BinInt "" not
+R20711 Coq.ZArith.BinInt "x + y" not
+R20711 Coq.ZArith.BinInt "x + y" not
+R20678 Coq.Init.Logic "x = y" not
+R20665 BuiltinTypes <> semZ proj
+R20680 Coq.Init.Datatypes <> Some constr
+R20592 Coq.Init.Logic "x = y" not
+R20584 Maps "a ! b" not
+R20594 Coq.Init.Datatypes <> Some constr
+R20600 Interm <> Val constr
+R20605 Cplusconcepts Value atom constr
+R20535 Coq.ZArith.BinInt "x <= y < z" not
+R20533 Coq.ZArith.BinInt "" not
+R20443 Cplusconcepts <> valid_array_path ind
+R20497 Cplusconcepts Object arraysize proj
+R20480 Cplusconcepts Object class proj
+R20460 Interm <> hierarchy syndef
+R20421 Coq.Init.Logic "x = y" not
+R20413 Maps "a ! b" not
+R20394 Cplusconcepts Globals heap proj
+R20423 Coq.Init.Datatypes <> Some constr
+R20216 Coq.Init.Logic "x = y" not
+R20207 Maps "a ! b" not
+R20218 Coq.Init.Datatypes <> Some constr
+R20224 Interm <> Val constr
+R20229 Cplusconcepts Value ptr constr
+R20241 Cplusconcepts Value subobject constr
+R20302 Coq.Lists.List "x :: y" not
+R20305 Coq.Lists.List <> nil constr
+R20268 Cplusconcepts Class.Inheritance Repeated constr
+R21618 Interm <> step ind
+R21736 Interm <> State constr
+R21742 Interm <> skip constr
+R21714 Events <> E0 proj
+R21642 Interm <> State constr
+R21649 Interm <> pathop constr
+R21527 Coq.Init.Logic "x = y" not
+R21529 Maps PTree set def
+R21428 Interm <> path_operation_sem ind
+R21447 Interm <> hierarchy syndef
+R21272 Coq.Init.Datatypes <> None constr
+R21285 Coq.Init.Logic "x = y" not
+R21287 Coq.Init.Datatypes <> None constr
+R21306 Coq.Init.Datatypes <> Some constr
+R21318 Coq.Init.Logic "'exists' x , p" not
+R21352 Coq.Init.Logic "A /\ B" not
+R21341 Coq.Init.Logic "x = y" not
+R21335 Maps "a ! b" not
+R21343 Coq.Init.Datatypes <> Some constr
+R21360 Coq.Init.Logic "x = y" not
+R21362 Coq.Init.Datatypes <> Some constr
+R22698 Interm <> step ind
+R22860 Interm <> State constr
+R22887 Interm <> Global constr
+R22866 Interm <> skip constr
+R22834 Events <> E0 proj
+R22726 Interm <> State constr
+R22796 Interm <> Global constr
+R22733 Interm <> setdyntype constr
+R22551 Coq.Init.Logic "A \/ B" not
+R22507 Coq.Init.Logic "x = y" not
+R22500 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22509 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22510 Cplusconcepts Class.Inheritance Repeated constr
+R22543 Coq.Lists.List "x :: y" not
+R22546 Coq.Lists.List <> nil constr
+R22604 Coq.Init.Logic <> False ind
+R22565 Cplusconcepts <> is_virtual_base_of ind
+R22584 Interm <> hierarchy syndef
+R22466 Coq.Init.Logic "x = y" not
+R22468 Coq.Init.Datatypes <> true constr
+R22258 IntermSetDynType <> set_dynamic_type ind
+R22301 IntermSetDynType <> erase_non_primary_ancestor_dynamic_type def
+R22276 Interm <> hierarchy syndef
+R22167 Coq.Init.Logic "x = y" not
+R22159 Maps "a ! b" not
+R22169 Coq.Init.Datatypes <> Some constr
+R22175 Interm <> Path constr
+R22033 Cplusconcepts <> valid_relative_pointer ind
+R22084 Cplusconcepts Object arraysize proj
+R22067 Cplusconcepts Object class proj
+R22056 Interm <> hierarchy syndef
+R21977 Coq.Init.Logic "x = y" not
+R21969 Maps "a ! b" not
+R21954 Cplusconcepts Globals heap proj
+R21979 Coq.Init.Datatypes <> Some constr
+R21856 Coq.Init.Logic "x = y" not
+R21849 Maps "a ! b" not
+R21858 Coq.Init.Datatypes <> Some constr
+R21864 Interm <> Val constr
+R21869 Cplusconcepts Value ptr constr
+R21880 Cplusconcepts Value subobject constr
+R23845 Interm <> step ind
+R23988 Interm <> State constr
+R24016 Interm <> Global constr
+R23994 Interm <> skip constr
+R23966 Events <> E0 proj
+R23869 Interm <> State constr
+R23928 Interm <> Global constr
+R23876 Interm <> casttobase constr
+R23707 Coq.Init.Logic "x = y" not
+R23709 Maps PTree set def
+R23727 Interm <> Val constr
+R23732 Cplusconcepts Value ptr constr
+R23743 Cplusconcepts Value subobject constr
+R23304 Cplusconcepts Class.Inheritance Shared constr
+R23368 Coq.Init.Logic "A /\ B" not
+R23332 Cplusconcepts <> is_virtual_base_of ind
+R23351 Interm <> hierarchy syndef
+R23402 Coq.Init.Logic "A /\ B" not
+R23373 Coq.Init.Logic "x = y" not
+R23375 Cplusconcepts Class.Inheritance Repeated constr
+R23421 Coq.Init.Logic "A /\ B" not
+R23407 Coq.Init.Logic "x = y" not
+R23414 Coq.Lists.List "x :: y" not
+R23417 Coq.Lists.List <> nil constr
+R23454 Coq.Init.Logic "A /\ B" not
+R23427 Coq.Init.Logic "x = y" not
+R23429 Cplusconcepts Class.Inheritance Shared constr
+R23460 Coq.Init.Logic "x = y" not
+R23464 Coq.Lists.List "x :: y" not
+R23467 Coq.Lists.List <> nil constr
+R23489 Cplusconcepts Class.Inheritance Repeated constr
+R23526 Coq.Init.Logic "A /\ B" not
+R23522 Coq.Init.Logic "x = y" not
+R23548 Coq.Init.Logic "A /\ B" not
+R23532 Coq.Init.Logic "x = y" not
+R23536 Coq.Lists.List "x ++ y" not
+R23541 Coq.Lists.List "x :: y" not
+R23544 Coq.Lists.List <> nil constr
+R23551 Coq.Init.Logic "'exists' x , p" not
+R23587 Coq.Init.Logic "A /\ B" not
+R23578 Coq.Init.Logic "x = y" not
+R23571 Maps "a ! b" not
+R23561 Interm <> hierarchy syndef
+R23580 Coq.Init.Datatypes <> Some constr
+R23590 Coq.Lists.List <> In def
+R23626 Cplusconcepts Class super proj
+R23593 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23594 Cplusconcepts Class.Inheritance Repeated constr
+R23208 Coq.Init.Logic "x = y" not
+R23201 LibLists <> last def
+R23210 Coq.Init.Datatypes <> Some constr
+R23086 Cplusconcepts <> valid_pointer ind
+R23134 Cplusconcepts Value subobject constr
+R23111 Cplusconcepts Globals heap proj
+R23100 Interm <> hierarchy syndef
+R22989 Coq.Init.Logic "x = y" not
+R22982 Maps "a ! b" not
+R22991 Coq.Init.Datatypes <> Some constr
+R22997 Interm <> Val constr
+R23002 Cplusconcepts Value ptr constr
+R23013 Cplusconcepts Value subobject constr
+R24074 Interm Source.Sem <> sec
+R24088 Interm Source <> sec

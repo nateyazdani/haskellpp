@@ -1,0 +1,3291 @@
+FInvariant
+R15 Coq.Relations.Relations <> <> lib
+R41 Coqlib <> <> lib
+R64 LibPos <> <> lib
+R87 Maps <> <> lib
+R108 LibLists <> <> lib
+R133 Cppsem <> <> lib
+R156 Cplusconcepts <> <> lib
+R186 Events <> <> lib
+R209 SubobjectOrdering <> <> lib
+prf 390 <> cs_le_dec
+R418 Coq.Init.Specif "{ A } + { B }" not
+R419 Cppsem "( a '=<' b )" not
+R434 Coq.Init.Logic "~ x" not
+R436 Cppsem "( a '=<' b )" not
+R479 Coq.ZArith.ZArith_dec <> Z_le_dec def
+R479 Coq.ZArith.ZArith_dec <> Z_le_dec def
+prf 561 <> cs_le_dec_2
+R591 Coq.Init.Specif "{ A } + { B }" not
+R592 Cppsem "( a '=<' b )" not
+R607 Cppsem "( a '<<' b )" not
+R649 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R649 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+prf 674 <> decidable_solve
+R819 Coq.Init.Logic <> False ind
+R809 Coq.Init.Logic <> True ind
+R754 Coq.Init.Specif "{ A } + { B }" not
+R767 Coq.Init.Logic "~ x" not
+R938 Invariant <> decidable_solve thm
+sec 1014 <> Invar
+var 1031 Invar A
+R1035 BuiltinTypes ATOM t rec
+var 1052 Invar nativeop
+var 1078 Invar sem
+R1084 BuiltinTypes <> semparam rec
+def 1109 <> evtr
+R1117 BuiltinTypes <> evtr proj
+def 1131 <> trace
+R1140 Events <> trace proj
+var 1163 Invar prog
+R1170 Cppsem Program t rec
+syndef 1201 <> hier
+R1210 Cppsem Program hierarchy proj
+prf 1244 <> NoDup_repeated_bases
+R1288 Coq.Lists.List <> NoDup ind
+R1295 Coq.Lists.List <> map def
+R1381 Coq.Lists.List <> filter def
+R1459 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1460 Cplusconcepts Class.Inheritance Repeated constr
+R1494 Coq.Init.Datatypes <> true constr
+R1522 Coq.Init.Datatypes <> false constr
+R1401 Coq.Init.Datatypes "x * y" not
+R1403 Cplusconcepts <> ident def
+R1330 Coq.Init.Datatypes "x * y" not
+R1310 Cplusconcepts Class.Inheritance t ind
+R1332 Cplusconcepts <> ident def
+R1277 Coq.Lists.List <> NoDup ind
+R1578 LibLists <> norepet_NoDup thm
+R1578 LibLists <> norepet_NoDup thm
+R1601 Coqlib <> list_map_norepet thm
+R1601 Coqlib <> list_map_norepet thm
+R1627 LibLists <> NoDup_norepet thm
+R1627 LibLists <> NoDup_norepet thm
+R1650 LibLists <> NoDup_filter_compat thm
+R1650 LibLists <> NoDup_filter_compat thm
+R1715 Coq.Lists.List <> filter_In thm
+R1843 Cplusconcepts Class.Inheritance Repeated constr
+R1873 Coq.Init.Datatypes <> true constr
+R1893 Cplusconcepts Class.Inheritance Shared constr
+R1921 Coq.Init.Datatypes <> false constr
+R1757 Coq.Init.Datatypes "x * y" not
+R1737 Cplusconcepts Class.Inheritance t ind
+R1759 Cplusconcepts <> ident def
+R1715 Coq.Lists.List <> filter_In thm
+R1843 Cplusconcepts Class.Inheritance Repeated constr
+R1873 Coq.Init.Datatypes <> true constr
+R1893 Cplusconcepts Class.Inheritance Shared constr
+R1921 Coq.Init.Datatypes <> false constr
+R1757 Coq.Init.Datatypes "x * y" not
+R1737 Cplusconcepts Class.Inheritance t ind
+R1759 Cplusconcepts <> ident def
+R2046 Coq.Lists.List <> filter_In thm
+R2174 Cplusconcepts Class.Inheritance Repeated constr
+R2204 Coq.Init.Datatypes <> true constr
+R2224 Cplusconcepts Class.Inheritance Shared constr
+R2252 Coq.Init.Datatypes <> false constr
+R2088 Coq.Init.Datatypes "x * y" not
+R2068 Cplusconcepts Class.Inheritance t ind
+R2090 Cplusconcepts <> ident def
+R2046 Coq.Lists.List <> filter_In thm
+R2174 Cplusconcepts Class.Inheritance Repeated constr
+R2204 Coq.Init.Datatypes <> true constr
+R2224 Cplusconcepts Class.Inheritance Shared constr
+R2252 Coq.Init.Datatypes <> false constr
+R2088 Coq.Init.Datatypes "x * y" not
+R2068 Cplusconcepts Class.Inheritance t ind
+R2090 Cplusconcepts <> ident def
+R2376 Cppsem StackFrame t ind
+R2432 Cppsem StackFrame Kcontinue constr
+R2466 Coq.Init.Logic <> True ind
+R2477 Cppsem StackFrame Kreturnfromcall constr
+R2515 Coq.Init.Logic <> True ind
+R2531 Coq.Init.Logic <> False ind
+R2376 Cppsem StackFrame t ind
+R2432 Cppsem StackFrame Kcontinue constr
+R2466 Coq.Init.Logic <> True ind
+R2477 Cppsem StackFrame Kreturnfromcall constr
+R2515 Coq.Init.Logic <> True ind
+R2531 Coq.Init.Logic <> False ind
+R2376 Cppsem StackFrame t ind
+prf 2552 <> is_code_frame_dec
+R2597 Coq.Init.Specif "{ A } + { B }" not
+R2598 Invariant <> is_code_frame def
+R2618 Coq.Init.Logic "~ x" not
+R2620 Invariant <> is_code_frame def
+R2679 Coq.Init.Logic <> I constr
+R2679 Coq.Init.Logic <> I constr
+R2679 Coq.Init.Logic <> I constr
+R2679 Coq.Init.Logic <> I constr
+R2679 Coq.Init.Logic <> I constr
+R2679 Coq.Init.Logic <> I constr
+R2679 Coq.Init.Logic <> I constr
+R2679 Coq.Init.Logic <> I constr
+R2679 Coq.Init.Logic <> I constr
+R2679 Coq.Init.Logic <> I constr
+R2749 Cppsem State state_kind ind
+R2809 Cppsem State codepoint constr
+R2836 Coq.Init.Logic <> True ind
+R2852 Coq.Init.Logic <> False ind
+R2749 Cppsem State state_kind ind
+R2809 Cppsem State codepoint constr
+R2836 Coq.Init.Logic <> True ind
+R2852 Coq.Init.Logic <> False ind
+R2749 Cppsem State state_kind ind
+R2900 Cppsem StackFrame t ind
+R2956 Cppsem StackFrame Kconstr constr
+R3000 Coq.Init.Logic <> True ind
+R3011 Cppsem StackFrame Kconstrarray constr
+R3050 Coq.Init.Logic <> True ind
+R3061 Cppsem StackFrame Kdestr constr
+R3090 Coq.Init.Logic <> True ind
+R3106 Coq.Init.Logic <> False ind
+R2900 Cppsem StackFrame t ind
+R2956 Cppsem StackFrame Kconstr constr
+R3000 Coq.Init.Logic <> True ind
+R3011 Cppsem StackFrame Kconstrarray constr
+R3050 Coq.Init.Logic <> True ind
+R3061 Cppsem StackFrame Kdestr constr
+R3090 Coq.Init.Logic <> True ind
+R3106 Coq.Init.Logic <> False ind
+R2900 Cppsem StackFrame t ind
+R3409 Cppsem StackFrame t ind
+R3389 Cplusconcepts <> array_path def
+R3376 Cplusconcepts <> ident def
+R3478 Cppsem StackFrame Kconstrother constr
+R3514 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3531 Cppsem Constructor field constr
+R3549 Coq.Init.Datatypes <> tt constr
+R3592 Coq.Init.Logic "A /\ B" not
+R3585 Coq.Init.Logic "x = y" not
+R3601 Coq.Init.Logic "'exists' x , p" not
+R3630 Coq.Init.Logic "A /\ B" not
+R3620 Coq.Init.Logic "x = y" not
+R3612 LibLists <> last def
+R3622 Coq.Init.Datatypes <> Some constr
+R3641 Coq.Init.Logic "'exists' x , p" not
+R3670 Coq.Init.Logic "A /\ B" not
+R3661 Coq.Init.Logic "x = y" not
+R3656 Maps "a ! b" not
+R3651 Invariant <> hier syndef
+R3663 Coq.Init.Datatypes <> Some constr
+R3683 Coq.Init.Logic "'exists' x , p" not
+R3740 Coq.Init.Logic "A /\ B" not
+R3709 Coq.Init.Logic "x = y" not
+R3694 Cplusconcepts Class fields proj
+R3714 Coq.Lists.List "x ++ y" not
+R3723 Coq.Lists.List "x :: y" not
+R3758 Coq.Init.Logic "x = y" not
+R3764 Coq.Lists.List "x ++ y" not
+R3789 Coq.Lists.List "x :: y" not
+R3767 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3772 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3792 Coq.Lists.List <> nil constr
+R3802 Cppsem StackFrame Kcontinue constr
+R3824 Cppsem StackFrame continue_constr constr
+R3875 Coq.Init.Logic "A /\ B" not
+R3869 Coq.Init.Logic "x = y" not
+R3871 Coq.Lists.List <> nil constr
+R3883 Coq.Init.Logic "x = y" not
+R3900 Coq.Init.Logic <> False ind
+R3409 Cppsem StackFrame t ind
+R3389 Cplusconcepts <> array_path def
+R3376 Cplusconcepts <> ident def
+R3478 Cppsem StackFrame Kconstrother constr
+R3514 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3531 Cppsem Constructor field constr
+R3549 Coq.Init.Datatypes <> tt constr
+R3592 Coq.Init.Logic "A /\ B" not
+R3585 Coq.Init.Logic "x = y" not
+R3601 Coq.Init.Logic "'exists' x , p" not
+R3630 Coq.Init.Logic "A /\ B" not
+R3620 Coq.Init.Logic "x = y" not
+R3612 LibLists <> last def
+R3622 Coq.Init.Datatypes <> Some constr
+R3641 Coq.Init.Logic "'exists' x , p" not
+R3670 Coq.Init.Logic "A /\ B" not
+R3661 Coq.Init.Logic "x = y" not
+R3656 Maps "a ! b" not
+R3651 Invariant <> hier syndef
+R3663 Coq.Init.Datatypes <> Some constr
+R3683 Coq.Init.Logic "'exists' x , p" not
+R3740 Coq.Init.Logic "A /\ B" not
+R3709 Coq.Init.Logic "x = y" not
+R3694 Cplusconcepts Class fields proj
+R3714 Coq.Lists.List "x ++ y" not
+R3723 Coq.Lists.List "x :: y" not
+R3758 Coq.Init.Logic "x = y" not
+R3764 Coq.Lists.List "x ++ y" not
+R3789 Coq.Lists.List "x :: y" not
+R3767 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3772 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3792 Coq.Lists.List <> nil constr
+R3802 Cppsem StackFrame Kcontinue constr
+R3824 Cppsem StackFrame continue_constr constr
+R3875 Coq.Init.Logic "A /\ B" not
+R3869 Coq.Init.Logic "x = y" not
+R3871 Coq.Lists.List <> nil constr
+R3883 Coq.Init.Logic "x = y" not
+R3900 Coq.Init.Logic <> False ind
+R3409 Cppsem StackFrame t ind
+R3389 Cplusconcepts <> array_path def
+R3376 Cplusconcepts <> ident def
+R3997 Cppsem StackFrame t ind
+R3977 Cplusconcepts <> array_path def
+R3964 Cplusconcepts <> ident def
+R4066 Cppsem StackFrame Kdestrother constr
+R4101 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4110 Cppsem Constructor field constr
+R4128 Coq.Init.Datatypes <> tt constr
+R4171 Coq.Init.Logic "A /\ B" not
+R4164 Coq.Init.Logic "x = y" not
+R4180 Coq.Init.Logic "'exists' x , p" not
+R4209 Coq.Init.Logic "A /\ B" not
+R4199 Coq.Init.Logic "x = y" not
+R4191 LibLists <> last def
+R4201 Coq.Init.Datatypes <> Some constr
+R4220 Coq.Init.Logic "'exists' x , p" not
+R4249 Coq.Init.Logic "A /\ B" not
+R4240 Coq.Init.Logic "x = y" not
+R4235 Maps "a ! b" not
+R4230 Invariant <> hier syndef
+R4242 Coq.Init.Datatypes <> Some constr
+R4262 Coq.Init.Logic "'exists' x , p" not
+R4325 Coq.Init.Logic "A /\ B" not
+R4294 Coq.Init.Logic "x = y" not
+R4273 Coq.Lists.List <> rev def
+R4278 Cplusconcepts Class fields proj
+R4299 Coq.Lists.List "x ++ y" not
+R4308 Coq.Lists.List "x :: y" not
+R4343 Coq.Init.Logic "x = y" not
+R4349 Coq.Lists.List "x ++ y" not
+R4374 Coq.Lists.List "x :: y" not
+R4352 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4357 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4377 Coq.Lists.List <> nil constr
+R4387 Cppsem StackFrame Kcontinue constr
+R4409 Cppsem StackFrame continue_destr constr
+R4461 Coq.Init.Logic "A /\ B" not
+R4455 Coq.Init.Logic "x = y" not
+R4457 Coq.Lists.List <> nil constr
+R4469 Coq.Init.Logic "x = y" not
+R4486 Coq.Init.Logic <> False ind
+R3997 Cppsem StackFrame t ind
+R3977 Cplusconcepts <> array_path def
+R3964 Cplusconcepts <> ident def
+R4066 Cppsem StackFrame Kdestrother constr
+R4101 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4110 Cppsem Constructor field constr
+R4128 Coq.Init.Datatypes <> tt constr
+R4171 Coq.Init.Logic "A /\ B" not
+R4164 Coq.Init.Logic "x = y" not
+R4180 Coq.Init.Logic "'exists' x , p" not
+R4209 Coq.Init.Logic "A /\ B" not
+R4199 Coq.Init.Logic "x = y" not
+R4191 LibLists <> last def
+R4201 Coq.Init.Datatypes <> Some constr
+R4220 Coq.Init.Logic "'exists' x , p" not
+R4249 Coq.Init.Logic "A /\ B" not
+R4240 Coq.Init.Logic "x = y" not
+R4235 Maps "a ! b" not
+R4230 Invariant <> hier syndef
+R4242 Coq.Init.Datatypes <> Some constr
+R4262 Coq.Init.Logic "'exists' x , p" not
+R4325 Coq.Init.Logic "A /\ B" not
+R4294 Coq.Init.Logic "x = y" not
+R4273 Coq.Lists.List <> rev def
+R4278 Cplusconcepts Class fields proj
+R4299 Coq.Lists.List "x ++ y" not
+R4308 Coq.Lists.List "x :: y" not
+R4343 Coq.Init.Logic "x = y" not
+R4349 Coq.Lists.List "x ++ y" not
+R4374 Coq.Lists.List "x :: y" not
+R4352 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4357 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4377 Coq.Lists.List <> nil constr
+R4387 Cppsem StackFrame Kcontinue constr
+R4409 Cppsem StackFrame continue_destr constr
+R4461 Coq.Init.Logic "A /\ B" not
+R4455 Coq.Init.Logic "x = y" not
+R4457 Coq.Lists.List <> nil constr
+R4469 Coq.Init.Logic "x = y" not
+R4486 Coq.Init.Logic <> False ind
+R3997 Cppsem StackFrame t ind
+R3977 Cplusconcepts <> array_path def
+R3964 Cplusconcepts <> ident def
+R4818 Cppsem StackFrame t ind
+R4800 Coq.Lists.List <> list ind
+R4805 Cplusconcepts <> ident def
+R4774 Cplusconcepts Class.Inheritance t ind
+R4766 Coq.ZArith.BinInt <> Z ind
+R4747 Cplusconcepts <> array_path def
+R4734 Cplusconcepts <> ident def
+R4887 Cppsem StackFrame Kconstrother constr
+R4923 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4940 Cppsem Constructor base constr
+R4957 Cppsem Constructor direct_non_virtual constr
+R5012 Coq.Init.Logic "A /\ B" not
+R5005 Coq.Init.Logic "x = y" not
+R5024 Coq.Init.Logic "A /\ B" not
+R5018 Coq.Init.Logic "x = y" not
+R5034 Coq.Init.Logic "A /\ B" not
+R5029 Coq.Init.Logic "x = y" not
+R5044 Coq.Init.Logic "A /\ B" not
+R5039 Coq.Init.Logic "x = y" not
+R5049 Coq.Init.Logic "x = y" not
+R5054 Coq.Lists.List "x ++ y" not
+R5059 Coq.Lists.List "x :: y" not
+R5062 Coq.Lists.List <> nil constr
+R5072 Cppsem StackFrame Kconstrother constr
+R5118 Cppsem Constructor base constr
+R5135 Cppsem Constructor virtual constr
+R5179 Coq.Init.Logic "A /\ B" not
+R5172 Coq.Init.Logic "x = y" not
+R5191 Coq.Init.Logic "A /\ B" not
+R5185 Coq.Init.Logic "x = y" not
+R5201 Coq.Init.Logic "A /\ B" not
+R5196 Coq.Init.Logic "x = y" not
+R5233 Coq.Init.Logic "A /\ B" not
+R5206 Coq.Init.Logic "x = y" not
+R5208 Cplusconcepts Class.Inheritance Shared constr
+R5238 Coq.Init.Logic "x = y" not
+R5242 Coq.Lists.List "x :: y" not
+R5245 Coq.Lists.List <> nil constr
+R5255 Cppsem StackFrame Kconstrothercells constr
+R5326 Coq.Init.Logic "A /\ B" not
+R5319 Coq.Init.Logic "x = y" not
+R5338 Coq.Init.Logic "A /\ B" not
+R5332 Coq.Init.Logic "x = y" not
+R5348 Coq.Init.Logic "A /\ B" not
+R5343 Coq.Init.Logic "x = y" not
+R5382 Coq.Init.Logic "A /\ B" not
+R5353 Coq.Init.Logic "x = y" not
+R5355 Cplusconcepts Class.Inheritance Repeated constr
+R5387 Coq.Init.Logic "x = y" not
+R5393 Coq.Lists.List "x :: y" not
+R5396 Coq.Lists.List <> nil constr
+R5411 Coq.Init.Logic <> False ind
+R4818 Cppsem StackFrame t ind
+R4800 Coq.Lists.List <> list ind
+R4805 Cplusconcepts <> ident def
+R4774 Cplusconcepts Class.Inheritance t ind
+R4766 Coq.ZArith.BinInt <> Z ind
+R4747 Cplusconcepts <> array_path def
+R4734 Cplusconcepts <> ident def
+R4887 Cppsem StackFrame Kconstrother constr
+R4923 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4940 Cppsem Constructor base constr
+R4957 Cppsem Constructor direct_non_virtual constr
+R5012 Coq.Init.Logic "A /\ B" not
+R5005 Coq.Init.Logic "x = y" not
+R5024 Coq.Init.Logic "A /\ B" not
+R5018 Coq.Init.Logic "x = y" not
+R5034 Coq.Init.Logic "A /\ B" not
+R5029 Coq.Init.Logic "x = y" not
+R5044 Coq.Init.Logic "A /\ B" not
+R5039 Coq.Init.Logic "x = y" not
+R5049 Coq.Init.Logic "x = y" not
+R5054 Coq.Lists.List "x ++ y" not
+R5059 Coq.Lists.List "x :: y" not
+R5062 Coq.Lists.List <> nil constr
+R5072 Cppsem StackFrame Kconstrother constr
+R5118 Cppsem Constructor base constr
+R5135 Cppsem Constructor virtual constr
+R5179 Coq.Init.Logic "A /\ B" not
+R5172 Coq.Init.Logic "x = y" not
+R5191 Coq.Init.Logic "A /\ B" not
+R5185 Coq.Init.Logic "x = y" not
+R5201 Coq.Init.Logic "A /\ B" not
+R5196 Coq.Init.Logic "x = y" not
+R5233 Coq.Init.Logic "A /\ B" not
+R5206 Coq.Init.Logic "x = y" not
+R5208 Cplusconcepts Class.Inheritance Shared constr
+R5238 Coq.Init.Logic "x = y" not
+R5242 Coq.Lists.List "x :: y" not
+R5245 Coq.Lists.List <> nil constr
+R5255 Cppsem StackFrame Kconstrothercells constr
+R5326 Coq.Init.Logic "A /\ B" not
+R5319 Coq.Init.Logic "x = y" not
+R5338 Coq.Init.Logic "A /\ B" not
+R5332 Coq.Init.Logic "x = y" not
+R5348 Coq.Init.Logic "A /\ B" not
+R5343 Coq.Init.Logic "x = y" not
+R5382 Coq.Init.Logic "A /\ B" not
+R5353 Coq.Init.Logic "x = y" not
+R5355 Cplusconcepts Class.Inheritance Repeated constr
+R5387 Coq.Init.Logic "x = y" not
+R5393 Coq.Lists.List "x :: y" not
+R5396 Coq.Lists.List <> nil constr
+R5411 Coq.Init.Logic <> False ind
+R4818 Cppsem StackFrame t ind
+R4800 Coq.Lists.List <> list ind
+R4805 Cplusconcepts <> ident def
+R4774 Cplusconcepts Class.Inheritance t ind
+R4766 Coq.ZArith.BinInt <> Z ind
+R4747 Cplusconcepts <> array_path def
+R4734 Cplusconcepts <> ident def
+R5557 Cppsem StackFrame t ind
+R5539 Coq.Lists.List <> list ind
+R5544 Cplusconcepts <> ident def
+R5513 Cplusconcepts Class.Inheritance t ind
+R5505 Coq.ZArith.BinInt <> Z ind
+R5486 Cplusconcepts <> array_path def
+R5473 Cplusconcepts <> ident def
+R5626 Cppsem StackFrame Kdestrother constr
+R5661 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5670 Cppsem Constructor base constr
+R5687 Cppsem Constructor direct_non_virtual constr
+R5736 Coq.Init.Logic "A /\ B" not
+R5729 Coq.Init.Logic "x = y" not
+R5748 Coq.Init.Logic "A /\ B" not
+R5742 Coq.Init.Logic "x = y" not
+R5758 Coq.Init.Logic "A /\ B" not
+R5753 Coq.Init.Logic "x = y" not
+R5768 Coq.Init.Logic "A /\ B" not
+R5763 Coq.Init.Logic "x = y" not
+R5773 Coq.Init.Logic "x = y" not
+R5778 Coq.Lists.List "x ++ y" not
+R5783 Coq.Lists.List "x :: y" not
+R5786 Coq.Lists.List <> nil constr
+R5796 Cppsem StackFrame Kdestrother constr
+R5833 Cppsem Constructor base constr
+R5850 Cppsem Constructor virtual constr
+R5888 Coq.Init.Logic "A /\ B" not
+R5881 Coq.Init.Logic "x = y" not
+R5900 Coq.Init.Logic "A /\ B" not
+R5894 Coq.Init.Logic "x = y" not
+R5910 Coq.Init.Logic "A /\ B" not
+R5905 Coq.Init.Logic "x = y" not
+R5942 Coq.Init.Logic "A /\ B" not
+R5915 Coq.Init.Logic "x = y" not
+R5917 Cplusconcepts Class.Inheritance Shared constr
+R5947 Coq.Init.Logic "x = y" not
+R5951 Coq.Lists.List "x :: y" not
+R5954 Coq.Lists.List <> nil constr
+R5965 Cppsem StackFrame Kdestrcell constr
+R6023 Coq.Init.Logic "A /\ B" not
+R6016 Coq.Init.Logic "x = y" not
+R6035 Coq.Init.Logic "A /\ B" not
+R6029 Coq.Init.Logic "x = y" not
+R6045 Coq.Init.Logic "A /\ B" not
+R6040 Coq.Init.Logic "x = y" not
+R6079 Coq.Init.Logic "A /\ B" not
+R6050 Coq.Init.Logic "x = y" not
+R6052 Cplusconcepts Class.Inheritance Repeated constr
+R6084 Coq.Init.Logic "x = y" not
+R6090 Coq.Lists.List "x :: y" not
+R6093 Coq.Lists.List <> nil constr
+R6108 Coq.Init.Logic <> False ind
+R5557 Cppsem StackFrame t ind
+R5539 Coq.Lists.List <> list ind
+R5544 Cplusconcepts <> ident def
+R5513 Cplusconcepts Class.Inheritance t ind
+R5505 Coq.ZArith.BinInt <> Z ind
+R5486 Cplusconcepts <> array_path def
+R5473 Cplusconcepts <> ident def
+R5626 Cppsem StackFrame Kdestrother constr
+R5661 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5670 Cppsem Constructor base constr
+R5687 Cppsem Constructor direct_non_virtual constr
+R5736 Coq.Init.Logic "A /\ B" not
+R5729 Coq.Init.Logic "x = y" not
+R5748 Coq.Init.Logic "A /\ B" not
+R5742 Coq.Init.Logic "x = y" not
+R5758 Coq.Init.Logic "A /\ B" not
+R5753 Coq.Init.Logic "x = y" not
+R5768 Coq.Init.Logic "A /\ B" not
+R5763 Coq.Init.Logic "x = y" not
+R5773 Coq.Init.Logic "x = y" not
+R5778 Coq.Lists.List "x ++ y" not
+R5783 Coq.Lists.List "x :: y" not
+R5786 Coq.Lists.List <> nil constr
+R5796 Cppsem StackFrame Kdestrother constr
+R5833 Cppsem Constructor base constr
+R5850 Cppsem Constructor virtual constr
+R5888 Coq.Init.Logic "A /\ B" not
+R5881 Coq.Init.Logic "x = y" not
+R5900 Coq.Init.Logic "A /\ B" not
+R5894 Coq.Init.Logic "x = y" not
+R5910 Coq.Init.Logic "A /\ B" not
+R5905 Coq.Init.Logic "x = y" not
+R5942 Coq.Init.Logic "A /\ B" not
+R5915 Coq.Init.Logic "x = y" not
+R5917 Cplusconcepts Class.Inheritance Shared constr
+R5947 Coq.Init.Logic "x = y" not
+R5951 Coq.Lists.List "x :: y" not
+R5954 Coq.Lists.List <> nil constr
+R5965 Cppsem StackFrame Kdestrcell constr
+R6023 Coq.Init.Logic "A /\ B" not
+R6016 Coq.Init.Logic "x = y" not
+R6035 Coq.Init.Logic "A /\ B" not
+R6029 Coq.Init.Logic "x = y" not
+R6045 Coq.Init.Logic "A /\ B" not
+R6040 Coq.Init.Logic "x = y" not
+R6079 Coq.Init.Logic "A /\ B" not
+R6050 Coq.Init.Logic "x = y" not
+R6052 Cplusconcepts Class.Inheritance Repeated constr
+R6084 Coq.Init.Logic "x = y" not
+R6090 Coq.Lists.List "x :: y" not
+R6093 Coq.Lists.List <> nil constr
+R6108 Coq.Init.Logic <> False ind
+R5557 Cppsem StackFrame t ind
+R5539 Coq.Lists.List <> list ind
+R5544 Cplusconcepts <> ident def
+R5513 Cplusconcepts Class.Inheritance t ind
+R5505 Coq.ZArith.BinInt <> Z ind
+R5486 Cplusconcepts <> array_path def
+R5473 Cplusconcepts <> ident def
+R6428 Cppsem StackFrame t ind
+R6409 Coq.Lists.List <> list ind
+R6414 Cplusconcepts <> ident def
+R6383 Cplusconcepts Class.Inheritance t ind
+R6375 Coq.ZArith.BinInt <> Z ind
+R6356 Cplusconcepts <> array_path def
+R6343 Cplusconcepts <> ident def
+R6499 Cppsem StackFrame Kconstrothercells constr
+R6570 Coq.Init.Logic "A /\ B" not
+R6563 Coq.Init.Logic "x = y" not
+R6582 Coq.Init.Logic "A /\ B" not
+R6576 Coq.Init.Logic "x = y" not
+R6592 Coq.Init.Logic "A /\ B" not
+R6587 Coq.Init.Logic "x = y" not
+R6626 Coq.Init.Logic "A /\ B" not
+R6597 Coq.Init.Logic "x = y" not
+R6599 Cplusconcepts Class.Inheritance Repeated constr
+R6631 Coq.Init.Logic "x = y" not
+R6637 Coq.Lists.List "x :: y" not
+R6640 Coq.Lists.List <> nil constr
+R6655 Coq.Init.Logic <> False ind
+R6428 Cppsem StackFrame t ind
+R6409 Coq.Lists.List <> list ind
+R6414 Cplusconcepts <> ident def
+R6383 Cplusconcepts Class.Inheritance t ind
+R6375 Coq.ZArith.BinInt <> Z ind
+R6356 Cplusconcepts <> array_path def
+R6343 Cplusconcepts <> ident def
+R6499 Cppsem StackFrame Kconstrothercells constr
+R6570 Coq.Init.Logic "A /\ B" not
+R6563 Coq.Init.Logic "x = y" not
+R6582 Coq.Init.Logic "A /\ B" not
+R6576 Coq.Init.Logic "x = y" not
+R6592 Coq.Init.Logic "A /\ B" not
+R6587 Coq.Init.Logic "x = y" not
+R6626 Coq.Init.Logic "A /\ B" not
+R6597 Coq.Init.Logic "x = y" not
+R6599 Cplusconcepts Class.Inheritance Repeated constr
+R6631 Coq.Init.Logic "x = y" not
+R6637 Coq.Lists.List "x :: y" not
+R6640 Coq.Lists.List <> nil constr
+R6655 Coq.Init.Logic <> False ind
+R6428 Cppsem StackFrame t ind
+R6409 Coq.Lists.List <> list ind
+R6414 Cplusconcepts <> ident def
+R6383 Cplusconcepts Class.Inheritance t ind
+R6375 Coq.ZArith.BinInt <> Z ind
+R6356 Cplusconcepts <> array_path def
+R6343 Cplusconcepts <> ident def
+R6709 Cppsem StackFrame t ind
+R6709 Cppsem StackFrame t ind
+R6780 Cppsem StackFrame Kconstrothercells constr
+R6829 Invariant <> stackframe_array_fields_inv def
+R6874 Cppsem StackFrame Kconstr constr
+R6902 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6915 Cppsem Constructor base constr
+R6932 Cppsem Constructor virtual constr
+R6959 Invariant <> stackframe_vbase_cell_inv def
+R7008 Cppsem StackFrame Kconstrarray constr
+R7050 Invariant <> stackframe_array_fields_inv def
+R7095 Cppsem StackFrame Kconstrother constr
+R7128 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7143 Cppsem Constructor base constr
+R7160 Cppsem Constructor virtual constr
+R7187 Invariant <> stackframe_vbase_cell_inv def
+R7236 Cppsem StackFrame Kconstr constr
+R7264 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7288 Invariant <> stackframe_field_base_inv def
+R7337 Cppsem StackFrame Kconstrother constr
+R7370 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7396 Invariant <> stackframe_field_base_inv def
+R7445 Cppsem StackFrame Kdestrcell constr
+R7481 Invariant <> stackframe_array_fields_inv_destr def
+R7532 Cppsem StackFrame Kdestr constr
+R7559 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7569 Invariant <> stackframe_field_base_inv_destr def
+R7624 Cppsem StackFrame Kdestrother constr
+R7656 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7663 Cppsem Constructor base constr
+R7680 Cppsem Constructor virtual constr
+R7752 Coq.Init.Logic "A /\ B" not
+R7707 Invariant <> stackframe_array_fields_inv_destr def
+R7786 Coq.Init.Logic "A /\ B" not
+R7757 Coq.Init.Logic "x = y" not
+R7759 Cplusconcepts Class.Inheritance Repeated constr
+R7789 Coq.Init.Logic "'exists' x , p" not
+R7802 Coq.Init.Logic "x = y" not
+R7807 Coq.Lists.List "x :: y" not
+R7810 Coq.Lists.List <> nil constr
+R7961 Cppsem StackFrame Kdestrother constr
+R7993 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8000 Cppsem Constructor base constr
+R8017 Cppsem Constructor direct_non_virtual constr
+R8055 Invariant <> stackframe_field_base_inv_destr def
+R8110 Cppsem StackFrame Kdestrother constr
+R8142 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8149 Cppsem Constructor field constr
+R8176 Invariant <> stackframe_field_base_inv_destr def
+R8236 Coq.Init.Logic <> True ind
+R6709 Cppsem StackFrame t ind
+R6709 Cppsem StackFrame t ind
+R6780 Cppsem StackFrame Kconstrothercells constr
+R6829 Invariant <> stackframe_array_fields_inv def
+R6874 Cppsem StackFrame Kconstr constr
+R6902 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6915 Cppsem Constructor base constr
+R6932 Cppsem Constructor virtual constr
+R6959 Invariant <> stackframe_vbase_cell_inv def
+R7008 Cppsem StackFrame Kconstrarray constr
+R7050 Invariant <> stackframe_array_fields_inv def
+R7095 Cppsem StackFrame Kconstrother constr
+R7128 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7143 Cppsem Constructor base constr
+R7160 Cppsem Constructor virtual constr
+R7187 Invariant <> stackframe_vbase_cell_inv def
+R7236 Cppsem StackFrame Kconstr constr
+R7264 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7288 Invariant <> stackframe_field_base_inv def
+R7337 Cppsem StackFrame Kconstrother constr
+R7370 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7396 Invariant <> stackframe_field_base_inv def
+R7445 Cppsem StackFrame Kdestrcell constr
+R7481 Invariant <> stackframe_array_fields_inv_destr def
+R7532 Cppsem StackFrame Kdestr constr
+R7559 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7569 Invariant <> stackframe_field_base_inv_destr def
+R7624 Cppsem StackFrame Kdestrother constr
+R7656 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7663 Cppsem Constructor base constr
+R7680 Cppsem Constructor virtual constr
+R7752 Coq.Init.Logic "A /\ B" not
+R7707 Invariant <> stackframe_array_fields_inv_destr def
+R7786 Coq.Init.Logic "A /\ B" not
+R7757 Coq.Init.Logic "x = y" not
+R7759 Cplusconcepts Class.Inheritance Repeated constr
+R7789 Coq.Init.Logic "'exists' x , p" not
+R7802 Coq.Init.Logic "x = y" not
+R7807 Coq.Lists.List "x :: y" not
+R7810 Coq.Lists.List <> nil constr
+R7961 Cppsem StackFrame Kdestrother constr
+R7993 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8000 Cppsem Constructor base constr
+R8017 Cppsem Constructor direct_non_virtual constr
+R8055 Invariant <> stackframe_field_base_inv_destr def
+R8110 Cppsem StackFrame Kdestrother constr
+R8142 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8149 Cppsem Constructor field constr
+R8176 Invariant <> stackframe_field_base_inv_destr def
+R8236 Coq.Init.Logic <> True ind
+R6709 Cppsem StackFrame t ind
+R6709 Cppsem StackFrame t ind
+sec 8257 Invar Invariant
+var 8278 Invar.Invariant s
+R8282 Cppsem State t rec
+def 8399 <> stackframe_constructor_inv
+R8490 Cppsem StackFrame Kconstr constr
+R8518 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8553 Coq.Init.Logic "'exists' x , p" not
+R8659 Coq.Init.Logic "A /\ B" not
+R8649 Coq.Init.Logic "x = y" not
+R8570 LibLists <> assoc def
+R8620 Cppsem State construction_states proj
+R8596 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8602 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8610 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8578 Cplusconcepts <> pointer_eq_dec thm
+R8651 Coq.Init.Datatypes <> Some constr
+R8668 Coq.Init.Logic "'exists' x , p" not
+R8772 Coq.Init.Logic "A /\ B" not
+R8687 Cplusconcepts <> valid_pointer ind
+R8739 Cplusconcepts Value subobject constr
+R8707 Cplusconcepts Globals heap proj
+R8721 Cppsem State global proj
+R8701 Invariant <> hier syndef
+R8783 Coq.Init.Logic "'exists' x , p" not
+R8811 Coq.Init.Logic "A /\ B" not
+R8801 Coq.Init.Logic "x = y" not
+R8794 LibLists <> last def
+R8803 Coq.Init.Datatypes <> Some constr
+R8824 Coq.Init.Logic "'exists' x , p" not
+R8853 Coq.Init.Logic "A /\ B" not
+R8844 Coq.Init.Logic "x = y" not
+R8839 Maps "a ! b" not
+R8834 Invariant <> hier syndef
+R8846 Coq.Init.Datatypes <> Some constr
+R8875 Coq.Init.Specif <> existT constr
+R8969 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8921 Coq.Init.Datatypes "x * y" not
+R8893 Cppsem Constructor init_subkey def
+R8923 Coq.Lists.List <> list ind
+R8929 Cppsem Constructor init_key_item def
+R9013 Coq.Init.Specif <> existT constr
+R9020 Cppsem Constructor base constr
+R9037 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9106 Coq.Init.Logic "A /\ B" not
+R9084 Coq.Init.Logic "x = y" not
+R9086 Cppsem <> StartedConstructing constr
+R9161 Cppsem Constructor direct_non_virtual constr
+R9215 Coq.Init.Logic "'exists' x , p" not
+R9574 Coq.Init.Logic "A /\ B" not
+R9546 Coq.Init.Logic "x = y" not
+R9226 Coq.Lists.List <> map def
+R9322 Coq.Lists.List <> filter def
+R9529 Cplusconcepts Class super proj
+R9420 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9421 Cplusconcepts Class.Inheritance Repeated constr
+R9455 Coq.Init.Datatypes <> true constr
+R9493 Coq.Init.Datatypes <> false constr
+R9342 Coq.Init.Datatypes "x * y" not
+R9344 Cplusconcepts <> ident def
+R9261 Coq.Init.Datatypes "x * y" not
+R9241 Cplusconcepts Class.Inheritance t ind
+R9263 Cplusconcepts <> ident def
+R9551 Coq.Lists.List "x ++ y" not
+R9559 Coq.Lists.List "x :: y" not
+R9730 Coq.Init.Logic "A /\ B" not
+R9712 Coq.Init.Logic "x = y" not
+R9621 LibLists <> assoc def
+R9683 Cppsem State construction_states proj
+R9647 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9653 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9661 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9667 Coq.Lists.List "x ++ y" not
+R9672 Coq.Lists.List "x :: y" not
+R9675 Coq.Lists.List <> nil constr
+R9629 Cplusconcepts <> pointer_eq_dec thm
+R9714 Coq.Init.Datatypes <> Some constr
+R9719 Cppsem <> Constructed constr
+R9610 Coq.Lists.List <> In def
+R9895 Coq.Init.Logic "A /\ B" not
+R9889 Coq.Init.Logic "x = y" not
+R9798 LibLists <> assoc def
+R9860 Cppsem State construction_states proj
+R9824 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9830 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9838 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9844 Coq.Lists.List "x ++ y" not
+R9849 Coq.Lists.List "x :: y" not
+R9852 Coq.Lists.List <> nil constr
+R9806 Cplusconcepts <> pointer_eq_dec thm
+R9891 Coq.Init.Datatypes <> None constr
+R9768 Coq.Lists.List <> In def
+R9779 Coq.Lists.List "x :: y" not
+R10141 Coq.Init.Logic "x = y" not
+R10032 LibLists <> assoc def
+R10112 Cppsem State construction_states proj
+R10058 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10064 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10072 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10073 Cplusconcepts Class.Inheritance Shared constr
+R10101 Coq.Lists.List "x :: y" not
+R10104 Coq.Lists.List <> nil constr
+R10040 Cplusconcepts <> pointer_eq_dec thm
+R10143 Coq.Init.Datatypes <> Some constr
+R10148 Cppsem <> Constructed constr
+R9999 Cplusconcepts <> is_virtual_base_of ind
+R10018 Invariant <> hier syndef
+R9974 Coq.Init.Logic "x = y" not
+R9980 Coq.Lists.List "x :: y" not
+R9925 Coq.Init.Logic "x = y" not
+R9927 Cplusconcepts Class.Inheritance Repeated constr
+R10206 Cppsem Constructor virtual constr
+R10280 Coq.Init.Logic "A /\ B" not
+R10251 Coq.Init.Logic "x = y" not
+R10253 Cplusconcepts Class.Inheritance Repeated constr
+R10297 Coq.Init.Logic "A /\ B" not
+R10285 Coq.Init.Logic "x = y" not
+R10290 Coq.Lists.List "x :: y" not
+R10293 Coq.Lists.List <> nil constr
+R10322 Coq.Init.Logic "'exists' x , p" not
+R10395 Coq.Init.Logic "A /\ B" not
+R10333 Cplusconcepts <> vborder_list ind
+R10371 Coq.Lists.List "x ++ y" not
+R10379 Coq.Lists.List "x :: y" not
+R10352 Cplusconcepts Class super proj
+R10346 Invariant <> hier syndef
+R10571 Coq.Init.Logic "A /\ B" not
+R10553 Coq.Init.Logic "x = y" not
+R10444 LibLists <> assoc def
+R10524 Cppsem State construction_states proj
+R10470 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10476 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10484 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10485 Cplusconcepts Class.Inheritance Shared constr
+R10513 Coq.Lists.List "x :: y" not
+R10516 Coq.Lists.List <> nil constr
+R10452 Cplusconcepts <> pointer_eq_dec thm
+R10555 Coq.Init.Datatypes <> Some constr
+R10560 Cppsem <> Constructed constr
+R10433 Coq.Lists.List <> In def
+R10756 Coq.Init.Logic "A /\ B" not
+R10750 Coq.Init.Logic "x = y" not
+R10641 LibLists <> assoc def
+R10721 Cppsem State construction_states proj
+R10667 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10673 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10681 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10682 Cplusconcepts Class.Inheritance Shared constr
+R10710 Coq.Lists.List "x :: y" not
+R10713 Coq.Lists.List <> nil constr
+R10649 Cplusconcepts <> pointer_eq_dec thm
+R10752 Coq.Init.Datatypes <> None constr
+R10611 Coq.Lists.List <> In def
+R10622 Coq.Lists.List "x :: y" not
+R10966 Coq.Init.Logic "x = y" not
+R10849 LibLists <> assoc def
+R10937 Cppsem State construction_states proj
+R10875 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10881 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10889 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10890 Cplusconcepts Class.Inheritance Repeated constr
+R10921 Coq.Lists.List "x :: y" not
+R10926 Coq.Lists.List "x :: y" not
+R10929 Coq.Lists.List <> nil constr
+R10857 Cplusconcepts <> pointer_eq_dec thm
+R10968 Coq.Init.Datatypes <> None constr
+R10795 Coq.Lists.List <> In def
+R10831 Cplusconcepts Class super proj
+R10798 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10799 Cplusconcepts Class.Inheritance Repeated constr
+R11027 Coq.Init.Specif <> existT constr
+R11034 Cppsem Constructor field constr
+R11052 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11053 Coq.Init.Datatypes <> tt constr
+R11119 Coq.Init.Logic "A /\ B" not
+R11100 Coq.Init.Logic "x = y" not
+R11102 Cppsem <> BasesConstructed constr
+R11138 Coq.Init.Logic "'exists' x , p" not
+R11194 Coq.Init.Logic "A /\ B" not
+R11164 Coq.Init.Logic "x = y" not
+R11149 Cplusconcepts Class fields proj
+R11169 Coq.Lists.List "x ++ y" not
+R11178 Coq.Lists.List "x :: y" not
+R11377 Coq.Init.Logic "A /\ B" not
+R11359 Coq.Init.Logic "x = y" not
+R11259 LibLists <> assoc def
+R11324 Cppsem State field_construction_states proj
+R11298 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11311 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11267 Cppsem <> aux_constr_state_key_eq_dec thm
+R11361 Coq.Init.Datatypes <> Some constr
+R11366 Cppsem <> Constructed constr
+R11227 Coq.Lists.List <> In def
+R11544 Coq.Init.Logic "x = y" not
+R11444 LibLists <> assoc def
+R11509 Cppsem State field_construction_states proj
+R11483 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11496 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11452 Cppsem <> aux_constr_state_key_eq_dec thm
+R11546 Coq.Init.Datatypes <> None constr
+R11411 Coq.Lists.List <> In def
+R11424 Coq.Lists.List "x :: y" not
+R11575 Cppsem StackFrame Kconstrarray constr
+R11619 Coq.Init.Logic "'exists' x , p" not
+R11682 Coq.Init.Logic "A /\ B" not
+R11673 Coq.Init.Logic "x = y" not
+R11665 Maps "a ! b" not
+R11636 Cplusconcepts Globals heap proj
+R11650 Cppsem State global proj
+R11675 Coq.Init.Datatypes <> Some constr
+R11765 Coq.Init.Logic "A /\ B" not
+R11697 Cplusconcepts <> valid_array_path ind
+R11742 Cplusconcepts Object arraysize proj
+R11725 Cplusconcepts Object class proj
+R11714 Invariant <> hier syndef
+R12008 Coq.Init.Logic "A /\ B" not
+R11813 LibLists <> last def
+R11836 Coq.Init.Datatypes <> None constr
+R11867 Coq.Init.Logic "A /\ B" not
+R11846 Coq.Init.Logic "x = y" not
+R11848 Cplusconcepts Object arraysize proj
+R11873 Coq.Init.Logic "x = y" not
+R11875 Cplusconcepts Object class proj
+R11900 Coq.Init.Datatypes <> Some constr
+R11905 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11919 Coq.Init.Logic "'exists' x , p" not
+R11942 Coq.Init.Logic "A /\ B" not
+R11932 Coq.Init.Logic "x = y" not
+R11934 Coq.ZArith.BinInt <> Zpos constr
+R11968 Coq.Init.Logic "x = y" not
+R11945 Cplusconcepts FieldSignature type proj
+R11970 Cplusconcepts FieldSignature Struct constr
+R12028 Coq.Init.Logic "A /\ B" not
+R12019 Coq.ZArith.BinInt "x <= y < z" not
+R12017 Coq.ZArith.BinInt "" not
+R12192 Coq.Init.Logic "A /\ B" not
+R12174 Coq.Init.Logic "x = y" not
+R12062 LibLists <> assoc def
+R12145 Cppsem State construction_states proj
+R12088 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12094 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12102 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12103 Cplusconcepts Class.Inheritance Repeated constr
+R12134 Coq.Lists.List "x :: y" not
+R12137 Coq.Lists.List <> nil constr
+R12070 Cplusconcepts <> pointer_eq_dec thm
+R12176 Coq.Init.Datatypes <> Some constr
+R12181 Cppsem <> Constructed constr
+R12050 Coq.ZArith.BinInt "x <= y < z" not
+R12048 Coq.ZArith.BinInt "" not
+R12339 Coq.Init.Logic "x = y" not
+R12227 LibLists <> assoc def
+R12310 Cppsem State construction_states proj
+R12253 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12259 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12267 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12268 Cplusconcepts Class.Inheritance Repeated constr
+R12299 Coq.Lists.List "x :: y" not
+R12302 Coq.Lists.List <> nil constr
+R12235 Cplusconcepts <> pointer_eq_dec thm
+R12341 Coq.Init.Datatypes <> None constr
+R12215 Coq.ZArith.BinInt "x <= y < z" not
+R12366 Cppsem StackFrame Kconstrother constr
+R12399 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12414 Cppsem Constructor base constr
+R12431 Cppsem Constructor direct_non_virtual constr
+R12602 Coq.Init.Logic "A /\ B" not
+R12572 Coq.Init.Logic "x = y" not
+R12478 LibLists <> assoc def
+R12543 Cppsem State construction_states proj
+R12504 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12510 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12518 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12524 Coq.Lists.List "x ++ y" not
+R12532 Coq.Lists.List "x :: y" not
+R12535 Coq.Lists.List <> nil constr
+R12486 Cplusconcepts <> pointer_eq_dec thm
+R12580 Coq.Init.Datatypes <> Some constr
+R12585 Cppsem <> BasesConstructed constr
+R12611 Coq.Init.Logic "'exists' x , p" not
+R12642 Coq.Init.Logic "A /\ B" not
+R12633 Coq.Init.Logic "x = y" not
+R12626 Maps "a ! b" not
+R12621 Invariant <> hier syndef
+R12635 Coq.Init.Datatypes <> Some constr
+R12816 Coq.Init.Logic "x = y" not
+R12701 LibLists <> assoc def
+R12781 Cppsem State field_construction_states proj
+R12740 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12753 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12759 Coq.Lists.List "x ++ y" not
+R12767 Coq.Lists.List "x :: y" not
+R12770 Coq.Lists.List <> nil constr
+R12709 Cppsem <> aux_constr_state_key_eq_dec thm
+R12818 Coq.Init.Datatypes <> Some constr
+R12823 Cppsem <> Constructed constr
+R12665 Coq.Lists.List <> In def
+R12672 Cplusconcepts Class fields proj
+R12842 Cppsem StackFrame Kconstrother constr
+R12885 Cppsem Constructor base constr
+R12902 Cppsem Constructor virtual constr
+R13074 Coq.Init.Logic "A /\ B" not
+R13050 Coq.Init.Logic "x = y" not
+R12938 LibLists <> assoc def
+R13021 Cppsem State construction_states proj
+R12964 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12970 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12978 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12979 Cplusconcepts Class.Inheritance Shared constr
+R13010 Coq.Lists.List "x :: y" not
+R13013 Coq.Lists.List <> nil constr
+R12946 Cplusconcepts <> pointer_eq_dec thm
+R13052 Coq.Init.Datatypes <> Some constr
+R13057 Cppsem <> BasesConstructed constr
+R13083 Coq.Init.Logic "'exists' x , p" not
+R13114 Coq.Init.Logic "A /\ B" not
+R13105 Coq.Init.Logic "x = y" not
+R13098 Maps "a ! b" not
+R13093 Invariant <> hier syndef
+R13107 Coq.Init.Datatypes <> Some constr
+R13305 Coq.Init.Logic "x = y" not
+R13172 LibLists <> assoc def
+R13270 Cppsem State field_construction_states proj
+R13211 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13224 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13225 Cplusconcepts Class.Inheritance Shared constr
+R13256 Coq.Lists.List "x :: y" not
+R13259 Coq.Lists.List <> nil constr
+R13180 Cppsem <> aux_constr_state_key_eq_dec thm
+R13307 Coq.Init.Datatypes <> Some constr
+R13312 Cppsem <> Constructed constr
+R13136 Coq.Lists.List <> In def
+R13143 Cplusconcepts Class fields proj
+R13331 Cppsem StackFrame Kconstrother constr
+R13364 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13379 Cppsem Constructor field constr
+R13397 Coq.Init.Datatypes <> tt constr
+R13655 Coq.Init.Logic "x = y" not
+R13515 LibLists <> assoc def
+R13626 Cppsem State construction_states proj
+R13541 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13547 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13551 Coq.Lists.List "x ++ y" not
+R13573 Coq.Lists.List "x :: y" not
+R13554 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13558 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13576 Coq.Lists.List <> nil constr
+R13584 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13585 Cplusconcepts Class.Inheritance Repeated constr
+R13615 Coq.Lists.List "x :: y" not
+R13618 Coq.Lists.List <> nil constr
+R13523 Cplusconcepts <> pointer_eq_dec thm
+R13657 Coq.Init.Datatypes <> Some constr
+R13662 Cppsem <> Constructed constr
+R13498 Coq.ZArith.BinInt "x <= y < z" not
+R13496 Coq.ZArith.BinInt "" not
+R13505 Coq.ZArith.BinInt <> Zpos constr
+R13455 Coq.Init.Logic "x = y" not
+R13429 Cplusconcepts FieldSignature type proj
+R13457 Cplusconcepts FieldSignature Struct constr
+R13681 Cppsem StackFrame Kconstrothercells constr
+R13873 Coq.Init.Logic "A /\ B" not
+R13849 Coq.Init.Logic "x = y" not
+R13737 LibLists <> assoc def
+R13820 Cppsem State construction_states proj
+R13763 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13769 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13777 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13778 Cplusconcepts Class.Inheritance Repeated constr
+R13809 Coq.Lists.List "x :: y" not
+R13812 Coq.Lists.List <> nil constr
+R13745 Cplusconcepts <> pointer_eq_dec thm
+R13851 Coq.Init.Datatypes <> Some constr
+R13856 Cppsem <> BasesConstructed constr
+R13876 Coq.Init.Logic "'exists' x , p" not
+R13905 Coq.Init.Logic "A /\ B" not
+R13896 Coq.Init.Logic "x = y" not
+R13891 Maps "a ! b" not
+R13886 Invariant <> hier syndef
+R13898 Coq.Init.Datatypes <> Some constr
+R14096 Coq.Init.Logic "x = y" not
+R13963 LibLists <> assoc def
+R14061 Cppsem State field_construction_states proj
+R14002 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14015 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14016 Cplusconcepts Class.Inheritance Repeated constr
+R14047 Coq.Lists.List "x :: y" not
+R14050 Coq.Lists.List <> nil constr
+R13971 Cppsem <> aux_constr_state_key_eq_dec thm
+R14098 Coq.Init.Datatypes <> Some constr
+R14103 Cppsem <> Constructed constr
+R13927 Coq.Lists.List <> In def
+R13934 Cplusconcepts Class fields proj
+R14134 Cppsem StackFrame Kdestr constr
+R14161 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14288 Coq.Init.Logic "A /\ B" not
+R14256 Coq.Init.Logic "x = y" not
+R14177 LibLists <> assoc def
+R14227 Cppsem State construction_states proj
+R14203 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14209 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14217 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14185 Cplusconcepts <> pointer_eq_dec thm
+R14264 Coq.Init.Datatypes <> Some constr
+R14269 Cppsem <> StartedDestructing constr
+R14297 Coq.Init.Logic "'exists' x , p" not
+R14401 Coq.Init.Logic "A /\ B" not
+R14316 Cplusconcepts <> valid_pointer ind
+R14368 Cplusconcepts Value subobject constr
+R14336 Cplusconcepts Globals heap proj
+R14350 Cppsem State global proj
+R14330 Invariant <> hier syndef
+R14412 Coq.Init.Logic "'exists' x , p" not
+R14440 Coq.Init.Logic "A /\ B" not
+R14430 Coq.Init.Logic "x = y" not
+R14423 LibLists <> last def
+R14432 Coq.Init.Datatypes <> Some constr
+R14453 Coq.Init.Logic "'exists' x , p" not
+R14482 Coq.Init.Logic "A /\ B" not
+R14473 Coq.Init.Logic "x = y" not
+R14468 Maps "a ! b" not
+R14463 Invariant <> hier syndef
+R14475 Coq.Init.Datatypes <> Some constr
+R14649 Coq.Init.Logic "x = y" not
+R14549 LibLists <> assoc def
+R14614 Cppsem State field_construction_states proj
+R14588 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14601 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14557 Cppsem <> aux_constr_state_key_eq_dec thm
+R14651 Coq.Init.Datatypes <> Some constr
+R14656 Cppsem <> Constructed constr
+R14509 Coq.Lists.List <> In def
+R14516 Cplusconcepts Class fields proj
+R14682 Coq.Init.Logic <> True ind
+R8432 Cppsem StackFrame t ind
+def 14739 <> state_kind_inv
+R14772 Cppsem State kind proj
+R14797 Cppsem State constr constr
+R14819 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14851 Coq.Init.Logic "'exists' x , p" not
+R14959 Coq.Init.Logic "A /\ B" not
+R14949 Coq.Init.Logic "x = y" not
+R14870 LibLists <> assoc def
+R14920 Cppsem State construction_states proj
+R14896 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14902 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14910 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14878 Cplusconcepts <> pointer_eq_dec thm
+R14951 Coq.Init.Datatypes <> Some constr
+R14970 Coq.Init.Logic "'exists' x , p" not
+R15076 Coq.Init.Logic "A /\ B" not
+R14991 Cplusconcepts <> valid_pointer ind
+R15043 Cplusconcepts Value subobject constr
+R15011 Cplusconcepts Globals heap proj
+R15025 Cppsem State global proj
+R15005 Invariant <> hier syndef
+R15089 Coq.Init.Logic "'exists' x , p" not
+R15117 Coq.Init.Logic "A /\ B" not
+R15107 Coq.Init.Logic "x = y" not
+R15100 LibLists <> last def
+R15109 Coq.Init.Datatypes <> Some constr
+R15132 Coq.Init.Logic "'exists' x , p" not
+R15161 Coq.Init.Logic "A /\ B" not
+R15152 Coq.Init.Logic "x = y" not
+R15147 Maps "a ! b" not
+R15142 Invariant <> hier syndef
+R15154 Coq.Init.Datatypes <> Some constr
+R15184 Coq.Init.Specif <> existT constr
+R15283 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15235 Coq.Init.Datatypes "x * y" not
+R15202 Cppsem Constructor init_key_secondary def
+R15237 Coq.Lists.List <> list ind
+R15243 Cppsem Constructor init_key_item def
+R15332 Coq.Init.Specif <> existT constr
+R15339 Cppsem Constructor base constr
+R15356 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15415 Coq.Init.Logic "A /\ B" not
+R15393 Coq.Init.Logic "x = y" not
+R15395 Cppsem <> StartedConstructing constr
+R15474 Cppsem Constructor direct_non_virtual constr
+R16526 Coq.Init.Logic "A /\ B" not
+R15556 Coq.Init.Logic "'exists' x , p" not
+R15921 Coq.Init.Logic "A /\ B" not
+R15907 Coq.Init.Logic "x = y" not
+R15567 Coq.Lists.List <> map def
+R15667 Coq.Lists.List <> filter def
+R15890 Cplusconcepts Class super proj
+R15773 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15774 Cplusconcepts Class.Inheritance Repeated constr
+R15808 Coq.Init.Datatypes <> true constr
+R15850 Coq.Init.Datatypes <> false constr
+R15687 Coq.Init.Datatypes "x * y" not
+R15689 Cplusconcepts <> ident def
+R15602 Coq.Init.Datatypes "x * y" not
+R15582 Cplusconcepts Class.Inheritance t ind
+R15604 Cplusconcepts <> ident def
+R15912 Coq.Lists.List "x ++ y" not
+R16081 Coq.Init.Logic "A /\ B" not
+R16063 Coq.Init.Logic "x = y" not
+R15972 LibLists <> assoc def
+R16034 Cppsem State construction_states proj
+R15998 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16004 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16012 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16018 Coq.Lists.List "x ++ y" not
+R16023 Coq.Lists.List "x :: y" not
+R16026 Coq.Lists.List <> nil constr
+R15980 Cplusconcepts <> pointer_eq_dec thm
+R16065 Coq.Init.Datatypes <> Some constr
+R16070 Cppsem <> Constructed constr
+R15961 Coq.Lists.List <> In def
+R16234 Coq.Init.Logic "A /\ B" not
+R16228 Coq.Init.Logic "x = y" not
+R16137 LibLists <> assoc def
+R16199 Cppsem State construction_states proj
+R16163 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16169 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16177 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16183 Coq.Lists.List "x ++ y" not
+R16188 Coq.Lists.List "x :: y" not
+R16191 Coq.Lists.List <> nil constr
+R16145 Cplusconcepts <> pointer_eq_dec thm
+R16230 Coq.Init.Datatypes <> None constr
+R16123 Coq.Lists.List <> In def
+R16484 Coq.Init.Logic "x = y" not
+R16375 LibLists <> assoc def
+R16455 Cppsem State construction_states proj
+R16401 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16407 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16415 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16416 Cplusconcepts Class.Inheritance Shared constr
+R16444 Coq.Lists.List "x :: y" not
+R16447 Coq.Lists.List <> nil constr
+R16383 Cplusconcepts <> pointer_eq_dec thm
+R16486 Coq.Init.Datatypes <> Some constr
+R16491 Cppsem <> Constructed constr
+R16342 Cplusconcepts <> is_virtual_base_of ind
+R16361 Invariant <> hier syndef
+R16317 Coq.Init.Logic "x = y" not
+R16323 Coq.Lists.List "x :: y" not
+R16268 Coq.Init.Logic "x = y" not
+R16270 Cplusconcepts Class.Inheritance Repeated constr
+R16559 Cppsem State stack proj
+R16671 Coq.Lists.List "x :: y" not
+R16679 Invariant <> stackframe_field_base_inv def
+R16752 Coq.Init.Logic <> False ind
+R16807 Cppsem Constructor virtual constr
+R17529 Coq.Init.Logic "A /\ B" not
+R16878 Coq.Init.Logic "'exists' x , p" not
+R16937 Coq.Init.Logic "A /\ B" not
+R16889 Cplusconcepts <> vborder_list ind
+R16927 Coq.Lists.List "x ++ y" not
+R16908 Cplusconcepts Class super proj
+R16902 Invariant <> hier syndef
+R17115 Coq.Init.Logic "A /\ B" not
+R17097 Coq.Init.Logic "x = y" not
+R16988 LibLists <> assoc def
+R17068 Cppsem State construction_states proj
+R17014 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17020 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17028 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17029 Cplusconcepts Class.Inheritance Shared constr
+R17057 Coq.Lists.List "x :: y" not
+R17060 Coq.Lists.List <> nil constr
+R16996 Cplusconcepts <> pointer_eq_dec thm
+R17099 Coq.Init.Datatypes <> Some constr
+R17104 Cppsem <> Constructed constr
+R16977 Coq.Lists.List <> In def
+R17286 Coq.Init.Logic "A /\ B" not
+R17280 Coq.Init.Logic "x = y" not
+R17171 LibLists <> assoc def
+R17251 Cppsem State construction_states proj
+R17197 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17203 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17211 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17212 Cplusconcepts Class.Inheritance Shared constr
+R17240 Coq.Lists.List "x :: y" not
+R17243 Coq.Lists.List <> nil constr
+R17179 Cplusconcepts <> pointer_eq_dec thm
+R17282 Coq.Init.Datatypes <> None constr
+R17157 Coq.Lists.List <> In def
+R17499 Coq.Init.Logic "x = y" not
+R17382 LibLists <> assoc def
+R17470 Cppsem State construction_states proj
+R17408 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17414 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17422 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17423 Cplusconcepts Class.Inheritance Repeated constr
+R17454 Coq.Lists.List "x :: y" not
+R17459 Coq.Lists.List "x :: y" not
+R17462 Coq.Lists.List <> nil constr
+R17390 Cplusconcepts <> pointer_eq_dec thm
+R17501 Coq.Init.Datatypes <> None constr
+R17328 Coq.Lists.List <> In def
+R17364 Cplusconcepts Class super proj
+R17331 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17332 Cplusconcepts Class.Inheritance Repeated constr
+R17562 Cppsem State stack proj
+R17652 Coq.Lists.List "x :: y" not
+R17660 Invariant <> stackframe_vbase_cell_inv def
+R17733 Coq.Init.Logic <> False ind
+R17829 Coq.Init.Specif <> existT constr
+R17836 Cppsem Constructor field constr
+R17854 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17855 Coq.Init.Datatypes <> tt constr
+R17910 Coq.Init.Logic "A /\ B" not
+R17891 Coq.Init.Logic "x = y" not
+R17893 Cppsem <> BasesConstructed constr
+R18324 Coq.Init.Logic "A /\ B" not
+R17935 Coq.Init.Logic "'exists' x , p" not
+R17976 Coq.Init.Logic "A /\ B" not
+R17961 Coq.Init.Logic "x = y" not
+R17946 Cplusconcepts Class fields proj
+R17966 Coq.Lists.List "x ++ y" not
+R18143 Coq.Init.Logic "A /\ B" not
+R18125 Coq.Init.Logic "x = y" not
+R18025 LibLists <> assoc def
+R18090 Cppsem State field_construction_states proj
+R18064 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18077 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18033 Cppsem <> aux_constr_state_key_eq_dec thm
+R18127 Coq.Init.Datatypes <> Some constr
+R18132 Cppsem <> Constructed constr
+R18013 Coq.Lists.List <> In def
+R18298 Coq.Init.Logic "x = y" not
+R18198 LibLists <> assoc def
+R18263 Cppsem State field_construction_states proj
+R18237 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18250 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18206 Cppsem <> aux_constr_state_key_eq_dec thm
+R18300 Coq.Init.Datatypes <> None constr
+R18182 Coq.Lists.List <> In def
+R18353 Cppsem State stack proj
+R18461 Coq.Lists.List "x :: y" not
+R18469 Invariant <> stackframe_field_base_inv def
+R18538 Coq.Init.Logic <> False ind
+R18592 Cppsem State constr_array constr
+R19360 Coq.Init.Logic "A /\ B" not
+R18633 Coq.Init.Logic "'exists' x , p" not
+R18696 Coq.Init.Logic "A /\ B" not
+R18687 Coq.Init.Logic "x = y" not
+R18679 Maps "a ! b" not
+R18650 Cplusconcepts Globals heap proj
+R18664 Cppsem State global proj
+R18689 Coq.Init.Datatypes <> Some constr
+R18779 Coq.Init.Logic "A /\ B" not
+R18711 Cplusconcepts <> valid_array_path ind
+R18756 Cplusconcepts Object arraysize proj
+R18739 Cplusconcepts Object class proj
+R18728 Invariant <> hier syndef
+R19022 Coq.Init.Logic "A /\ B" not
+R18827 LibLists <> last def
+R18850 Coq.Init.Datatypes <> None constr
+R18881 Coq.Init.Logic "A /\ B" not
+R18860 Coq.Init.Logic "x = y" not
+R18862 Cplusconcepts Object arraysize proj
+R18887 Coq.Init.Logic "x = y" not
+R18889 Cplusconcepts Object class proj
+R18914 Coq.Init.Datatypes <> Some constr
+R18919 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18933 Coq.Init.Logic "'exists' x , p" not
+R18956 Coq.Init.Logic "A /\ B" not
+R18946 Coq.Init.Logic "x = y" not
+R18948 Coq.ZArith.BinInt <> Zpos constr
+R18982 Coq.Init.Logic "x = y" not
+R18959 Cplusconcepts FieldSignature type proj
+R18984 Cplusconcepts FieldSignature Struct constr
+R19043 Coq.Init.Logic "A /\ B" not
+R19033 Coq.ZArith.BinInt "x <= y <= z" not
+R19031 Coq.ZArith.BinInt "" not
+R19207 Coq.Init.Logic "A /\ B" not
+R19189 Coq.Init.Logic "x = y" not
+R19077 LibLists <> assoc def
+R19160 Cppsem State construction_states proj
+R19103 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19109 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19117 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19118 Cplusconcepts Class.Inheritance Repeated constr
+R19149 Coq.Lists.List "x :: y" not
+R19152 Coq.Lists.List <> nil constr
+R19085 Cplusconcepts <> pointer_eq_dec thm
+R19191 Coq.Init.Datatypes <> Some constr
+R19196 Cppsem <> Constructed constr
+R19065 Coq.ZArith.BinInt "x <= y < z" not
+R19063 Coq.ZArith.BinInt "" not
+R19354 Coq.Init.Logic "x = y" not
+R19242 LibLists <> assoc def
+R19325 Cppsem State construction_states proj
+R19268 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19274 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19282 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19283 Cplusconcepts Class.Inheritance Repeated constr
+R19314 Coq.Lists.List "x :: y" not
+R19317 Coq.Lists.List <> nil constr
+R19250 Cplusconcepts <> pointer_eq_dec thm
+R19356 Coq.Init.Datatypes <> None constr
+R19230 Coq.ZArith.BinInt "x <= y < z" not
+R19375 Cppsem State stack proj
+R19448 Coq.Lists.List "x :: y" not
+R19456 Invariant <> stackframe_array_fields_inv def
+R19507 Coq.Init.Logic <> False ind
+R19547 Cppsem State destr constr
+R19568 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19592 Coq.Init.Logic "'exists' x , p" not
+R19700 Coq.Init.Logic "A /\ B" not
+R19690 Coq.Init.Logic "x = y" not
+R19611 LibLists <> assoc def
+R19661 Cppsem State construction_states proj
+R19637 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19643 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19651 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19619 Cplusconcepts <> pointer_eq_dec thm
+R19692 Coq.Init.Datatypes <> Some constr
+R19711 Coq.Init.Logic "'exists' x , p" not
+R19817 Coq.Init.Logic "A /\ B" not
+R19732 Cplusconcepts <> valid_pointer ind
+R19784 Cplusconcepts Value subobject constr
+R19752 Cplusconcepts Globals heap proj
+R19766 Cppsem State global proj
+R19746 Invariant <> hier syndef
+R19830 Coq.Init.Logic "'exists' x , p" not
+R19858 Coq.Init.Logic "A /\ B" not
+R19848 Coq.Init.Logic "x = y" not
+R19841 LibLists <> last def
+R19850 Coq.Init.Datatypes <> Some constr
+R19873 Coq.Init.Logic "'exists' x , p" not
+R19902 Coq.Init.Logic "A /\ B" not
+R19893 Coq.Init.Logic "x = y" not
+R19888 Maps "a ! b" not
+R19883 Invariant <> hier syndef
+R19895 Coq.Init.Datatypes <> Some constr
+R19925 Coq.Init.Specif <> existT constr
+R20024 Coq.Init.Datatypes "( x , y , .. , z )" not
+R19976 Coq.Init.Datatypes "x * y" not
+R19943 Cppsem Constructor init_key_secondary def
+R19978 Coq.Lists.List <> list ind
+R19984 Cppsem Constructor init_key_item def
+R20073 Coq.Init.Specif <> existT constr
+R20080 Cppsem Constructor base constr
+R20097 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20153 Coq.Init.Logic "A /\ B" not
+R20134 Coq.Init.Logic "x = y" not
+R20136 Cppsem <> DestructingBases constr
+R20212 Cppsem Constructor direct_non_virtual constr
+R21281 Coq.Init.Logic "A /\ B" not
+R20294 Coq.Init.Logic "'exists' x , p" not
+R20665 Coq.Init.Logic "A /\ B" not
+R20651 Coq.Init.Logic "x = y" not
+R20305 Coq.Lists.List <> rev def
+R20310 Coq.Lists.List <> map def
+R20410 Coq.Lists.List <> filter def
+R20633 Cplusconcepts Class super proj
+R20516 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20517 Cplusconcepts Class.Inheritance Repeated constr
+R20551 Coq.Init.Datatypes <> true constr
+R20593 Coq.Init.Datatypes <> false constr
+R20430 Coq.Init.Datatypes "x * y" not
+R20432 Cplusconcepts <> ident def
+R20345 Coq.Init.Datatypes "x * y" not
+R20325 Cplusconcepts Class.Inheritance t ind
+R20347 Cplusconcepts <> ident def
+R20656 Coq.Lists.List "x ++ y" not
+R20824 Coq.Init.Logic "A /\ B" not
+R20807 Coq.Init.Logic "x = y" not
+R20716 LibLists <> assoc def
+R20778 Cppsem State construction_states proj
+R20742 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20748 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20756 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20762 Coq.Lists.List "x ++ y" not
+R20767 Coq.Lists.List "x :: y" not
+R20770 Coq.Lists.List <> nil constr
+R20724 Cplusconcepts <> pointer_eq_dec thm
+R20809 Coq.Init.Datatypes <> Some constr
+R20814 Cppsem <> Destructed constr
+R20705 Coq.Lists.List <> In def
+R20989 Coq.Init.Logic "A /\ B" not
+R20971 Coq.Init.Logic "x = y" not
+R20880 LibLists <> assoc def
+R20942 Cppsem State construction_states proj
+R20906 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20912 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20920 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20926 Coq.Lists.List "x ++ y" not
+R20931 Coq.Lists.List "x :: y" not
+R20934 Coq.Lists.List <> nil constr
+R20888 Cplusconcepts <> pointer_eq_dec thm
+R20973 Coq.Init.Datatypes <> Some constr
+R20978 Cppsem <> Constructed constr
+R20866 Coq.Lists.List <> In def
+R21239 Coq.Init.Logic "x = y" not
+R21130 LibLists <> assoc def
+R21210 Cppsem State construction_states proj
+R21156 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21162 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21170 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21171 Cplusconcepts Class.Inheritance Shared constr
+R21199 Coq.Lists.List "x :: y" not
+R21202 Coq.Lists.List <> nil constr
+R21138 Cplusconcepts <> pointer_eq_dec thm
+R21241 Coq.Init.Datatypes <> Some constr
+R21246 Cppsem <> Constructed constr
+R21097 Cplusconcepts <> is_virtual_base_of ind
+R21116 Invariant <> hier syndef
+R21072 Coq.Init.Logic "x = y" not
+R21078 Coq.Lists.List "x :: y" not
+R21023 Coq.Init.Logic "x = y" not
+R21025 Cplusconcepts Class.Inheritance Repeated constr
+R21314 Cppsem State stack proj
+R21426 Coq.Lists.List "x :: y" not
+R21434 Invariant <> stackframe_field_base_inv_destr def
+R21513 Coq.Init.Logic <> False ind
+R21568 Cppsem Constructor virtual constr
+R21639 Coq.Init.Logic "A /\ B" not
+R21623 Coq.Init.Logic "A /\ B" not
+R21594 Coq.Init.Logic "x = y" not
+R21596 Cplusconcepts Class.Inheritance Repeated constr
+R21628 Coq.Init.Logic "x = y" not
+R21633 Coq.Lists.List "x :: y" not
+R21636 Coq.Lists.List <> nil constr
+R22371 Coq.Init.Logic "A /\ B" not
+R21692 Coq.Init.Logic "'exists' x , p" not
+R21757 Coq.Init.Logic "A /\ B" not
+R21703 Cplusconcepts <> vborder_list ind
+R21738 Coq.Lists.List <> rev def
+R21746 Coq.Lists.List "x ++ y" not
+R21722 Cplusconcepts Class super proj
+R21716 Invariant <> hier syndef
+R21934 Coq.Init.Logic "A /\ B" not
+R21917 Coq.Init.Logic "x = y" not
+R21808 LibLists <> assoc def
+R21888 Cppsem State construction_states proj
+R21834 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21840 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21848 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21849 Cplusconcepts Class.Inheritance Shared constr
+R21877 Coq.Lists.List "x :: y" not
+R21880 Coq.Lists.List <> nil constr
+R21816 Cplusconcepts <> pointer_eq_dec thm
+R21919 Coq.Init.Datatypes <> Some constr
+R21924 Cppsem <> Destructed constr
+R21797 Coq.Lists.List <> In def
+R22117 Coq.Init.Logic "A /\ B" not
+R22099 Coq.Init.Logic "x = y" not
+R21990 LibLists <> assoc def
+R22070 Cppsem State construction_states proj
+R22016 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22022 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22030 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22031 Cplusconcepts Class.Inheritance Shared constr
+R22059 Coq.Lists.List "x :: y" not
+R22062 Coq.Lists.List <> nil constr
+R21998 Cplusconcepts <> pointer_eq_dec thm
+R22101 Coq.Init.Datatypes <> Some constr
+R22106 Cppsem <> Constructed constr
+R21976 Coq.Lists.List <> In def
+R22330 Coq.Init.Logic "x = y" not
+R22213 LibLists <> assoc def
+R22301 Cppsem State construction_states proj
+R22239 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22245 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22253 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22254 Cplusconcepts Class.Inheritance Repeated constr
+R22285 Coq.Lists.List "x :: y" not
+R22290 Coq.Lists.List "x :: y" not
+R22293 Coq.Lists.List <> nil constr
+R22221 Cplusconcepts <> pointer_eq_dec thm
+R22332 Coq.Init.Datatypes <> Some constr
+R22337 Cppsem <> Destructed constr
+R22159 Coq.Lists.List <> In def
+R22195 Cplusconcepts Class super proj
+R22162 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22163 Cplusconcepts Class.Inheritance Repeated constr
+R23165 Cppsem State stack proj
+R23255 Coq.Lists.List "x :: y" not
+R23263 Invariant <> stackframe_array_fields_inv_destr def
+R23505 Coq.Init.Logic <> False ind
+R23601 Coq.Init.Specif <> existT constr
+R23608 Cppsem Constructor field constr
+R23626 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23627 Coq.Init.Datatypes <> tt constr
+R23684 Coq.Init.Logic "A /\ B" not
+R23663 Coq.Init.Logic "x = y" not
+R23665 Cppsem <> StartedDestructing constr
+R24115 Coq.Init.Logic "A /\ B" not
+R23709 Coq.Init.Logic "'exists' x , p" not
+R23756 Coq.Init.Logic "A /\ B" not
+R23741 Coq.Init.Logic "x = y" not
+R23720 Coq.Lists.List <> rev def
+R23725 Cplusconcepts Class fields proj
+R23746 Coq.Lists.List "x ++ y" not
+R23922 Coq.Init.Logic "A /\ B" not
+R23905 Coq.Init.Logic "x = y" not
+R23805 LibLists <> assoc def
+R23870 Cppsem State field_construction_states proj
+R23844 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23857 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23813 Cppsem <> aux_constr_state_key_eq_dec thm
+R23907 Coq.Init.Datatypes <> Some constr
+R23912 Cppsem <> Destructed constr
+R23793 Coq.Lists.List <> In def
+R24077 Coq.Init.Logic "x = y" not
+R23977 LibLists <> assoc def
+R24042 Cppsem State field_construction_states proj
+R24016 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24029 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23985 Cppsem <> aux_constr_state_key_eq_dec thm
+R24079 Coq.Init.Datatypes <> Some constr
+R24084 Cppsem <> Constructed constr
+R23961 Coq.Lists.List <> In def
+R24144 Cppsem State stack proj
+R24252 Coq.Lists.List "x :: y" not
+R24260 Invariant <> stackframe_field_base_inv_destr def
+R24335 Coq.Init.Logic <> False ind
+R24389 Cppsem State destr_array constr
+R25171 Coq.Init.Logic "A /\ B" not
+R24423 Coq.Init.Logic "'exists' x , p" not
+R24433 Coq.Init.Logic "'exists' x , p" not
+R24496 Coq.Init.Logic "A /\ B" not
+R24487 Coq.Init.Logic "x = y" not
+R24479 Maps "a ! b" not
+R24450 Cplusconcepts Globals heap proj
+R24464 Cppsem State global proj
+R24489 Coq.Init.Datatypes <> Some constr
+R24579 Coq.Init.Logic "A /\ B" not
+R24511 Cplusconcepts <> valid_array_path ind
+R24556 Cplusconcepts Object arraysize proj
+R24539 Cplusconcepts Object class proj
+R24528 Invariant <> hier syndef
+R24822 Coq.Init.Logic "A /\ B" not
+R24627 LibLists <> last def
+R24650 Coq.Init.Datatypes <> None constr
+R24681 Coq.Init.Logic "A /\ B" not
+R24660 Coq.Init.Logic "x = y" not
+R24662 Cplusconcepts Object arraysize proj
+R24687 Coq.Init.Logic "x = y" not
+R24689 Cplusconcepts Object class proj
+R24714 Coq.Init.Datatypes <> Some constr
+R24719 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24733 Coq.Init.Logic "'exists' x , p" not
+R24756 Coq.Init.Logic "A /\ B" not
+R24746 Coq.Init.Logic "x = y" not
+R24748 Coq.ZArith.BinInt <> Zpos constr
+R24782 Coq.Init.Logic "x = y" not
+R24759 Cplusconcepts FieldSignature type proj
+R24784 Cplusconcepts FieldSignature Struct constr
+R24843 Coq.Init.Logic "A /\ B" not
+R24834 Coq.ZArith.BinInt "x <= y < z" not
+R24831 Coq.ZArith.BinInt "" not
+R25008 Coq.Init.Logic "A /\ B" not
+R24990 Coq.Init.Logic "x = y" not
+R24878 LibLists <> assoc def
+R24961 Cppsem State construction_states proj
+R24904 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24910 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24918 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24919 Cplusconcepts Class.Inheritance Repeated constr
+R24950 Coq.Lists.List "x :: y" not
+R24953 Coq.Lists.List <> nil constr
+R24886 Cplusconcepts <> pointer_eq_dec thm
+R24992 Coq.Init.Datatypes <> Some constr
+R24997 Cppsem <> Constructed constr
+R24865 Coq.ZArith.BinInt "x <= y <= z" not
+R24863 Coq.ZArith.BinInt "" not
+R25154 Coq.Init.Logic "x = y" not
+R25042 LibLists <> assoc def
+R25125 Cppsem State construction_states proj
+R25068 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25074 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25082 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25083 Cplusconcepts Class.Inheritance Repeated constr
+R25114 Coq.Lists.List "x :: y" not
+R25117 Coq.Lists.List <> nil constr
+R25050 Cplusconcepts <> pointer_eq_dec thm
+R25156 Coq.Init.Datatypes <> Some constr
+R25161 Cppsem <> Destructed constr
+R25031 Coq.ZArith.BinInt "x < y < z" not
+R25186 Cppsem State stack proj
+R25259 Coq.Lists.List "x :: y" not
+R25267 Invariant <> stackframe_array_fields_inv_destr def
+R25324 Coq.Init.Logic <> False ind
+R25350 Cppsem State codepoint constr
+R25389 Cppsem State stack proj
+R25421 Coq.Lists.List "x :: y" not
+R25429 Invariant <> stackframe_constructor_inv def
+R25469 Coq.Lists.List <> nil constr
+R25476 Coq.Init.Logic <> True ind
+def 25511 <> stackframe_weak_inv
+R25595 Cppsem StackFrame Kconstrother constr
+R25628 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25672 Coq.Init.Logic "'exists' x , p" not
+R25780 Coq.Init.Logic "A /\ B" not
+R25770 Coq.Init.Logic "x = y" not
+R25691 LibLists <> assoc def
+R25741 Cppsem State construction_states proj
+R25717 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25723 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25731 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25699 Cplusconcepts <> pointer_eq_dec thm
+R25772 Coq.Init.Datatypes <> Some constr
+R25791 Coq.Init.Logic "'exists' x , p" not
+R25897 Coq.Init.Logic "A /\ B" not
+R25812 Cplusconcepts <> valid_pointer ind
+R25864 Cplusconcepts Value subobject constr
+R25832 Cplusconcepts Globals heap proj
+R25846 Cppsem State global proj
+R25826 Invariant <> hier syndef
+R25910 Coq.Init.Logic "'exists' x , p" not
+R25938 Coq.Init.Logic "A /\ B" not
+R25928 Coq.Init.Logic "x = y" not
+R25921 LibLists <> last def
+R25930 Coq.Init.Datatypes <> Some constr
+R25953 Coq.Init.Logic "'exists' x , p" not
+R25982 Coq.Init.Logic "A /\ B" not
+R25973 Coq.Init.Logic "x = y" not
+R25968 Maps "a ! b" not
+R25963 Invariant <> hier syndef
+R25975 Coq.Init.Datatypes <> Some constr
+R26006 Coq.Init.Specif <> existT constr
+R26137 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26089 Coq.Init.Datatypes "x * y" not
+R26057 Coq.Init.Datatypes "x * y" not
+R26024 Cppsem Constructor init_key_secondary def
+R26059 Cppsem Constructor init_key_item def
+R26091 Coq.Lists.List <> list ind
+R26097 Cppsem Constructor init_key_item def
+R26198 Coq.Init.Specif <> existT constr
+R26205 Cppsem Constructor base constr
+R26222 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26293 Coq.Init.Logic "A /\ B" not
+R26271 Coq.Init.Logic "x = y" not
+R26273 Cppsem <> StartedConstructing constr
+R26352 Cppsem Constructor direct_non_virtual constr
+R26408 Coq.Init.Logic "'exists' x , p" not
+R26777 Coq.Init.Logic "A /\ B" not
+R26749 Coq.Init.Logic "x = y" not
+R26419 Coq.Lists.List <> map def
+R26517 Coq.Lists.List <> filter def
+R26732 Cplusconcepts Class super proj
+R26619 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26620 Cplusconcepts Class.Inheritance Repeated constr
+R26654 Coq.Init.Datatypes <> true constr
+R26694 Coq.Init.Datatypes <> false constr
+R26537 Coq.Init.Datatypes "x * y" not
+R26539 Cplusconcepts <> ident def
+R26454 Coq.Init.Datatypes "x * y" not
+R26434 Cplusconcepts Class.Inheritance t ind
+R26456 Cplusconcepts <> ident def
+R26754 Coq.Lists.List "x ++ y" not
+R26762 Coq.Lists.List "x :: y" not
+R27489 Coq.Init.Logic "A \/ B" not
+R27462 Coq.Init.Logic "x = y" not
+R27464 Coq.Init.Datatypes <> Some constr
+R27469 Cppsem <> StartedConstructing constr
+R27495 Coq.Init.Logic "x = y" not
+R27497 Coq.Init.Datatypes <> Some constr
+R27502 Cppsem <> BasesConstructed constr
+R27336 LibLists <> assoc def
+R27401 Cppsem State construction_states proj
+R27362 Coq.Init.Datatypes "( x , y , .. , z )" not
+R27368 Coq.Init.Datatypes "( x , y , .. , z )" not
+R27376 Coq.Init.Datatypes "( x , y , .. , z )" not
+R27382 Coq.Lists.List "x ++ y" not
+R27390 Coq.Lists.List "x :: y" not
+R27393 Coq.Lists.List <> nil constr
+R27344 Cplusconcepts <> pointer_eq_dec thm
+R27542 Cppsem Constructor virtual constr
+R27618 Coq.Init.Logic "A /\ B" not
+R27589 Coq.Init.Logic "x = y" not
+R27591 Cplusconcepts Class.Inheritance Repeated constr
+R27635 Coq.Init.Logic "A /\ B" not
+R27623 Coq.Init.Logic "x = y" not
+R27628 Coq.Lists.List "x :: y" not
+R27631 Coq.Lists.List <> nil constr
+R27660 Coq.Init.Logic "'exists' x , p" not
+R27733 Coq.Init.Logic "A /\ B" not
+R27671 Cplusconcepts <> vborder_list ind
+R27709 Coq.Lists.List "x ++ y" not
+R27717 Coq.Lists.List "x :: y" not
+R27690 Cplusconcepts Class super proj
+R27684 Invariant <> hier syndef
+R28541 Coq.Init.Logic "A \/ B" not
+R28514 Coq.Init.Logic "x = y" not
+R28516 Coq.Init.Datatypes <> Some constr
+R28521 Cppsem <> StartedConstructing constr
+R28547 Coq.Init.Logic "x = y" not
+R28549 Coq.Init.Datatypes <> Some constr
+R28554 Cppsem <> BasesConstructed constr
+R28370 LibLists <> assoc def
+R28453 Cppsem State construction_states proj
+R28396 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28402 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28410 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28411 Cplusconcepts Class.Inheritance Shared constr
+R28442 Coq.Lists.List "x :: y" not
+R28445 Coq.Lists.List <> nil constr
+R28378 Cplusconcepts <> pointer_eq_dec thm
+R28613 Coq.Init.Specif <> existT constr
+R28620 Cppsem Constructor field constr
+R28638 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28639 Coq.Init.Datatypes <> tt constr
+R28707 Coq.Init.Logic "A /\ B" not
+R28688 Coq.Init.Logic "x = y" not
+R28690 Cppsem <> BasesConstructed constr
+R28728 Coq.Init.Logic "'exists' x , p" not
+R28784 Coq.Init.Logic "A /\ B" not
+R28754 Coq.Init.Logic "x = y" not
+R28739 Cplusconcepts Class fields proj
+R28759 Coq.Lists.List "x ++ y" not
+R28768 Coq.Lists.List "x :: y" not
+R29201 Coq.Init.Logic "x = y" not
+R29098 LibLists <> assoc def
+R29166 Cppsem State field_construction_states proj
+R29137 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29150 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29106 Cppsem <> aux_constr_state_key_eq_dec thm
+R29203 Coq.Init.Datatypes <> Some constr
+R29208 Cppsem <> StartedConstructing constr
+R29254 Cppsem StackFrame Kconstrothercells constr
+R29304 Coq.Init.Logic "'exists' x , p" not
+R29367 Coq.Init.Logic "A /\ B" not
+R29358 Coq.Init.Logic "x = y" not
+R29350 Maps "a ! b" not
+R29321 Cplusconcepts Globals heap proj
+R29335 Cppsem State global proj
+R29360 Coq.Init.Datatypes <> Some constr
+R29450 Coq.Init.Logic "A /\ B" not
+R29382 Cplusconcepts <> valid_array_path ind
+R29427 Cplusconcepts Object arraysize proj
+R29410 Cplusconcepts Object class proj
+R29399 Invariant <> hier syndef
+R29660 Coq.Init.Logic "A /\ B" not
+R29465 LibLists <> last def
+R29488 Coq.Init.Datatypes <> None constr
+R29519 Coq.Init.Logic "A /\ B" not
+R29498 Coq.Init.Logic "x = y" not
+R29500 Cplusconcepts Object arraysize proj
+R29525 Coq.Init.Logic "x = y" not
+R29527 Cplusconcepts Object class proj
+R29552 Coq.Init.Datatypes <> Some constr
+R29557 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29571 Coq.Init.Logic "'exists' x , p" not
+R29594 Coq.Init.Logic "A /\ B" not
+R29584 Coq.Init.Logic "x = y" not
+R29586 Coq.ZArith.BinInt <> Zpos constr
+R29620 Coq.Init.Logic "x = y" not
+R29597 Cplusconcepts FieldSignature type proj
+R29622 Cplusconcepts FieldSignature Struct constr
+R29680 Coq.Init.Logic "A /\ B" not
+R29671 Coq.ZArith.BinInt "x <= y < z" not
+R29669 Coq.ZArith.BinInt "" not
+R30169 Coq.Init.Logic "A \/ B" not
+R30142 Coq.Init.Logic "x = y" not
+R30144 Coq.Init.Datatypes <> Some constr
+R30149 Cppsem <> StartedConstructing constr
+R30175 Coq.Init.Logic "x = y" not
+R30177 Coq.Init.Datatypes <> Some constr
+R30182 Cppsem <> BasesConstructed constr
+R30024 LibLists <> assoc def
+R30107 Cppsem State construction_states proj
+R30050 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30056 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30064 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30065 Cplusconcepts Class.Inheritance Repeated constr
+R30096 Coq.Lists.List "x :: y" not
+R30099 Coq.Lists.List <> nil constr
+R30032 Cplusconcepts <> pointer_eq_dec thm
+R30225 Cppsem StackFrame Kdestrother constr
+R30257 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30293 Coq.Init.Logic "'exists' x , p" not
+R30401 Coq.Init.Logic "A /\ B" not
+R30391 Coq.Init.Logic "x = y" not
+R30312 LibLists <> assoc def
+R30362 Cppsem State construction_states proj
+R30338 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30344 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30352 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30320 Cplusconcepts <> pointer_eq_dec thm
+R30393 Coq.Init.Datatypes <> Some constr
+R30412 Coq.Init.Logic "'exists' x , p" not
+R30518 Coq.Init.Logic "A /\ B" not
+R30433 Cplusconcepts <> valid_pointer ind
+R30485 Cplusconcepts Value subobject constr
+R30453 Cplusconcepts Globals heap proj
+R30467 Cppsem State global proj
+R30447 Invariant <> hier syndef
+R30531 Coq.Init.Logic "'exists' x , p" not
+R30559 Coq.Init.Logic "A /\ B" not
+R30549 Coq.Init.Logic "x = y" not
+R30542 LibLists <> last def
+R30551 Coq.Init.Datatypes <> Some constr
+R30574 Coq.Init.Logic "'exists' x , p" not
+R30603 Coq.Init.Logic "A /\ B" not
+R30594 Coq.Init.Logic "x = y" not
+R30589 Maps "a ! b" not
+R30584 Invariant <> hier syndef
+R30596 Coq.Init.Datatypes <> Some constr
+R30627 Coq.Init.Specif <> existT constr
+R30758 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30710 Coq.Init.Datatypes "x * y" not
+R30678 Coq.Init.Datatypes "x * y" not
+R30645 Cppsem Constructor init_key_secondary def
+R30680 Cppsem Constructor init_key_item def
+R30712 Coq.Lists.List <> list ind
+R30718 Cppsem Constructor init_key_item def
+R30819 Coq.Init.Specif <> existT constr
+R30826 Cppsem Constructor base constr
+R30843 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30911 Coq.Init.Logic "A /\ B" not
+R30892 Coq.Init.Logic "x = y" not
+R30894 Cppsem <> DestructingBases constr
+R30970 Cppsem Constructor direct_non_virtual constr
+R31026 Coq.Init.Logic "'exists' x , p" not
+R31401 Coq.Init.Logic "A /\ B" not
+R31373 Coq.Init.Logic "x = y" not
+R31037 Coq.Lists.List <> rev def
+R31042 Coq.Lists.List <> map def
+R31140 Coq.Lists.List <> filter def
+R31355 Cplusconcepts Class super proj
+R31242 Coq.Init.Datatypes "( x , y , .. , z )" not
+R31243 Cplusconcepts Class.Inheritance Repeated constr
+R31277 Coq.Init.Datatypes <> true constr
+R31317 Coq.Init.Datatypes <> false constr
+R31160 Coq.Init.Datatypes "x * y" not
+R31162 Cplusconcepts <> ident def
+R31077 Coq.Init.Datatypes "x * y" not
+R31057 Cplusconcepts Class.Inheritance t ind
+R31079 Cplusconcepts <> ident def
+R31378 Coq.Lists.List "x ++ y" not
+R31386 Coq.Lists.List "x :: y" not
+R32119 Coq.Init.Logic "A \/ B" not
+R32093 Coq.Init.Logic "x = y" not
+R32095 Coq.Init.Datatypes <> Some constr
+R32100 Cppsem <> StartedDestructing constr
+R32125 Coq.Init.Logic "x = y" not
+R32127 Coq.Init.Datatypes <> Some constr
+R32132 Cppsem <> DestructingBases constr
+R31969 LibLists <> assoc def
+R32034 Cppsem State construction_states proj
+R31995 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32001 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32009 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32015 Coq.Lists.List "x ++ y" not
+R32023 Coq.Lists.List "x :: y" not
+R32026 Coq.Lists.List <> nil constr
+R31977 Cplusconcepts <> pointer_eq_dec thm
+R32172 Cppsem Constructor virtual constr
+R32248 Coq.Init.Logic "A /\ B" not
+R32219 Coq.Init.Logic "x = y" not
+R32221 Cplusconcepts Class.Inheritance Repeated constr
+R32265 Coq.Init.Logic "A /\ B" not
+R32253 Coq.Init.Logic "x = y" not
+R32258 Coq.Lists.List "x :: y" not
+R32261 Coq.Lists.List <> nil constr
+R32290 Coq.Init.Logic "'exists' x , p" not
+R32369 Coq.Init.Logic "A /\ B" not
+R32301 Cplusconcepts <> vborder_list ind
+R32336 Coq.Lists.List <> rev def
+R32344 Coq.Lists.List "x ++ y" not
+R32352 Coq.Lists.List "x :: y" not
+R32320 Cplusconcepts Class super proj
+R32314 Invariant <> hier syndef
+R33199 Coq.Init.Logic "A \/ B" not
+R33173 Coq.Init.Logic "x = y" not
+R33175 Coq.Init.Datatypes <> Some constr
+R33180 Cppsem <> StartedDestructing constr
+R33205 Coq.Init.Logic "x = y" not
+R33207 Coq.Init.Datatypes <> Some constr
+R33212 Cppsem <> DestructingBases constr
+R33029 LibLists <> assoc def
+R33112 Cppsem State construction_states proj
+R33055 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33061 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33069 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33070 Cplusconcepts Class.Inheritance Shared constr
+R33101 Coq.Lists.List "x :: y" not
+R33104 Coq.Lists.List <> nil constr
+R33037 Cplusconcepts <> pointer_eq_dec thm
+R34060 Coq.Init.Specif <> existT constr
+R34067 Cppsem Constructor field constr
+R34085 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34086 Coq.Init.Datatypes <> tt constr
+R34156 Coq.Init.Logic "A /\ B" not
+R34135 Coq.Init.Logic "x = y" not
+R34137 Cppsem <> StartedDestructing constr
+R34177 Coq.Init.Logic "'exists' x , p" not
+R34239 Coq.Init.Logic "A /\ B" not
+R34209 Coq.Init.Logic "x = y" not
+R34188 Coq.Lists.List <> rev def
+R34193 Cplusconcepts Class fields proj
+R34214 Coq.Lists.List "x ++ y" not
+R34223 Coq.Lists.List "x :: y" not
+R34667 Coq.Init.Logic "x = y" not
+R34564 LibLists <> assoc def
+R34632 Cppsem State field_construction_states proj
+R34603 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34616 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34572 Cppsem <> aux_constr_state_key_eq_dec thm
+R34669 Coq.Init.Datatypes <> Some constr
+R34674 Cppsem <> StartedDestructing constr
+R34719 Cppsem StackFrame Kdestrcell constr
+R34756 Coq.Init.Logic "'exists' x , p" not
+R34766 Coq.Init.Logic "'exists' x , p" not
+R34829 Coq.Init.Logic "A /\ B" not
+R34820 Coq.Init.Logic "x = y" not
+R34812 Maps "a ! b" not
+R34783 Cplusconcepts Globals heap proj
+R34797 Cppsem State global proj
+R34822 Coq.Init.Datatypes <> Some constr
+R34912 Coq.Init.Logic "A /\ B" not
+R34844 Cplusconcepts <> valid_array_path ind
+R34889 Cplusconcepts Object arraysize proj
+R34872 Cplusconcepts Object class proj
+R34861 Invariant <> hier syndef
+R35122 Coq.Init.Logic "A /\ B" not
+R34927 LibLists <> last def
+R34950 Coq.Init.Datatypes <> None constr
+R34981 Coq.Init.Logic "A /\ B" not
+R34960 Coq.Init.Logic "x = y" not
+R34962 Cplusconcepts Object arraysize proj
+R34987 Coq.Init.Logic "x = y" not
+R34989 Cplusconcepts Object class proj
+R35014 Coq.Init.Datatypes <> Some constr
+R35019 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35033 Coq.Init.Logic "'exists' x , p" not
+R35056 Coq.Init.Logic "A /\ B" not
+R35046 Coq.Init.Logic "x = y" not
+R35048 Coq.ZArith.BinInt <> Zpos constr
+R35082 Coq.Init.Logic "x = y" not
+R35059 Cplusconcepts FieldSignature type proj
+R35084 Cplusconcepts FieldSignature Struct constr
+R35142 Coq.Init.Logic "A /\ B" not
+R35133 Coq.ZArith.BinInt "x <= y < z" not
+R35131 Coq.ZArith.BinInt "" not
+R35641 Coq.Init.Logic "A \/ B" not
+R35615 Coq.Init.Logic "x = y" not
+R35617 Coq.Init.Datatypes <> Some constr
+R35622 Cppsem <> StartedDestructing constr
+R35647 Coq.Init.Logic "x = y" not
+R35649 Coq.Init.Datatypes <> Some constr
+R35654 Cppsem <> DestructingBases constr
+R35497 LibLists <> assoc def
+R35580 Cppsem State construction_states proj
+R35523 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35529 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35537 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35538 Cplusconcepts Class.Inheritance Repeated constr
+R35569 Coq.Lists.List "x :: y" not
+R35572 Coq.Lists.List <> nil constr
+R35505 Cplusconcepts <> pointer_eq_dec thm
+R35685 Coq.Init.Logic <> True ind
+R25537 Cppsem StackFrame t ind
+def 35926 <> stack2_inv
+R36190 Coq.Init.Logic "A /\ B" not
+R36082 Coq.Lists.List <> nil constr
+R36089 Coq.Init.Logic <> True ind
+R36125 Coq.Lists.List "x :: y" not
+R36133 Invariant <> stackframe_constructor_inv def
+R36020 Invariant <> is_code_frame def
+R36266 Coq.Lists.List <> nil constr
+R36273 Coq.Init.Logic <> False ind
+R36312 Coq.Lists.List "x :: y" not
+R36348 Coq.Init.Logic "A /\ B" not
+R36320 Invariant <> stackframe_chaining def
+R36379 Coq.Init.Logic <> False ind
+R36352 Invariant <> frame_requires_code def
+R36199 Coq.Init.Logic "~ x" not
+R36201 Invariant <> is_code_frame def
+R35975 Coq.Lists.List <> list ind
+R35981 Cppsem StackFrame t ind
+R35944 Cppsem StackFrame t ind
+R36477 Coq.Init.Datatypes <> option ind
+R36491 Coq.Init.Datatypes "x * y" not
+R36485 Cplusconcepts <> ident def
+R36493 Cplusconcepts <> array_path def
+R36450 Cppsem StackFrame t ind
+R36532 Cppsem StackFrame Kconstrothercells constr
+R36581 Coq.Init.Datatypes <> Some constr
+R36586 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36602 Cppsem StackFrame Kconstr constr
+R36649 Coq.Init.Datatypes <> Some constr
+R36654 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36670 Cppsem StackFrame Kconstrarray constr
+R36712 Coq.Init.Datatypes <> Some constr
+R36717 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36733 Cppsem StackFrame Kconstrother constr
+R36787 Coq.Init.Datatypes <> Some constr
+R36792 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36808 Cppsem StackFrame Kdestrcell constr
+R36844 Coq.Init.Datatypes <> Some constr
+R36849 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36865 Cppsem StackFrame Kdestr constr
+R36897 Coq.Init.Datatypes <> Some constr
+R36902 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36918 Cppsem StackFrame Kdestrother constr
+R36963 Coq.Init.Datatypes <> Some constr
+R36968 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36989 Coq.Init.Datatypes <> None constr
+R36450 Cppsem StackFrame t ind
+R36477 Coq.Init.Datatypes <> option ind
+R36491 Coq.Init.Datatypes "x * y" not
+R36485 Cplusconcepts <> ident def
+R36493 Cplusconcepts <> array_path def
+R36532 Cppsem StackFrame Kconstrothercells constr
+R36581 Coq.Init.Datatypes <> Some constr
+R36586 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36602 Cppsem StackFrame Kconstr constr
+R36649 Coq.Init.Datatypes <> Some constr
+R36654 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36670 Cppsem StackFrame Kconstrarray constr
+R36712 Coq.Init.Datatypes <> Some constr
+R36717 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36733 Cppsem StackFrame Kconstrother constr
+R36787 Coq.Init.Datatypes <> Some constr
+R36792 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36808 Cppsem StackFrame Kdestrcell constr
+R36844 Coq.Init.Datatypes <> Some constr
+R36849 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36865 Cppsem StackFrame Kdestr constr
+R36897 Coq.Init.Datatypes <> Some constr
+R36902 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36918 Cppsem StackFrame Kdestrother constr
+R36963 Coq.Init.Datatypes <> Some constr
+R36968 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36989 Coq.Init.Datatypes <> None constr
+R36450 Cppsem StackFrame t ind
+R37056 Coq.Init.Datatypes <> option ind
+R37070 Coq.Init.Datatypes "x * y" not
+R37064 Cplusconcepts <> ident def
+R37072 Cplusconcepts <> array_path def
+R37029 Cppsem StackFrame t ind
+R37111 Cppsem StackFrame Kconstrothercells constr
+R37160 Coq.Init.Datatypes <> Some constr
+R37165 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37181 Cppsem StackFrame Kconstrarray constr
+R37223 Coq.Init.Datatypes <> Some constr
+R37228 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37244 Cppsem StackFrame Kdestrcell constr
+R37280 Coq.Init.Datatypes <> Some constr
+R37285 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37301 Cppsem StackFrame Kdestrother constr
+R37335 Cppsem Constructor base constr
+R37352 Cppsem Constructor virtual constr
+R37379 Coq.Init.Datatypes <> Some constr
+R37384 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37405 Coq.Init.Datatypes <> None constr
+R37029 Cppsem StackFrame t ind
+R37056 Coq.Init.Datatypes <> option ind
+R37070 Coq.Init.Datatypes "x * y" not
+R37064 Cplusconcepts <> ident def
+R37072 Cplusconcepts <> array_path def
+R37111 Cppsem StackFrame Kconstrothercells constr
+R37160 Coq.Init.Datatypes <> Some constr
+R37165 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37181 Cppsem StackFrame Kconstrarray constr
+R37223 Coq.Init.Datatypes <> Some constr
+R37228 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37244 Cppsem StackFrame Kdestrcell constr
+R37280 Coq.Init.Datatypes <> Some constr
+R37285 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37301 Cppsem StackFrame Kdestrother constr
+R37335 Cppsem Constructor base constr
+R37352 Cppsem Constructor virtual constr
+R37379 Coq.Init.Datatypes <> Some constr
+R37384 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37405 Coq.Init.Datatypes <> None constr
+R37029 Cppsem StackFrame t ind
+R37474 Coq.Init.Datatypes <> option ind
+R37507 Coq.Init.Datatypes "x * y" not
+R37503 Coq.Init.Datatypes "x * y" not
+R37488 Coq.Init.Datatypes "x * y" not
+R37482 Cplusconcepts <> ident def
+R37490 Cplusconcepts <> array_path def
+R37505 Coq.ZArith.BinInt <> Z ind
+R37530 Coq.Init.Datatypes "x * y" not
+R37510 Cplusconcepts Class.Inheritance t ind
+R37532 Coq.Lists.List <> list ind
+R37537 Cplusconcepts <> ident def
+R37447 Cppsem StackFrame t ind
+R37570 Cppsem StackFrame Kconstr constr
+R37618 Coq.Init.Datatypes <> Some constr
+R37623 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37646 Cppsem StackFrame Kconstrother constr
+R37701 Coq.Init.Datatypes <> Some constr
+R37706 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37729 Cppsem StackFrame Kdestr constr
+R37762 Coq.Init.Datatypes <> Some constr
+R37767 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37790 Cppsem StackFrame Kdestrother constr
+R37836 Coq.Init.Datatypes <> Some constr
+R37841 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37869 Coq.Init.Datatypes <> None constr
+R37447 Cppsem StackFrame t ind
+R37474 Coq.Init.Datatypes <> option ind
+R37507 Coq.Init.Datatypes "x * y" not
+R37503 Coq.Init.Datatypes "x * y" not
+R37488 Coq.Init.Datatypes "x * y" not
+R37482 Cplusconcepts <> ident def
+R37490 Cplusconcepts <> array_path def
+R37505 Coq.ZArith.BinInt <> Z ind
+R37530 Coq.Init.Datatypes "x * y" not
+R37510 Cplusconcepts Class.Inheritance t ind
+R37532 Coq.Lists.List <> list ind
+R37537 Cplusconcepts <> ident def
+R37570 Cppsem StackFrame Kconstr constr
+R37618 Coq.Init.Datatypes <> Some constr
+R37623 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37646 Cppsem StackFrame Kconstrother constr
+R37701 Coq.Init.Datatypes <> Some constr
+R37706 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37729 Cppsem StackFrame Kdestr constr
+R37762 Coq.Init.Datatypes <> Some constr
+R37767 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37790 Cppsem StackFrame Kdestrother constr
+R37836 Coq.Init.Datatypes <> Some constr
+R37841 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37869 Coq.Init.Datatypes <> None constr
+R37447 Cppsem StackFrame t ind
+R37939 Coq.Init.Datatypes <> option ind
+R37946 Cplusconcepts <> ident def
+R37908 Cppsem State state_kind ind
+R37976 Cppsem State constr constr
+R38016 Coq.Init.Datatypes <> Some constr
+R38031 Cppsem State constr_array constr
+R38069 Coq.Init.Datatypes <> Some constr
+R38084 Cppsem State destr constr
+R38115 Coq.Init.Datatypes <> Some constr
+R38130 Cppsem State destr_array constr
+R38161 Coq.Init.Datatypes <> Some constr
+R38181 Coq.Init.Datatypes <> None constr
+R37908 Cppsem State state_kind ind
+R37939 Coq.Init.Datatypes <> option ind
+R37946 Cplusconcepts <> ident def
+R37976 Cppsem State constr constr
+R38016 Coq.Init.Datatypes <> Some constr
+R38031 Cppsem State constr_array constr
+R38069 Coq.Init.Datatypes <> Some constr
+R38084 Cppsem State destr constr
+R38115 Coq.Init.Datatypes <> Some constr
+R38130 Cppsem State destr_array constr
+R38161 Coq.Init.Datatypes <> Some constr
+R38181 Coq.Init.Datatypes <> None constr
+R37908 Cppsem State state_kind ind
+prf 38200 <> frame_pointer_frame_array_weak
+R38327 Coq.Init.Logic "x = y" not
+R38308 Invariant <> frame_array_weak def
+R38329 Coq.Init.Datatypes <> Some constr
+R38334 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38276 Coq.Init.Logic "x = y" not
+R38260 Invariant <> frame_pointer def
+R38278 Coq.Init.Datatypes <> Some constr
+R38283 Coq.Init.Datatypes "( x , y , .. , z )" not
+prf 38398 <> frame_array_frame_array_weak
+R38505 Coq.Init.Logic "x = y" not
+R38486 Invariant <> frame_array_weak def
+R38507 Coq.Init.Datatypes <> Some constr
+R38512 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38463 Coq.Init.Logic "x = y" not
+R38449 Invariant <> frame_array def
+R38465 Coq.Init.Datatypes <> Some constr
+R38470 Coq.Init.Datatypes "( x , y , .. , z )" not
+prf 38639 <> frame_array_weak_inv
+R38790 Coq.Init.Logic "A \/ B" not
+R38725 Coq.Init.Logic "'exists' x , p" not
+R38736 Coq.Init.Logic "'exists' x , p" not
+R38764 Coq.Init.Logic "x = y" not
+R38748 Invariant <> frame_pointer def
+R38766 Coq.Init.Datatypes <> Some constr
+R38771 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38809 Coq.Init.Logic "x = y" not
+R38795 Invariant <> frame_array def
+R38811 Coq.Init.Datatypes <> Some constr
+R38816 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38701 Coq.Init.Logic "x = y" not
+R38682 Invariant <> frame_array_weak def
+R38703 Coq.Init.Datatypes <> Some constr
+R38708 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38978 Coq.Lists.List <> list ind
+R38983 Cplusconcepts <> ident def
+R38944 Coq.Lists.List <> list ind
+R38950 Cppsem BlockPoint t rec
+R39014 Coq.Lists.List <> nil constr
+R39021 Coq.Lists.List <> nil constr
+R39054 Coq.Lists.List "x :: y" not
+R39031 Cppsem BlockPoint make constr
+R39149 Coq.Lists.List "x ++ y" not
+R39094 Coq.Init.Datatypes <> None constr
+R39102 Coq.Lists.List <> nil constr
+R39116 Coq.Init.Datatypes <> Some constr
+R39132 Coq.Lists.List "x :: y" not
+R39135 Coq.Lists.List <> nil constr
+R39152 Invariant <> block_objects def
+R38944 Coq.Lists.List <> list ind
+R38950 Cppsem BlockPoint t rec
+R38944 Coq.Lists.List <> list ind
+R38950 Cppsem BlockPoint t rec
+R38978 Coq.Lists.List <> list ind
+R38983 Cplusconcepts <> ident def
+R39014 Coq.Lists.List <> nil constr
+R39021 Coq.Lists.List <> nil constr
+R39054 Coq.Lists.List "x :: y" not
+R39031 Cppsem BlockPoint make constr
+R39149 Coq.Lists.List "x ++ y" not
+R39094 Coq.Init.Datatypes <> None constr
+R39102 Coq.Lists.List <> nil constr
+R39116 Coq.Init.Datatypes <> Some constr
+R39132 Coq.Lists.List "x :: y" not
+R39135 Coq.Lists.List <> nil constr
+R39152 Invariant <> block_objects def
+prf 39182 <> block_objects_app
+R39245 Coq.Init.Logic "x = y" not
+R39218 Invariant <> block_objects def
+R39237 Coq.Lists.List "x ++ y" not
+R39265 Coq.Lists.List "x ++ y" not
+R39247 Invariant <> block_objects def
+R39268 Invariant <> block_objects def
+R39373 Coq.Lists.List <> app_ass thm
+R39373 Coq.Lists.List <> app_ass thm
+R39467 Coq.Lists.List <> list ind
+R39472 Cplusconcepts <> ident def
+R39433 Coq.Lists.List <> list ind
+R39439 Cppsem StackFrame t ind
+R39503 Coq.Lists.List <> nil constr
+R39510 Coq.Lists.List <> nil constr
+R39523 Coq.Lists.List "x :: y" not
+R39827 Coq.Lists.List "x ++ y" not
+R39561 Cppsem StackFrame Kcontinue constr
+R39712 Coq.Lists.List "x :: y" not
+R39715 Invariant <> block_objects def
+R39742 Cppsem StackFrame Kreturnfromcall constr
+R39781 Invariant <> block_objects def
+R39813 Coq.Lists.List <> nil constr
+R39830 Invariant <> stackframe_objects def
+R39433 Coq.Lists.List <> list ind
+R39439 Cppsem StackFrame t ind
+R39433 Coq.Lists.List <> list ind
+R39439 Cppsem StackFrame t ind
+R39467 Coq.Lists.List <> list ind
+R39472 Cplusconcepts <> ident def
+R39503 Coq.Lists.List <> nil constr
+R39510 Coq.Lists.List <> nil constr
+R39523 Coq.Lists.List "x :: y" not
+R39827 Coq.Lists.List "x ++ y" not
+R39561 Cppsem StackFrame Kcontinue constr
+R39712 Coq.Lists.List "x :: y" not
+R39715 Invariant <> block_objects def
+R39742 Cppsem StackFrame Kreturnfromcall constr
+R39781 Invariant <> block_objects def
+R39813 Coq.Lists.List <> nil constr
+R39830 Invariant <> stackframe_objects def
+R39939 Coq.Lists.List <> list ind
+R39944 Cplusconcepts <> ident def
+R39905 Coq.Lists.List <> list ind
+R39911 Cppsem StackFrame t ind
+R39975 Coq.Lists.List <> nil constr
+R39982 Coq.Lists.List <> nil constr
+R39995 Coq.Lists.List "x :: y" not
+R40180 Coq.Lists.List "x ++ y" not
+R40033 Cppsem StackFrame Kcontinue constr
+R40068 Invariant <> block_objects def
+R40095 Cppsem StackFrame Kreturnfromcall constr
+R40134 Invariant <> block_objects def
+R40166 Coq.Lists.List <> nil constr
+R40183 Invariant <> constructed_stackframe_objects def
+R39905 Coq.Lists.List <> list ind
+R39911 Cppsem StackFrame t ind
+R39905 Coq.Lists.List <> list ind
+R39911 Cppsem StackFrame t ind
+R39939 Coq.Lists.List <> list ind
+R39944 Cplusconcepts <> ident def
+R39975 Coq.Lists.List <> nil constr
+R39982 Coq.Lists.List <> nil constr
+R39995 Coq.Lists.List "x :: y" not
+R40180 Coq.Lists.List "x ++ y" not
+R40033 Cppsem StackFrame Kcontinue constr
+R40068 Invariant <> block_objects def
+R40095 Cppsem StackFrame Kreturnfromcall constr
+R40134 Invariant <> block_objects def
+R40166 Coq.Lists.List <> nil constr
+R40183 Invariant <> constructed_stackframe_objects def
+prf 40230 <> constructed_stackframe_objects_incl
+R40325 Coq.Lists.List <> In def
+R40331 Invariant <> stackframe_objects def
+R40281 Coq.Lists.List <> In def
+R40287 Invariant <> constructed_stackframe_objects def
+R40426 Coq.Lists.List <> in_or_app thm
+R40426 Coq.Lists.List <> in_or_app thm
+R40449 Coq.Lists.List <> in_app_or thm
+R40449 Coq.Lists.List <> in_app_or thm
+def 40566 <> stack_objects
+R40604 Cppsem State make constr
+R40738 Coq.Lists.List "x ++ y" not
+R40663 Cppsem State codepoint constr
+R40691 Invariant <> block_objects def
+R40723 Coq.Lists.List <> nil constr
+R40741 Invariant <> stackframe_objects def
+def 40783 <> constructed_stack_objects
+R40833 Cppsem State make constr
+R40967 Coq.Lists.List "x ++ y" not
+R40892 Cppsem State codepoint constr
+R40920 Invariant <> block_objects def
+R40953 Coq.Lists.List <> nil constr
+R40970 Invariant <> constructed_stackframe_objects def
+prf 41019 <> constructed_stack_objects_incl
+R41098 Coq.Lists.List <> In def
+R41104 Invariant <> stack_objects def
+R41062 Coq.Lists.List <> In def
+R41068 Invariant <> constructed_stack_objects def
+R41210 Coq.Lists.List <> in_or_app thm
+R41210 Coq.Lists.List <> in_or_app thm
+R41233 Coq.Lists.List <> in_app_or thm
+R41265 Invariant <> constructed_stackframe_objects_incl thm
+R41233 Coq.Lists.List <> in_app_or thm
+R41265 Invariant <> constructed_stackframe_objects_incl thm
+R41265 Invariant <> constructed_stackframe_objects_incl thm
+constr 41389 <> construction_base_child_of_intro
+rec 41315 <> constructed_base_child_of
+proj 41426 <> constructed_base_child_of_none
+proj 41488 <> constructed_base_child_of_started_constructing
+proj 41601 <> constructed_base_child_of_constructed
+proj 41739 <> constructed_base_child_of_destructing_bases
+proj 41846 <> constructed_base_child_of_destructed
+R41351 Coq.Init.Datatypes <> option ind
+R41358 Cppsem <> construction_state ind
+R41477 Coq.Init.Logic "x = y" not
+R41479 Coq.Init.Datatypes <> None constr
+R41463 Coq.Init.Logic "x = y" not
+R41465 Coq.Init.Datatypes <> None constr
+R41571 Cppsem "( a '=<' b )" not
+R41579 Coq.Init.Datatypes <> Some constr
+R41584 Cppsem <> Constructed constr
+R41541 Coq.Init.Logic "x = y" not
+R41543 Coq.Init.Datatypes <> Some constr
+R41548 Cppsem <> StartedConstructing constr
+R41716 Coq.Init.Logic "x = y" not
+R41718 Coq.Init.Datatypes <> Some constr
+R41723 Cppsem <> Constructed constr
+R41675 Cppsem "( a '=<' b )" not
+R41683 Coq.Init.Datatypes <> Some constr
+R41688 Cppsem <> StartedDestructing constr
+R41642 Cppsem "( a '=<' b )" not
+R41643 Coq.Init.Datatypes <> Some constr
+R41648 Cppsem <> BasesConstructed constr
+R41816 Cppsem "( a '=<' b )" not
+R41817 Coq.Init.Datatypes <> Some constr
+R41822 Cppsem <> Constructed constr
+R41789 Coq.Init.Logic "x = y" not
+R41791 Coq.Init.Datatypes <> Some constr
+R41796 Cppsem <> DestructingBases constr
+R41914 Coq.Init.Logic "x = y" not
+R41916 Coq.Init.Datatypes <> Some constr
+R41921 Cppsem <> Destructed constr
+R41889 Coq.Init.Logic "x = y" not
+R41891 Coq.Init.Datatypes <> Some constr
+R41896 Cppsem <> Destructed constr
+constr 42018 <> constructed_field_child_of_intro
+rec 41944 <> constructed_field_child_of
+proj 42055 <> constructed_field_child_of_none
+proj 42141 <> constructed_field_child_of_bases_constructed
+proj 42294 <> constructed_field_child_of_constructed
+proj 42388 <> constructed_field_child_of_started_destructing
+proj 42555 <> constructed_field_child_of_destructed
+R41981 Coq.Init.Datatypes <> option ind
+R41988 Cppsem <> construction_state ind
+R42130 Coq.Init.Logic "x = y" not
+R42132 Coq.Init.Datatypes <> None constr
+R42090 Cppsem "( a '=<' b )" not
+R42097 Coq.Init.Datatypes <> Some constr
+R42102 Cppsem <> StartedConstructing constr
+R42230 Coq.Init.Logic "A \/ B" not
+R42223 Coq.Init.Logic "x = y" not
+R42225 Coq.Init.Datatypes <> None constr
+R42264 Coq.Init.Logic "A \/ B" not
+R42237 Coq.Init.Logic "x = y" not
+R42239 Coq.Init.Datatypes <> Some constr
+R42244 Cppsem <> StartedConstructing constr
+R42271 Coq.Init.Logic "x = y" not
+R42273 Coq.Init.Datatypes <> Some constr
+R42278 Cppsem <> Constructed constr
+R42192 Coq.Init.Logic "x = y" not
+R42194 Coq.Init.Datatypes <> Some constr
+R42199 Cppsem <> BasesConstructed constr
+R42365 Coq.Init.Logic "x = y" not
+R42367 Coq.Init.Datatypes <> Some constr
+R42372 Cppsem <> Constructed constr
+R42339 Coq.Init.Logic "x = y" not
+R42341 Coq.Init.Datatypes <> Some constr
+R42346 Cppsem <> Constructed constr
+R42493 Coq.Init.Logic "A \/ B" not
+R42474 Coq.Init.Logic "x = y" not
+R42476 Coq.Init.Datatypes <> Some constr
+R42481 Cppsem <> Constructed constr
+R42526 Coq.Init.Logic "A \/ B" not
+R42500 Coq.Init.Logic "x = y" not
+R42502 Coq.Init.Datatypes <> Some constr
+R42507 Cppsem <> StartedDestructing constr
+R42533 Coq.Init.Logic "x = y" not
+R42535 Coq.Init.Datatypes <> Some constr
+R42540 Cppsem <> Destructed constr
+R42441 Coq.Init.Logic "x = y" not
+R42443 Coq.Init.Datatypes <> Some constr
+R42448 Cppsem <> StartedDestructing constr
+R42633 Coq.Init.Logic "x = y" not
+R42635 Coq.Init.Datatypes <> Some constr
+R42640 Cppsem <> Destructed constr
+R42596 Cppsem "( a '=<' b )" not
+R42597 Coq.Init.Datatypes <> Some constr
+R42602 Cppsem <> DestructingBases constr
+constr 42739 <> constructed_field_array_cell_intro
+rec 42663 <> constructed_field_array_cell
+proj 42778 <> constructed_field_array_cell_none
+proj 42841 <> constructed_field_array_cell_started_constructing
+proj 42955 <> constructed_field_array_cell_bases_constructed
+proj 43043 <> constructed_field_array_cell_constructed
+proj 43137 <> constructed_field_array_cell_started_destructing
+proj 43249 <> constructed_field_array_cell_destructing_bases
+proj 43337 <> constructed_field_array_cell_destructed
+R42702 Coq.Init.Datatypes <> option ind
+R42709 Cppsem <> construction_state ind
+R42831 Coq.Init.Logic "x = y" not
+R42833 Coq.Init.Datatypes <> None constr
+R42817 Coq.Init.Logic "x = y" not
+R42819 Coq.Init.Datatypes <> None constr
+R42926 Cppsem "( a '=<' b )" not
+R42934 Coq.Init.Datatypes <> Some constr
+R42939 Cppsem <> Constructed constr
+R42896 Coq.Init.Logic "x = y" not
+R42898 Coq.Init.Datatypes <> Some constr
+R42903 Cppsem <> StartedConstructing constr
+R43034 Coq.Init.Logic <> False ind
+R43007 Coq.Init.Logic "x = y" not
+R43009 Coq.Init.Datatypes <> Some constr
+R43014 Cppsem <> BasesConstructed constr
+R43115 Coq.Init.Logic "x = y" not
+R43117 Coq.Init.Datatypes <> Some constr
+R43122 Cppsem <> Constructed constr
+R43089 Coq.Init.Logic "x = y" not
+R43091 Coq.Init.Datatypes <> Some constr
+R43096 Cppsem <> Constructed constr
+R43220 Cppsem "( a '=<' b )" not
+R43221 Coq.Init.Datatypes <> Some constr
+R43226 Cppsem <> Constructed constr
+R43191 Coq.Init.Logic "x = y" not
+R43193 Coq.Init.Datatypes <> Some constr
+R43198 Cppsem <> StartedDestructing constr
+R43328 Coq.Init.Logic <> False ind
+R43301 Coq.Init.Logic "x = y" not
+R43303 Coq.Init.Datatypes <> Some constr
+R43308 Cppsem <> DestructingBases constr
+R43407 Coq.Init.Logic "x = y" not
+R43409 Coq.Init.Datatypes <> Some constr
+R43414 Cppsem <> Destructed constr
+R43382 Coq.Init.Logic "x = y" not
+R43384 Coq.Init.Datatypes <> Some constr
+R43389 Cppsem <> Destructed constr
+constr 43510 <> constructed_sibling_before_intro
+rec 43436 <> constructed_sibling_before
+proj 43547 <> constructed_sibling_before_none
+proj 43625 <> constructed_sibling_before_destructed
+R43473 Coq.Init.Datatypes <> option ind
+R43480 Cppsem <> construction_state ind
+R43614 Coq.Init.Logic "x = y" not
+R43616 Coq.Init.Datatypes <> None constr
+R43582 Cppsem "( a '<<' b )" not
+R43589 Coq.Init.Datatypes <> Some constr
+R43594 Cppsem <> Constructed constr
+R43698 Coq.Init.Logic "x = y" not
+R43700 Coq.Init.Datatypes <> Some constr
+R43705 Cppsem <> Destructed constr
+R43666 Cppsem "( a '<<' b )" not
+R43667 Coq.Init.Datatypes <> Some constr
+R43672 Cppsem <> Constructed constr
+constr 43752 <> invariant_intro
+rec 43732 <> invariant
+proj 43772 <> valid_global
+proj 43821 <> construction_states_none
+proj 43999 <> construction_states_fields_none
+proj 44218 <> valid_object_classes
+proj 44340 <> object_arraysizes_nonnegative
+proj 44467 <> kind
+proj 44493 <> stack
+proj 44563 <> stack2
+proj 44646 <> stack_state
+proj 44758 <> stack_state_wf
+proj 46004 <> stack_wf
+proj 46575 <> construction_states_direct_non_virtual_bases
+proj 47118 <> construction_states_virtual_bases
+proj 47885 <> construction_states_fields
+proj 48377 <> construction_states_structure_fields
+proj 49103 <> breadth_virtual_bases
+proj 49950 <> breadth_virtual_non_virtual_bases
+proj 50852 <> breadth_non_virtual_bases
+proj 51611 <> breadth_fields
+proj 52152 <> breadth_arrays
+proj 52898 <> stack_objects_no_dup
+proj 52949 <> stack_objects_exist
+proj 53061 <> constructed_stack_objects_correct
+proj 53398 <> constructed_stack_objects_no_kind
+proj 53537 <> constructed_stack_objects_no_stackframe
+proj 53728 <> stack_objects_in_construction
+proj 53920 <> stack_objects_sorted
+proj 53994 <> kind_object_in_construction
+proj 54151 <> deallocated_objects_exist
+proj 54287 <> deallocated_objects_not_in_stack
+proj 54413 <> deallocated_objects_destructed
+proj 54751 <> stack_or_deallocated
+proj 54945 <> unconstructed_scalar_fields
+R43787 Cplusconcepts Globals valid rec
+R43802 Cppsem State global proj
+R43989 Coq.Init.Logic "x = y" not
+R43921 LibLists <> assoc def
+R43960 Cppsem State construction_states proj
+R43947 Coq.Init.Datatypes "( x , y , .. , z )" not
+R43929 Cplusconcepts <> pointer_eq_dec thm
+R43991 Coq.Init.Datatypes <> None constr
+R43898 Coq.Init.Logic "x = y" not
+R43890 Maps "a ! b" not
+R43861 Cplusconcepts Globals heap proj
+R43875 Cppsem State global proj
+R43900 Coq.Init.Datatypes <> None constr
+R44208 Coq.Init.Logic "x = y" not
+R44112 LibLists <> assoc def
+R44173 Cppsem State field_construction_states proj
+R44151 Coq.Init.Datatypes "( x , y , .. , z )" not
+R44120 Cppsem <> aux_constr_state_key_eq_dec thm
+R44210 Coq.Init.Datatypes <> None constr
+R44083 Coq.Init.Logic "x = y" not
+R44075 Maps "a ! b" not
+R44046 Cplusconcepts Globals heap proj
+R44060 Cppsem State global proj
+R44085 Coq.Init.Datatypes <> None constr
+R44329 Coq.Init.Logic "x <> y" not
+R44310 Maps "a ! b" not
+R44313 Cplusconcepts Object class proj
+R44305 Invariant <> hier syndef
+R44332 Coq.Init.Datatypes <> None constr
+R44293 Coq.Init.Logic "x = y" not
+R44285 Maps "a ! b" not
+R44256 Cplusconcepts Globals heap proj
+R44270 Cppsem State global proj
+R44295 Coq.Init.Datatypes <> Some constr
+R44439 Coq.ZArith.BinInt "x <= y" not
+R44437 Coq.ZArith.BinInt "" not
+R44442 Cplusconcepts Object arraysize proj
+R44424 Coq.Init.Logic "x = y" not
+R44416 Maps "a ! b" not
+R44387 Cplusconcepts Globals heap proj
+R44401 Cppsem State global proj
+R44426 Coq.Init.Datatypes <> Some constr
+R44475 Invariant <> state_kind_inv def
+R44537 Invariant <> stackframe_weak_inv def
+R44512 Coq.Lists.List <> In def
+R44519 Cppsem State stack proj
+R44625 Invariant <> stack2_inv def
+R44604 Coq.Init.Logic "x = y" not
+R44590 Cppsem State stack proj
+R44609 Coq.Lists.List "x ++ y" not
+R44616 Coq.Lists.List "x :: y" not
+R44726 Invariant <> is_code_state def
+R44741 Cppsem State kind proj
+R44700 Invariant <> frame_requires_code def
+R44687 Coq.Init.Logic "x = y" not
+R44673 Cppsem State stack proj
+R44692 Coq.Lists.List "x :: y" not
+R44781 Cppsem State kind proj
+R44822 Cppsem State constr constr
+R45006 Coq.Init.Logic "A /\ B" not
+R44965 SubobjectOrdering <> relptr_gt ind
+R44992 Coq.Init.Datatypes "( x , y , .. , z )" not
+R44980 Coq.Init.Datatypes "( x , y , .. , z )" not
+R44975 Invariant <> hier syndef
+R44935 Coq.Init.Logic "x = y" not
+R44919 Invariant <> frame_pointer def
+R44937 Coq.Init.Datatypes <> Some constr
+R44942 Coq.Init.Datatypes "( x , y , .. , z )" not
+R45058 Coq.Init.Logic "'exists' x , p" not
+R45072 Coq.Init.Logic "x = y" not
+R45078 Coq.Lists.List "x ++ y" not
+R45037 Coq.Init.Logic "x = y" not
+R45023 Invariant <> frame_array def
+R45039 Coq.Init.Datatypes <> Some constr
+R45044 Coq.Init.Datatypes "( x , y , .. , z )" not
+R44874 Coq.Lists.List <> In def
+R44880 Cppsem State stack proj
+R45108 Cppsem State constr_array constr
+R45233 Coq.Init.Logic "'exists' x , p" not
+R45259 Coq.Init.Logic "A /\ B" not
+R45247 Coq.Init.Logic "x = y" not
+R45253 Coq.Lists.List "x ++ y" not
+R45265 Coq.Init.Logic "x <> y" not
+R45268 Coq.Lists.List <> nil constr
+R45212 Coq.Init.Logic "x = y" not
+R45193 Invariant <> frame_array_weak def
+R45214 Coq.Init.Datatypes <> Some constr
+R45219 Coq.Init.Datatypes "( x , y , .. , z )" not
+R45157 Coq.Lists.List <> In def
+R45163 Cppsem State stack proj
+R45295 Cppsem State destr constr
+R45318 Cppsem Constructor base constr
+R45335 Cppsem Constructor virtual constr
+R45446 Coq.Init.Logic "'exists' x , p" not
+R45472 Coq.Init.Logic "A /\ B" not
+R45460 Coq.Init.Logic "x = y" not
+R45466 Coq.Lists.List "x ++ y" not
+R45478 Coq.Init.Logic "x <> y" not
+R45481 Coq.Lists.List <> nil constr
+R45425 Coq.Init.Logic "x = y" not
+R45406 Invariant <> frame_array_weak def
+R45427 Coq.Init.Datatypes <> Some constr
+R45432 Coq.Init.Datatypes "( x , y , .. , z )" not
+R45370 Coq.Lists.List <> In def
+R45376 Cppsem State stack proj
+R45508 Cppsem State destr constr
+R45683 Coq.Init.Logic "A /\ B" not
+R45642 SubobjectOrdering <> relptr_gt ind
+R45669 Coq.Init.Datatypes "( x , y , .. , z )" not
+R45657 Coq.Init.Datatypes "( x , y , .. , z )" not
+R45652 Invariant <> hier syndef
+R45612 Coq.Init.Logic "x = y" not
+R45596 Invariant <> frame_pointer def
+R45614 Coq.Init.Datatypes <> Some constr
+R45619 Coq.Init.Datatypes "( x , y , .. , z )" not
+R45735 Coq.Init.Logic "'exists' x , p" not
+R45749 Coq.Init.Logic "x = y" not
+R45755 Coq.Lists.List "x ++ y" not
+R45714 Coq.Init.Logic "x = y" not
+R45700 Invariant <> frame_array def
+R45716 Coq.Init.Datatypes <> Some constr
+R45721 Coq.Init.Datatypes "( x , y , .. , z )" not
+R45551 Coq.Lists.List <> In def
+R45557 Cppsem State stack proj
+R45785 Cppsem State destr_array constr
+R45903 Coq.Init.Logic "'exists' x , p" not
+R45929 Coq.Init.Logic "A /\ B" not
+R45917 Coq.Init.Logic "x = y" not
+R45923 Coq.Lists.List "x ++ y" not
+R45935 Coq.Init.Logic "x <> y" not
+R45938 Coq.Lists.List <> nil constr
+R45882 Coq.Init.Logic "x = y" not
+R45863 Invariant <> frame_array_weak def
+R45884 Coq.Init.Datatypes <> Some constr
+R45889 Coq.Init.Datatypes "( x , y , .. , z )" not
+R45827 Coq.Lists.List <> In def
+R45833 Cppsem State stack proj
+R45970 Coq.Init.Logic <> True ind
+R46376 Coq.Init.Logic "A /\ B" not
+R46287 Coq.Init.Logic "A /\ B" not
+R46241 SubobjectOrdering <> relptr_gt ind
+R46268 Coq.Init.Datatypes "( x , y , .. , z )" not
+R46256 Coq.Init.Datatypes "( x , y , .. , z )" not
+R46251 Invariant <> hier syndef
+R46211 Coq.Init.Logic "x = y" not
+R46193 Invariant <> frame_pointer def
+R46213 Coq.Init.Datatypes <> Some constr
+R46218 Coq.Init.Datatypes "( x , y , .. , z )" not
+R46345 Coq.Init.Logic "'exists' x , p" not
+R46359 Coq.Init.Logic "x = y" not
+R46365 Coq.Lists.List "x ++ y" not
+R46324 Coq.Init.Logic "x = y" not
+R46308 Invariant <> frame_array def
+R46326 Coq.Init.Datatypes <> Some constr
+R46331 Coq.Init.Datatypes "( x , y , .. , z )" not
+R46138 Coq.Init.Logic "x = y" not
+R46120 Invariant <> frame_pointer def
+R46140 Coq.Init.Datatypes <> Some constr
+R46145 Coq.Init.Datatypes "( x , y , .. , z )" not
+R46488 Coq.Init.Logic "'exists' x , p" not
+R46514 Coq.Init.Logic "A /\ B" not
+R46502 Coq.Init.Logic "x = y" not
+R46508 Coq.Lists.List "x ++ y" not
+R46520 Coq.Init.Logic "x <> y" not
+R46523 Coq.Lists.List <> nil constr
+R46467 Coq.Init.Logic "x = y" not
+R46446 Invariant <> frame_array_weak def
+R46469 Coq.Init.Datatypes <> Some constr
+R46474 Coq.Init.Datatypes "( x , y , .. , z )" not
+R46414 Coq.Init.Logic "x = y" not
+R46398 Invariant <> frame_array def
+R46416 Coq.Init.Datatypes <> Some constr
+R46421 Coq.Init.Datatypes "( x , y , .. , z )" not
+R46080 Coq.Lists.List <> In def
+R46047 Coq.Init.Logic "x = y" not
+R46033 Cppsem State stack proj
+R46052 Coq.Lists.List "x ++ y" not
+R46059 Coq.Lists.List "x :: y" not
+R46901 Invariant <> constructed_base_child_of rec
+R47021 LibLists <> assoc def
+R47071 Cppsem State construction_states proj
+R47047 Coq.Init.Datatypes "( x , y , .. , z )" not
+R47053 Coq.Init.Datatypes "( x , y , .. , z )" not
+R47061 Coq.Init.Datatypes "( x , y , .. , z )" not
+R47029 Cplusconcepts <> pointer_eq_dec thm
+R46928 LibLists <> assoc def
+R46990 Cppsem State construction_states proj
+R46954 Coq.Init.Datatypes "( x , y , .. , z )" not
+R46960 Coq.Init.Datatypes "( x , y , .. , z )" not
+R46968 Coq.Init.Datatypes "( x , y , .. , z )" not
+R46974 Coq.Lists.List "x ++ y" not
+R46979 Coq.Lists.List "x :: y" not
+R46982 Coq.Lists.List <> nil constr
+R46936 Cplusconcepts <> pointer_eq_dec thm
+R46835 Coq.Lists.List <> In def
+R46871 Cplusconcepts Class super proj
+R46838 Coq.Init.Datatypes "( x , y , .. , z )" not
+R46839 Cplusconcepts Class.Inheritance Repeated constr
+R46803 Coq.Init.Logic "x = y" not
+R46798 Maps "a ! b" not
+R46793 Invariant <> hier syndef
+R46805 Coq.Init.Datatypes <> Some constr
+R46762 Coq.Init.Logic "x = y" not
+R46755 LibLists <> last def
+R46764 Coq.Init.Datatypes <> Some constr
+R46650 Cplusconcepts <> valid_pointer ind
+R46702 Cplusconcepts Value subobject constr
+R46670 Cplusconcepts Globals heap proj
+R46684 Cppsem State global proj
+R46664 Invariant <> hier syndef
+R47619 Invariant <> constructed_base_child_of rec
+R47757 LibLists <> assoc def
+R47840 Cppsem State construction_states proj
+R47783 Coq.Init.Datatypes "( x , y , .. , z )" not
+R47789 Coq.Init.Datatypes "( x , y , .. , z )" not
+R47797 Coq.Init.Datatypes "( x , y , .. , z )" not
+R47798 Cplusconcepts Class.Inheritance Repeated constr
+R47829 Coq.Lists.List "x :: y" not
+R47832 Coq.Lists.List <> nil constr
+R47765 Cplusconcepts <> pointer_eq_dec thm
+R47646 LibLists <> assoc def
+R47726 Cppsem State construction_states proj
+R47672 Coq.Init.Datatypes "( x , y , .. , z )" not
+R47678 Coq.Init.Datatypes "( x , y , .. , z )" not
+R47686 Coq.Init.Datatypes "( x , y , .. , z )" not
+R47687 Cplusconcepts Class.Inheritance Shared constr
+R47715 Coq.Lists.List "x :: y" not
+R47718 Coq.Lists.List <> nil constr
+R47654 Cplusconcepts <> pointer_eq_dec thm
+R47577 Cplusconcepts <> is_virtual_base_of ind
+R47596 Invariant <> hier syndef
+R47547 Coq.ZArith.BinInt "x <= y < z" not
+R47545 Coq.ZArith.BinInt "" not
+R47331 LibLists <> last def
+R47354 Coq.Init.Datatypes <> None constr
+R47385 Coq.Init.Logic "A /\ B" not
+R47364 Coq.Init.Logic "x = y" not
+R47366 Cplusconcepts Object arraysize proj
+R47391 Coq.Init.Logic "x = y" not
+R47393 Cplusconcepts Object class proj
+R47418 Coq.Init.Datatypes <> Some constr
+R47423 Coq.Init.Datatypes "( x , y , .. , z )" not
+R47437 Coq.Init.Logic "'exists' x , p" not
+R47460 Coq.Init.Logic "A /\ B" not
+R47450 Coq.Init.Logic "x = y" not
+R47452 Coq.ZArith.BinInt <> Zpos constr
+R47486 Coq.Init.Logic "x = y" not
+R47463 Cplusconcepts FieldSignature type proj
+R47488 Cplusconcepts FieldSignature Struct constr
+R47248 Cplusconcepts <> valid_array_path ind
+R47293 Cplusconcepts Object arraysize proj
+R47276 Cplusconcepts Object class proj
+R47265 Invariant <> hier syndef
+R47210 Coq.Init.Logic "x = y" not
+R47202 Maps "a ! b" not
+R47173 Cplusconcepts Globals heap proj
+R47187 Cppsem State global proj
+R47212 Coq.Init.Datatypes <> Some constr
+R48154 Invariant <> constructed_field_child_of rec
+R48284 LibLists <> assoc def
+R48334 Cppsem State construction_states proj
+R48310 Coq.Init.Datatypes "( x , y , .. , z )" not
+R48316 Coq.Init.Datatypes "( x , y , .. , z )" not
+R48324 Coq.Init.Datatypes "( x , y , .. , z )" not
+R48292 Cplusconcepts <> pointer_eq_dec thm
+R48182 LibLists <> assoc def
+R48247 Cppsem State field_construction_states proj
+R48221 Coq.Init.Datatypes "( x , y , .. , z )" not
+R48234 Coq.Init.Datatypes "( x , y , .. , z )" not
+R48190 Cppsem <> aux_constr_state_key_eq_dec thm
+R48120 Coq.Lists.List <> In def
+R48127 Cplusconcepts Class fields proj
+R48091 Coq.Init.Logic "x = y" not
+R48086 Maps "a ! b" not
+R48081 Invariant <> hier syndef
+R48093 Coq.Init.Datatypes <> Some constr
+R48052 Coq.Init.Logic "x = y" not
+R48045 LibLists <> last def
+R48054 Coq.Init.Datatypes <> Some constr
+R47942 Cplusconcepts <> valid_pointer ind
+R47994 Cplusconcepts Value subobject constr
+R47962 Cplusconcepts Globals heap proj
+R47976 Cppsem State global proj
+R47956 Invariant <> hier syndef
+R48781 Invariant <> constructed_field_array_cell rec
+R48913 LibLists <> assoc def
+R49023 Cppsem State construction_states proj
+R48939 Coq.Init.Datatypes "( x , y , .. , z )" not
+R48945 Coq.Init.Datatypes "( x , y , .. , z )" not
+R48950 Coq.Lists.List "x ++ y" not
+R48969 Coq.Lists.List "x :: y" not
+R48953 Coq.Init.Datatypes "( x , y , .. , z )" not
+R48957 Coq.Init.Datatypes "( x , y , .. , z )" not
+R48972 Coq.Lists.List <> nil constr
+R48981 Coq.Init.Datatypes "( x , y , .. , z )" not
+R48982 Cplusconcepts Class.Inheritance Repeated constr
+R49012 Coq.Lists.List "x :: y" not
+R49015 Coq.Lists.List <> nil constr
+R48921 Cplusconcepts <> pointer_eq_dec thm
+R48811 LibLists <> assoc def
+R48876 Cppsem State field_construction_states proj
+R48850 Coq.Init.Datatypes "( x , y , .. , z )" not
+R48863 Coq.Init.Datatypes "( x , y , .. , z )" not
+R48819 Cppsem <> aux_constr_state_key_eq_dec thm
+R48750 Coq.ZArith.BinInt "x <= y < z" not
+R48748 Coq.ZArith.BinInt "" not
+R48757 Coq.ZArith.BinInt <> Zpos constr
+R48695 Coq.Init.Logic "x = y" not
+R48672 Cplusconcepts FieldSignature type proj
+R48697 Cplusconcepts FieldSignature Struct constr
+R48624 Coq.Lists.List <> In def
+R48631 Cplusconcepts Class fields proj
+R48593 Coq.Init.Logic "x = y" not
+R48588 Maps "a ! b" not
+R48583 Invariant <> hier syndef
+R48595 Coq.Init.Datatypes <> Some constr
+R48554 Coq.Init.Logic "x = y" not
+R48547 LibLists <> last def
+R48556 Coq.Init.Datatypes <> Some constr
+R48444 Cplusconcepts <> valid_pointer ind
+R48496 Cplusconcepts Value subobject constr
+R48464 Cplusconcepts Globals heap proj
+R48478 Cppsem State global proj
+R48458 Invariant <> hier syndef
+R49683 Invariant <> constructed_sibling_before rec
+R49823 LibLists <> assoc def
+R49904 Cppsem State construction_states proj
+R49849 Coq.Init.Datatypes "( x , y , .. , z )" not
+R49855 Coq.Init.Datatypes "( x , y , .. , z )" not
+R49863 Coq.Init.Datatypes "( x , y , .. , z )" not
+R49864 Cplusconcepts Class.Inheritance Shared constr
+R49893 Coq.Lists.List "x :: y" not
+R49896 Coq.Lists.List <> nil constr
+R49831 Cplusconcepts <> pointer_eq_dec thm
+R49711 LibLists <> assoc def
+R49792 Cppsem State construction_states proj
+R49737 Coq.Init.Datatypes "( x , y , .. , z )" not
+R49743 Coq.Init.Datatypes "( x , y , .. , z )" not
+R49751 Coq.Init.Datatypes "( x , y , .. , z )" not
+R49752 Cplusconcepts Class.Inheritance Shared constr
+R49781 Coq.Lists.List "x :: y" not
+R49784 Coq.Lists.List <> nil constr
+R49719 Cplusconcepts <> pointer_eq_dec thm
+R49605 Cplusconcepts <> vborder_list ind
+R49643 Coq.Lists.List "x ++ y" not
+R49649 Coq.Lists.List "x :: y" not
+R49655 Coq.Lists.List "x ++ y" not
+R49661 Coq.Lists.List "x :: y" not
+R49624 Cplusconcepts Class super proj
+R49618 Invariant <> hier syndef
+R49560 Coq.Init.Logic "x = y" not
+R49555 Maps "a ! b" not
+R49550 Invariant <> hier syndef
+R49562 Coq.Init.Datatypes <> Some constr
+R49520 Coq.ZArith.BinInt "x <= y < z" not
+R49518 Coq.ZArith.BinInt "" not
+R49304 LibLists <> last def
+R49327 Coq.Init.Datatypes <> None constr
+R49358 Coq.Init.Logic "A /\ B" not
+R49337 Coq.Init.Logic "x = y" not
+R49339 Cplusconcepts Object arraysize proj
+R49364 Coq.Init.Logic "x = y" not
+R49366 Cplusconcepts Object class proj
+R49391 Coq.Init.Datatypes <> Some constr
+R49396 Coq.Init.Datatypes "( x , y , .. , z )" not
+R49410 Coq.Init.Logic "'exists' x , p" not
+R49433 Coq.Init.Logic "A /\ B" not
+R49423 Coq.Init.Logic "x = y" not
+R49425 Coq.ZArith.BinInt <> Zpos constr
+R49459 Coq.Init.Logic "x = y" not
+R49436 Cplusconcepts FieldSignature type proj
+R49461 Cplusconcepts FieldSignature Struct constr
+R49221 Cplusconcepts <> valid_array_path ind
+R49266 Cplusconcepts Object arraysize proj
+R49249 Cplusconcepts Object class proj
+R49238 Invariant <> hier syndef
+R49183 Coq.Init.Logic "x = y" not
+R49175 Maps "a ! b" not
+R49146 Cplusconcepts Globals heap proj
+R49160 Cppsem State global proj
+R49185 Coq.Init.Datatypes <> Some constr
+R50573 Invariant <> constructed_sibling_before rec
+R50713 LibLists <> assoc def
+R50803 Cppsem State construction_states proj
+R50739 Coq.Init.Datatypes "( x , y , .. , z )" not
+R50745 Coq.Init.Datatypes "( x , y , .. , z )" not
+R50753 Coq.Init.Datatypes "( x , y , .. , z )" not
+R50754 Cplusconcepts Class.Inheritance Repeated constr
+R50785 Coq.Lists.List "x :: y" not
+R50792 Coq.Lists.List "x :: y" not
+R50795 Coq.Lists.List <> nil constr
+R50721 Cplusconcepts <> pointer_eq_dec thm
+R50601 LibLists <> assoc def
+R50682 Cppsem State construction_states proj
+R50627 Coq.Init.Datatypes "( x , y , .. , z )" not
+R50633 Coq.Init.Datatypes "( x , y , .. , z )" not
+R50641 Coq.Init.Datatypes "( x , y , .. , z )" not
+R50642 Cplusconcepts Class.Inheritance Shared constr
+R50671 Coq.Lists.List "x :: y" not
+R50674 Coq.Lists.List <> nil constr
+R50609 Cplusconcepts <> pointer_eq_dec thm
+R50505 Coq.Lists.List <> In def
+R50543 Cplusconcepts Class super proj
+R50508 Coq.Init.Datatypes "( x , y , .. , z )" not
+R50509 Cplusconcepts Class.Inheritance Repeated constr
+R50471 Coq.Init.Logic "x = y" not
+R50466 Maps "a ! b" not
+R50461 Invariant <> hier syndef
+R50473 Coq.Init.Datatypes <> Some constr
+R50410 Cplusconcepts <> is_virtual_base_of ind
+R50429 Invariant <> hier syndef
+R50379 Coq.ZArith.BinInt "x <= y < z" not
+R50377 Coq.ZArith.BinInt "" not
+R50163 LibLists <> last def
+R50186 Coq.Init.Datatypes <> None constr
+R50217 Coq.Init.Logic "A /\ B" not
+R50196 Coq.Init.Logic "x = y" not
+R50198 Cplusconcepts Object arraysize proj
+R50223 Coq.Init.Logic "x = y" not
+R50225 Cplusconcepts Object class proj
+R50250 Coq.Init.Datatypes <> Some constr
+R50255 Coq.Init.Datatypes "( x , y , .. , z )" not
+R50269 Coq.Init.Logic "'exists' x , p" not
+R50292 Coq.Init.Logic "A /\ B" not
+R50282 Coq.Init.Logic "x = y" not
+R50284 Coq.ZArith.BinInt <> Zpos constr
+R50318 Coq.Init.Logic "x = y" not
+R50295 Cplusconcepts FieldSignature type proj
+R50320 Cplusconcepts FieldSignature Struct constr
+R50080 Cplusconcepts <> valid_array_path ind
+R50125 Cplusconcepts Object arraysize proj
+R50108 Cplusconcepts Object class proj
+R50097 Invariant <> hier syndef
+R50042 Coq.Init.Logic "x = y" not
+R50034 Maps "a ! b" not
+R50005 Cplusconcepts Globals heap proj
+R50019 Cppsem State global proj
+R50044 Coq.Init.Datatypes <> Some constr
+R51383 Invariant <> constructed_sibling_before rec
+R51505 LibLists <> assoc def
+R51568 Cppsem State construction_states proj
+R51531 Coq.Init.Datatypes "( x , y , .. , z )" not
+R51537 Coq.Init.Datatypes "( x , y , .. , z )" not
+R51545 Coq.Init.Datatypes "( x , y , .. , z )" not
+R51551 Coq.Lists.List "x ++ y" not
+R51557 Coq.Lists.List "x :: y" not
+R51560 Coq.Lists.List <> nil constr
+R51513 Cplusconcepts <> pointer_eq_dec thm
+R51411 LibLists <> assoc def
+R51474 Cppsem State construction_states proj
+R51437 Coq.Init.Datatypes "( x , y , .. , z )" not
+R51443 Coq.Init.Datatypes "( x , y , .. , z )" not
+R51451 Coq.Init.Datatypes "( x , y , .. , z )" not
+R51457 Coq.Lists.List "x ++ y" not
+R51463 Coq.Lists.List "x :: y" not
+R51466 Coq.Lists.List <> nil constr
+R51419 Cplusconcepts <> pointer_eq_dec thm
+R51341 Coq.Init.Logic "x = y" not
+R51100 Coq.Lists.List <> map def
+R51169 Coq.Lists.List <> filter def
+R51325 Cplusconcepts Class super proj
+R51237 Coq.Init.Datatypes "( x , y , .. , z )" not
+R51238 Cplusconcepts Class.Inheritance Shared constr
+R51270 Coq.Init.Datatypes <> false constr
+R51295 Coq.Init.Datatypes <> true constr
+R51188 Coq.Init.Datatypes "x * y" not
+R51190 Cplusconcepts <> ident def
+R51134 Coq.Init.Datatypes "x * y" not
+R51114 Cplusconcepts Class.Inheritance t ind
+R51136 Cplusconcepts <> ident def
+R51347 Coq.Lists.List "x ++ y" not
+R51353 Coq.Lists.List "x :: y" not
+R51359 Coq.Lists.List "x ++ y" not
+R51365 Coq.Lists.List "x :: y" not
+R51057 Coq.Init.Logic "x = y" not
+R51052 Maps "a ! b" not
+R51047 Invariant <> hier syndef
+R51059 Coq.Init.Datatypes <> Some constr
+R51018 Coq.Init.Logic "x = y" not
+R51011 LibLists <> last def
+R51020 Coq.Init.Datatypes <> Some constr
+R50908 Cplusconcepts <> valid_pointer ind
+R50960 Cplusconcepts Value subobject constr
+R50928 Cplusconcepts Globals heap proj
+R50942 Cppsem State global proj
+R50922 Invariant <> hier syndef
+R51907 Invariant <> constructed_sibling_before rec
+R52037 LibLists <> assoc def
+R52102 Cppsem State field_construction_states proj
+R52076 Coq.Init.Datatypes "( x , y , .. , z )" not
+R52089 Coq.Init.Datatypes "( x , y , .. , z )" not
+R52045 Cppsem <> aux_constr_state_key_eq_dec thm
+R51935 LibLists <> assoc def
+R52000 Cppsem State field_construction_states proj
+R51974 Coq.Init.Datatypes "( x , y , .. , z )" not
+R51987 Coq.Init.Datatypes "( x , y , .. , z )" not
+R51943 Cppsem <> aux_constr_state_key_eq_dec thm
+R51863 Coq.Init.Logic "x = y" not
+R51848 Cplusconcepts Class fields proj
+R51869 Coq.Lists.List "x ++ y" not
+R51875 Coq.Lists.List "x :: y" not
+R51881 Coq.Lists.List "x ++ y" not
+R51887 Coq.Lists.List "x :: y" not
+R51805 Coq.Init.Logic "x = y" not
+R51800 Maps "a ! b" not
+R51795 Invariant <> hier syndef
+R51807 Coq.Init.Datatypes <> Some constr
+R51766 Coq.Init.Logic "x = y" not
+R51759 LibLists <> last def
+R51768 Coq.Init.Datatypes <> Some constr
+R51656 Cplusconcepts <> valid_pointer ind
+R51708 Cplusconcepts Value subobject constr
+R51676 Cplusconcepts Globals heap proj
+R51690 Cppsem State global proj
+R51670 Invariant <> hier syndef
+R52604 Invariant <> constructed_sibling_before rec
+R52747 LibLists <> assoc def
+R52831 Cppsem State construction_states proj
+R52773 Coq.Init.Datatypes "( x , y , .. , z )" not
+R52779 Coq.Init.Datatypes "( x , y , .. , z )" not
+R52788 Coq.Init.Datatypes "( x , y , .. , z )" not
+R52789 Cplusconcepts Class.Inheritance Repeated constr
+R52820 Coq.Lists.List "x :: y" not
+R52823 Coq.Lists.List <> nil constr
+R52755 Cplusconcepts <> pointer_eq_dec thm
+R52632 LibLists <> assoc def
+R52716 Cppsem State construction_states proj
+R52658 Coq.Init.Datatypes "( x , y , .. , z )" not
+R52664 Coq.Init.Datatypes "( x , y , .. , z )" not
+R52673 Coq.Init.Datatypes "( x , y , .. , z )" not
+R52674 Cplusconcepts Class.Inheritance Repeated constr
+R52705 Coq.Lists.List "x :: y" not
+R52708 Coq.Lists.List <> nil constr
+R52640 Cplusconcepts <> pointer_eq_dec thm
+R52589 Coq.ZArith.BinInt "x < y" not
+R52578 Coq.ZArith.BinInt "x < y" not
+R52566 Coq.ZArith.BinInt "x <= y" not
+R52564 Coq.ZArith.BinInt "" not
+R52346 LibLists <> last def
+R52369 Coq.Init.Datatypes <> None constr
+R52400 Coq.Init.Logic "A /\ B" not
+R52379 Coq.Init.Logic "x = y" not
+R52381 Cplusconcepts Object arraysize proj
+R52406 Coq.Init.Logic "x = y" not
+R52408 Cplusconcepts Object class proj
+R52433 Coq.Init.Datatypes <> Some constr
+R52438 Coq.Init.Datatypes "( x , y , .. , z )" not
+R52452 Coq.Init.Logic "'exists' x , p" not
+R52475 Coq.Init.Logic "A /\ B" not
+R52465 Coq.Init.Logic "x = y" not
+R52467 Coq.ZArith.BinInt <> Zpos constr
+R52501 Coq.Init.Logic "x = y" not
+R52478 Cplusconcepts FieldSignature type proj
+R52503 Cplusconcepts FieldSignature Struct constr
+R52263 Cplusconcepts <> valid_array_path ind
+R52308 Cplusconcepts Object arraysize proj
+R52291 Cplusconcepts Object class proj
+R52280 Invariant <> hier syndef
+R52225 Coq.Init.Logic "x = y" not
+R52217 Maps "a ! b" not
+R52188 Cplusconcepts Globals heap proj
+R52202 Cppsem State global proj
+R52227 Coq.Init.Datatypes <> Some constr
+R52921 Coq.Lists.List <> NoDup ind
+R52927 Invariant <> stack_objects def
+R53045 Coq.Init.Logic "x <> y" not
+R53037 Maps "a ! b" not
+R53008 Cplusconcepts Globals heap proj
+R53022 Cppsem State global proj
+R53048 Coq.Init.Datatypes <> None constr
+R52983 Coq.Lists.List <> In def
+R52990 Invariant <> stack_objects def
+R53371 Coq.Init.Logic "x = y" not
+R53246 LibLists <> assoc def
+R53342 Cppsem State construction_states proj
+R53272 Coq.Init.Datatypes "( x , y , .. , z )" not
+R53278 Coq.Init.Datatypes "( x , y , .. , z )" not
+R53279 Coq.Lists.List <> nil constr
+R53287 Coq.Init.Datatypes "( x , y , .. , z )" not
+R53288 Cplusconcepts Class.Inheritance Repeated constr
+R53331 Coq.Lists.List "x :: y" not
+R53316 Cplusconcepts Object class proj
+R53334 Coq.Lists.List <> nil constr
+R53254 Cplusconcepts <> pointer_eq_dec thm
+R53373 Coq.Init.Datatypes <> Some constr
+R53378 Cppsem <> Constructed constr
+R53217 Coq.ZArith.BinInt "x <= y < z" not
+R53215 Coq.ZArith.BinInt "" not
+R53224 Cplusconcepts Object arraysize proj
+R53193 Coq.Init.Logic "x = y" not
+R53185 Maps "a ! b" not
+R53156 Cplusconcepts Globals heap proj
+R53170 Cppsem State global proj
+R53195 Coq.Init.Datatypes <> Some constr
+R53109 Coq.Lists.List <> In def
+R53116 Invariant <> constructed_stack_objects def
+R53523 Coq.Init.Logic <> False ind
+R53509 Coq.Init.Logic "x = y" not
+R53482 Invariant <> kind_object def
+R53495 Cppsem State kind proj
+R53511 Coq.Init.Datatypes <> Some constr
+R53446 Coq.Lists.List <> In def
+R53453 Invariant <> constructed_stack_objects def
+R53714 Coq.Init.Logic <> False ind
+R53694 Coq.Init.Logic "x = y" not
+R53674 Invariant <> frame_array_weak def
+R53696 Coq.Init.Datatypes <> Some constr
+R53701 Coq.Init.Datatypes "( x , y , .. , z )" not
+R53638 Coq.Lists.List <> In def
+R53645 Cppsem State stack proj
+R53591 Coq.Lists.List <> In def
+R53598 Invariant <> constructed_stack_objects def
+R53866 Coq.Init.Logic "'exists' x , p" not
+R53899 Coq.Init.Logic "x = y" not
+R53877 Invariant <> stackframe_objects def
+R53905 Coq.Lists.List "x :: y" not
+R53846 Coq.Init.Logic "x = y" not
+R53826 Invariant <> frame_array_weak def
+R53848 Coq.Init.Datatypes <> Some constr
+R53853 Coq.Init.Datatypes "( x , y , .. , z )" not
+R53791 Coq.Init.Logic "x = y" not
+R53777 Cppsem State stack proj
+R53796 Coq.Lists.List "x ++ y" not
+R53802 Coq.Lists.List "x :: y" not
+R53943 LibLists <> sorted ind
+R53971 Invariant <> stack_objects def
+R53962 Coqlib <> Plt def
+R54077 Coq.Init.Logic "'exists' x , p" not
+R54102 Coq.Init.Logic "x = y" not
+R54088 Invariant <> stack_objects def
+R54108 Coq.Lists.List "x :: y" not
+R54063 Coq.Init.Logic "x = y" not
+R54036 Invariant <> kind_object def
+R54049 Cppsem State kind proj
+R54065 Coq.Init.Datatypes <> Some constr
+R54270 Coq.Init.Logic "x <> y" not
+R54262 Maps "a ! b" not
+R54233 Cplusconcepts Globals heap proj
+R54247 Cppsem State global proj
+R54273 Coq.Init.Datatypes <> None constr
+R54192 Coq.Lists.List <> In def
+R54200 Cppsem State deallocated_objects proj
+R54398 Coq.Init.Logic <> False ind
+R54358 Coq.Lists.List <> In def
+R54366 Cppsem State deallocated_objects proj
+R54334 Coq.Lists.List <> In def
+R54341 Invariant <> stack_objects def
+R54724 Coq.Init.Logic "x = y" not
+R54599 LibLists <> assoc def
+R54695 Cppsem State construction_states proj
+R54625 Coq.Init.Datatypes "( x , y , .. , z )" not
+R54631 Coq.Init.Datatypes "( x , y , .. , z )" not
+R54632 Coq.Lists.List <> nil constr
+R54640 Coq.Init.Datatypes "( x , y , .. , z )" not
+R54641 Cplusconcepts Class.Inheritance Repeated constr
+R54684 Coq.Lists.List "x :: y" not
+R54669 Cplusconcepts Object class proj
+R54687 Coq.Lists.List <> nil constr
+R54607 Cplusconcepts <> pointer_eq_dec thm
+R54726 Coq.Init.Datatypes <> Some constr
+R54731 Cppsem <> Destructed constr
+R54570 Coq.ZArith.BinInt "x <= y < z" not
+R54568 Coq.ZArith.BinInt "" not
+R54577 Cplusconcepts Object arraysize proj
+R54546 Coq.Init.Logic "x = y" not
+R54538 Maps "a ! b" not
+R54509 Cplusconcepts Globals heap proj
+R54523 Cppsem State global proj
+R54548 Coq.Init.Datatypes <> Some constr
+R54458 Coq.Lists.List <> In def
+R54466 Cppsem State deallocated_objects proj
+R54858 Coq.Init.Logic "A \/ B" not
+R54837 Coq.Lists.List <> In def
+R54844 Invariant <> stack_objects def
+R54861 Coq.Lists.List <> In def
+R54869 Cppsem State deallocated_objects proj
+R54826 Coq.Init.Logic "x <> y" not
+R54818 Maps "a ! b" not
+R54789 Cplusconcepts Globals heap proj
+R54803 Cppsem State global proj
+R54829 Coq.Init.Datatypes <> None constr
+R55197 Coq.Init.Logic "x = y" not
+R55118 Cplusconcepts Globals get_field def
+R55176 Coq.Init.Datatypes "( x , y , .. , z )" not
+R55137 Cplusconcepts Globals field_values proj
+R55159 Cppsem State global proj
+R55199 Coq.Init.Datatypes <> None constr
+R55072 Coq.Init.Logic "x = y" not
+R55049 Cplusconcepts FieldSignature type proj
+R55074 Cplusconcepts FieldSignature Scalar constr
+R55025 Coq.Init.Logic "x = y" not
+R55017 Maps "a ! b" not
+R54988 Cplusconcepts Globals heap proj
+R55002 Cppsem State global proj
+R55027 Coq.Init.Datatypes <> None constr
+R55248 Invariant Invar.Invariant <> sec
+R55264 Invariant Invar <> sec

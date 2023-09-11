@@ -1,0 +1,2224 @@
+FPreservationStack2KConstr
+R15 Coq.Relations.Relations <> <> lib
+R41 Coqlib <> <> lib
+R64 LibPos <> <> lib
+R87 Maps <> <> lib
+R108 LibLists <> <> lib
+R133 Cppsem <> <> lib
+R156 Cplusconcepts <> <> lib
+R186 CplusWf <> <> lib
+R210 Events <> <> lib
+R233 Invariant <> <> lib
+R259 Coq.Logic.Eqdep_dec <> <> lib
+R285 SubobjectOrdering <> <> lib
+R319 ConstrSubobjectOrdering <> <> lib
+sec 385 <> Preservation
+var 30 Preservation A
+R34 BuiltinTypes ATOM t rec
+var 51 Preservation nativeop
+var 78 Preservation prog
+R85 Cppsem Program t rec
+var 117 Preservation cppsem
+R126 Cppsem <> cppsemparam rec
+var 148 Preservation sem
+R154 BuiltinTypes <> semparam rec
+var 186 Preservation s1
+R191 Cppsem State t rec
+var 371 Preservation Hs1
+R377 Invariant <> invariant rec
+var 430 Preservation s2
+R435 Cppsem State t rec
+var 464 Preservation t
+R468 Events <> trace proj
+R475 BuiltinTypes <> evtr proj
+var 498 Preservation step
+R505 Cppsem <> step ind
+var 543 Preservation hierarchy_wf
+R558 CplusWf Well_formed_hierarchy prop rec
+R586 Cppsem Program hierarchy proj
+syndef 9 <> evtr
+R18 BuiltinTypes <> evtr proj
+syndef 53 <> trace
+R63 Events <> trace proj
+R69 PreservationStack2KConstr <> evtr syndef
+syndef 100 <> hier
+R109 Cppsem Program hierarchy proj
+syndef 158 <> aux_constr_state_key_eq_dec
+R190 Cppsem <> aux_constr_state_key_eq_dec thm
+syndef 253 <> relptr_gt
+R267 SubobjectOrdering <> relptr_gt ind
+R277 PreservationStack2KConstr <> hier syndef
+prf 32 <> stack2_2
+R208 Invariant <> stackframe_constructor_inv def
+R183 Invariant <> is_code_frame def
+R151 Coq.Init.Logic "x = y" not
+R136 Cppsem State stack proj
+R156 Coq.Lists.List "x ++ y" not
+R163 Coq.Lists.List "x :: y" not
+R170 Coq.Lists.List "x :: y" not
+R99 Coq.Lists.List <> list ind
+R105 Cppsem StackFrame t ind
+R99 Coq.Lists.List <> list ind
+R105 Cppsem StackFrame t ind
+R61 Cppsem StackFrame t ind
+R61 Cppsem StackFrame t ind
+R276 Invariant <> stack2 proj
+R322 Coq.Lists.List "x :: y" not
+R276 Invariant <> stack2 proj
+R322 Coq.Lists.List "x :: y" not
+prf 38 <> goal
+R444 Invariant <> stackframe_constructor_inv def
+R418 Invariant <> is_code_frame def
+R386 Coq.Init.Logic "x = y" not
+R371 Cppsem State stack proj
+R391 Coq.Lists.List "x ++ y" not
+R397 Coq.Lists.List "x :: y" not
+R403 Coq.Lists.List "x :: y" not
+R332 Coq.Lists.List <> list ind
+R338 Cppsem StackFrame t ind
+R288 Coq.Lists.List <> list ind
+R294 Cppsem StackFrame t ind
+R251 Cppsem StackFrame t ind
+R132 Coq.Init.Logic "x = y" not
+R134 Cppsem StackFrame Kconstr constr
+R176 Coq.Init.Datatypes "( x , y , .. , z )" not
+R508 PreservationStack2KConstr <> stack2_2 thm
+R508 PreservationStack2KConstr <> stack2_2 thm
+R584 Coq.ZArith.BinInt <> Zminus def
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R733 LibLists <> app_cons thm
+R896 Invariant <> kind proj
+R896 Invariant <> kind proj
+R1059 Coq.Init.Logic <> refl_equal constr
+R1059 Coq.Init.Logic <> refl_equal constr
+R1210 Invariant <> kind proj
+R1210 Invariant <> kind proj
+R1373 Coq.Init.Logic <> refl_equal constr
+R1373 Coq.Init.Logic <> refl_equal constr
+R1528 Invariant <> kind proj
+R1528 Invariant <> kind proj
+R1719 Cplusconcepts Globals valid_pointer_new thm
+R1719 Cplusconcepts Globals valid_pointer_new thm
+R1760 Invariant <> valid_global proj
+R1760 Invariant <> valid_global proj
+R1916 Coq.Init.Logic <> refl_equal constr
+R1916 Coq.Init.Logic <> refl_equal constr
+R2084 Cplusconcepts Globals valid_pointer_new thm
+R2084 Cplusconcepts Globals valid_pointer_new thm
+R2125 Invariant <> valid_global proj
+R2125 Invariant <> valid_global proj
+R2321 Coq.Init.Logic <> refl_equal constr
+R2321 Coq.Init.Logic <> refl_equal constr
+R2523 LibLists <> app_cons thm
+R2533 Coq.Init.Logic <> refl_equal constr
+R2523 LibLists <> app_cons thm
+R2533 Coq.Init.Logic <> refl_equal constr
+R2643 Tactics <> if_some_commut thm
+R2643 Tactics <> if_some_commut thm
+R2852 Cplusconcepts <> pointer_eq_dec thm
+R2948 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2955 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2976 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2883 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2889 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2897 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2898 Cplusconcepts Class.Inheritance Repeated constr
+R2929 Coq.Lists.List "x :: y" not
+R2932 Coq.Lists.List <> nil constr
+R2852 Cplusconcepts <> pointer_eq_dec thm
+R2948 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2955 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2976 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2883 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2889 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2897 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2898 Cplusconcepts Class.Inheritance Repeated constr
+R2929 Coq.Lists.List "x :: y" not
+R2932 Coq.Lists.List <> nil constr
+R3108 Tactics <> and_assoc thm
+R3108 Tactics <> and_assoc thm
+R3163 Cplusconcepts <> pointer_eq_dec thm
+R3261 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3268 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3289 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3296 Coq.Lists.List "x ++ y" not
+R3301 Coq.Lists.List "x :: y" not
+R3304 Coq.Lists.List <> nil constr
+R3195 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3201 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3209 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3210 Cplusconcepts Class.Inheritance Repeated constr
+R3241 Coq.Lists.List "x :: y" not
+R3244 Coq.Lists.List <> nil constr
+R3163 Cplusconcepts <> pointer_eq_dec thm
+R3261 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3268 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3289 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3296 Coq.Lists.List "x ++ y" not
+R3301 Coq.Lists.List "x :: y" not
+R3304 Coq.Lists.List <> nil constr
+R3195 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3201 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3209 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3210 Cplusconcepts Class.Inheritance Repeated constr
+R3241 Coq.Lists.List "x :: y" not
+R3244 Coq.Lists.List <> nil constr
+R3430 Cplusconcepts <> pointer_eq_dec thm
+R3526 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3533 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3554 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3555 Cplusconcepts Class.Inheritance Shared constr
+R3583 Coq.Lists.List "x :: y" not
+R3586 Coq.Lists.List <> nil constr
+R3461 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3467 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3475 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3476 Cplusconcepts Class.Inheritance Repeated constr
+R3507 Coq.Lists.List "x :: y" not
+R3510 Coq.Lists.List <> nil constr
+R3430 Cplusconcepts <> pointer_eq_dec thm
+R3526 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3533 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3554 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3555 Cplusconcepts Class.Inheritance Shared constr
+R3583 Coq.Lists.List "x :: y" not
+R3586 Coq.Lists.List <> nil constr
+R3461 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3467 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3475 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3476 Cplusconcepts Class.Inheritance Repeated constr
+R3507 Coq.Lists.List "x :: y" not
+R3510 Coq.Lists.List <> nil constr
+R3728 Tactics <> and_assoc thm
+R3728 Tactics <> and_assoc thm
+R3774 Cplusconcepts <> pointer_eq_dec thm
+R3872 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3879 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3900 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3901 Cplusconcepts Class.Inheritance Shared constr
+R3929 Coq.Lists.List "x :: y" not
+R3932 Coq.Lists.List <> nil constr
+R3806 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3812 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3820 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3821 Cplusconcepts Class.Inheritance Repeated constr
+R3852 Coq.Lists.List "x :: y" not
+R3855 Coq.Lists.List <> nil constr
+R3774 Cplusconcepts <> pointer_eq_dec thm
+R3872 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3879 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3900 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3901 Cplusconcepts Class.Inheritance Shared constr
+R3929 Coq.Lists.List "x :: y" not
+R3932 Coq.Lists.List <> nil constr
+R3806 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3812 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3820 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3821 Cplusconcepts Class.Inheritance Repeated constr
+R3852 Coq.Lists.List "x :: y" not
+R3855 Coq.Lists.List <> nil constr
+R4004 Cplusconcepts <> pointer_eq_dec thm
+R4100 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4116 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4137 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4138 Cplusconcepts Class.Inheritance Repeated constr
+R4169 Coq.Lists.List "x :: y" not
+R4174 Coq.Lists.List "x :: y" not
+R4177 Coq.Lists.List <> nil constr
+R4035 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4041 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4049 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4050 Cplusconcepts Class.Inheritance Repeated constr
+R4081 Coq.Lists.List "x :: y" not
+R4084 Coq.Lists.List <> nil constr
+R4004 Cplusconcepts <> pointer_eq_dec thm
+R4100 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4116 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4137 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4138 Cplusconcepts Class.Inheritance Repeated constr
+R4169 Coq.Lists.List "x :: y" not
+R4174 Coq.Lists.List "x :: y" not
+R4177 Coq.Lists.List <> nil constr
+R4035 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4041 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4049 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4050 Cplusconcepts Class.Inheritance Repeated constr
+R4081 Coq.Lists.List "x :: y" not
+R4084 Coq.Lists.List <> nil constr
+R4242 Cplusconcepts <> pointer_eq_dec thm
+R4346 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4353 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4374 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4277 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4283 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4291 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4292 Cplusconcepts Class.Inheritance Repeated constr
+R4323 Coq.Lists.List "x :: y" not
+R4326 Coq.Lists.List <> nil constr
+R4242 Cplusconcepts <> pointer_eq_dec thm
+R4346 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4353 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4374 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4277 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4283 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4291 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4292 Cplusconcepts Class.Inheritance Repeated constr
+R4323 Coq.Lists.List "x :: y" not
+R4326 Coq.Lists.List <> nil constr
+R4413 Coq.Init.Logic <> False_rect def
+R4413 Coq.Init.Logic <> False_rect def
+R4499 Invariant <> kind proj
+R4499 Invariant <> kind proj
+R4588 Coq.ZArith.BinInt "x <= y < z" not
+R4588 Coq.ZArith.BinInt "x <= y < z" not
+R4763 LibLists <> app_cons thm
+R4763 LibLists <> app_cons thm
+R4836 Invariant <> stack_wf proj
+R4877 Coq.Lists.List <> in_or_app thm
+R4862 Coq.Init.Logic <> refl_equal constr
+R4856 Coq.Lists.List <> nil constr
+R4836 Invariant <> stack_wf proj
+R4877 Coq.Lists.List <> in_or_app thm
+R4862 Coq.Init.Logic <> refl_equal constr
+R4856 Coq.Lists.List <> nil constr
+R4968 Coq.Init.Logic <> refl_equal constr
+R4968 Coq.Init.Logic <> refl_equal constr
+R5017 Coq.Init.Logic "x <> y" not
+R5007 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5020 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5017 Coq.Init.Logic "x <> y" not
+R5007 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5020 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5094 Coq.Init.Logic <> refl_equal constr
+R5094 Coq.Init.Logic <> refl_equal constr
+R5148 Coq.Init.Logic "x = y" not
+R5135 Coq.Lists.List <> length def
+R5150 Coq.Lists.List <> length def
+R5164 Coq.Lists.List "x ++ y" not
+R5148 Coq.Init.Logic "x = y" not
+R5135 Coq.Lists.List <> length def
+R5150 Coq.Lists.List <> length def
+R5164 Coq.Lists.List "x ++ y" not
+R5205 Coq.Lists.List <> app_length thm
+R5205 Coq.Lists.List <> app_length thm
+R5356 Tactics <> if_some_commut thm
+R5356 Tactics <> if_some_commut thm
+R5575 Cplusconcepts <> pointer_eq_dec thm
+R5671 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5678 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5699 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5606 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5612 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5620 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5621 Cplusconcepts Class.Inheritance Repeated constr
+R5652 Coq.Lists.List "x :: y" not
+R5655 Coq.Lists.List <> nil constr
+R5575 Cplusconcepts <> pointer_eq_dec thm
+R5671 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5678 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5699 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5606 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5612 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5620 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5621 Cplusconcepts Class.Inheritance Repeated constr
+R5652 Coq.Lists.List "x :: y" not
+R5655 Coq.Lists.List <> nil constr
+R5852 Tactics <> and_assoc thm
+R5852 Tactics <> and_assoc thm
+R5900 Cplusconcepts <> pointer_eq_dec thm
+R5998 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6005 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6026 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6033 Coq.Lists.List "x ++ y" not
+R6038 Coq.Lists.List "x :: y" not
+R6041 Coq.Lists.List <> nil constr
+R5932 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5938 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5946 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5947 Cplusconcepts Class.Inheritance Repeated constr
+R5978 Coq.Lists.List "x :: y" not
+R5981 Coq.Lists.List <> nil constr
+R5900 Cplusconcepts <> pointer_eq_dec thm
+R5998 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6005 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6026 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6033 Coq.Lists.List "x ++ y" not
+R6038 Coq.Lists.List "x :: y" not
+R6041 Coq.Lists.List <> nil constr
+R5932 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5938 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5946 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5947 Cplusconcepts Class.Inheritance Repeated constr
+R5978 Coq.Lists.List "x :: y" not
+R5981 Coq.Lists.List <> nil constr
+R6123 Cplusconcepts <> pointer_eq_dec thm
+R6219 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6226 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6247 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6248 Cplusconcepts Class.Inheritance Shared constr
+R6276 Coq.Lists.List "x :: y" not
+R6279 Coq.Lists.List <> nil constr
+R6154 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6160 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6168 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6169 Cplusconcepts Class.Inheritance Repeated constr
+R6200 Coq.Lists.List "x :: y" not
+R6203 Coq.Lists.List <> nil constr
+R6123 Cplusconcepts <> pointer_eq_dec thm
+R6219 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6226 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6247 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6248 Cplusconcepts Class.Inheritance Shared constr
+R6276 Coq.Lists.List "x :: y" not
+R6279 Coq.Lists.List <> nil constr
+R6154 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6160 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6168 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6169 Cplusconcepts Class.Inheritance Repeated constr
+R6200 Coq.Lists.List "x :: y" not
+R6203 Coq.Lists.List <> nil constr
+R6409 Tactics <> and_assoc thm
+R6409 Tactics <> and_assoc thm
+R6451 Cplusconcepts <> pointer_eq_dec thm
+R6549 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6556 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6577 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6578 Cplusconcepts Class.Inheritance Shared constr
+R6606 Coq.Lists.List "x :: y" not
+R6609 Coq.Lists.List <> nil constr
+R6483 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6489 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6497 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6498 Cplusconcepts Class.Inheritance Repeated constr
+R6529 Coq.Lists.List "x :: y" not
+R6532 Coq.Lists.List <> nil constr
+R6451 Cplusconcepts <> pointer_eq_dec thm
+R6549 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6556 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6577 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6578 Cplusconcepts Class.Inheritance Shared constr
+R6606 Coq.Lists.List "x :: y" not
+R6609 Coq.Lists.List <> nil constr
+R6483 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6489 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6497 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6498 Cplusconcepts Class.Inheritance Repeated constr
+R6529 Coq.Lists.List "x :: y" not
+R6532 Coq.Lists.List <> nil constr
+R6677 Cplusconcepts <> pointer_eq_dec thm
+R6773 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6789 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6810 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6811 Cplusconcepts Class.Inheritance Repeated constr
+R6842 Coq.Lists.List "x :: y" not
+R6847 Coq.Lists.List "x :: y" not
+R6850 Coq.Lists.List <> nil constr
+R6708 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6714 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6722 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6723 Cplusconcepts Class.Inheritance Repeated constr
+R6754 Coq.Lists.List "x :: y" not
+R6757 Coq.Lists.List <> nil constr
+R6677 Cplusconcepts <> pointer_eq_dec thm
+R6773 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6789 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6810 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6811 Cplusconcepts Class.Inheritance Repeated constr
+R6842 Coq.Lists.List "x :: y" not
+R6847 Coq.Lists.List "x :: y" not
+R6850 Coq.Lists.List <> nil constr
+R6708 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6714 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6722 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6723 Cplusconcepts Class.Inheritance Repeated constr
+R6754 Coq.Lists.List "x :: y" not
+R6757 Coq.Lists.List <> nil constr
+R6969 Cplusconcepts <> pointer_eq_dec thm
+R7065 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7072 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7093 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7000 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7006 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7014 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7015 Cplusconcepts Class.Inheritance Repeated constr
+R7046 Coq.Lists.List "x :: y" not
+R7049 Coq.Lists.List <> nil constr
+R6969 Cplusconcepts <> pointer_eq_dec thm
+R7065 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7072 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7093 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7000 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7006 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7014 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7015 Cplusconcepts Class.Inheritance Repeated constr
+R7046 Coq.Lists.List "x :: y" not
+R7049 Coq.Lists.List <> nil constr
+R7399 Coq.Init.Logic <> refl_equal constr
+R7399 Coq.Init.Logic <> refl_equal constr
+R7681 Coq.Init.Logic <> refl_equal constr
+R7681 Coq.Init.Logic <> refl_equal constr
+R7743 Coq.Init.Logic <> refl_equal constr
+R7743 Coq.Init.Logic <> refl_equal constr
+R7974 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R8038 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8065 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8002 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8015 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7974 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R8038 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8065 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8002 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8015 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8147 Coq.Init.Logic <> or_introl constr
+R8160 Coq.Init.Logic <> refl_equal constr
+R8147 Coq.Init.Logic <> or_introl constr
+R8160 Coq.Init.Logic <> refl_equal constr
+R8190 Coq.Init.Logic <> False_rect def
+R8190 Coq.Init.Logic <> False_rect def
+R8213 Invariant <> stack_state_wf proj
+R8213 Invariant <> stack_state_wf proj
+R8257 Coq.Lists.List <> in_or_app thm
+R8257 Coq.Lists.List <> in_or_app thm
+R8336 Coq.Init.Logic <> refl_equal constr
+R8336 Coq.Init.Logic <> refl_equal constr
+R8364 SubobjectOrdering <> relptr_gt_irrefl thm
+R8364 SubobjectOrdering <> relptr_gt_irrefl thm
+R8523 LibLists <> app_cons thm
+R8523 LibLists <> app_cons thm
+R8637 Tactics <> if_some_commut thm
+R8637 Tactics <> if_some_commut thm
+R8847 Cplusconcepts <> pointer_eq_dec thm
+R9189 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9196 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9217 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8878 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8893 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8910 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8937 Cppsem Constructor direct_non_virtual constr
+R8985 Cppsem Constructor virtual constr
+R9008 Cplusconcepts Class.Inheritance Shared constr
+R9082 Cppsem Constructor direct_non_virtual constr
+R9118 Coq.Lists.List "x ++ y" not
+R9123 Coq.Lists.List "x :: y" not
+R9126 Coq.Lists.List <> nil constr
+R9141 Cppsem Constructor virtual constr
+R9166 Coq.Lists.List "x :: y" not
+R9169 Coq.Lists.List <> nil constr
+R8847 Cplusconcepts <> pointer_eq_dec thm
+R9189 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9196 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9217 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8878 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8893 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8910 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8937 Cppsem Constructor direct_non_virtual constr
+R8985 Cppsem Constructor virtual constr
+R9008 Cplusconcepts Class.Inheritance Shared constr
+R9082 Cppsem Constructor direct_non_virtual constr
+R9118 Coq.Lists.List "x ++ y" not
+R9123 Coq.Lists.List "x :: y" not
+R9126 Coq.Lists.List <> nil constr
+R9141 Cppsem Constructor virtual constr
+R9166 Coq.Lists.List "x :: y" not
+R9169 Coq.Lists.List <> nil constr
+R9347 Tactics <> and_assoc thm
+R9347 Tactics <> and_assoc thm
+R9396 Cplusconcepts <> pointer_eq_dec thm
+R9748 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9755 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9776 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9783 Coq.Lists.List "x ++ y" not
+R9789 Coq.Lists.List "x :: y" not
+R9792 Coq.Lists.List <> nil constr
+R9428 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9444 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9462 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9490 Cppsem Constructor direct_non_virtual constr
+R9539 Cppsem Constructor virtual constr
+R9562 Cplusconcepts Class.Inheritance Shared constr
+R9639 Cppsem Constructor direct_non_virtual constr
+R9675 Coq.Lists.List "x ++ y" not
+R9680 Coq.Lists.List "x :: y" not
+R9683 Coq.Lists.List <> nil constr
+R9699 Cppsem Constructor virtual constr
+R9724 Coq.Lists.List "x :: y" not
+R9727 Coq.Lists.List <> nil constr
+R9396 Cplusconcepts <> pointer_eq_dec thm
+R9748 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9755 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9776 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9783 Coq.Lists.List "x ++ y" not
+R9789 Coq.Lists.List "x :: y" not
+R9792 Coq.Lists.List <> nil constr
+R9428 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9444 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9462 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9490 Cppsem Constructor direct_non_virtual constr
+R9539 Cppsem Constructor virtual constr
+R9562 Cplusconcepts Class.Inheritance Shared constr
+R9639 Cppsem Constructor direct_non_virtual constr
+R9675 Coq.Lists.List "x ++ y" not
+R9680 Coq.Lists.List "x :: y" not
+R9683 Coq.Lists.List <> nil constr
+R9699 Cppsem Constructor virtual constr
+R9724 Coq.Lists.List "x :: y" not
+R9727 Coq.Lists.List <> nil constr
+R9886 Coq.Init.Logic "x = y" not
+R9873 Coq.Lists.List "x ++ y" not
+R9879 Coq.Lists.List "x :: y" not
+R9882 Coq.Lists.List <> nil constr
+R9890 Coq.Lists.List "x ++ y" not
+R9895 Coq.Lists.List "x :: y" not
+R9898 Coq.Lists.List <> nil constr
+R9886 Coq.Init.Logic "x = y" not
+R9873 Coq.Lists.List "x ++ y" not
+R9879 Coq.Lists.List "x :: y" not
+R9882 Coq.Lists.List <> nil constr
+R9890 Coq.Lists.List "x ++ y" not
+R9895 Coq.Lists.List "x :: y" not
+R9898 Coq.Lists.List <> nil constr
+R9943 LibLists <> list_cons_right_inj thm
+R9943 LibLists <> list_cons_right_inj thm
+R10007 Invariant <> stack_wf proj
+R10048 Coq.Lists.List <> in_or_app thm
+R10033 Coq.Init.Logic <> refl_equal constr
+R10027 Coq.Lists.List <> nil constr
+R10007 Invariant <> stack_wf proj
+R10048 Coq.Lists.List <> in_or_app thm
+R10033 Coq.Init.Logic <> refl_equal constr
+R10027 Coq.Lists.List <> nil constr
+R10160 Coq.Init.Logic <> refl_equal constr
+R10160 Coq.Init.Logic <> refl_equal constr
+R10188 Coq.Init.Logic <> False_rect def
+R10188 Coq.Init.Logic <> False_rect def
+R10229 Coq.Init.Logic <> refl_equal constr
+R10229 Coq.Init.Logic <> refl_equal constr
+R10263 SubobjectOrdering <> relptr_gt_irrefl thm
+R10263 SubobjectOrdering <> relptr_gt_irrefl thm
+R10418 Cplusconcepts <> pointer_eq_dec thm
+R10769 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10776 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10797 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10798 Cplusconcepts Class.Inheritance Shared constr
+R10827 Coq.Lists.List "x :: y" not
+R10830 Coq.Lists.List <> nil constr
+R10449 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10464 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10481 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10508 Cppsem Constructor direct_non_virtual constr
+R10556 Cppsem Constructor virtual constr
+R10579 Cplusconcepts Class.Inheritance Shared constr
+R10653 Cppsem Constructor direct_non_virtual constr
+R10689 Coq.Lists.List "x ++ y" not
+R10694 Coq.Lists.List "x :: y" not
+R10697 Coq.Lists.List <> nil constr
+R10712 Cppsem Constructor virtual constr
+R10737 Coq.Lists.List "x :: y" not
+R10740 Coq.Lists.List <> nil constr
+R10418 Cplusconcepts <> pointer_eq_dec thm
+R10769 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10776 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10797 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10798 Cplusconcepts Class.Inheritance Shared constr
+R10827 Coq.Lists.List "x :: y" not
+R10830 Coq.Lists.List <> nil constr
+R10449 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10464 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10481 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10508 Cppsem Constructor direct_non_virtual constr
+R10556 Cppsem Constructor virtual constr
+R10579 Cplusconcepts Class.Inheritance Shared constr
+R10653 Cppsem Constructor direct_non_virtual constr
+R10689 Coq.Lists.List "x ++ y" not
+R10694 Coq.Lists.List "x :: y" not
+R10697 Coq.Lists.List <> nil constr
+R10712 Cppsem Constructor virtual constr
+R10737 Coq.Lists.List "x :: y" not
+R10740 Coq.Lists.List <> nil constr
+R10893 Invariant <> kind proj
+R10893 Invariant <> kind proj
+R11152 Coq.Init.Logic <> or_introl constr
+R11165 Coq.Init.Logic <> refl_equal constr
+R11152 Coq.Init.Logic <> or_introl constr
+R11165 Coq.Init.Logic <> refl_equal constr
+R11222 Coq.Init.Logic <> refl_equal constr
+R11203 Coq.Init.Logic <> refl_equal constr
+R11222 Coq.Init.Logic <> refl_equal constr
+R11203 Coq.Init.Logic <> refl_equal constr
+R11368 Tactics <> and_assoc thm
+R11368 Tactics <> and_assoc thm
+R11413 Cplusconcepts <> pointer_eq_dec thm
+R11775 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11782 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11803 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11804 Cplusconcepts Class.Inheritance Shared constr
+R11833 Coq.Lists.List "x :: y" not
+R11836 Coq.Lists.List <> nil constr
+R11445 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11461 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11479 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11507 Cppsem Constructor direct_non_virtual constr
+R11556 Cppsem Constructor virtual constr
+R11579 Cplusconcepts Class.Inheritance Shared constr
+R11656 Cppsem Constructor direct_non_virtual constr
+R11692 Coq.Lists.List "x ++ y" not
+R11697 Coq.Lists.List "x :: y" not
+R11700 Coq.Lists.List <> nil constr
+R11716 Cppsem Constructor virtual constr
+R11741 Coq.Lists.List "x :: y" not
+R11744 Coq.Lists.List <> nil constr
+R11413 Cplusconcepts <> pointer_eq_dec thm
+R11775 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11782 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11803 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11804 Cplusconcepts Class.Inheritance Shared constr
+R11833 Coq.Lists.List "x :: y" not
+R11836 Coq.Lists.List <> nil constr
+R11445 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11461 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11479 Coq.Init.Datatypes "( x , y , .. , z )" not
+R11507 Cppsem Constructor direct_non_virtual constr
+R11556 Cppsem Constructor virtual constr
+R11579 Cplusconcepts Class.Inheritance Shared constr
+R11656 Cppsem Constructor direct_non_virtual constr
+R11692 Coq.Lists.List "x ++ y" not
+R11697 Coq.Lists.List "x :: y" not
+R11700 Coq.Lists.List <> nil constr
+R11716 Cppsem Constructor virtual constr
+R11741 Coq.Lists.List "x :: y" not
+R11744 Coq.Lists.List <> nil constr
+R11897 Invariant <> kind proj
+R11897 Invariant <> kind proj
+R12097 Invariant <> stack_wf proj
+R12138 Coq.Lists.List <> in_or_app thm
+R12123 Coq.Init.Logic <> refl_equal constr
+R12117 Coq.Lists.List <> nil constr
+R12097 Invariant <> stack_wf proj
+R12138 Coq.Lists.List <> in_or_app thm
+R12123 Coq.Init.Logic <> refl_equal constr
+R12117 Coq.Lists.List <> nil constr
+R12244 Coq.Init.Logic <> refl_equal constr
+R12244 Coq.Init.Logic <> refl_equal constr
+R12270 Coq.Init.Logic <> False_rect def
+R12270 Coq.Init.Logic <> False_rect def
+R12309 Coq.Init.Logic <> refl_equal constr
+R12309 Coq.Init.Logic <> refl_equal constr
+R12341 SubobjectOrdering <> relptr_gt_min thm
+R12341 SubobjectOrdering <> relptr_gt_min thm
+R12397 Cplusconcepts <> pointer_eq_dec thm
+R12748 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12764 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12785 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12786 Cplusconcepts Class.Inheritance Repeated constr
+R12817 Coq.Lists.List "x :: y" not
+R12823 Coq.Lists.List "x :: y" not
+R12826 Coq.Lists.List <> nil constr
+R12428 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12443 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12460 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12487 Cppsem Constructor direct_non_virtual constr
+R12535 Cppsem Constructor virtual constr
+R12558 Cplusconcepts Class.Inheritance Shared constr
+R12632 Cppsem Constructor direct_non_virtual constr
+R12668 Coq.Lists.List "x ++ y" not
+R12673 Coq.Lists.List "x :: y" not
+R12676 Coq.Lists.List <> nil constr
+R12691 Cppsem Constructor virtual constr
+R12716 Coq.Lists.List "x :: y" not
+R12719 Coq.Lists.List <> nil constr
+R12397 Cplusconcepts <> pointer_eq_dec thm
+R12748 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12764 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12785 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12786 Cplusconcepts Class.Inheritance Repeated constr
+R12817 Coq.Lists.List "x :: y" not
+R12823 Coq.Lists.List "x :: y" not
+R12826 Coq.Lists.List <> nil constr
+R12428 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12443 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12460 Coq.Init.Datatypes "( x , y , .. , z )" not
+R12487 Cppsem Constructor direct_non_virtual constr
+R12535 Cppsem Constructor virtual constr
+R12558 Cplusconcepts Class.Inheritance Shared constr
+R12632 Cppsem Constructor direct_non_virtual constr
+R12668 Coq.Lists.List "x ++ y" not
+R12673 Coq.Lists.List "x :: y" not
+R12676 Coq.Lists.List <> nil constr
+R12691 Cppsem Constructor virtual constr
+R12716 Coq.Lists.List "x :: y" not
+R12719 Coq.Lists.List <> nil constr
+R13012 Invariant <> stack_wf proj
+R13053 Coq.Lists.List <> in_or_app thm
+R13038 Coq.Init.Logic <> refl_equal constr
+R13032 Coq.Lists.List <> nil constr
+R13012 Invariant <> stack_wf proj
+R13053 Coq.Lists.List <> in_or_app thm
+R13038 Coq.Init.Logic <> refl_equal constr
+R13032 Coq.Lists.List <> nil constr
+R13159 Coq.Init.Logic <> refl_equal constr
+R13159 Coq.Init.Logic <> refl_equal constr
+R13185 Coq.Init.Logic <> False_rect def
+R13185 Coq.Init.Logic <> False_rect def
+R13224 Coq.Init.Logic <> refl_equal constr
+R13224 Coq.Init.Logic <> refl_equal constr
+R13256 SubobjectOrdering <> relptr_gt_irrefl thm
+R13256 SubobjectOrdering <> relptr_gt_irrefl thm
+R13424 Cplusconcepts <> pointer_eq_dec thm
+R13766 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13773 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13794 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13455 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13470 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13487 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13514 Cppsem Constructor direct_non_virtual constr
+R13562 Cppsem Constructor virtual constr
+R13585 Cplusconcepts Class.Inheritance Shared constr
+R13659 Cppsem Constructor direct_non_virtual constr
+R13695 Coq.Lists.List "x ++ y" not
+R13700 Coq.Lists.List "x :: y" not
+R13703 Coq.Lists.List <> nil constr
+R13718 Cppsem Constructor virtual constr
+R13743 Coq.Lists.List "x :: y" not
+R13746 Coq.Lists.List <> nil constr
+R13424 Cplusconcepts <> pointer_eq_dec thm
+R13766 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13773 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13794 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13455 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13470 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13487 Coq.Init.Datatypes "( x , y , .. , z )" not
+R13514 Cppsem Constructor direct_non_virtual constr
+R13562 Cppsem Constructor virtual constr
+R13585 Cplusconcepts Class.Inheritance Shared constr
+R13659 Cppsem Constructor direct_non_virtual constr
+R13695 Coq.Lists.List "x ++ y" not
+R13700 Coq.Lists.List "x :: y" not
+R13703 Coq.Lists.List <> nil constr
+R13718 Cppsem Constructor virtual constr
+R13743 Coq.Lists.List "x :: y" not
+R13746 Coq.Lists.List <> nil constr
+R13878 LibLists <> last_complete thm
+R13878 LibLists <> last_complete thm
+R13943 Invariant <> kind proj
+R13943 Invariant <> kind proj
+R14030 Coq.Init.Logic <> or_introl constr
+R14043 Coq.Init.Logic <> refl_equal constr
+R14030 Coq.Init.Logic <> or_introl constr
+R14043 Coq.Init.Logic <> refl_equal constr
+R14193 Invariant <> kind proj
+R14193 Invariant <> kind proj
+R14280 Coq.Init.Logic <> or_introl constr
+R14293 Coq.Init.Logic <> refl_equal constr
+R14280 Coq.Init.Logic <> or_introl constr
+R14293 Coq.Init.Logic <> refl_equal constr
+R14420 Invariant <> kind proj
+R14420 Invariant <> kind proj
+R14514 LibLists <> app_cons thm
+R14514 LibLists <> app_cons thm
+R14629 Tactics <> if_some_commut thm
+R14629 Tactics <> if_some_commut thm
+R14838 Cplusconcepts <> pointer_eq_dec thm
+R15180 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15187 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15208 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14869 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14884 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14901 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14928 Cppsem Constructor direct_non_virtual constr
+R14976 Cppsem Constructor virtual constr
+R14999 Cplusconcepts Class.Inheritance Shared constr
+R15073 Cppsem Constructor direct_non_virtual constr
+R15109 Coq.Lists.List "x ++ y" not
+R15114 Coq.Lists.List "x :: y" not
+R15117 Coq.Lists.List <> nil constr
+R15132 Cppsem Constructor virtual constr
+R15157 Coq.Lists.List "x :: y" not
+R15160 Coq.Lists.List <> nil constr
+R14838 Cplusconcepts <> pointer_eq_dec thm
+R15180 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15187 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15208 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14869 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14884 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14901 Coq.Init.Datatypes "( x , y , .. , z )" not
+R14928 Cppsem Constructor direct_non_virtual constr
+R14976 Cppsem Constructor virtual constr
+R14999 Cplusconcepts Class.Inheritance Shared constr
+R15073 Cppsem Constructor direct_non_virtual constr
+R15109 Coq.Lists.List "x ++ y" not
+R15114 Coq.Lists.List "x :: y" not
+R15117 Coq.Lists.List <> nil constr
+R15132 Cppsem Constructor virtual constr
+R15157 Coq.Lists.List "x :: y" not
+R15160 Coq.Lists.List <> nil constr
+R15453 Tactics <> and_assoc thm
+R15453 Tactics <> and_assoc thm
+R15500 Cplusconcepts <> pointer_eq_dec thm
+R15852 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15859 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15880 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15887 Coq.Lists.List "x ++ y" not
+R15893 Coq.Lists.List "x :: y" not
+R15896 Coq.Lists.List <> nil constr
+R15532 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15548 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15566 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15594 Cppsem Constructor direct_non_virtual constr
+R15643 Cppsem Constructor virtual constr
+R15666 Cplusconcepts Class.Inheritance Shared constr
+R15743 Cppsem Constructor direct_non_virtual constr
+R15779 Coq.Lists.List "x ++ y" not
+R15784 Coq.Lists.List "x :: y" not
+R15787 Coq.Lists.List <> nil constr
+R15803 Cppsem Constructor virtual constr
+R15828 Coq.Lists.List "x :: y" not
+R15831 Coq.Lists.List <> nil constr
+R15500 Cplusconcepts <> pointer_eq_dec thm
+R15852 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15859 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15880 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15887 Coq.Lists.List "x ++ y" not
+R15893 Coq.Lists.List "x :: y" not
+R15896 Coq.Lists.List <> nil constr
+R15532 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15548 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15566 Coq.Init.Datatypes "( x , y , .. , z )" not
+R15594 Cppsem Constructor direct_non_virtual constr
+R15643 Cppsem Constructor virtual constr
+R15666 Cplusconcepts Class.Inheritance Shared constr
+R15743 Cppsem Constructor direct_non_virtual constr
+R15779 Coq.Lists.List "x ++ y" not
+R15784 Coq.Lists.List "x :: y" not
+R15787 Coq.Lists.List <> nil constr
+R15803 Cppsem Constructor virtual constr
+R15828 Coq.Lists.List "x :: y" not
+R15831 Coq.Lists.List <> nil constr
+R16042 Coq.Init.Logic "x = y" not
+R16020 LibLists <> last def
+R16028 Coq.Lists.List "x ++ y" not
+R16034 Coq.Lists.List "x :: y" not
+R16037 Coq.Lists.List <> nil constr
+R16044 LibLists <> last def
+R16052 Coq.Lists.List "x ++ y" not
+R16057 Coq.Lists.List "x :: y" not
+R16060 Coq.Lists.List <> nil constr
+R16042 Coq.Init.Logic "x = y" not
+R16020 LibLists <> last def
+R16028 Coq.Lists.List "x ++ y" not
+R16034 Coq.Lists.List "x :: y" not
+R16037 Coq.Lists.List <> nil constr
+R16044 LibLists <> last def
+R16052 Coq.Lists.List "x ++ y" not
+R16057 Coq.Lists.List "x :: y" not
+R16060 Coq.Lists.List <> nil constr
+R16111 LibLists <> last_complete thm
+R16111 LibLists <> last_complete thm
+R16111 LibLists <> last_complete thm
+R16111 LibLists <> last_complete thm
+R16187 LibLists <> app_reg_r thm
+R16187 LibLists <> app_reg_r thm
+R16415 Cplusconcepts <> pointer_eq_dec thm
+R16766 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16773 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16794 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16795 Cplusconcepts Class.Inheritance Shared constr
+R16824 Coq.Lists.List "x :: y" not
+R16827 Coq.Lists.List <> nil constr
+R16446 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16461 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16478 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16505 Cppsem Constructor direct_non_virtual constr
+R16553 Cppsem Constructor virtual constr
+R16576 Cplusconcepts Class.Inheritance Shared constr
+R16650 Cppsem Constructor direct_non_virtual constr
+R16686 Coq.Lists.List "x ++ y" not
+R16691 Coq.Lists.List "x :: y" not
+R16694 Coq.Lists.List <> nil constr
+R16709 Cppsem Constructor virtual constr
+R16734 Coq.Lists.List "x :: y" not
+R16737 Coq.Lists.List <> nil constr
+R16415 Cplusconcepts <> pointer_eq_dec thm
+R16766 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16773 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16794 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16795 Cplusconcepts Class.Inheritance Shared constr
+R16824 Coq.Lists.List "x :: y" not
+R16827 Coq.Lists.List <> nil constr
+R16446 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16461 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16478 Coq.Init.Datatypes "( x , y , .. , z )" not
+R16505 Cppsem Constructor direct_non_virtual constr
+R16553 Cppsem Constructor virtual constr
+R16576 Cplusconcepts Class.Inheritance Shared constr
+R16650 Cppsem Constructor direct_non_virtual constr
+R16686 Coq.Lists.List "x ++ y" not
+R16691 Coq.Lists.List "x :: y" not
+R16694 Coq.Lists.List <> nil constr
+R16709 Cppsem Constructor virtual constr
+R16734 Coq.Lists.List "x :: y" not
+R16737 Coq.Lists.List <> nil constr
+R16953 Tactics <> and_assoc thm
+R16953 Tactics <> and_assoc thm
+R16999 Cplusconcepts <> pointer_eq_dec thm
+R17361 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17368 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17389 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17390 Cplusconcepts Class.Inheritance Shared constr
+R17419 Coq.Lists.List "x :: y" not
+R17422 Coq.Lists.List <> nil constr
+R17031 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17047 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17065 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17093 Cppsem Constructor direct_non_virtual constr
+R17142 Cppsem Constructor virtual constr
+R17165 Cplusconcepts Class.Inheritance Shared constr
+R17242 Cppsem Constructor direct_non_virtual constr
+R17278 Coq.Lists.List "x ++ y" not
+R17283 Coq.Lists.List "x :: y" not
+R17286 Coq.Lists.List <> nil constr
+R17302 Cppsem Constructor virtual constr
+R17327 Coq.Lists.List "x :: y" not
+R17330 Coq.Lists.List <> nil constr
+R16999 Cplusconcepts <> pointer_eq_dec thm
+R17361 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17368 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17389 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17390 Cplusconcepts Class.Inheritance Shared constr
+R17419 Coq.Lists.List "x :: y" not
+R17422 Coq.Lists.List <> nil constr
+R17031 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17047 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17065 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17093 Cppsem Constructor direct_non_virtual constr
+R17142 Cppsem Constructor virtual constr
+R17165 Cplusconcepts Class.Inheritance Shared constr
+R17242 Cppsem Constructor direct_non_virtual constr
+R17278 Coq.Lists.List "x ++ y" not
+R17283 Coq.Lists.List "x :: y" not
+R17286 Coq.Lists.List <> nil constr
+R17302 Cppsem Constructor virtual constr
+R17327 Coq.Lists.List "x :: y" not
+R17330 Coq.Lists.List <> nil constr
+R17531 Invariant <> stack proj
+R17542 Coq.Init.Logic <> or_introl constr
+R17555 Coq.Init.Logic <> refl_equal constr
+R17531 Invariant <> stack proj
+R17542 Coq.Init.Logic <> or_introl constr
+R17555 Coq.Init.Logic <> refl_equal constr
+R17783 Cplusconcepts <> pointer_eq_dec thm
+R18134 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18150 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18171 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18172 Cplusconcepts Class.Inheritance Repeated constr
+R18203 Coq.Lists.List "x :: y" not
+R18209 Coq.Lists.List "x :: y" not
+R18212 Coq.Lists.List <> nil constr
+R17814 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17829 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17846 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17873 Cppsem Constructor direct_non_virtual constr
+R17921 Cppsem Constructor virtual constr
+R17944 Cplusconcepts Class.Inheritance Shared constr
+R18018 Cppsem Constructor direct_non_virtual constr
+R18054 Coq.Lists.List "x ++ y" not
+R18059 Coq.Lists.List "x :: y" not
+R18062 Coq.Lists.List <> nil constr
+R18077 Cppsem Constructor virtual constr
+R18102 Coq.Lists.List "x :: y" not
+R18105 Coq.Lists.List <> nil constr
+R17783 Cplusconcepts <> pointer_eq_dec thm
+R18134 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18150 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18171 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18172 Cplusconcepts Class.Inheritance Repeated constr
+R18203 Coq.Lists.List "x :: y" not
+R18209 Coq.Lists.List "x :: y" not
+R18212 Coq.Lists.List <> nil constr
+R17814 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17829 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17846 Coq.Init.Datatypes "( x , y , .. , z )" not
+R17873 Cppsem Constructor direct_non_virtual constr
+R17921 Cppsem Constructor virtual constr
+R17944 Cplusconcepts Class.Inheritance Shared constr
+R18018 Cppsem Constructor direct_non_virtual constr
+R18054 Coq.Lists.List "x ++ y" not
+R18059 Coq.Lists.List "x :: y" not
+R18062 Coq.Lists.List <> nil constr
+R18077 Cppsem Constructor virtual constr
+R18102 Coq.Lists.List "x :: y" not
+R18105 Coq.Lists.List <> nil constr
+R18453 Cplusconcepts <> pointer_eq_dec thm
+R18795 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18802 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18823 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18484 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18499 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18516 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18543 Cppsem Constructor direct_non_virtual constr
+R18591 Cppsem Constructor virtual constr
+R18614 Cplusconcepts Class.Inheritance Shared constr
+R18688 Cppsem Constructor direct_non_virtual constr
+R18724 Coq.Lists.List "x ++ y" not
+R18729 Coq.Lists.List "x :: y" not
+R18732 Coq.Lists.List <> nil constr
+R18747 Cppsem Constructor virtual constr
+R18772 Coq.Lists.List "x :: y" not
+R18775 Coq.Lists.List <> nil constr
+R18453 Cplusconcepts <> pointer_eq_dec thm
+R18795 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18802 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18823 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18484 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18499 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18516 Coq.Init.Datatypes "( x , y , .. , z )" not
+R18543 Cppsem Constructor direct_non_virtual constr
+R18591 Cppsem Constructor virtual constr
+R18614 Cplusconcepts Class.Inheritance Shared constr
+R18688 Cppsem Constructor direct_non_virtual constr
+R18724 Coq.Lists.List "x ++ y" not
+R18729 Coq.Lists.List "x :: y" not
+R18732 Coq.Lists.List <> nil constr
+R18747 Cppsem Constructor virtual constr
+R18772 Coq.Lists.List "x :: y" not
+R18775 Coq.Lists.List <> nil constr
+R18944 LibLists <> last_complete thm
+R18944 LibLists <> last_complete thm
+R19062 Coq.Lists.List <> In def
+R19075 Cplusconcepts Class fields proj
+R19062 Coq.Lists.List <> In def
+R19075 Cplusconcepts Class fields proj
+R19128 Coq.Lists.List <> in_or_app thm
+R19128 Coq.Lists.List <> in_or_app thm
+R19189 Coq.Init.Logic <> or_introl constr
+R19202 Coq.Init.Logic <> refl_equal constr
+R19189 Coq.Init.Logic <> or_introl constr
+R19202 Coq.Init.Logic <> refl_equal constr
+R19369 Coq.Lists.List <> In def
+R19382 Cplusconcepts Class fields proj
+R19369 Coq.Lists.List <> In def
+R19382 Cplusconcepts Class fields proj
+R19433 Coq.Lists.List <> in_or_app thm
+R19433 Coq.Lists.List <> in_or_app thm
+R19492 Coq.Init.Logic <> or_introl constr
+R19505 Coq.Init.Logic <> refl_equal constr
+R19492 Coq.Init.Logic <> or_introl constr
+R19505 Coq.Init.Logic <> refl_equal constr
+R19604 Invariant <> kind proj
+R19604 Invariant <> kind proj
+R19678 Coq.Lists.List <> app_nil_end thm
+R19678 Coq.Lists.List <> app_nil_end thm
+R19837 Tactics <> if_some_commut thm
+R19837 Tactics <> if_some_commut thm
+R20025 Cplusconcepts <> pointer_eq_dec thm
+R20079 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20086 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20107 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20047 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20053 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20061 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20025 Cplusconcepts <> pointer_eq_dec thm
+R20079 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20086 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20107 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20047 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20053 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20061 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20174 Invariant <> stack_state_wf proj
+R20196 Coq.Lists.List <> in_or_app thm
+R20174 Invariant <> stack_state_wf proj
+R20196 Coq.Lists.List <> in_or_app thm
+R20299 Coq.Init.Logic <> refl_equal constr
+R20299 Coq.Init.Logic <> refl_equal constr
+R20339 SubobjectOrdering <> relptr_gt_irrefl thm
+R20339 SubobjectOrdering <> relptr_gt_irrefl thm
+R20483 Tactics <> and_assoc thm
+R20483 Tactics <> and_assoc thm
+R20531 Cplusconcepts <> pointer_eq_dec thm
+R20586 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20593 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20614 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20621 Coq.Lists.List "x ++ y" not
+R20626 Coq.Lists.List "x :: y" not
+R20629 Coq.Lists.List <> nil constr
+R20553 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20559 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20567 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20531 Cplusconcepts <> pointer_eq_dec thm
+R20586 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20593 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20614 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20621 Coq.Lists.List "x ++ y" not
+R20626 Coq.Lists.List "x :: y" not
+R20629 Coq.Lists.List <> nil constr
+R20553 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20559 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20567 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20869 Cplusconcepts <> pointer_eq_dec thm
+R20923 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20930 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20951 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20952 Cplusconcepts Class.Inheritance Shared constr
+R20980 Coq.Lists.List "x :: y" not
+R20983 Coq.Lists.List <> nil constr
+R20891 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20897 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20905 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20869 Cplusconcepts <> pointer_eq_dec thm
+R20923 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20930 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20951 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20952 Cplusconcepts Class.Inheritance Shared constr
+R20980 Coq.Lists.List "x :: y" not
+R20983 Coq.Lists.List <> nil constr
+R20891 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20897 Coq.Init.Datatypes "( x , y , .. , z )" not
+R20905 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21073 Coq.Init.Logic <> refl_equal constr
+R21054 Coq.Init.Logic <> refl_equal constr
+R21073 Coq.Init.Logic <> refl_equal constr
+R21054 Coq.Init.Logic <> refl_equal constr
+R21208 Tactics <> and_assoc thm
+R21208 Tactics <> and_assoc thm
+R21253 Cplusconcepts <> pointer_eq_dec thm
+R21308 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21315 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21336 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21337 Cplusconcepts Class.Inheritance Shared constr
+R21365 Coq.Lists.List "x :: y" not
+R21368 Coq.Lists.List <> nil constr
+R21275 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21281 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21289 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21253 Cplusconcepts <> pointer_eq_dec thm
+R21308 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21315 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21336 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21337 Cplusconcepts Class.Inheritance Shared constr
+R21365 Coq.Lists.List "x :: y" not
+R21368 Coq.Lists.List <> nil constr
+R21275 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21281 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21289 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21564 Cplusconcepts <> pointer_eq_dec thm
+R21618 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21634 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21655 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21656 Cplusconcepts Class.Inheritance Repeated constr
+R21687 Coq.Lists.List "x :: y" not
+R21692 Coq.Lists.List "x :: y" not
+R21695 Coq.Lists.List <> nil constr
+R21586 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21592 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21600 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21564 Cplusconcepts <> pointer_eq_dec thm
+R21618 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21634 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21655 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21656 Cplusconcepts Class.Inheritance Repeated constr
+R21687 Coq.Lists.List "x :: y" not
+R21692 Coq.Lists.List "x :: y" not
+R21695 Coq.Lists.List <> nil constr
+R21586 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21592 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21600 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21876 Cplusconcepts <> pointer_eq_dec thm
+R21930 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21937 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21958 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21898 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21904 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21912 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21876 Cplusconcepts <> pointer_eq_dec thm
+R21930 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21937 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21958 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21898 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21904 Coq.Init.Datatypes "( x , y , .. , z )" not
+R21912 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22032 Invariant <> kind proj
+R22032 Invariant <> kind proj
+R22336 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R22399 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22426 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22364 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22377 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22336 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R22399 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22426 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22364 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22377 Coq.Init.Datatypes "( x , y , .. , z )" not
+R22487 Invariant <> stack_state_wf proj
+R22509 Coq.Lists.List <> in_or_app thm
+R22487 Invariant <> stack_state_wf proj
+R22509 Coq.Lists.List <> in_or_app thm
+R22606 Coq.Init.Logic <> refl_equal constr
+R22606 Coq.Init.Logic <> refl_equal constr
+R22641 SubobjectOrdering <> relptr_gt_irrefl thm
+R22641 SubobjectOrdering <> relptr_gt_irrefl thm
+R22726 Invariant <> kind proj
+R22726 Invariant <> kind proj
+R22820 LibLists <> app_cons thm
+R22820 LibLists <> app_cons thm
+R23089 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R23152 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23179 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23117 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23130 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23089 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R23152 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23179 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23117 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23130 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23254 Invariant <> stack_wf proj
+R23295 Coq.Lists.List <> in_or_app thm
+R23280 Coq.Init.Logic <> refl_equal constr
+R23274 Coq.Lists.List <> nil constr
+R23254 Invariant <> stack_wf proj
+R23295 Coq.Lists.List <> in_or_app thm
+R23280 Coq.Init.Logic <> refl_equal constr
+R23274 Coq.Lists.List <> nil constr
+R23389 Coq.Init.Logic <> refl_equal constr
+R23389 Coq.Init.Logic <> refl_equal constr
+R23428 Coq.Init.Logic <> refl_equal constr
+R23428 Coq.Init.Logic <> refl_equal constr
+R23461 SubobjectOrdering <> relptr_gt_irrefl thm
+R23461 SubobjectOrdering <> relptr_gt_irrefl thm
+R23554 Invariant <> kind proj
+R23554 Invariant <> kind proj
+R23625 LibLists <> last_complete thm
+R23625 LibLists <> last_complete thm
+R23692 LibLists <> app_cons thm
+R23692 LibLists <> app_cons thm
+R23900 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R23966 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23993 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23928 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23944 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23900 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R23966 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23993 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23928 Coq.Init.Datatypes "( x , y , .. , z )" not
+R23944 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24070 Invariant <> stack proj
+R24081 Coq.Init.Logic <> or_introl constr
+R24094 Coq.Init.Logic <> refl_equal constr
+R24070 Invariant <> stack proj
+R24081 Coq.Init.Logic <> or_introl constr
+R24094 Coq.Init.Logic <> refl_equal constr
+R24506 Coq.ZArith.ZArith_dec <> Z_eq_dec def
+R24518 Coq.ZArith.BinInt "" not
+R24506 Coq.ZArith.ZArith_dec <> Z_eq_dec def
+R24518 Coq.ZArith.BinInt "" not
+R24578 Coq.Init.Logic <> refl_equal constr
+R24578 Coq.Init.Logic <> refl_equal constr
+R24639 Cplusconcepts <> pointer_eq_dec thm
+R24739 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24746 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24767 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24672 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24678 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24686 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24687 Cplusconcepts Class.Inheritance Repeated constr
+R24718 Coq.Lists.List "x :: y" not
+R24721 Coq.Lists.List <> nil constr
+R24639 Cplusconcepts <> pointer_eq_dec thm
+R24739 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24746 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24767 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24672 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24678 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24686 Coq.Init.Datatypes "( x , y , .. , z )" not
+R24687 Cplusconcepts Class.Inheritance Repeated constr
+R24718 Coq.Lists.List "x :: y" not
+R24721 Coq.Lists.List <> nil constr
+R24787 Coq.Init.Logic <> False_rect def
+R24787 Coq.Init.Logic <> False_rect def
+R24841 Invariant <> kind proj
+R24841 Invariant <> kind proj
+R24917 Coq.ZArith.BinInt "x <= y <= z" not
+R24915 Coq.ZArith.BinInt "" not
+R24917 Coq.ZArith.BinInt "x <= y <= z" not
+R24915 Coq.ZArith.BinInt "" not
+R25316 Tactics <> and_assoc thm
+R25316 Tactics <> and_assoc thm
+R25359 Cplusconcepts <> pointer_eq_dec thm
+R25457 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25464 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25485 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25492 Coq.Lists.List "x ++ y" not
+R25497 Coq.Lists.List "x :: y" not
+R25500 Coq.Lists.List <> nil constr
+R25391 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25397 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25405 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25406 Cplusconcepts Class.Inheritance Repeated constr
+R25437 Coq.Lists.List "x :: y" not
+R25440 Coq.Lists.List <> nil constr
+R25359 Cplusconcepts <> pointer_eq_dec thm
+R25457 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25464 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25485 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25492 Coq.Lists.List "x ++ y" not
+R25497 Coq.Lists.List "x :: y" not
+R25500 Coq.Lists.List <> nil constr
+R25391 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25397 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25405 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25406 Cplusconcepts Class.Inheritance Repeated constr
+R25437 Coq.Lists.List "x :: y" not
+R25440 Coq.Lists.List <> nil constr
+R25612 Cplusconcepts <> pointer_eq_dec thm
+R25708 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25715 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25736 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25737 Cplusconcepts Class.Inheritance Shared constr
+R25765 Coq.Lists.List "x :: y" not
+R25768 Coq.Lists.List <> nil constr
+R25643 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25649 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25657 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25658 Cplusconcepts Class.Inheritance Repeated constr
+R25689 Coq.Lists.List "x :: y" not
+R25692 Coq.Lists.List <> nil constr
+R25612 Cplusconcepts <> pointer_eq_dec thm
+R25708 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25715 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25736 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25737 Cplusconcepts Class.Inheritance Shared constr
+R25765 Coq.Lists.List "x :: y" not
+R25768 Coq.Lists.List <> nil constr
+R25643 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25649 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25657 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25658 Cplusconcepts Class.Inheritance Repeated constr
+R25689 Coq.Lists.List "x :: y" not
+R25692 Coq.Lists.List <> nil constr
+R25873 Tactics <> and_assoc thm
+R25873 Tactics <> and_assoc thm
+R25912 Cplusconcepts <> pointer_eq_dec thm
+R26010 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26017 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26038 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26039 Cplusconcepts Class.Inheritance Shared constr
+R26067 Coq.Lists.List "x :: y" not
+R26070 Coq.Lists.List <> nil constr
+R25944 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25950 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25958 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25959 Cplusconcepts Class.Inheritance Repeated constr
+R25990 Coq.Lists.List "x :: y" not
+R25993 Coq.Lists.List <> nil constr
+R25912 Cplusconcepts <> pointer_eq_dec thm
+R26010 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26017 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26038 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26039 Cplusconcepts Class.Inheritance Shared constr
+R26067 Coq.Lists.List "x :: y" not
+R26070 Coq.Lists.List <> nil constr
+R25944 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25950 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25958 Coq.Init.Datatypes "( x , y , .. , z )" not
+R25959 Cplusconcepts Class.Inheritance Repeated constr
+R25990 Coq.Lists.List "x :: y" not
+R25993 Coq.Lists.List <> nil constr
+R26132 Cplusconcepts <> pointer_eq_dec thm
+R26228 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26244 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26265 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26266 Cplusconcepts Class.Inheritance Repeated constr
+R26297 Coq.Lists.List "x :: y" not
+R26302 Coq.Lists.List "x :: y" not
+R26305 Coq.Lists.List <> nil constr
+R26163 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26169 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26177 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26178 Cplusconcepts Class.Inheritance Repeated constr
+R26209 Coq.Lists.List "x :: y" not
+R26212 Coq.Lists.List <> nil constr
+R26132 Cplusconcepts <> pointer_eq_dec thm
+R26228 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26244 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26265 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26266 Cplusconcepts Class.Inheritance Repeated constr
+R26297 Coq.Lists.List "x :: y" not
+R26302 Coq.Lists.List "x :: y" not
+R26305 Coq.Lists.List <> nil constr
+R26163 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26169 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26177 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26178 Cplusconcepts Class.Inheritance Repeated constr
+R26209 Coq.Lists.List "x :: y" not
+R26212 Coq.Lists.List <> nil constr
+R26594 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R26657 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26684 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26622 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26635 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26594 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R26657 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26684 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26622 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26635 Coq.Init.Datatypes "( x , y , .. , z )" not
+R26724 Coq.Init.Logic <> False_rect def
+R26724 Coq.Init.Logic <> False_rect def
+R26775 Invariant <> stack_state_wf proj
+R26775 Invariant <> stack_state_wf proj
+R26819 Coq.Lists.List <> in_or_app thm
+R26819 Coq.Lists.List <> in_or_app thm
+R26897 Coq.Init.Logic <> refl_equal constr
+R26897 Coq.Init.Logic <> refl_equal constr
+R26925 SubobjectOrdering <> relptr_gt_irrefl thm
+R26925 SubobjectOrdering <> relptr_gt_irrefl thm
+R27103 Coq.Init.Logic <> refl_equal constr
+R27103 Coq.Init.Logic <> refl_equal constr
+R27103 Coq.Init.Logic <> refl_equal constr
+R27161 Coq.Init.Logic <> refl_equal constr
+R27161 Coq.Init.Logic <> refl_equal constr
+R27319 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R27382 Coq.Init.Datatypes "( x , y , .. , z )" not
+R27409 Coq.Init.Datatypes "( x , y , .. , z )" not
+R27347 Coq.Init.Datatypes "( x , y , .. , z )" not
+R27360 Coq.Init.Datatypes "( x , y , .. , z )" not
+R27319 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R27382 Coq.Init.Datatypes "( x , y , .. , z )" not
+R27409 Coq.Init.Datatypes "( x , y , .. , z )" not
+R27347 Coq.Init.Datatypes "( x , y , .. , z )" not
+R27360 Coq.Init.Datatypes "( x , y , .. , z )" not
+R27450 Coq.Init.Logic <> False_rect def
+R27450 Coq.Init.Logic <> False_rect def
+R27501 Invariant <> stack_state_wf proj
+R27501 Invariant <> stack_state_wf proj
+R27545 Coq.Lists.List <> in_or_app thm
+R27545 Coq.Lists.List <> in_or_app thm
+R27623 Coq.Init.Logic <> refl_equal constr
+R27623 Coq.Init.Logic <> refl_equal constr
+R27651 SubobjectOrdering <> relptr_gt_irrefl thm
+R27651 SubobjectOrdering <> relptr_gt_irrefl thm
+R27756 LibLists <> app_cons thm
+R27756 LibLists <> app_cons thm
+R27756 LibLists <> app_cons thm
+R27829 LibLists <> app_cons thm
+R27829 LibLists <> app_cons thm
+R27986 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R28053 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28080 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28014 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28030 Coq.Init.Datatypes "( x , y , .. , z )" not
+R27986 PreservationStack2KConstr <> aux_constr_state_key_eq_dec syndef
+R28053 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28080 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28014 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28030 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28120 Coq.Init.Logic <> False_rect def
+R28120 Coq.Init.Logic <> False_rect def
+R28171 Invariant <> stack_wf proj
+R28197 Coq.Init.Logic <> refl_equal constr
+R28191 Coq.Lists.List <> nil constr
+R28171 Invariant <> stack_wf proj
+R28197 Coq.Init.Logic <> refl_equal constr
+R28191 Coq.Lists.List <> nil constr
+R28227 Coq.Lists.List <> in_or_app thm
+R28227 Coq.Lists.List <> in_or_app thm
+R28305 Coq.Init.Logic <> refl_equal constr
+R28305 Coq.Init.Logic <> refl_equal constr
+R28343 Coq.Init.Logic <> refl_equal constr
+R28343 Coq.Init.Logic <> refl_equal constr
+R28371 SubobjectOrdering <> relptr_gt_irrefl thm
+R28371 SubobjectOrdering <> relptr_gt_irrefl thm
+R28435 Cplusconcepts <> pointer_eq_dec thm
+R28491 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28498 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28519 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28457 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28463 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28471 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28435 Cplusconcepts <> pointer_eq_dec thm
+R28491 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28498 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28519 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28457 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28463 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28471 Coq.Init.Datatypes "( x , y , .. , z )" not
+R28539 Coq.Init.Logic <> False_rect def
+R28539 Coq.Init.Logic <> False_rect def
+R28592 Invariant <> stack_state_wf proj
+R28592 Invariant <> stack_state_wf proj
+R28637 Coq.Lists.List <> in_or_app thm
+R28637 Coq.Lists.List <> in_or_app thm
+R28717 Coq.Init.Logic <> refl_equal constr
+R28717 Coq.Init.Logic <> refl_equal constr
+R28746 SubobjectOrdering <> relptr_gt_irrefl thm
+R28746 SubobjectOrdering <> relptr_gt_irrefl thm
+R28917 Invariant <> kind proj
+R28917 Invariant <> kind proj
+R29054 Tactics <> and_assoc thm
+R29054 Tactics <> and_assoc thm
+R29097 Cplusconcepts <> pointer_eq_dec thm
+R29152 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29159 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29180 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29187 Coq.Lists.List "x ++ y" not
+R29192 Coq.Lists.List "x :: y" not
+R29195 Coq.Lists.List <> nil constr
+R29119 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29125 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29133 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29097 Cplusconcepts <> pointer_eq_dec thm
+R29152 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29159 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29180 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29187 Coq.Lists.List "x ++ y" not
+R29192 Coq.Lists.List "x :: y" not
+R29195 Coq.Lists.List <> nil constr
+R29119 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29125 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29133 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29281 Coq.Init.Logic <> False_rect def
+R29281 Coq.Init.Logic <> False_rect def
+R29281 Coq.Init.Logic <> False_rect def
+R29457 Cplusconcepts <> pointer_eq_dec thm
+R29511 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29518 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29539 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29540 Cplusconcepts Class.Inheritance Shared constr
+R29568 Coq.Lists.List "x :: y" not
+R29571 Coq.Lists.List <> nil constr
+R29479 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29485 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29493 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29457 Cplusconcepts <> pointer_eq_dec thm
+R29511 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29518 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29539 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29540 Cplusconcepts Class.Inheritance Shared constr
+R29568 Coq.Lists.List "x :: y" not
+R29571 Coq.Lists.List <> nil constr
+R29479 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29485 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29493 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29602 Coq.Init.Logic <> False_rect def
+R29602 Coq.Init.Logic <> False_rect def
+R29680 Coq.Init.Logic <> refl_equal constr
+R29661 Coq.Init.Logic <> refl_equal constr
+R29680 Coq.Init.Logic <> refl_equal constr
+R29661 Coq.Init.Logic <> refl_equal constr
+R29814 Tactics <> and_assoc thm
+R29814 Tactics <> and_assoc thm
+R29854 Cplusconcepts <> pointer_eq_dec thm
+R29909 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29916 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29937 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29938 Cplusconcepts Class.Inheritance Shared constr
+R29966 Coq.Lists.List "x :: y" not
+R29969 Coq.Lists.List <> nil constr
+R29876 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29882 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29890 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29854 Cplusconcepts <> pointer_eq_dec thm
+R29909 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29916 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29937 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29938 Cplusconcepts Class.Inheritance Shared constr
+R29966 Coq.Lists.List "x :: y" not
+R29969 Coq.Lists.List <> nil constr
+R29876 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29882 Coq.Init.Datatypes "( x , y , .. , z )" not
+R29890 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30049 Coq.Init.Logic <> False_rect def
+R30049 Coq.Init.Logic <> False_rect def
+R30049 Coq.Init.Logic <> False_rect def
+R30217 Cplusconcepts <> pointer_eq_dec thm
+R30271 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30287 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30308 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30309 Cplusconcepts Class.Inheritance Repeated constr
+R30340 Coq.Lists.List "x :: y" not
+R30345 Coq.Lists.List "x :: y" not
+R30348 Coq.Lists.List <> nil constr
+R30239 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30245 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30253 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30217 Cplusconcepts <> pointer_eq_dec thm
+R30271 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30287 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30308 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30309 Cplusconcepts Class.Inheritance Repeated constr
+R30340 Coq.Lists.List "x :: y" not
+R30345 Coq.Lists.List "x :: y" not
+R30348 Coq.Lists.List <> nil constr
+R30239 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30245 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30253 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30376 Coq.Init.Logic <> False_rect def
+R30376 Coq.Init.Logic <> False_rect def
+R30668 Coq.Init.Logic <> refl_equal constr
+R30668 Coq.Init.Logic <> refl_equal constr
+R30714 Cplusconcepts <> pointer_eq_dec thm
+R31080 Coq.Init.Datatypes "( x , y , .. , z )" not
+R31087 Coq.Init.Datatypes "( x , y , .. , z )" not
+R31108 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30747 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30764 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30783 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30814 Cppsem Constructor direct_non_virtual constr
+R30864 Cppsem Constructor virtual constr
+R30887 Cplusconcepts Class.Inheritance Shared constr
+R30969 Cppsem Constructor direct_non_virtual constr
+R31005 Coq.Lists.List "x ++ y" not
+R31010 Coq.Lists.List "x :: y" not
+R31013 Coq.Lists.List <> nil constr
+R31030 Cppsem Constructor virtual constr
+R31055 Coq.Lists.List "x :: y" not
+R31058 Coq.Lists.List <> nil constr
+R30714 Cplusconcepts <> pointer_eq_dec thm
+R31080 Coq.Init.Datatypes "( x , y , .. , z )" not
+R31087 Coq.Init.Datatypes "( x , y , .. , z )" not
+R31108 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30747 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30764 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30783 Coq.Init.Datatypes "( x , y , .. , z )" not
+R30814 Cppsem Constructor direct_non_virtual constr
+R30864 Cppsem Constructor virtual constr
+R30887 Cplusconcepts Class.Inheritance Shared constr
+R30969 Cppsem Constructor direct_non_virtual constr
+R31005 Coq.Lists.List "x ++ y" not
+R31010 Coq.Lists.List "x :: y" not
+R31013 Coq.Lists.List <> nil constr
+R31030 Cppsem Constructor virtual constr
+R31055 Coq.Lists.List "x :: y" not
+R31058 Coq.Lists.List <> nil constr
+R31128 Coq.Init.Logic <> False_rect def
+R31128 Coq.Init.Logic <> False_rect def
+R31182 Invariant <> kind proj
+R31182 Invariant <> kind proj
+R31286 Coq.Init.Logic <> or_introl constr
+R31299 Coq.Init.Logic <> refl_equal constr
+R31286 Coq.Init.Logic <> or_introl constr
+R31299 Coq.Init.Logic <> refl_equal constr
+R31481 Coq.Init.Logic <> or_introl constr
+R31494 Coq.Init.Logic <> refl_equal constr
+R31481 Coq.Init.Logic <> or_introl constr
+R31494 Coq.Init.Logic <> refl_equal constr
+R31829 Tactics <> and_assoc thm
+R31829 Tactics <> and_assoc thm
+R31870 Cplusconcepts <> pointer_eq_dec thm
+R32226 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32233 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32254 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32261 Coq.Lists.List "x ++ y" not
+R32267 Coq.Lists.List "x :: y" not
+R32270 Coq.Lists.List <> nil constr
+R31902 Coq.Init.Datatypes "( x , y , .. , z )" not
+R31918 Coq.Init.Datatypes "( x , y , .. , z )" not
+R31936 Coq.Init.Datatypes "( x , y , .. , z )" not
+R31966 Cppsem Constructor direct_non_virtual constr
+R32015 Cppsem Constructor virtual constr
+R32038 Cplusconcepts Class.Inheritance Shared constr
+R32117 Cppsem Constructor direct_non_virtual constr
+R32153 Coq.Lists.List "x ++ y" not
+R32158 Coq.Lists.List "x :: y" not
+R32161 Coq.Lists.List <> nil constr
+R32177 Cppsem Constructor virtual constr
+R32202 Coq.Lists.List "x :: y" not
+R32205 Coq.Lists.List <> nil constr
+R31870 Cplusconcepts <> pointer_eq_dec thm
+R32226 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32233 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32254 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32261 Coq.Lists.List "x ++ y" not
+R32267 Coq.Lists.List "x :: y" not
+R32270 Coq.Lists.List <> nil constr
+R31902 Coq.Init.Datatypes "( x , y , .. , z )" not
+R31918 Coq.Init.Datatypes "( x , y , .. , z )" not
+R31936 Coq.Init.Datatypes "( x , y , .. , z )" not
+R31966 Cppsem Constructor direct_non_virtual constr
+R32015 Cppsem Constructor virtual constr
+R32038 Cplusconcepts Class.Inheritance Shared constr
+R32117 Cppsem Constructor direct_non_virtual constr
+R32153 Coq.Lists.List "x ++ y" not
+R32158 Coq.Lists.List "x :: y" not
+R32161 Coq.Lists.List <> nil constr
+R32177 Cppsem Constructor virtual constr
+R32202 Coq.Lists.List "x :: y" not
+R32205 Coq.Lists.List <> nil constr
+R32342 LibLists <> list_cons_right_inj thm
+R32342 LibLists <> list_cons_right_inj thm
+R32386 Coq.Init.Logic <> False_rect def
+R32386 Coq.Init.Logic <> False_rect def
+R32411 Invariant <> stack_state_wf proj
+R32411 Invariant <> stack_state_wf proj
+R32457 Coq.Lists.List <> in_or_app thm
+R32457 Coq.Lists.List <> in_or_app thm
+R32540 Coq.Init.Logic <> refl_equal constr
+R32540 Coq.Init.Logic <> refl_equal constr
+R32570 SubobjectOrdering <> relptr_gt_irrefl thm
+R32570 SubobjectOrdering <> relptr_gt_irrefl thm
+R32671 Cplusconcepts <> pointer_eq_dec thm
+R33026 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33033 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33054 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33055 Cplusconcepts Class.Inheritance Shared constr
+R33084 Coq.Lists.List "x :: y" not
+R33087 Coq.Lists.List <> nil constr
+R32702 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32717 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32734 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32763 Cppsem Constructor direct_non_virtual constr
+R32811 Cppsem Constructor virtual constr
+R32834 Cplusconcepts Class.Inheritance Shared constr
+R32910 Cppsem Constructor direct_non_virtual constr
+R32946 Coq.Lists.List "x ++ y" not
+R32951 Coq.Lists.List "x :: y" not
+R32954 Coq.Lists.List <> nil constr
+R32969 Cppsem Constructor virtual constr
+R32994 Coq.Lists.List "x :: y" not
+R32997 Coq.Lists.List <> nil constr
+R32671 Cplusconcepts <> pointer_eq_dec thm
+R33026 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33033 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33054 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33055 Cplusconcepts Class.Inheritance Shared constr
+R33084 Coq.Lists.List "x :: y" not
+R33087 Coq.Lists.List <> nil constr
+R32702 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32717 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32734 Coq.Init.Datatypes "( x , y , .. , z )" not
+R32763 Cppsem Constructor direct_non_virtual constr
+R32811 Cppsem Constructor virtual constr
+R32834 Cplusconcepts Class.Inheritance Shared constr
+R32910 Cppsem Constructor direct_non_virtual constr
+R32946 Coq.Lists.List "x ++ y" not
+R32951 Coq.Lists.List "x :: y" not
+R32954 Coq.Lists.List <> nil constr
+R32969 Cppsem Constructor virtual constr
+R32994 Coq.Lists.List "x :: y" not
+R32997 Coq.Lists.List <> nil constr
+R33104 Coq.Init.Logic <> False_rect def
+R33104 Coq.Init.Logic <> False_rect def
+R33129 Invariant <> kind proj
+R33129 Invariant <> kind proj
+R33296 Invariant <> stack_state_wf proj
+R33296 Invariant <> stack_state_wf proj
+R33342 Coq.Lists.List <> in_or_app thm
+R33342 Coq.Lists.List <> in_or_app thm
+R33414 Coq.Init.Logic <> refl_equal constr
+R33414 Coq.Init.Logic <> refl_equal constr
+R33493 Coq.Init.Logic <> refl_equal constr
+R33505 Coq.Lists.List <> length def
+R33493 Coq.Init.Logic <> refl_equal constr
+R33505 Coq.Lists.List <> length def
+R33551 Coq.Lists.List <> app_length thm
+R33551 Coq.Lists.List <> app_length thm
+R33686 Tactics <> and_assoc thm
+R33686 Tactics <> and_assoc thm
+R33727 Cplusconcepts <> pointer_eq_dec thm
+R34093 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34100 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34121 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34122 Cplusconcepts Class.Inheritance Shared constr
+R34151 Coq.Lists.List "x :: y" not
+R34154 Coq.Lists.List <> nil constr
+R33759 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33775 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33793 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33823 Cppsem Constructor direct_non_virtual constr
+R33872 Cppsem Constructor virtual constr
+R33895 Cplusconcepts Class.Inheritance Shared constr
+R33974 Cppsem Constructor direct_non_virtual constr
+R34010 Coq.Lists.List "x ++ y" not
+R34015 Coq.Lists.List "x :: y" not
+R34018 Coq.Lists.List <> nil constr
+R34034 Cppsem Constructor virtual constr
+R34059 Coq.Lists.List "x :: y" not
+R34062 Coq.Lists.List <> nil constr
+R33727 Cplusconcepts <> pointer_eq_dec thm
+R34093 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34100 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34121 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34122 Cplusconcepts Class.Inheritance Shared constr
+R34151 Coq.Lists.List "x :: y" not
+R34154 Coq.Lists.List <> nil constr
+R33759 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33775 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33793 Coq.Init.Datatypes "( x , y , .. , z )" not
+R33823 Cppsem Constructor direct_non_virtual constr
+R33872 Cppsem Constructor virtual constr
+R33895 Cplusconcepts Class.Inheritance Shared constr
+R33974 Cppsem Constructor direct_non_virtual constr
+R34010 Coq.Lists.List "x ++ y" not
+R34015 Coq.Lists.List "x :: y" not
+R34018 Coq.Lists.List <> nil constr
+R34034 Cppsem Constructor virtual constr
+R34059 Coq.Lists.List "x :: y" not
+R34062 Coq.Lists.List <> nil constr
+R34179 Invariant <> kind proj
+R34179 Invariant <> kind proj
+R34351 Invariant <> stack_state_wf proj
+R34351 Invariant <> stack_state_wf proj
+R34397 Coq.Lists.List <> in_or_app thm
+R34397 Coq.Lists.List <> in_or_app thm
+R34469 Coq.Init.Logic <> refl_equal constr
+R34469 Coq.Init.Logic <> refl_equal constr
+R34548 Coq.Init.Logic <> refl_equal constr
+R34560 Coq.Lists.List <> length def
+R34548 Coq.Init.Logic <> refl_equal constr
+R34560 Coq.Lists.List <> length def
+R34606 Coq.Lists.List <> app_length thm
+R34606 Coq.Lists.List <> app_length thm
+R34692 Cplusconcepts <> pointer_eq_dec thm
+R35047 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35063 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35084 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35085 Cplusconcepts Class.Inheritance Repeated constr
+R35116 Coq.Lists.List "x :: y" not
+R35122 Coq.Lists.List "x :: y" not
+R35125 Coq.Lists.List <> nil constr
+R34723 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34738 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34755 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34784 Cppsem Constructor direct_non_virtual constr
+R34832 Cppsem Constructor virtual constr
+R34855 Cplusconcepts Class.Inheritance Shared constr
+R34931 Cppsem Constructor direct_non_virtual constr
+R34967 Coq.Lists.List "x ++ y" not
+R34972 Coq.Lists.List "x :: y" not
+R34975 Coq.Lists.List <> nil constr
+R34990 Cppsem Constructor virtual constr
+R35015 Coq.Lists.List "x :: y" not
+R35018 Coq.Lists.List <> nil constr
+R34692 Cplusconcepts <> pointer_eq_dec thm
+R35047 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35063 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35084 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35085 Cplusconcepts Class.Inheritance Repeated constr
+R35116 Coq.Lists.List "x :: y" not
+R35122 Coq.Lists.List "x :: y" not
+R35125 Coq.Lists.List <> nil constr
+R34723 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34738 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34755 Coq.Init.Datatypes "( x , y , .. , z )" not
+R34784 Cppsem Constructor direct_non_virtual constr
+R34832 Cppsem Constructor virtual constr
+R34855 Cplusconcepts Class.Inheritance Shared constr
+R34931 Cppsem Constructor direct_non_virtual constr
+R34967 Coq.Lists.List "x ++ y" not
+R34972 Coq.Lists.List "x :: y" not
+R34975 Coq.Lists.List <> nil constr
+R34990 Cppsem Constructor virtual constr
+R35015 Coq.Lists.List "x :: y" not
+R35018 Coq.Lists.List <> nil constr
+R35277 Invariant <> kind proj
+R35277 Invariant <> kind proj
+R35493 Cplusconcepts <> pointer_eq_dec thm
+R35545 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35552 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35573 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35515 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35521 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35493 Cplusconcepts <> pointer_eq_dec thm
+R35545 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35552 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35573 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35515 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35521 Coq.Init.Datatypes "( x , y , .. , z )" not
+R35593 Coq.Init.Logic <> False_rect def
+R35593 Coq.Init.Logic <> False_rect def
+R35646 Invariant <> stack_state_wf proj
+R35646 Invariant <> stack_state_wf proj
+R35698 Coq.Lists.List <> in_or_app thm
+R35698 Coq.Lists.List <> in_or_app thm
+R35778 Coq.Init.Logic <> refl_equal constr
+R35778 Coq.Init.Logic <> refl_equal constr
+R35807 SubobjectOrdering <> relptr_gt_irrefl thm
+R35807 SubobjectOrdering <> relptr_gt_irrefl thm
+R35861 LibLists <> app_cons thm
+R35861 LibLists <> app_cons thm
+R36002 Invariant <> stack proj
+R36013 Coq.Init.Logic <> or_introl constr
+R36026 Coq.Init.Logic <> refl_equal constr
+R36002 Invariant <> stack proj
+R36013 Coq.Init.Logic <> or_introl constr
+R36026 Coq.Init.Logic <> refl_equal constr
+R36055 Invariant <> kind proj
+R36055 Invariant <> kind proj
+R36197 Tactics <> and_assoc thm
+R36197 Tactics <> and_assoc thm
+R36239 Cplusconcepts <> pointer_eq_dec thm
+R36295 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36302 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36323 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36330 Coq.Lists.List "x ++ y" not
+R36336 Coq.Lists.List "x :: y" not
+R36339 Coq.Lists.List <> nil constr
+R36261 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36267 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36275 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36239 Cplusconcepts <> pointer_eq_dec thm
+R36295 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36302 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36323 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36330 Coq.Lists.List "x ++ y" not
+R36336 Coq.Lists.List "x :: y" not
+R36339 Coq.Lists.List <> nil constr
+R36261 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36267 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36275 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36446 LibLists <> list_cons_right_inj thm
+R36446 LibLists <> list_cons_right_inj thm
+R36489 Coq.Init.Logic <> False_rect def
+R36489 Coq.Init.Logic <> False_rect def
+R36514 Invariant <> stack_wf proj
+R36540 Coq.Init.Logic <> refl_equal constr
+R36534 Coq.Lists.List <> nil constr
+R36514 Invariant <> stack_wf proj
+R36540 Coq.Init.Logic <> refl_equal constr
+R36534 Coq.Lists.List <> nil constr
+R36572 Coq.Lists.List <> in_or_app thm
+R36572 Coq.Lists.List <> in_or_app thm
+R36654 Coq.Init.Logic <> refl_equal constr
+R36654 Coq.Init.Logic <> refl_equal constr
+R36695 Coq.Init.Logic <> refl_equal constr
+R36695 Coq.Init.Logic <> refl_equal constr
+R36725 SubobjectOrdering <> relptr_gt_irrefl thm
+R36725 SubobjectOrdering <> relptr_gt_irrefl thm
+R36819 Cplusconcepts <> pointer_eq_dec thm
+R36874 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36881 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36902 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36903 Cplusconcepts Class.Inheritance Shared constr
+R36932 Coq.Lists.List "x :: y" not
+R36935 Coq.Lists.List <> nil constr
+R36841 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36847 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36855 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36819 Cplusconcepts <> pointer_eq_dec thm
+R36874 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36881 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36902 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36903 Cplusconcepts Class.Inheritance Shared constr
+R36932 Coq.Lists.List "x :: y" not
+R36935 Coq.Lists.List <> nil constr
+R36841 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36847 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36855 Coq.Init.Datatypes "( x , y , .. , z )" not
+R36958 Coq.Init.Logic <> False_rect def
+R36958 Coq.Init.Logic <> False_rect def
+R37123 Coq.Init.Logic <> refl_equal constr
+R37104 Coq.Init.Logic <> refl_equal constr
+R37123 Coq.Init.Logic <> refl_equal constr
+R37104 Coq.Init.Logic <> refl_equal constr
+R37258 Tactics <> and_assoc thm
+R37258 Tactics <> and_assoc thm
+R37298 Cplusconcepts <> pointer_eq_dec thm
+R37354 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37361 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37382 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37383 Cplusconcepts Class.Inheritance Shared constr
+R37412 Coq.Lists.List "x :: y" not
+R37415 Coq.Lists.List <> nil constr
+R37320 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37326 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37334 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37298 Cplusconcepts <> pointer_eq_dec thm
+R37354 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37361 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37382 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37383 Cplusconcepts Class.Inheritance Shared constr
+R37412 Coq.Lists.List "x :: y" not
+R37415 Coq.Lists.List <> nil constr
+R37320 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37326 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37334 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37580 Coq.Init.Logic <> False_rect def
+R37580 Coq.Init.Logic <> False_rect def
+R37580 Coq.Init.Logic <> False_rect def
+R37755 Cplusconcepts <> pointer_eq_dec thm
+R37810 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37826 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37847 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37848 Cplusconcepts Class.Inheritance Repeated constr
+R37879 Coq.Lists.List "x :: y" not
+R37885 Coq.Lists.List "x :: y" not
+R37888 Coq.Lists.List <> nil constr
+R37777 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37783 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37791 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37755 Cplusconcepts <> pointer_eq_dec thm
+R37810 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37826 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37847 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37848 Cplusconcepts Class.Inheritance Repeated constr
+R37879 Coq.Lists.List "x :: y" not
+R37885 Coq.Lists.List "x :: y" not
+R37888 Coq.Lists.List <> nil constr
+R37777 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37783 Coq.Init.Datatypes "( x , y , .. , z )" not
+R37791 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38241 Invariant <> kind proj
+R38241 Invariant <> kind proj
+R38327 Coq.Init.Logic <> refl_equal constr
+R38327 Coq.Init.Logic <> refl_equal constr
+R38372 Cplusconcepts <> pointer_eq_dec thm
+R38472 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38479 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38500 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38405 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38411 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38419 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38420 Cplusconcepts Class.Inheritance Repeated constr
+R38451 Coq.Lists.List "x :: y" not
+R38454 Coq.Lists.List <> nil constr
+R38372 Cplusconcepts <> pointer_eq_dec thm
+R38472 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38479 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38500 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38405 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38411 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38419 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38420 Cplusconcepts Class.Inheritance Repeated constr
+R38451 Coq.Lists.List "x :: y" not
+R38454 Coq.Lists.List <> nil constr
+R38520 Coq.Init.Logic <> False_rect def
+R38520 Coq.Init.Logic <> False_rect def
+R38879 Tactics <> and_assoc thm
+R38879 Tactics <> and_assoc thm
+R38922 Cplusconcepts <> pointer_eq_dec thm
+R39020 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39027 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39048 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39055 Coq.Lists.List "x ++ y" not
+R39060 Coq.Lists.List "x :: y" not
+R39063 Coq.Lists.List <> nil constr
+R38954 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38960 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38968 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38969 Cplusconcepts Class.Inheritance Repeated constr
+R39000 Coq.Lists.List "x :: y" not
+R39003 Coq.Lists.List <> nil constr
+R38922 Cplusconcepts <> pointer_eq_dec thm
+R39020 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39027 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39048 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39055 Coq.Lists.List "x ++ y" not
+R39060 Coq.Lists.List "x :: y" not
+R39063 Coq.Lists.List <> nil constr
+R38954 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38960 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38968 Coq.Init.Datatypes "( x , y , .. , z )" not
+R38969 Cplusconcepts Class.Inheritance Repeated constr
+R39000 Coq.Lists.List "x :: y" not
+R39003 Coq.Lists.List <> nil constr
+R39175 Cplusconcepts <> pointer_eq_dec thm
+R39271 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39278 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39299 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39300 Cplusconcepts Class.Inheritance Shared constr
+R39328 Coq.Lists.List "x :: y" not
+R39331 Coq.Lists.List <> nil constr
+R39206 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39212 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39220 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39221 Cplusconcepts Class.Inheritance Repeated constr
+R39252 Coq.Lists.List "x :: y" not
+R39255 Coq.Lists.List <> nil constr
+R39175 Cplusconcepts <> pointer_eq_dec thm
+R39271 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39278 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39299 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39300 Cplusconcepts Class.Inheritance Shared constr
+R39328 Coq.Lists.List "x :: y" not
+R39331 Coq.Lists.List <> nil constr
+R39206 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39212 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39220 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39221 Cplusconcepts Class.Inheritance Repeated constr
+R39252 Coq.Lists.List "x :: y" not
+R39255 Coq.Lists.List <> nil constr
+R39434 Tactics <> and_assoc thm
+R39434 Tactics <> and_assoc thm
+R39473 Cplusconcepts <> pointer_eq_dec thm
+R39571 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39578 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39599 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39600 Cplusconcepts Class.Inheritance Shared constr
+R39628 Coq.Lists.List "x :: y" not
+R39631 Coq.Lists.List <> nil constr
+R39505 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39511 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39519 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39520 Cplusconcepts Class.Inheritance Repeated constr
+R39551 Coq.Lists.List "x :: y" not
+R39554 Coq.Lists.List <> nil constr
+R39473 Cplusconcepts <> pointer_eq_dec thm
+R39571 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39578 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39599 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39600 Cplusconcepts Class.Inheritance Shared constr
+R39628 Coq.Lists.List "x :: y" not
+R39631 Coq.Lists.List <> nil constr
+R39505 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39511 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39519 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39520 Cplusconcepts Class.Inheritance Repeated constr
+R39551 Coq.Lists.List "x :: y" not
+R39554 Coq.Lists.List <> nil constr
+R39694 Cplusconcepts <> pointer_eq_dec thm
+R39790 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39806 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39827 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39828 Cplusconcepts Class.Inheritance Repeated constr
+R39859 Coq.Lists.List "x :: y" not
+R39864 Coq.Lists.List "x :: y" not
+R39867 Coq.Lists.List <> nil constr
+R39725 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39731 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39739 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39740 Cplusconcepts Class.Inheritance Repeated constr
+R39771 Coq.Lists.List "x :: y" not
+R39774 Coq.Lists.List <> nil constr
+R39694 Cplusconcepts <> pointer_eq_dec thm
+R39790 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39806 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39827 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39828 Cplusconcepts Class.Inheritance Repeated constr
+R39859 Coq.Lists.List "x :: y" not
+R39864 Coq.Lists.List "x :: y" not
+R39867 Coq.Lists.List <> nil constr
+R39725 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39731 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39739 Coq.Init.Datatypes "( x , y , .. , z )" not
+R39740 Cplusconcepts Class.Inheritance Repeated constr
+R39771 Coq.Lists.List "x :: y" not
+R39774 Coq.Lists.List <> nil constr
+R39976 Invariant <> kind proj
+R39976 Invariant <> kind proj
+R40033 Coq.Init.Logic <> refl_equal constr
+R40033 Coq.Init.Logic <> refl_equal constr
+R40065 PreservationStack2KConstr Preservation <> sec

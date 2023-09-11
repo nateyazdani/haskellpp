@@ -1,0 +1,12 @@
+[submodule "plzoo"]
+	path = plzoo
+	url = https://github.com/andrejbauer/plzoo.git
+[submodule "concat"]
+	path = concat
+	url = https://github.com/compiling-to-categories/concat.git
+[submodule "inline-c"]
+	path = inline-c
+	url = https://github.com/fpco/inline-c.git
+[submodule "stgi"]
+	path = stgi
+	url = https://github.com/quchen/stgi.git

@@ -1,0 +1,162 @@
+FForLoop
+R15 Coqlib <> <> lib
+R38 Coq.ZArith.ZArith <> <> lib
+R61 Coq.ZArith.Wf_Z <> <> lib
+sec 108 <> ForLoop
+var 127 ForLoop T
+var 146 ForLoop nop
+sec 164 ForLoop Up
+var 178 ForLoop.Up f
+R182 Coq.ZArith.BinInt <> Z ind
+var 205 ForLoop.Up to
+R210 Coq.ZArith.BinInt <> Z ind
+ind 224 <> forup_sem
+constr 256 <> forup_sem_ge
+constr 310 <> forup_sem_lt
+R236 Coq.ZArith.BinInt <> Z ind
+R292 ForLoop <> forup_sem ind
+R284 Coq.ZArith.BinInt "x <= y" not
+R378 ForLoop <> forup_sem ind
+R355 ForLoop <> forup_sem ind
+R368 Coq.ZArith.BinInt "x + y" not
+R370 Coq.ZArith.BinInt "" not
+R337 Coq.ZArith.BinInt "x < y" not
+prf 406 <> forup_func
+R482 Coq.Init.Logic "x = y" not
+R461 ForLoop <> forup_sem ind
+R432 ForLoop <> forup_sem ind
+def 614 <> forup_def
+R637 Coq.Init.Specif "{ x  |  P }" not
+R642 ForLoop <> forup_sem ind
+R682 Coq.Init.Specif "{ x  |  P }" not
+R687 ForLoop <> forup_sem ind
+R701 Coq.ZArith.BinInt "x - y" not
+R682 Coq.Init.Specif "{ x  |  P }" not
+R687 ForLoop <> forup_sem ind
+R701 Coq.ZArith.BinInt "x - y" not
+R741 Coq.ZArith.BinInt "x - y" not
+R741 Coq.ZArith.BinInt "x - y" not
+R783 Coq.ZArith.BinInt "x - y" not
+R789 Coq.ZArith.BinInt "x - y" not
+R783 Coq.ZArith.BinInt "x - y" not
+R789 Coq.ZArith.BinInt "x - y" not
+R841 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R855 Coq.ZArith.BinInt "" not
+R841 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R855 Coq.ZArith.BinInt "" not
+R913 Coq.ZArith.Wf_Z <> Z_lt_rec thm
+R913 Coq.ZArith.Wf_Z <> Z_lt_rec thm
+R945 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R963 Coq.ZArith.BinInt "" not
+R959 Coq.ZArith.BinInt "x - y" not
+R960 Coq.ZArith.BinInt "" not
+R945 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+R963 Coq.ZArith.BinInt "" not
+R959 Coq.ZArith.BinInt "x - y" not
+R960 Coq.ZArith.BinInt "" not
+R1010 Coq.ZArith.BinInt "x <= y < z" not
+R1008 Coq.ZArith.BinInt "" not
+R1014 Coq.ZArith.BinInt "x - y" not
+R1015 Coq.ZArith.BinInt "" not
+R1014 Coq.ZArith.BinInt "x - y" not
+R1015 Coq.ZArith.BinInt "" not
+R1010 Coq.ZArith.BinInt "x <= y < z" not
+R1008 Coq.ZArith.BinInt "" not
+R1014 Coq.ZArith.BinInt "x - y" not
+R1015 Coq.ZArith.BinInt "" not
+R1014 Coq.ZArith.BinInt "x - y" not
+R1015 Coq.ZArith.BinInt "" not
+R1066 Coq.ZArith.BinInt "x - y" not
+R1071 Coq.ZArith.BinInt "x - y" not
+R1073 Coq.ZArith.BinInt "" not
+R1090 Coq.ZArith.BinInt "x + y" not
+R1086 Coq.ZArith.BinInt "x - y" not
+R1092 Coq.ZArith.BinInt "" not
+R1066 Coq.ZArith.BinInt "x - y" not
+R1071 Coq.ZArith.BinInt "x - y" not
+R1073 Coq.ZArith.BinInt "" not
+R1090 Coq.ZArith.BinInt "x + y" not
+R1086 Coq.ZArith.BinInt "x - y" not
+R1092 Coq.ZArith.BinInt "" not
+def 1176 <> forup
+R1201 ForLoop <> forup_def def
+prf 1226 <> forup_ge
+R1266 Coq.Init.Logic "x = y" not
+R1258 ForLoop <> forup def
+R1250 Coq.ZArith.BinInt "x <= y" not
+R1316 ForLoop <> forup_def def
+prf 1396 <> forup_lt
+R1435 Coq.Init.Logic "x = y" not
+R1427 ForLoop <> forup def
+R1442 ForLoop <> forup def
+R1450 Coq.ZArith.BinInt "x + y" not
+R1451 Coq.ZArith.BinInt "" not
+R1419 Coq.ZArith.BinInt "x < y" not
+R1509 ForLoop <> forup_def def
+R1509 ForLoop <> forup_def def
+R1575 ForLoop <> forup_def def
+R1587 Coq.ZArith.BinInt "x + y" not
+R1588 Coq.ZArith.BinInt "" not
+R1575 ForLoop <> forup_def def
+R1587 Coq.ZArith.BinInt "x + y" not
+R1588 Coq.ZArith.BinInt "" not
+R1607 ForLoop <> forup_func thm
+R1607 ForLoop <> forup_func thm
+R1650 ForLoop ForLoop.Up <> sec
+sec 1663 ForLoop Down
+var 1679 ForLoop.Down f
+R1683 Coq.ZArith.BinInt <> Z ind
+var 1705 ForLoop.Down to
+R1710 Coq.ZArith.BinInt <> Z ind
+def 1725 <> fordown
+R1738 ForLoop <> forup def
+R1771 Coq.ZArith.BinInt "- x" not
+R1764 Coq.ZArith.BinInt "- x" not
+R1757 Coq.ZArith.BinInt "- x" not
+prf 1784 <> fordown_le
+R1828 Coq.Init.Logic "x = y" not
+R1818 ForLoop <> fordown def
+R1809 Coq.ZArith.BinInt "x <= y" not
+R1884 Coq.ZArith.BinInt "x <= y" not
+R1880 Coq.ZArith.BinInt "- x" not
+R1887 Coq.ZArith.BinInt "- x" not
+R1884 Coq.ZArith.BinInt "x <= y" not
+R1880 Coq.ZArith.BinInt "- x" not
+R1887 Coq.ZArith.BinInt "- x" not
+R1915 ForLoop <> forup_ge thm
+R1915 ForLoop <> forup_ge thm
+prf 1937 <> fordown_gt
+R1980 Coq.Init.Logic "x = y" not
+R1970 ForLoop <> fordown def
+R1987 ForLoop <> fordown def
+R1997 Coq.ZArith.BinInt "x - y" not
+R1998 Coq.ZArith.BinInt "" not
+R1963 Coq.ZArith.BinInt "x < y" not
+R2051 Coq.ZArith.BinInt "x < y" not
+R2048 Coq.ZArith.BinInt "- x" not
+R2053 Coq.ZArith.BinInt "- x" not
+R2051 Coq.ZArith.BinInt "x < y" not
+R2048 Coq.ZArith.BinInt "- x" not
+R2053 Coq.ZArith.BinInt "- x" not
+R2079 ForLoop <> forup_lt thm
+R2079 ForLoop <> forup_lt thm
+R2106 Coq.ZArith.BinInt "- x" not
+R2108 Coq.ZArith.BinInt "- x" not
+R2106 Coq.ZArith.BinInt "- x" not
+R2108 Coq.ZArith.BinInt "- x" not
+R2141 Coq.ZArith.BinInt "- x" not
+R2145 Coq.ZArith.BinInt "x - y" not
+R2146 Coq.ZArith.BinInt "" not
+R2159 Coq.ZArith.BinInt "x + y" not
+R2157 Coq.ZArith.BinInt "- x" not
+R2163 Coq.ZArith.BinInt "" not
+R2141 Coq.ZArith.BinInt "- x" not
+R2145 Coq.ZArith.BinInt "x - y" not
+R2146 Coq.ZArith.BinInt "" not
+R2159 Coq.ZArith.BinInt "x + y" not
+R2157 Coq.ZArith.BinInt "- x" not
+R2163 Coq.ZArith.BinInt "" not
+R2198 ForLoop ForLoop.Down <> sec
+R2209 ForLoop ForLoop <> sec
+R2227 ForLoop <> forup def
+R2233 ForLoop <> fordown def

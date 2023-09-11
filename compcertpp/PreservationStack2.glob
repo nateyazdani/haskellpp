@@ -1,0 +1,180 @@
+FPreservationStack2
+R15 Coq.Relations.Relations <> <> lib
+R41 Coqlib <> <> lib
+R64 LibPos <> <> lib
+R87 Maps <> <> lib
+R108 LibLists <> <> lib
+R133 Cppsem <> <> lib
+R156 Cplusconcepts <> <> lib
+R186 CplusWf <> <> lib
+R210 Events <> <> lib
+R233 Invariant <> <> lib
+R259 Coq.Logic.Eqdep_dec <> <> lib
+R285 SubobjectOrdering <> <> lib
+R319 ConstrSubobjectOrdering <> <> lib
+sec 385 <> Preservation
+var 30 Preservation A
+R34 BuiltinTypes ATOM t rec
+var 51 Preservation nativeop
+var 78 Preservation prog
+R85 Cppsem Program t rec
+var 117 Preservation cppsem
+R126 Cppsem <> cppsemparam rec
+var 148 Preservation sem
+R154 BuiltinTypes <> semparam rec
+var 186 Preservation s1
+R191 Cppsem State t rec
+var 371 Preservation Hs1
+R377 Invariant <> invariant rec
+var 430 Preservation s2
+R435 Cppsem State t rec
+var 464 Preservation t
+R468 Events <> trace proj
+R475 BuiltinTypes <> evtr proj
+var 498 Preservation step
+R505 Cppsem <> step ind
+var 543 Preservation hierarchy_wf
+R558 CplusWf Well_formed_hierarchy prop rec
+R586 Cppsem Program hierarchy proj
+syndef 9 <> evtr
+R18 BuiltinTypes <> evtr proj
+syndef 53 <> trace
+R63 Events <> trace proj
+R69 PreservationStack2 <> evtr syndef
+syndef 100 <> hier
+R109 Cppsem Program hierarchy proj
+syndef 158 <> aux_constr_state_key_eq_dec
+R190 Cppsem <> aux_constr_state_key_eq_dec thm
+syndef 253 <> relptr_gt
+R267 SubobjectOrdering <> relptr_gt ind
+R277 PreservationStack2 <> hier syndef
+prf 32 <> goal
+R95 Invariant <> stack2_inv def
+R73 Coq.Init.Logic "x = y" not
+R59 Cppsem State stack proj
+R80 Coq.Lists.List "x ++ y" not
+R86 Coq.Lists.List "x :: y" not
+R138 Coq.ZArith.BinInt <> Zminus def
+R255 Invariant <> stack2 proj
+R255 Invariant <> stack2 proj
+R440 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R664 Invariant <> stack2 proj
+R688 Coq.Init.Logic <> refl_equal constr
+R682 Coq.Lists.List <> nil constr
+R758 Invariant <> kind proj
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R440 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R593 LibLists <> app_cons thm
+R664 Invariant <> stack2 proj
+R688 Coq.Init.Logic <> refl_equal constr
+R682 Coq.Lists.List <> nil constr
+R664 Invariant <> stack2 proj
+R688 Coq.Init.Logic <> refl_equal constr
+R682 Coq.Lists.List <> nil constr
+R664 Invariant <> stack2 proj
+R688 Coq.Init.Logic <> refl_equal constr
+R682 Coq.Lists.List <> nil constr
+R664 Invariant <> stack2 proj
+R688 Coq.Init.Logic <> refl_equal constr
+R682 Coq.Lists.List <> nil constr
+R664 Invariant <> stack2 proj
+R688 Coq.Init.Logic <> refl_equal constr
+R682 Coq.Lists.List <> nil constr
+R664 Invariant <> stack2 proj
+R688 Coq.Init.Logic <> refl_equal constr
+R682 Coq.Lists.List <> nil constr
+R664 Invariant <> stack2 proj
+R688 Coq.Init.Logic <> refl_equal constr
+R682 Coq.Lists.List <> nil constr
+R664 Invariant <> stack2 proj
+R688 Coq.Init.Logic <> refl_equal constr
+R682 Coq.Lists.List <> nil constr
+R664 Invariant <> stack2 proj
+R688 Coq.Init.Logic <> refl_equal constr
+R682 Coq.Lists.List <> nil constr
+R758 Invariant <> kind proj
+R758 Invariant <> kind proj
+R758 Invariant <> kind proj
+R758 Invariant <> kind proj
+R758 Invariant <> kind proj
+R758 Invariant <> kind proj
+R758 Invariant <> kind proj
+R952 Invariant <> kind proj
+R952 Invariant <> kind proj
+R1348 Invariant <> kind proj
+R1348 Invariant <> kind proj
+R1552 Invariant <> kind proj
+R1552 Invariant <> kind proj
+R1828 Coq.Init.Logic <> refl_equal constr
+R1828 Coq.Init.Logic <> refl_equal constr
+R1893 Invariant <> kind proj
+R1893 Invariant <> kind proj
+R2030 Invariant <> kind proj
+R2030 Invariant <> kind proj
+R2320 Coq.Init.Logic <> refl_equal constr
+R2320 Coq.Init.Logic <> refl_equal constr
+R2565 Coq.Init.Logic <> refl_equal constr
+R2565 Coq.Init.Logic <> refl_equal constr
+R2681 Coq.Init.Logic <> I constr
+R2681 Coq.Init.Logic <> I constr
+R2681 Coq.Init.Logic <> I constr
+R2681 Coq.Init.Logic <> I constr
+R2681 Coq.Init.Logic <> I constr
+R2681 Coq.Init.Logic <> I constr
+R2681 Coq.Init.Logic <> I constr
+R2681 Coq.Init.Logic <> I constr
+R2681 Coq.Init.Logic <> I constr
+R2681 Coq.Init.Logic <> I constr
+R2700 PreservationStack2KConstr <> <> lib
+R2765 PreservationStack2KConstr <> goal thm
+R2765 PreservationStack2KConstr <> goal thm
+R2786 PreservationStack2Kconstrarray <> <> lib
+R2838 PreservationStack2Kconstrarray <> goal thm
+R2838 PreservationStack2Kconstrarray <> goal thm
+R2859 PreservationStack2Kconstrother <> <> lib
+R2929 PreservationStack2Kconstrother <> goal thm
+R2929 PreservationStack2Kconstrother <> goal thm
+R2950 PreservationStack2Kconstrothercells <> <> lib
+R3007 PreservationStack2Kconstrothercells <> goal thm
+R3007 PreservationStack2Kconstrothercells <> goal thm
+R3028 PreservationStack2Kdestr <> <> lib
+R3092 PreservationStack2Kdestr <> goal thm
+R3092 PreservationStack2Kdestr <> goal thm
+R3109 PreservationStack2 Preservation <> sec

@@ -1,0 +1,646 @@
+FPreservationBreadthFields
+R15 Coq.Relations.Relations <> <> lib
+R41 Coqlib <> <> lib
+R64 LibPos <> <> lib
+R87 Maps <> <> lib
+R108 LibLists <> <> lib
+R133 Cppsem <> <> lib
+R156 Cplusconcepts <> <> lib
+R186 CplusWf <> <> lib
+R210 Events <> <> lib
+R233 Invariant <> <> lib
+R259 Coq.Logic.Eqdep_dec <> <> lib
+R285 SubobjectOrdering <> <> lib
+R319 ConstrSubobjectOrdering <> <> lib
+sec 385 <> Preservation
+var 30 Preservation A
+R34 BuiltinTypes ATOM t rec
+var 51 Preservation nativeop
+var 78 Preservation prog
+R85 Cppsem Program t rec
+var 117 Preservation cppsem
+R126 Cppsem <> cppsemparam rec
+var 148 Preservation sem
+R154 BuiltinTypes <> semparam rec
+var 186 Preservation s1
+R191 Cppsem State t rec
+var 371 Preservation Hs1
+R377 Invariant <> invariant rec
+var 430 Preservation s2
+R435 Cppsem State t rec
+var 464 Preservation t
+R468 Events <> trace proj
+R475 BuiltinTypes <> evtr proj
+var 498 Preservation step
+R505 Cppsem <> step ind
+var 543 Preservation hierarchy_wf
+R558 CplusWf Well_formed_hierarchy prop rec
+R586 Cppsem Program hierarchy proj
+syndef 9 <> evtr
+R18 BuiltinTypes <> evtr proj
+syndef 53 <> trace
+R63 Events <> trace proj
+R69 PreservationBreadthFields <> evtr syndef
+syndef 100 <> hier
+R109 Cppsem Program hierarchy proj
+syndef 158 <> aux_constr_state_key_eq_dec
+R190 Cppsem <> aux_constr_state_key_eq_dec thm
+syndef 253 <> relptr_gt
+R267 SubobjectOrdering <> relptr_gt ind
+R277 PreservationBreadthFields <> hier syndef
+prf 153 <> nodup
+R273 Coq.Init.Logic <> False ind
+R239 Coq.Init.Logic "x = y" not
+R224 Cplusconcepts Class fields proj
+R245 Coq.Lists.List "x ++ y" not
+R251 Coq.Lists.List "x :: y" not
+R257 Coq.Lists.List "x ++ y" not
+R263 Coq.Lists.List "x :: y" not
+R184 Coq.Init.Logic "x = y" not
+R179 Maps "a ! b" not
+R174 PreservationBreadthFields <> hier syndef
+R186 Coq.Init.Datatypes <> Some constr
+R306 LibLists <> NoDup_elim thm
+R306 LibLists <> NoDup_elim thm
+R327 CplusWf Well_formed_hierarchy fields_no_dup proj
+R327 CplusWf Well_formed_hierarchy fields_no_dup proj
+prf 421 <> goal
+R708 Invariant <> constructed_sibling_before rec
+R834 LibLists <> assoc def
+R894 Cppsem State field_construction_states proj
+R868 Coq.Init.Datatypes "( x , y , .. , z )" not
+R881 Coq.Init.Datatypes "( x , y , .. , z )" not
+R840 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R736 LibLists <> assoc def
+R796 Cppsem State field_construction_states proj
+R770 Coq.Init.Datatypes "( x , y , .. , z )" not
+R783 Coq.Init.Datatypes "( x , y , .. , z )" not
+R742 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R664 Coq.Init.Logic "x = y" not
+R649 Cplusconcepts Class fields proj
+R670 Coq.Lists.List "x ++ y" not
+R676 Coq.Lists.List "x :: y" not
+R682 Coq.Lists.List "x ++ y" not
+R688 Coq.Lists.List "x :: y" not
+R606 Coq.Init.Logic "x = y" not
+R601 Maps "a ! b" not
+R596 PreservationBreadthFields <> hier syndef
+R608 Coq.Init.Datatypes <> Some constr
+R567 Coq.Init.Logic "x = y" not
+R560 LibLists <> last def
+R569 Coq.Init.Datatypes <> Some constr
+R456 Cplusconcepts <> valid_pointer ind
+R509 Cplusconcepts Value subobject constr
+R476 Cplusconcepts Globals heap proj
+R490 Cppsem State global proj
+R470 PreservationBreadthFields <> hier syndef
+R972 Coq.ZArith.BinInt <> Zminus def
+R1250 Coqlib <> peq def
+R1262 Cplusconcepts Globals next_object proj
+R1250 Coqlib <> peq def
+R1262 Cplusconcepts Globals next_object proj
+R1314 Maps PTree gss thm
+R1314 Maps PTree gss thm
+R1416 Cplusconcepts Globals valid_none proj
+R1449 Coqlib <> Ple_refl thm
+R1416 Cplusconcepts Globals valid_none proj
+R1449 Coqlib <> Ple_refl thm
+R1508 Cplusconcepts Globals valid_none proj
+R1541 Coqlib <> Ple_refl thm
+R1508 Cplusconcepts Globals valid_none proj
+R1541 Coqlib <> Ple_refl thm
+R1569 Maps PTree gso thm
+R1569 Maps PTree gso thm
+R1611 Cplusconcepts <> valid_pointer ind
+R1669 Cplusconcepts Value subobject constr
+R1651 Cplusconcepts Globals heap proj
+R1626 Cppsem Program hierarchy proj
+R1611 Cplusconcepts <> valid_pointer ind
+R1669 Cplusconcepts Value subobject constr
+R1651 Cplusconcepts Globals heap proj
+R1626 Cppsem Program hierarchy proj
+R1813 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R1877 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1893 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1841 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1854 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1813 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R1877 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1893 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1841 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1854 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1944 Invariant <> constructed_sibling_before rec
+R2007 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R2074 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2090 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2035 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2051 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2156 LibLists <> assoc def
+R2190 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2206 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2162 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R2113 Coq.Init.Datatypes <> Some constr
+R2118 Cppsem <> StartedConstructing constr
+R1972 Coq.Init.Datatypes <> Some constr
+R1977 Cppsem <> StartedConstructing constr
+R1944 Invariant <> constructed_sibling_before rec
+R2007 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R2074 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2090 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2035 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2051 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2156 LibLists <> assoc def
+R2190 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2206 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2162 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R2113 Coq.Init.Datatypes <> Some constr
+R2118 Cppsem <> StartedConstructing constr
+R1972 Coq.Init.Datatypes <> Some constr
+R1977 Cppsem <> StartedConstructing constr
+R2259 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R2326 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2342 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2287 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2303 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2259 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R2326 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2342 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2287 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2303 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2397 Coq.Init.Logic <> False_rect def
+R2397 Coq.Init.Logic <> False_rect def
+R2423 PreservationBreadthFields <> nodup thm
+R2423 PreservationBreadthFields <> nodup thm
+R2524 Coq.Init.Logic <> or_introl constr
+R2537 Coq.Init.Logic <> refl_equal constr
+R2524 Coq.Init.Logic <> or_introl constr
+R2537 Coq.Init.Logic <> refl_equal constr
+R2593 Invariant <> constructed_sibling_before_none proj
+R2593 Invariant <> constructed_sibling_before_none proj
+R2689 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R2753 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2769 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2717 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2730 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2689 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R2753 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2769 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2717 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2730 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2907 Coq.Init.Logic "x = y" not
+R2832 LibLists <> assoc def
+R2866 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2882 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2838 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R2911 Coq.Init.Datatypes <> Some constr
+R2916 Cppsem <> Constructed constr
+R2907 Coq.Init.Logic "x = y" not
+R2832 LibLists <> assoc def
+R2866 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2882 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2838 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R2911 Coq.Init.Datatypes <> Some constr
+R2916 Cppsem <> Constructed constr
+R3126 CplusWf Well_formed_hierarchy fields_no_dup proj
+R3126 CplusWf Well_formed_hierarchy fields_no_dup proj
+R3221 Coq.Init.Logic "x = y" not
+R3210 Coq.Lists.List "x ++ y" not
+R3216 Coq.Lists.List "x :: y" not
+R3238 Coq.Lists.List "x ++ y" not
+R3227 Coq.Lists.List "x ++ y" not
+R3233 Coq.Lists.List "x :: y" not
+R3246 Coq.Lists.List "x :: y" not
+R3221 Coq.Init.Logic "x = y" not
+R3210 Coq.Lists.List "x ++ y" not
+R3216 Coq.Lists.List "x :: y" not
+R3238 Coq.Lists.List "x ++ y" not
+R3227 Coq.Lists.List "x ++ y" not
+R3233 Coq.Lists.List "x :: y" not
+R3246 Coq.Lists.List "x :: y" not
+R3276 Coq.Lists.List <> app_ass thm
+R3276 Coq.Lists.List <> app_ass thm
+R3311 LibLists <> NoDup_uniq thm
+R3311 LibLists <> NoDup_uniq thm
+R3371 Coq.Lists.List <> in_or_app thm
+R3371 Coq.Lists.List <> in_or_app thm
+R3466 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R3530 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3546 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3494 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3507 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3466 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R3530 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3546 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3494 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3507 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3585 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R3649 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3665 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3613 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3626 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3585 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R3649 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3665 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3613 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3626 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3809 Coq.Init.Logic "x = y" not
+R3730 LibLists <> assoc def
+R3774 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3790 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3737 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R3813 Coq.Init.Datatypes <> Some constr
+R3818 Cppsem <> Constructed constr
+R3809 Coq.Init.Logic "x = y" not
+R3730 LibLists <> assoc def
+R3774 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3790 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3737 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R3813 Coq.Init.Datatypes <> Some constr
+R3818 Cppsem <> Constructed constr
+R4031 CplusWf Well_formed_hierarchy fields_no_dup proj
+R4031 CplusWf Well_formed_hierarchy fields_no_dup proj
+R4122 Coq.Lists.List "x ++ y" not
+R4128 Coq.Lists.List "x :: y" not
+R4134 Coq.Lists.List "x ++ y" not
+R4140 Coq.Lists.List "x :: y" not
+R4168 Coq.Lists.List "x ++ y" not
+R4157 Coq.Lists.List "x ++ y" not
+R4163 Coq.Lists.List "x :: y" not
+R4176 Coq.Lists.List "x :: y" not
+R4122 Coq.Lists.List "x ++ y" not
+R4128 Coq.Lists.List "x :: y" not
+R4134 Coq.Lists.List "x ++ y" not
+R4140 Coq.Lists.List "x :: y" not
+R4168 Coq.Lists.List "x ++ y" not
+R4157 Coq.Lists.List "x ++ y" not
+R4163 Coq.Lists.List "x :: y" not
+R4176 Coq.Lists.List "x :: y" not
+R4204 LibLists <> NoDup_uniq thm
+R4204 LibLists <> NoDup_uniq thm
+R4263 Coq.Lists.List <> in_or_app thm
+R4263 Coq.Lists.List <> in_or_app thm
+R4282 Coq.Lists.List <> app_ass thm
+R4282 Coq.Lists.List <> app_ass thm
+R4351 Cplusconcepts <> valid_pointer ind
+R4418 Cplusconcepts Value subobject constr
+R4400 Cplusconcepts Globals heap proj
+R4366 Cppsem Program hierarchy proj
+R4351 Cplusconcepts <> valid_pointer ind
+R4418 Cplusconcepts Value subobject constr
+R4400 Cplusconcepts Globals heap proj
+R4366 Cppsem Program hierarchy proj
+R4492 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R4556 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4572 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4520 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4533 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4492 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R4556 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4572 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4520 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4533 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4611 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R4675 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4691 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4639 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4652 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4611 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R4675 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4691 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4639 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4652 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4834 Coq.Init.Logic "x = y" not
+R4755 LibLists <> assoc def
+R4799 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4815 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4762 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R4839 Coq.Init.Datatypes <> Some constr
+R4844 Cppsem <> Constructed constr
+R4834 Coq.Init.Logic "x = y" not
+R4755 LibLists <> assoc def
+R4799 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4815 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4762 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R4839 Coq.Init.Datatypes <> Some constr
+R4844 Cppsem <> Constructed constr
+R5057 CplusWf Well_formed_hierarchy fields_no_dup proj
+R5057 CplusWf Well_formed_hierarchy fields_no_dup proj
+R5149 Coq.Lists.List "x ++ y" not
+R5155 Coq.Lists.List "x :: y" not
+R5161 Coq.Lists.List "x ++ y" not
+R5167 Coq.Lists.List "x :: y" not
+R5195 Coq.Lists.List "x ++ y" not
+R5184 Coq.Lists.List "x ++ y" not
+R5190 Coq.Lists.List "x :: y" not
+R5203 Coq.Lists.List "x :: y" not
+R5149 Coq.Lists.List "x ++ y" not
+R5155 Coq.Lists.List "x :: y" not
+R5161 Coq.Lists.List "x ++ y" not
+R5167 Coq.Lists.List "x :: y" not
+R5195 Coq.Lists.List "x ++ y" not
+R5184 Coq.Lists.List "x ++ y" not
+R5190 Coq.Lists.List "x :: y" not
+R5203 Coq.Lists.List "x :: y" not
+R5231 LibLists <> NoDup_uniq thm
+R5231 LibLists <> NoDup_uniq thm
+R5290 Coq.Lists.List <> in_or_app thm
+R5290 Coq.Lists.List <> in_or_app thm
+R5309 Coq.Lists.List <> app_ass thm
+R5309 Coq.Lists.List <> app_ass thm
+R5402 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R5469 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5484 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5430 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5446 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5402 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R5469 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5484 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5430 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5446 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5523 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R5590 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5605 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5551 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5567 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5523 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R5590 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5605 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5551 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5567 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5748 Coq.Init.Logic "x = y" not
+R5669 LibLists <> assoc def
+R5714 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5729 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5676 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R5752 Coq.Init.Datatypes <> Some constr
+R5757 Cppsem <> Constructed constr
+R5748 Coq.Init.Logic "x = y" not
+R5669 LibLists <> assoc def
+R5714 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5729 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5676 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R5752 Coq.Init.Datatypes <> Some constr
+R5757 Cppsem <> Constructed constr
+R5839 Coq.Init.Logic <> or_introl constr
+R5852 Coq.Init.Logic <> refl_equal constr
+R5839 Coq.Init.Logic <> or_introl constr
+R5852 Coq.Init.Logic <> refl_equal constr
+R5906 ConstrSubobjectOrdering <> constructed_sibling_before_constructed thm
+R5906 ConstrSubobjectOrdering <> constructed_sibling_before_constructed thm
+R6122 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R6186 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6202 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6150 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6163 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6122 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R6186 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6202 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6150 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6163 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6261 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R6330 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6346 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6289 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6305 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6261 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R6330 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6346 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6289 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6305 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6403 Coq.Init.Logic <> False_rect def
+R6403 Coq.Init.Logic <> False_rect def
+R6429 PreservationBreadthFields <> nodup thm
+R6429 PreservationBreadthFields <> nodup thm
+R6605 CplusWf Well_formed_hierarchy fields_no_dup proj
+R6605 CplusWf Well_formed_hierarchy fields_no_dup proj
+R6685 Coq.Lists.List <> rev_involutive thm
+R6701 Cplusconcepts Class fields proj
+R6685 Coq.Lists.List <> rev_involutive thm
+R6701 Cplusconcepts Class fields proj
+R6742 LibLists <> rev_app thm
+R6742 LibLists <> rev_app thm
+R6768 Coq.Lists.List <> app_ass thm
+R6768 Coq.Lists.List <> app_ass thm
+R6807 LibLists <> NoDup_uniq thm
+R6807 LibLists <> NoDup_uniq thm
+R6862 LibLists <> in_rev_elim def
+R6862 LibLists <> in_rev_elim def
+R6902 Coq.Lists.List <> in_or_app thm
+R6902 Coq.Lists.List <> in_or_app thm
+R6925 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R6989 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7005 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6953 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6966 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6925 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R6989 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7005 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6953 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6966 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7150 Coq.Init.Logic "x = y" not
+R7071 LibLists <> assoc def
+R7115 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7131 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7078 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R7155 Coq.Init.Datatypes <> Some constr
+R7160 Cppsem <> Constructed constr
+R7150 Coq.Init.Logic "x = y" not
+R7071 LibLists <> assoc def
+R7115 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7131 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7078 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R7155 Coq.Init.Datatypes <> Some constr
+R7160 Cppsem <> Constructed constr
+R7387 CplusWf Well_formed_hierarchy fields_no_dup proj
+R7387 CplusWf Well_formed_hierarchy fields_no_dup proj
+R7467 Coq.Lists.List "x ++ y" not
+R7473 Coq.Lists.List "x :: y" not
+R7479 Coq.Lists.List "x ++ y" not
+R7485 Coq.Lists.List "x :: y" not
+R7513 Coq.Lists.List "x ++ y" not
+R7502 Coq.Lists.List "x ++ y" not
+R7508 Coq.Lists.List "x :: y" not
+R7521 Coq.Lists.List "x :: y" not
+R7467 Coq.Lists.List "x ++ y" not
+R7473 Coq.Lists.List "x :: y" not
+R7479 Coq.Lists.List "x ++ y" not
+R7485 Coq.Lists.List "x :: y" not
+R7513 Coq.Lists.List "x ++ y" not
+R7502 Coq.Lists.List "x ++ y" not
+R7508 Coq.Lists.List "x :: y" not
+R7521 Coq.Lists.List "x :: y" not
+R7542 Coq.Lists.List <> rev_involutive thm
+R7558 Cplusconcepts Class fields proj
+R7542 Coq.Lists.List <> rev_involutive thm
+R7558 Cplusconcepts Class fields proj
+R7598 LibLists <> rev_app thm
+R7598 LibLists <> rev_app thm
+R7624 Coq.Lists.List <> app_ass thm
+R7624 Coq.Lists.List <> app_ass thm
+R7663 LibLists <> NoDup_uniq thm
+R7663 LibLists <> NoDup_uniq thm
+R7718 LibLists <> in_rev_elim def
+R7718 LibLists <> in_rev_elim def
+R7758 Coq.Lists.List <> in_or_app thm
+R7758 Coq.Lists.List <> in_or_app thm
+R7778 Coq.Lists.List <> app_ass thm
+R7778 Coq.Lists.List <> app_ass thm
+R7874 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R7938 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7954 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7902 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7915 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7874 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R7938 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7954 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7902 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7915 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7984 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R8048 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8064 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8012 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8025 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7984 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R8048 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8064 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8012 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8025 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8151 Coq.Init.Logic <> False_rect def
+R8151 Coq.Init.Logic <> False_rect def
+R8177 PreservationBreadthFields <> nodup thm
+R8177 PreservationBreadthFields <> nodup thm
+R8382 CplusWf Well_formed_hierarchy fields_no_dup proj
+R8382 CplusWf Well_formed_hierarchy fields_no_dup proj
+R8462 Coq.Lists.List <> rev_involutive thm
+R8478 Cplusconcepts Class fields proj
+R8462 Coq.Lists.List <> rev_involutive thm
+R8478 Cplusconcepts Class fields proj
+R8519 LibLists <> rev_app thm
+R8519 LibLists <> rev_app thm
+R8545 Coq.Lists.List <> app_ass thm
+R8545 Coq.Lists.List <> app_ass thm
+R8584 LibLists <> NoDup_uniq thm
+R8584 LibLists <> NoDup_uniq thm
+R8639 LibLists <> in_rev_elim def
+R8639 LibLists <> in_rev_elim def
+R8679 Coq.Lists.List <> in_or_app thm
+R8679 Coq.Lists.List <> in_or_app thm
+R8702 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R8766 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8782 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8730 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8743 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8702 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R8766 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8782 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8730 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8743 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8927 Coq.Init.Logic "x = y" not
+R8848 LibLists <> assoc def
+R8892 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8908 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8855 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R8932 Coq.Init.Datatypes <> Some constr
+R8937 Cppsem <> Constructed constr
+R8927 Coq.Init.Logic "x = y" not
+R8848 LibLists <> assoc def
+R8892 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8908 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8855 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R8932 Coq.Init.Datatypes <> Some constr
+R8937 Cppsem <> Constructed constr
+R9164 CplusWf Well_formed_hierarchy fields_no_dup proj
+R9164 CplusWf Well_formed_hierarchy fields_no_dup proj
+R9244 Coq.Lists.List "x ++ y" not
+R9250 Coq.Lists.List "x :: y" not
+R9256 Coq.Lists.List "x ++ y" not
+R9262 Coq.Lists.List "x :: y" not
+R9290 Coq.Lists.List "x ++ y" not
+R9279 Coq.Lists.List "x ++ y" not
+R9285 Coq.Lists.List "x :: y" not
+R9298 Coq.Lists.List "x :: y" not
+R9244 Coq.Lists.List "x ++ y" not
+R9250 Coq.Lists.List "x :: y" not
+R9256 Coq.Lists.List "x ++ y" not
+R9262 Coq.Lists.List "x :: y" not
+R9290 Coq.Lists.List "x ++ y" not
+R9279 Coq.Lists.List "x ++ y" not
+R9285 Coq.Lists.List "x :: y" not
+R9298 Coq.Lists.List "x :: y" not
+R9319 Coq.Lists.List <> rev_involutive thm
+R9335 Cplusconcepts Class fields proj
+R9319 Coq.Lists.List <> rev_involutive thm
+R9335 Cplusconcepts Class fields proj
+R9375 LibLists <> rev_app thm
+R9375 LibLists <> rev_app thm
+R9401 Coq.Lists.List <> app_ass thm
+R9401 Coq.Lists.List <> app_ass thm
+R9440 LibLists <> NoDup_uniq thm
+R9440 LibLists <> NoDup_uniq thm
+R9495 LibLists <> in_rev_elim def
+R9495 LibLists <> in_rev_elim def
+R9535 Coq.Lists.List <> in_or_app thm
+R9535 Coq.Lists.List <> in_or_app thm
+R9555 Coq.Lists.List <> app_ass thm
+R9555 Coq.Lists.List <> app_ass thm
+R9663 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R9731 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9746 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9691 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9707 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9663 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R9731 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9746 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9691 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9707 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9775 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R9843 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9858 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9803 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9819 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9775 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R9843 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9858 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9803 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9819 Coq.Init.Datatypes "( x , y , .. , z )" not
+R9943 Coq.Init.Logic <> False_rect def
+R9943 Coq.Init.Logic <> False_rect def
+R9969 PreservationBreadthFields <> nodup thm
+R9969 PreservationBreadthFields <> nodup thm
+R10036 Coq.Init.Logic <> or_introl constr
+R10049 Coq.Init.Logic <> refl_equal constr
+R10036 Coq.Init.Logic <> or_introl constr
+R10049 Coq.Init.Logic <> refl_equal constr
+R10103 Invariant <> constructed_sibling_before_destructed proj
+R10103 Invariant <> constructed_sibling_before_destructed proj
+R10209 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R10277 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10292 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10237 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10253 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10209 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R10277 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10292 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10237 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10253 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10433 Coq.Init.Logic "x = y" not
+R10356 LibLists <> assoc def
+R10401 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10416 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10363 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R10438 Coq.Init.Datatypes <> Some constr
+R10443 Cppsem <> Constructed constr
+R10433 Coq.Init.Logic "x = y" not
+R10356 LibLists <> assoc def
+R10401 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10416 Coq.Init.Datatypes "( x , y , .. , z )" not
+R10363 PreservationBreadthFields <> aux_constr_state_key_eq_dec syndef
+R10438 Coq.Init.Datatypes <> Some constr
+R10443 Cppsem <> Constructed constr
+R10525 Coq.Init.Logic <> or_introl constr
+R10538 Coq.Init.Logic <> refl_equal constr
+R10525 Coq.Init.Logic <> or_introl constr
+R10538 Coq.Init.Logic <> refl_equal constr
+R10592 ConstrSubobjectOrdering <> constructed_sibling_before_constructed thm
+R10592 ConstrSubobjectOrdering <> constructed_sibling_before_constructed thm
+R10746 PreservationBreadthFields Preservation <> sec

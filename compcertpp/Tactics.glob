@@ -1,0 +1,62 @@
+FTactics
+R169 Coq.Init.Logic "'exists' x : t , p" not
+R256 Coq.Init.Logic "'exists' x : t , p" not
+R676 Coq.Init.Logic "x = y" not
+R716 Coq.Init.Logic <> refl_equal constr
+R1053 Coq.Init.Logic <> False_rect def
+R1274 Coq.Init.Logic "A /\ B" not
+R1321 Coq.Init.Logic "A <-> B" not
+R1367 Coq.Init.Specif "{ x : A  & P }" not
+R1421 Coq.Init.Specif "{ x : A  |  P }" not
+R1186 Coq.Init.Logic "'exists' x , p" not
+R1557 Coq.Init.Logic "x = y" not
+R1571 Coq.Init.Logic "x = y" not
+R1633 Coq.Init.Logic "x = y" not
+R1646 Coq.Init.Logic "x = y" not
+R1943 Coq.Init.Logic "x <> y" not
+R2000 Coq.Init.Logic "x <> y" not
+R2016 Coq.Init.Logic "x = y" not
+R2081 Coq.Init.Logic "x <> y" not
+R2097 Coq.Init.Logic "x = y" not
+R2173 Coq.Init.Logic <> False ind
+R2165 Coq.Init.Logic "x = y" not
+R2188 Coq.Init.Logic "x = y" not
+R2261 Coq.Init.Logic <> False ind
+R2253 Coq.Init.Logic "x = y" not
+R2327 Coq.Init.Logic <> False ind
+R2319 Coq.Init.Logic "x = y" not
+R2342 Coq.Init.Logic "x = y" not
+R2293 Coq.Init.Logic <> refl_equal constr
+R1974 Coq.Init.Logic <> refl_equal constr
+prf 3010 <> ex_set_prop
+R3062 Coq.Init.Logic "'exists' x , p" not
+R3045 Coq.Init.Specif "{ x : A  |  P }" not
+prf 3131 <> option_inj
+R3185 Coq.Init.Logic "x = y" not
+R3171 Coq.Init.Logic "x = y" not
+R3164 Coq.Init.Datatypes <> Some constr
+R3173 Coq.Init.Datatypes <> Some constr
+prf 3228 <> conj_step
+R3280 Coq.Init.Logic "A /\ B" not
+R3352 Coq.Init.Logic "A /\ B" not
+R3434 Coq.Init.Datatypes "x * y" not
+R3461 Coq.Init.Datatypes "x * y" not
+R3374 Coq.Init.Logic "A /\ B" not
+R3560 Coq.Init.Logic "A /\ B" not
+R3642 Coq.Init.Datatypes "x * y" not
+R3669 Coq.Init.Datatypes "x * y" not
+R3582 Coq.Init.Logic "A /\ B" not
+prf 9327 <> if_some_commut
+R9435 Coq.Init.Logic "x = y" not
+R9428 Coq.Init.Datatypes <> Some constr
+R9415 Coq.Init.Datatypes <> Some constr
+R9439 Coq.Init.Datatypes <> Some constr
+R9369 Coq.Init.Specif "{ A } + { B }" not
+R9545 Coq.Init.Logic <> conj constr
+R9583 Coq.Init.Logic <> proj2 thm
+R9560 Coq.Init.Logic <> proj1 thm
+prf 9620 <> and_assoc
+R9672 Coq.Init.Logic "A /\ B" not
+R9677 Coq.Init.Logic "A /\ B" not
+R9660 Coq.Init.Logic "A /\ B" not
+R9656 Coq.Init.Logic "A /\ B" not

@@ -1,0 +1,73 @@
+FDynamic
+R15 LibLists <> <> lib
+R40 Cplusconcepts <> <> lib
+R70 Coqlib <> <> lib
+R93 Tactics <> <> lib
+R117 LibMaps <> <> lib
+R141 LibPos <> <> lib
+sec 634 <> DYN
+var 650 DYN A
+R654 BuiltinTypes ATOM t rec
+var 672 DYN hierarchy
+R684 Maps PTree t def
+R693 Cplusconcepts Class t rec
+ind 716 <> is_dynamic
+constr 748 <> is_dynamic_virtual_methods
+constr 923 <> is_dynamic_direct_virtual_base
+constr 1085 <> is_dynamic_base
+R729 Cplusconcepts <> ident def
+R908 Dynamic <> is_dynamic ind
+R842 Coq.Init.Logic "'exists' x , p" not
+R875 Coq.Init.Logic "A /\ B" not
+R852 Coq.Lists.List <> In def
+R858 Cplusconcepts Class methods proj
+R895 Coq.Init.Logic "x = y" not
+R878 Cplusconcepts Method virtual proj
+R897 Coq.Init.Datatypes <> true constr
+R817 Coq.Init.Logic "x = y" not
+R813 Maps "a ! b" not
+R819 Coq.Init.Datatypes <> Some constr
+R1070 Dynamic <> is_dynamic ind
+R1017 Coq.Lists.List <> In def
+R1051 Cplusconcepts Class super proj
+R1020 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1021 Cplusconcepts Class.Inheritance Shared constr
+R992 Coq.Init.Logic "x = y" not
+R988 Maps "a ! b" not
+R994 Coq.Init.Datatypes <> Some constr
+R1248 Dynamic <> is_dynamic ind
+R1231 Dynamic <> is_dynamic ind
+R1184 Coq.Lists.List <> In def
+R1195 Cplusconcepts Class super proj
+R1187 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1148 Coq.Init.Logic "x = y" not
+R1144 Maps "a ! b" not
+R1150 Coq.Init.Datatypes <> Some constr
+prf 1270 <> is_dynamic_virtual_base
+R1348 Dynamic <> is_dynamic ind
+R1310 Cplusconcepts <> is_virtual_base_of ind
+R1398 Dynamic <> is_dynamic_direct_virtual_base constr
+R1398 Dynamic <> is_dynamic_direct_virtual_base constr
+R1444 Dynamic <> is_dynamic_base constr
+R1444 Dynamic <> is_dynamic_base constr
+prf 1473 <> is_dynamic_path
+R1587 Dynamic <> is_dynamic ind
+R1569 Dynamic <> is_dynamic ind
+R1524 Cplusconcepts <> path ind
+R1635 Cplusconcepts <> path_path2 thm
+R1635 Cplusconcepts <> path_path2 thm
+R1747 Dynamic <> is_dynamic_base constr
+R1747 Dynamic <> is_dynamic_base constr
+R1747 Dynamic <> is_dynamic_base constr
+R1747 Dynamic <> is_dynamic_base constr
+R1747 Dynamic <> is_dynamic_base constr
+prf 1779 <> method_dispatch_dynamic
+R1960 Dynamic <> is_dynamic ind
+R1837 Cplusconcepts <> method_dispatch ind
+R2011 Dynamic <> is_dynamic_path thm
+R2011 Dynamic <> is_dynamic_path thm
+R2050 Dynamic <> is_dynamic_virtual_methods constr
+R2050 Dynamic <> is_dynamic_virtual_methods constr
+R2105 Cplusconcepts Method find_in thm
+R2105 Cplusconcepts Method find_in thm
+R2143 Dynamic DYN <> sec

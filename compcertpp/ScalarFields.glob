@@ -1,0 +1,381 @@
+FScalarFields
+R15 Coq.Relations.Relations <> <> lib
+R41 Coqlib <> <> lib
+R64 LibPos <> <> lib
+R87 Maps <> <> lib
+R108 LibLists <> <> lib
+R133 Cppsem <> <> lib
+R156 Cplusconcepts <> <> lib
+R186 CplusWf <> <> lib
+R210 Events <> <> lib
+R233 Invariant <> <> lib
+R259 Coq.Logic.Eqdep_dec <> <> lib
+R285 SubobjectOrdering <> <> lib
+R319 ConstrSubobjectOrdering <> <> lib
+sec 385 <> Preservation
+sec 109 Preservation ScalarFields
+var 133 Preservation.ScalarFields A
+R137 BuiltinTypes ATOM t rec
+var 154 Preservation.ScalarFields nativeop
+var 181 Preservation.ScalarFields prog
+R188 Cppsem Program t rec
+syndef 219 <> hier
+R228 Cppsem Program hierarchy proj
+var 280 Preservation.ScalarFields hierarchy_wf
+R295 CplusWf Well_formed_hierarchy prop rec
+R323 Cppsem Program hierarchy proj
+var 358 Preservation.ScalarFields cppsem
+R367 Cppsem <> cppsemparam rec
+var 389 Preservation.ScalarFields sem
+R395 BuiltinTypes <> semparam rec
+def 430 <> scalar_fields_some_constructed
+R1020 Coq.Init.Logic "x = y" not
+R920 LibLists <> assoc def
+R985 Cppsem State field_construction_states proj
+R959 Coq.Init.Datatypes "( x , y , .. , z )" not
+R972 Coq.Init.Datatypes "( x , y , .. , z )" not
+R928 Cppsem <> aux_constr_state_key_eq_dec thm
+R1022 Coq.Init.Datatypes <> Some constr
+R1027 Cppsem <> Constructed constr
+R894 Coq.Init.Logic "x = y" not
+R811 Cplusconcepts Globals get_field def
+R869 Coq.Init.Datatypes "( x , y , .. , z )" not
+R882 Coq.Init.Datatypes "( x , y , .. , z )" not
+R830 Cplusconcepts Globals field_values proj
+R852 Cppsem State global proj
+R896 Coq.Init.Datatypes <> Some constr
+R759 Coq.Init.Logic "x = y" not
+R736 Cplusconcepts FieldSignature type proj
+R761 Cplusconcepts FieldSignature Scalar constr
+R689 Coq.Lists.List <> In def
+R696 Cplusconcepts Class fields proj
+R658 Coq.Init.Logic "x = y" not
+R653 Maps "a ! b" not
+R648 ScalarFields <> hier syndef
+R660 Coq.Init.Datatypes <> Some constr
+R619 Coq.Init.Logic "x = y" not
+R612 LibLists <> last def
+R621 Coq.Init.Datatypes <> Some constr
+R509 Cplusconcepts <> valid_pointer ind
+R561 Cplusconcepts Value subobject constr
+R529 Cplusconcepts Globals heap proj
+R543 Cppsem State global proj
+R523 ScalarFields <> hier syndef
+def 1069 <> scalar_fields_some_constructed_recip
+R1635 Coq.Init.Logic "'exists' x , p" not
+R1728 Coq.Init.Logic "x = y" not
+R1645 Cplusconcepts Globals get_field def
+R1703 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1716 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1664 Cplusconcepts Globals field_values proj
+R1686 Cppsem State global proj
+R1730 Coq.Init.Datatypes <> Some constr
+R1601 Coq.Init.Logic "x = y" not
+R1501 LibLists <> assoc def
+R1566 Cppsem State field_construction_states proj
+R1540 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1553 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1509 Cppsem <> aux_constr_state_key_eq_dec thm
+R1603 Coq.Init.Datatypes <> Some constr
+R1608 Cppsem <> Constructed constr
+R1459 Coq.Init.Logic "x = y" not
+R1436 Cplusconcepts FieldSignature type proj
+R1461 Cplusconcepts FieldSignature Scalar constr
+R1389 Coq.Lists.List <> In def
+R1396 Cplusconcepts Class fields proj
+R1358 Coq.Init.Logic "x = y" not
+R1353 Maps "a ! b" not
+R1348 ScalarFields <> hier syndef
+R1360 Coq.Init.Datatypes <> Some constr
+R1319 Coq.Init.Logic "x = y" not
+R1312 LibLists <> last def
+R1321 Coq.Init.Datatypes <> Some constr
+R1209 Cplusconcepts <> valid_pointer ind
+R1261 Cplusconcepts Value subobject constr
+R1229 Cplusconcepts Globals heap proj
+R1243 Cppsem State global proj
+R1223 ScalarFields <> hier syndef
+R1172 Coq.Init.Logic "x = y" not
+R1130 Cppsem <> enable_uninitialized_scalar_fields proj
+R1174 Coq.Init.Datatypes <> false constr
+var 1764 Preservation.ScalarFields s1
+R1769 Cppsem State t rec
+prf 1796 <> init_scalar_fields_some_constructed
+R1864 ScalarFields <> scalar_fields_some_constructed def
+R1837 Cppsem <> initial_state ind
+R2010 Maps PTree gempty thm
+R2010 Maps PTree gempty thm
+prf 2059 <> init_scalar_fields_some_constructed_recip
+R2133 ScalarFields <> scalar_fields_some_constructed_recip def
+R2106 Cppsem <> initial_state ind
+R2291 Maps PTree gempty thm
+R2291 Maps PTree gempty thm
+var 2345 Preservation.ScalarFields Hs1
+R2351 Invariant <> invariant rec
+var 2380 Preservation.ScalarFields s2
+R2385 Cppsem State t rec
+var 2414 Preservation.ScalarFields t
+R2418 Events <> trace proj
+R2425 BuiltinTypes <> evtr proj
+var 2448 Preservation.ScalarFields step
+R2455 Cppsem <> step ind
+sec 2490 Preservation.ScalarFields Straight
+var 2512 Preservation.ScalarFields.Straight Hs1fields
+R2524 ScalarFields <> scalar_fields_some_constructed def
+prf 2567 <> preservation_scalar_fields_some_constructed
+R2616 ScalarFields <> scalar_fields_some_constructed def
+R2713 Cplusconcepts Globals get_field def
+R2731 Cplusconcepts Globals put_field def
+R2845 Cppsem <> aux_constr_state_key_eq_dec thm
+R2898 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2914 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2873 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2886 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2845 Cppsem <> aux_constr_state_key_eq_dec thm
+R2898 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2914 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2873 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2886 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3013 Cplusconcepts Globals get_put_field_other thm
+R3013 Cplusconcepts Globals get_put_field_other thm
+R3117 Coqlib <> peq def
+R3117 Coqlib <> peq def
+R3210 Cplusconcepts Globals valid_none proj
+R3249 Coqlib <> Ple_refl thm
+R3230 Invariant <> valid_global proj
+R3210 Cplusconcepts Globals valid_none proj
+R3249 Coqlib <> Ple_refl thm
+R3230 Invariant <> valid_global proj
+R3286 Invariant <> unconstructed_scalar_fields proj
+R3286 Invariant <> unconstructed_scalar_fields proj
+R3433 Maps PTree gso thm
+R3433 Maps PTree gso thm
+R3577 Cppsem <> aux_constr_state_key_eq_dec thm
+R3642 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3658 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3612 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3577 Cppsem <> aux_constr_state_key_eq_dec thm
+R3642 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3658 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3612 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3790 Cppsem <> aux_constr_state_key_eq_dec thm
+R3859 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3875 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3825 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3838 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3790 Cppsem <> aux_constr_state_key_eq_dec thm
+R3859 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3875 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3825 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3838 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3949 Cppsem <> aux_constr_state_key_eq_dec thm
+R4018 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4034 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3984 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3997 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3949 Cppsem <> aux_constr_state_key_eq_dec thm
+R4018 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4034 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3984 Coq.Init.Datatypes "( x , y , .. , z )" not
+R3997 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4095 Cplusconcepts Globals get_put_field_other thm
+R4095 Cplusconcepts Globals get_put_field_other thm
+R4214 Cppsem <> aux_constr_state_key_eq_dec thm
+R4286 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4301 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4249 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4265 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4214 Cppsem <> aux_constr_state_key_eq_dec thm
+R4286 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4301 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4249 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4265 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4388 Cppsem <> aux_constr_state_key_eq_dec thm
+R4457 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4473 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4423 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4436 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4388 Cppsem <> aux_constr_state_key_eq_dec thm
+R4457 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4473 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4423 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4436 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4546 Cplusconcepts Globals get_field def
+R4608 Cplusconcepts <> find_remove_field_same thm
+R4608 Cplusconcepts <> find_remove_field_same thm
+R4799 Coq.Init.Logic "x = y" not
+R4666 Cplusconcepts Globals get_field def
+R4768 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4784 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4694 Cplusconcepts <> remove_field def
+R4733 Cplusconcepts Globals field_values proj
+R4707 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4720 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4801 Cplusconcepts Globals get_field def
+R4866 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4882 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4831 Cplusconcepts Globals field_values proj
+R4799 Coq.Init.Logic "x = y" not
+R4666 Cplusconcepts Globals get_field def
+R4768 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4784 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4694 Cplusconcepts <> remove_field def
+R4733 Cplusconcepts Globals field_values proj
+R4707 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4720 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4801 Cplusconcepts Globals get_field def
+R4866 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4882 Coq.Init.Datatypes "( x , y , .. , z )" not
+R4831 Cplusconcepts Globals field_values proj
+R4940 Cplusconcepts <> find_remove_field_other thm
+R4940 Cplusconcepts <> find_remove_field_other thm
+R5071 Cppsem <> aux_constr_state_key_eq_dec thm
+R5140 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5156 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5106 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5119 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5071 Cppsem <> aux_constr_state_key_eq_dec thm
+R5140 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5156 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5106 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5119 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5296 Cppsem <> aux_constr_state_key_eq_dec thm
+R5365 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5380 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5331 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5296 Cppsem <> aux_constr_state_key_eq_dec thm
+R5365 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5380 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5331 Coq.Init.Datatypes "( x , y , .. , z )" not
+R5419 Invariant <> kind proj
+R5419 Invariant <> kind proj
+R5521 LibLists <> last_complete thm
+R5521 LibLists <> last_complete thm
+R5618 ScalarFields Preservation.ScalarFields.Straight <> sec
+sec 5637 Preservation.ScalarFields Recip
+var 5656 Preservation.ScalarFields.Recip Hs1fields
+R5668 ScalarFields <> scalar_fields_some_constructed_recip def
+prf 5717 <> preservation_scalar_fields_some_constructed_recip
+R5772 ScalarFields <> scalar_fields_some_constructed_recip def
+R5881 Cplusconcepts Globals get_field def
+R5899 Cplusconcepts Globals put_field def
+R6013 Cppsem <> aux_constr_state_key_eq_dec thm
+R6066 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6082 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6041 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6054 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6013 Cppsem <> aux_constr_state_key_eq_dec thm
+R6066 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6082 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6041 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6054 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6142 Cplusconcepts Globals get_put_field_same thm
+R6142 Cplusconcepts Globals get_put_field_same thm
+R6211 Cplusconcepts Globals get_put_field_other thm
+R6211 Cplusconcepts Globals get_put_field_other thm
+R6335 Coqlib <> peq def
+R6335 Coqlib <> peq def
+R6428 Cplusconcepts Globals valid_none proj
+R6467 Coqlib <> Ple_refl thm
+R6448 Invariant <> valid_global proj
+R6428 Cplusconcepts Globals valid_none proj
+R6467 Coqlib <> Ple_refl thm
+R6448 Invariant <> valid_global proj
+R6504 Invariant <> construction_states_fields_none proj
+R6504 Invariant <> construction_states_fields_none proj
+R6652 Maps PTree gso thm
+R6652 Maps PTree gso thm
+R6818 Cppsem <> aux_constr_state_key_eq_dec thm
+R6883 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6899 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6853 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6818 Cppsem <> aux_constr_state_key_eq_dec thm
+R6883 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6899 Coq.Init.Datatypes "( x , y , .. , z )" not
+R6853 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7085 Cppsem <> aux_constr_state_key_eq_dec thm
+R7154 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7170 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7120 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7133 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7085 Cppsem <> aux_constr_state_key_eq_dec thm
+R7154 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7170 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7120 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7133 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7233 Cplusconcepts Globals get_put_field_same thm
+R7233 Cplusconcepts Globals get_put_field_same thm
+R7302 Cplusconcepts Globals get_put_field_other thm
+R7302 Cplusconcepts Globals get_put_field_other thm
+R7450 Cppsem <> aux_constr_state_key_eq_dec thm
+R7522 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7537 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7485 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7501 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7450 Cppsem <> aux_constr_state_key_eq_dec thm
+R7522 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7537 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7485 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7501 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7578 Invariant <> kind proj
+R7578 Invariant <> kind proj
+R7655 LibLists <> last_complete thm
+R7655 LibLists <> last_complete thm
+R7775 Cppsem <> aux_constr_state_key_eq_dec thm
+R7844 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7860 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7810 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7823 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7775 Cppsem <> aux_constr_state_key_eq_dec thm
+R7844 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7860 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7810 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7823 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8048 Coq.Init.Logic "x = y" not
+R7915 Cplusconcepts Globals get_field def
+R8017 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8033 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7943 Cplusconcepts <> remove_field def
+R7982 Cplusconcepts Globals field_values proj
+R7956 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7969 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8050 Cplusconcepts Globals get_field def
+R8115 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8131 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8080 Cplusconcepts Globals field_values proj
+R8048 Coq.Init.Logic "x = y" not
+R7915 Cplusconcepts Globals get_field def
+R8017 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8033 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7943 Cplusconcepts <> remove_field def
+R7982 Cplusconcepts Globals field_values proj
+R7956 Coq.Init.Datatypes "( x , y , .. , z )" not
+R7969 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8050 Cplusconcepts Globals get_field def
+R8115 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8131 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8080 Cplusconcepts Globals field_values proj
+R8166 Cplusconcepts Globals get_field def
+R8222 Cplusconcepts <> find_remove_field_other thm
+R8222 Cplusconcepts <> find_remove_field_other thm
+R8378 Cppsem <> aux_constr_state_key_eq_dec thm
+R8447 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8463 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8413 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8426 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8378 Cppsem <> aux_constr_state_key_eq_dec thm
+R8447 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8463 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8413 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8426 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8611 Cppsem <> aux_constr_state_key_eq_dec thm
+R8680 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8695 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8646 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8611 Cppsem <> aux_constr_state_key_eq_dec thm
+R8680 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8695 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8646 Coq.Init.Datatypes "( x , y , .. , z )" not
+R8757 ScalarFields Preservation.ScalarFields.Recip <> sec
+R8769 ScalarFields Preservation.ScalarFields <> sec
+R8788 ScalarFields Preservation <> sec

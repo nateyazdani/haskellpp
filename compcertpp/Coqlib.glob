@@ -1,0 +1,1587 @@
+FCoqlib
+R1208 Coq.ZArith.ZArith <> <> lib
+R1231 Coq.ZArith.Znumtheory <> <> lib
+R1258 Coq.Lists.List <> <> lib
+R1279 Coq.Bool.Bool <> <> lib
+R1300 Coq.Arith.Wf_nat <> <> lib
+R1501 Coq.Init.Logic <> refl_equal constr
+R1597 Coq.Init.Logic <> refl_equal constr
+R1709 Coq.Init.Logic "x = y" not
+R1742 Coq.Init.Logic "x <> y" not
+R1770 Coq.Init.Logic "x <> y" not
+R1854 Coq.Init.Logic <> False ind
+R1918 Coq.Init.Logic <> False ind
+prf 1955 <> modusponens
+R4505 Coqlib <> modusponens thm
+R4466 Coqlib <> modusponens thm
+R4425 Coqlib <> modusponens thm
+R4382 Coqlib <> modusponens thm
+R4337 Coqlib <> modusponens thm
+R4290 Coqlib <> modusponens thm
+R4241 Coqlib <> modusponens thm
+R4190 Coqlib <> modusponens thm
+R4137 Coqlib <> modusponens thm
+R4082 Coqlib <> modusponens thm
+R4025 Coqlib <> modusponens thm
+R3966 Coqlib <> modusponens thm
+R3905 Coqlib <> modusponens thm
+R3842 Coqlib <> modusponens thm
+R3777 Coqlib <> modusponens thm
+R3710 Coqlib <> modusponens thm
+R3641 Coqlib <> modusponens thm
+R3570 Coqlib <> modusponens thm
+R3497 Coqlib <> modusponens thm
+R3422 Coqlib <> modusponens thm
+R3345 Coqlib <> modusponens thm
+R3266 Coqlib <> modusponens thm
+R3185 Coqlib <> modusponens thm
+R3102 Coqlib <> modusponens thm
+R3017 Coqlib <> modusponens thm
+R2930 Coqlib <> modusponens thm
+R2841 Coqlib <> modusponens thm
+R2750 Coqlib <> modusponens thm
+R2657 Coqlib <> modusponens thm
+R2562 Coqlib <> modusponens thm
+R2465 Coqlib <> modusponens thm
+R2366 Coqlib <> modusponens thm
+R2265 Coqlib <> modusponens thm
+R2162 Coqlib <> modusponens thm
+R2057 Coqlib <> modusponens thm
+def 4603 <> peq
+R4624 Coq.Init.Specif "{ A } + { B }" not
+R4627 Coq.Init.Logic "x = y" not
+R4637 Coq.Init.Logic "x <> y" not
+R4613 Coq.NArith.BinPos <> positive ind
+R4613 Coq.NArith.BinPos <> positive ind
+R4669 Coq.NArith.BinPos <> Pcompare def
+R4682 Coq.Init.Datatypes <> Eq constr
+R4669 Coq.NArith.BinPos <> Pcompare def
+R4682 Coq.Init.Datatypes <> Eq constr
+R4708 Coq.NArith.BinPos <> Pcompare_Eq_eq thm
+R4708 Coq.NArith.BinPos <> Pcompare_Eq_eq thm
+R4776 Coq.NArith.BinPos <> Pcompare_refl thm
+R4776 Coq.NArith.BinPos <> Pcompare_refl thm
+R4859 Coq.NArith.BinPos <> Pcompare_refl thm
+R4859 Coq.NArith.BinPos <> Pcompare_refl thm
+prf 4908 <> peq_true
+R4986 Coq.Init.Logic "x = y" not
+R4965 Coqlib <> peq def
+R4941 Coq.NArith.BinPos <> positive ind
+R5016 Coqlib <> peq def
+R5016 Coqlib <> peq def
+prf 5070 <> peq_false
+R5161 Coq.Init.Logic "x = y" not
+R5140 Coqlib <> peq def
+R5128 Coq.Init.Logic "x <> y" not
+R5106 Coq.NArith.BinPos <> positive ind
+R5106 Coq.NArith.BinPos <> positive ind
+R5191 Coqlib <> peq def
+R5191 Coqlib <> peq def
+def 5252 <> Plt
+R5281 Coq.ZArith.BinInt <> Zlt def
+R5295 Coq.ZArith.BinInt <> Zpos constr
+R5286 Coq.ZArith.BinInt <> Zpos constr
+R5262 Coq.NArith.BinPos <> positive ind
+R5262 Coq.NArith.BinPos <> positive ind
+prf 5311 <> Plt_ne
+R5358 Coq.Init.Logic "x <> y" not
+R5345 Coqlib <> Plt def
+R5334 Coq.NArith.BinPos <> positive ind
+R5334 Coq.NArith.BinPos <> positive ind
+R5439 Coqlib <> Plt_ne thm
+prf 5462 <> Plt_trans
+R5523 Coqlib <> Plt def
+R5512 Coqlib <> Plt def
+R5501 Coqlib <> Plt def
+R5490 Coq.NArith.BinPos <> positive ind
+R5490 Coq.NArith.BinPos <> positive ind
+R5490 Coq.NArith.BinPos <> positive ind
+prf 5581 <> Psucc_Zsucc
+R5633 Coq.Init.Logic "x = y" not
+R5618 Coq.ZArith.BinInt <> Zpos constr
+R5624 Coq.NArith.BinPos <> Psucc def
+R5635 Coq.ZArith.BinInt <> Zsucc def
+R5642 Coq.ZArith.BinInt <> Zpos constr
+R5607 Coq.NArith.BinPos <> positive ind
+R5676 Coq.NArith.BinPos <> Pplus_one_succ_r thm
+R5676 Coq.NArith.BinPos <> Pplus_one_succ_r thm
+prf 5722 <> Plt_succ
+R5756 Coqlib <> Plt def
+R5763 Coq.NArith.BinPos <> Psucc def
+R5745 Coq.NArith.BinPos <> positive ind
+R5809 Coqlib <> Psucc_Zsucc thm
+R5809 Coqlib <> Psucc_Zsucc thm
+R5847 Coqlib <> Plt_succ thm
+prf 5872 <> Plt_trans_succ
+R5925 Coqlib <> Plt def
+R5932 Coq.NArith.BinPos <> Psucc def
+R5914 Coqlib <> Plt def
+R5903 Coq.NArith.BinPos <> positive ind
+R5903 Coq.NArith.BinPos <> positive ind
+R5965 Coqlib <> Plt_trans thm
+R5965 Coqlib <> Plt_trans thm
+R6001 Coqlib <> Plt_succ thm
+R6001 Coqlib <> Plt_succ thm
+R6029 Coqlib <> Plt_succ thm
+prf 6054 <> Plt_succ_inv
+R6121 Coq.Init.Logic "A \/ B" not
+R6113 Coqlib <> Plt def
+R6126 Coq.Init.Logic "x = y" not
+R6094 Coqlib <> Plt def
+R6101 Coq.NArith.BinPos <> Psucc def
+R6083 Coq.NArith.BinPos <> positive ind
+R6083 Coq.NArith.BinPos <> positive ind
+R6172 Coqlib <> Psucc_Zsucc thm
+R6172 Coqlib <> Psucc_Zsucc thm
+R6226 Coq.Init.Logic "A \/ B" not
+R6214 Coq.ZArith.BinInt "x < y" not
+R6207 Coq.ZArith.BinInt <> Zpos constr
+R6216 Coq.ZArith.BinInt <> Zpos constr
+R6236 Coq.Init.Logic "x = y" not
+R6229 Coq.ZArith.BinInt <> Zpos constr
+R6238 Coq.ZArith.BinInt <> Zpos constr
+R6226 Coq.Init.Logic "A \/ B" not
+R6214 Coq.ZArith.BinInt "x < y" not
+R6207 Coq.ZArith.BinInt <> Zpos constr
+R6216 Coq.ZArith.BinInt <> Zpos constr
+R6236 Coq.Init.Logic "x = y" not
+R6229 Coq.ZArith.BinInt <> Zpos constr
+R6238 Coq.ZArith.BinInt <> Zpos constr
+def 6327 <> plt
+R6349 Coq.Init.Specif "{ A } + { B }" not
+R6350 Coqlib <> Plt def
+R6362 Coq.Init.Logic "~ x" not
+R6364 Coqlib <> Plt def
+R6337 Coq.NArith.BinPos <> positive ind
+R6337 Coq.NArith.BinPos <> positive ind
+R6408 Coq.ZArith.ZArith_dec <> Z_lt_dec def
+R6408 Coq.ZArith.ZArith_dec <> Z_lt_dec def
+def 6435 <> Ple
+R6458 Coq.ZArith.BinInt <> Zle def
+R6472 Coq.ZArith.BinInt <> Zpos constr
+R6463 Coq.ZArith.BinInt <> Zpos constr
+R6445 Coq.NArith.BinPos <> positive ind
+R6445 Coq.NArith.BinPos <> positive ind
+prf 6488 <> Ple_refl
+R6520 Coqlib <> Ple def
+R6509 Coq.NArith.BinPos <> positive ind
+prf 6577 <> Ple_trans
+R6636 Coqlib <> Ple def
+R6625 Coqlib <> Ple def
+R6614 Coqlib <> Ple def
+R6603 Coq.NArith.BinPos <> positive ind
+R6603 Coq.NArith.BinPos <> positive ind
+R6603 Coq.NArith.BinPos <> positive ind
+prf 6693 <> Plt_Ple
+R6737 Coqlib <> Ple def
+R6726 Coqlib <> Plt def
+R6715 Coq.NArith.BinPos <> positive ind
+R6715 Coq.NArith.BinPos <> positive ind
+prf 6799 <> Ple_succ
+R6831 Coqlib <> Ple def
+R6838 Coq.NArith.BinPos <> Psucc def
+R6820 Coq.NArith.BinPos <> positive ind
+R6871 Coqlib <> Plt_Ple thm
+R6871 Coqlib <> Plt_Ple thm
+R6886 Coqlib <> Plt_succ thm
+R6886 Coqlib <> Plt_succ thm
+prf 6908 <> Plt_Ple_trans
+R6973 Coqlib <> Plt def
+R6962 Coqlib <> Ple def
+R6951 Coqlib <> Plt def
+R6940 Coq.NArith.BinPos <> positive ind
+R6940 Coq.NArith.BinPos <> positive ind
+R6940 Coq.NArith.BinPos <> positive ind
+prf 7035 <> Plt_strict
+R7057 Coq.Init.Logic "~ x" not
+R7059 Coqlib <> Plt def
+R7123 Coqlib <> Ple_refl thm
+R7132 Coqlib <> Plt_Ple thm
+R7140 Coqlib <> Ple_succ thm
+R7149 Coqlib <> Plt_strict thm
+sec 7225 <> POSITIVE_ITERATION
+prf 7252 <> Plt_wf
+R7260 Coq.Init.Wf <> well_founded def
+R7273 Coqlib <> Plt def
+R7321 Coq.NArith.BinPos <> nat_of_P def
+R7293 Coq.Arith.Wf_nat <> well_founded_lt_compat thm
+R7321 Coq.NArith.BinPos <> nat_of_P def
+R7293 Coq.Arith.Wf_nat <> well_founded_lt_compat thm
+R7347 Coq.NArith.Pnat <> nat_of_P_lt_Lt_compare_morphism thm
+R7347 Coq.NArith.Pnat <> nat_of_P_lt_Lt_compare_morphism thm
+var 7404 POSITIVE_ITERATION A
+var 7422 POSITIVE_ITERATION v1
+var 7438 POSITIVE_ITERATION f
+R7441 Coq.NArith.BinPos <> positive ind
+prf 7468 <> Ppred_Plt
+R7502 Coqlib <> Plt def
+R7507 Coq.NArith.BinPos <> Ppred def
+R7493 Coq.Init.Logic "x <> y" not
+R7496 Coq.NArith.BinPos <> xH constr
+R7542 Coq.NArith.BinPos <> Psucc_pred thm
+R7542 Coq.NArith.BinPos <> Psucc_pred thm
+R7591 Coq.NArith.BinPos <> Ppred def
+R7591 Coq.NArith.BinPos <> Ppred def
+R7627 Coqlib <> Plt_succ thm
+R7627 Coqlib <> Plt_succ thm
+def 7647 <> iter
+R7709 Coqlib <> peq def
+R7715 Coq.NArith.BinPos <> xH constr
+R7727 Coq.Init.Specif <> left constr
+R7745 Coq.Init.Specif <> right constr
+R7786 Coqlib <> Ppred_Plt thm
+R7776 Coq.NArith.BinPos <> Ppred def
+R7763 Coq.NArith.BinPos <> Ppred def
+R7680 Coqlib <> Plt def
+R7656 Coq.NArith.BinPos <> positive ind
+def 7825 <> positive_rec
+R7840 Coq.NArith.BinPos <> positive ind
+R7859 Coq.Init.Wf <> Fix def
+R7863 Coqlib <> Plt_wf thm
+prf 7896 <> unroll_positive_rec
+R7946 Coq.Init.Logic "x = y" not
+R7931 Coqlib <> positive_rec def
+R7967 Coqlib <> positive_rec def
+R8021 Coq.Init.Wf <> Fix_eq thm
+R8028 Coqlib <> Plt_wf thm
+R8021 Coq.Init.Wf <> Fix_eq thm
+R8028 Coqlib <> Plt_wf thm
+R8084 Coqlib <> peq def
+R8090 Coq.NArith.BinPos "" not
+R8084 Coqlib <> peq def
+R8090 Coq.NArith.BinPos "" not
+prf 8135 <> positive_rec_base
+R8180 Coq.Init.Logic "x = y" not
+R8156 Coqlib <> positive_rec def
+R8169 Coq.NArith.BinPos "" not
+R8203 Coqlib <> unroll_positive_rec thm
+R8203 Coqlib <> unroll_positive_rec thm
+R8243 Coqlib <> peq def
+R8249 Coq.NArith.BinPos "" not
+R8247 Coq.NArith.BinPos "" not
+R8243 Coqlib <> peq def
+R8249 Coq.NArith.BinPos "" not
+R8247 Coq.NArith.BinPos "" not
+prf 8294 <> positive_rec_succ
+R8348 Coq.Init.Logic "x = y" not
+R8325 Coqlib <> positive_rec def
+R8339 Coq.NArith.BinPos <> Psucc def
+R8355 Coqlib <> positive_rec def
+R8396 Coqlib <> unroll_positive_rec thm
+R8396 Coqlib <> unroll_positive_rec thm
+R8438 Coqlib <> peq def
+R8452 Coq.NArith.BinPos "" not
+R8443 Coq.NArith.BinPos <> Psucc def
+R8438 Coqlib <> peq def
+R8452 Coq.NArith.BinPos "" not
+R8443 Coq.NArith.BinPos <> Psucc def
+R8513 Coq.NArith.BinPos <> Ppred_succ thm
+R8513 Coq.NArith.BinPos <> Ppred_succ thm
+prf 8543 <> positive_Peano_ind
+R8628 Coq.NArith.BinPos <> Psucc def
+R8599 Coq.NArith.BinPos <> xH constr
+R8576 Coq.NArith.BinPos <> positive ind
+R8684 Coq.Init.Wf <> well_founded_ind thm
+R8701 Coqlib <> Plt_wf thm
+R8684 Coq.Init.Wf <> well_founded_ind thm
+R8701 Coqlib <> Plt_wf thm
+R8731 Coqlib <> peq def
+R8738 Coq.NArith.BinPos <> xH constr
+R8731 Coqlib <> peq def
+R8738 Coq.NArith.BinPos <> xH constr
+R8776 Coq.NArith.BinPos <> Psucc_pred thm
+R8776 Coq.NArith.BinPos <> Psucc_pred thm
+R8857 Coqlib <> Ppred_Plt thm
+R8857 Coqlib <> Ppred_Plt thm
+R8885 Coqlib POSITIVE_ITERATION <> sec
+def 8970 <> zeq
+R8992 Coq.Init.Specif "{ A } + { B }" not
+R8995 Coq.Init.Logic "x = y" not
+R9005 Coq.Init.Logic "x <> y" not
+R8988 Coq.ZArith.BinInt <> Z ind
+R8988 Coq.ZArith.BinInt <> Z ind
+R9014 Coq.ZArith.ZArith_dec <> Z_eq_dec def
+prf 9031 <> zeq_true
+R9102 Coq.Init.Logic "x = y" not
+R9081 Coqlib <> zeq def
+R9064 Coq.ZArith.BinInt <> Z ind
+R9132 Coqlib <> zeq def
+R9132 Coqlib <> zeq def
+prf 9186 <> zeq_false
+R9270 Coq.Init.Logic "x = y" not
+R9249 Coqlib <> zeq def
+R9237 Coq.Init.Logic "x <> y" not
+R9222 Coq.ZArith.BinInt <> Z ind
+R9222 Coq.ZArith.BinInt <> Z ind
+R9300 Coqlib <> zeq def
+R9300 Coqlib <> zeq def
+def 9382 <> zlt
+R9404 Coq.Init.Specif "{ A } + { B }" not
+R9407 Coq.ZArith.BinInt "x < y" not
+R9417 Coq.ZArith.BinInt "x >= y" not
+R9400 Coq.ZArith.BinInt <> Z ind
+R9400 Coq.ZArith.BinInt <> Z ind
+R9426 Coq.ZArith.ZArith_dec <> Z_lt_ge_dec def
+prf 9446 <> zlt_true
+R9531 Coq.Init.Logic "x = y" not
+R9510 Coqlib <> zlt def
+R9499 Coq.ZArith.BinInt "x < y" not
+R9481 Coq.ZArith.BinInt <> Z ind
+R9481 Coq.ZArith.BinInt <> Z ind
+R9561 Coqlib <> zlt def
+R9561 Coqlib <> zlt def
+prf 9621 <> zlt_false
+R9708 Coq.Init.Logic "x = y" not
+R9687 Coqlib <> zlt def
+R9675 Coq.ZArith.BinInt "x >= y" not
+R9657 Coq.ZArith.BinInt <> Z ind
+R9657 Coq.ZArith.BinInt <> Z ind
+R9738 Coqlib <> zlt def
+R9738 Coqlib <> zlt def
+def 9803 <> zle
+R9825 Coq.Init.Specif "{ A } + { B }" not
+R9828 Coq.ZArith.BinInt "x <= y" not
+R9839 Coq.ZArith.BinInt "x > y" not
+R9821 Coq.ZArith.BinInt <> Z ind
+R9821 Coq.ZArith.BinInt <> Z ind
+R9847 Coq.ZArith.ZArith_dec <> Z_le_gt_dec def
+prf 9867 <> zle_true
+R9953 Coq.Init.Logic "x = y" not
+R9932 Coqlib <> zle def
+R9920 Coq.ZArith.BinInt "x <= y" not
+R9902 Coq.ZArith.BinInt <> Z ind
+R9902 Coq.ZArith.BinInt <> Z ind
+R9983 Coqlib <> zle def
+R9983 Coqlib <> zle def
+prf 10043 <> zle_false
+R10129 Coq.Init.Logic "x = y" not
+R10108 Coqlib <> zle def
+R10097 Coq.ZArith.BinInt "x > y" not
+R10079 Coq.ZArith.BinInt <> Z ind
+R10079 Coq.ZArith.BinInt <> Z ind
+R10159 Coqlib <> zle def
+R10159 Coqlib <> zle def
+prf 10219 <> Z_le_dec_reflexion
+R10258 Coq.ZArith.ZArith_dec <> Z_le_dec def
+R10288 Coq.Init.Logic <> True ind
+R10278 Coq.ZArith.BinInt "x <= y" not
+R10328 Coq.ZArith.ZArith_dec <> Z_le_dec def
+R10328 Coq.ZArith.ZArith_dec <> Z_le_dec def
+prf 10391 <> Z_lt_dec_reflexion
+R10430 Coq.ZArith.ZArith_dec <> Z_lt_dec def
+R10459 Coq.Init.Logic <> True ind
+R10450 Coq.ZArith.BinInt "x < y" not
+R10499 Coq.ZArith.ZArith_dec <> Z_lt_dec def
+R10499 Coq.ZArith.ZArith_dec <> Z_lt_dec def
+prf 10600 <> two_power_nat_O
+R10634 Coq.Init.Logic "x = y" not
+R10618 Coq.ZArith.Zpower <> two_power_nat def
+R10632 Coq.Init.Datatypes <> O constr
+R10636 Coq.ZArith.BinInt "" not
+prf 10671 <> two_power_nat_pos
+R10723 Coq.ZArith.BinInt "x > y" not
+R10707 Coq.ZArith.Zpower <> two_power_nat def
+R10725 Coq.ZArith.BinInt "" not
+R10702 Coq.Init.Datatypes <> nat ind
+R10758 Coqlib <> two_power_nat_O thm
+R10758 Coqlib <> two_power_nat_O thm
+R10792 Coq.ZArith.Zpower <> two_power_nat_S thm
+R10792 Coq.ZArith.Zpower <> two_power_nat_S thm
+prf 10828 <> two_power_nat_two_p
+R10877 Coq.Init.Logic "x = y" not
+R10861 Coq.ZArith.Zpower <> two_power_nat def
+R10879 Coq.ZArith.Zpower <> two_p def
+R10886 Coq.ZArith.BinInt <> Z_of_nat def
+R10938 Coq.ZArith.Zpower <> two_power_nat_S thm
+R10938 Coq.ZArith.Zpower <> two_power_nat_S thm
+R10963 Coq.ZArith.Znat <> inj_S thm
+R10963 Coq.ZArith.Znat <> inj_S thm
+R10978 Coq.ZArith.Zpower <> two_p_S thm
+R10978 Coq.ZArith.Zpower <> two_p_S thm
+prf 11013 <> two_p_monotone
+R11066 Coq.ZArith.BinInt "x <= y" not
+R11058 Coq.ZArith.Zpower <> two_p def
+R11069 Coq.ZArith.Zpower <> two_p def
+R11045 Coq.ZArith.BinInt "x <= y <= z" not
+R11043 Coq.ZArith.BinInt "" not
+R11106 Coq.ZArith.Zpower <> two_p def
+R11129 Coq.ZArith.BinInt "x * y" not
+R11121 Coq.ZArith.Zpower <> two_p def
+R11131 Coq.ZArith.BinInt "" not
+R11106 Coq.ZArith.Zpower <> two_p def
+R11129 Coq.ZArith.BinInt "x * y" not
+R11121 Coq.ZArith.Zpower <> two_p def
+R11131 Coq.ZArith.BinInt "" not
+R11165 Coq.ZArith.BinInt "x + y" not
+R11170 Coq.ZArith.BinInt "x - y" not
+R11165 Coq.ZArith.BinInt "x + y" not
+R11170 Coq.ZArith.BinInt "x - y" not
+R11196 Coq.ZArith.Zpower <> two_p_is_exp thm
+R11196 Coq.ZArith.Zpower <> two_p_is_exp thm
+R11229 Coq.ZArith.Zorder <> Zmult_le_compat_l thm
+R11229 Coq.ZArith.Zorder <> Zmult_le_compat_l thm
+R11272 Coq.ZArith.BinInt "x > y" not
+R11258 Coq.ZArith.Zpower <> two_p def
+R11267 Coq.ZArith.BinInt "x - y" not
+R11274 Coq.ZArith.BinInt "" not
+R11272 Coq.ZArith.BinInt "x > y" not
+R11258 Coq.ZArith.Zpower <> two_p def
+R11267 Coq.ZArith.BinInt "x - y" not
+R11274 Coq.ZArith.BinInt "" not
+R11284 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R11284 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R11331 Coq.ZArith.BinInt "x > y" not
+R11323 Coq.ZArith.Zpower <> two_p def
+R11333 Coq.ZArith.BinInt "" not
+R11331 Coq.ZArith.BinInt "x > y" not
+R11323 Coq.ZArith.Zpower <> two_p def
+R11333 Coq.ZArith.BinInt "" not
+R11343 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R11343 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+prf 11384 <> two_p_monotone_strict
+R11443 Coq.ZArith.BinInt "x < y" not
+R11435 Coq.ZArith.Zpower <> two_p def
+R11445 Coq.ZArith.Zpower <> two_p def
+R11423 Coq.ZArith.BinInt "x <= y < z" not
+R11421 Coq.ZArith.BinInt "" not
+R11487 Coq.ZArith.BinInt "x <= y" not
+R11479 Coq.ZArith.Zpower <> two_p def
+R11490 Coq.ZArith.Zpower <> two_p def
+R11499 Coq.ZArith.BinInt "x - y" not
+R11501 Coq.ZArith.BinInt "" not
+R11487 Coq.ZArith.BinInt "x <= y" not
+R11479 Coq.ZArith.Zpower <> two_p def
+R11490 Coq.ZArith.Zpower <> two_p def
+R11499 Coq.ZArith.BinInt "x - y" not
+R11501 Coq.ZArith.BinInt "" not
+R11512 Coqlib <> two_p_monotone thm
+R11512 Coqlib <> two_p_monotone thm
+R11559 Coq.ZArith.BinInt "x > y" not
+R11545 Coq.ZArith.Zpower <> two_p def
+R11554 Coq.ZArith.BinInt "x - y" not
+R11556 Coq.ZArith.BinInt "" not
+R11561 Coq.ZArith.BinInt "" not
+R11559 Coq.ZArith.BinInt "x > y" not
+R11545 Coq.ZArith.Zpower <> two_p def
+R11554 Coq.ZArith.BinInt "x - y" not
+R11556 Coq.ZArith.BinInt "" not
+R11561 Coq.ZArith.BinInt "" not
+R11571 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R11571 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R11611 Coq.ZArith.BinInt <> Zsucc def
+R11620 Coq.ZArith.BinInt "x - y" not
+R11622 Coq.ZArith.BinInt "" not
+R11611 Coq.ZArith.BinInt <> Zsucc def
+R11620 Coq.ZArith.BinInt "x - y" not
+R11622 Coq.ZArith.BinInt "" not
+R11644 Coq.ZArith.Zpower <> two_p_S thm
+R11644 Coq.ZArith.Zpower <> two_p_S thm
+prf 11679 <> two_p_strict
+R11717 Coq.ZArith.BinInt "x < y" not
+R11719 Coq.ZArith.Zpower <> two_p def
+R11707 Coq.ZArith.BinInt "x >= y" not
+R11710 Coq.ZArith.BinInt "" not
+R11769 Coq.ZArith.Wf_Z <> natlike_ind thm
+R11769 Coq.ZArith.Wf_Z <> natlike_ind thm
+R11816 Coq.ZArith.Zpower <> two_p_S thm
+R11816 Coq.ZArith.Zpower <> two_p_S thm
+R11843 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R11843 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+prf 11892 <> two_p_strict_2
+R11940 Coq.ZArith.BinInt "x < y" not
+R11936 Coq.ZArith.BinInt "x - y" not
+R11932 Coq.ZArith.BinInt "x * y" not
+R11930 Coq.ZArith.BinInt "" not
+R11938 Coq.ZArith.BinInt "" not
+R11942 Coq.ZArith.Zpower <> two_p def
+R11922 Coq.ZArith.BinInt "x >= y" not
+R11925 Coq.ZArith.BinInt "" not
+R11982 Coq.Init.Logic "A \/ B" not
+R11978 Coq.Init.Logic "x = y" not
+R11980 Coq.ZArith.BinInt "" not
+R11991 Coq.ZArith.BinInt "x >= y" not
+R11987 Coq.ZArith.BinInt "x - y" not
+R11989 Coq.ZArith.BinInt "" not
+R11994 Coq.ZArith.BinInt "" not
+R11982 Coq.Init.Logic "A \/ B" not
+R11978 Coq.Init.Logic "x = y" not
+R11980 Coq.ZArith.BinInt "" not
+R11991 Coq.ZArith.BinInt "x >= y" not
+R11987 Coq.ZArith.BinInt "x - y" not
+R11989 Coq.ZArith.BinInt "" not
+R11994 Coq.ZArith.BinInt "" not
+R12058 Coq.ZArith.Zpower <> two_p def
+R12075 Coq.ZArith.BinInt "x * y" not
+R12073 Coq.ZArith.BinInt "" not
+R12077 Coq.ZArith.Zpower <> two_p def
+R12086 Coq.ZArith.BinInt "x - y" not
+R12088 Coq.ZArith.BinInt "" not
+R12058 Coq.ZArith.Zpower <> two_p def
+R12075 Coq.ZArith.BinInt "x * y" not
+R12073 Coq.ZArith.BinInt "" not
+R12077 Coq.ZArith.Zpower <> two_p def
+R12086 Coq.ZArith.BinInt "x - y" not
+R12088 Coq.ZArith.BinInt "" not
+R12107 Coqlib <> two_p_strict thm
+R12107 Coqlib <> two_p_strict thm
+R12148 Coq.ZArith.Zpower <> two_p_S thm
+R12148 Coq.ZArith.Zpower <> two_p_S thm
+prf 12230 <> Zmin_spec
+R12264 Coq.Init.Logic "x = y" not
+R12255 Coq.ZArith.Zmin <> Zmin def
+R12269 Coqlib <> zlt def
+R12315 Coqlib <> zlt def
+R12315 Coqlib <> zlt def
+R12408 Coq.ZArith.BinInt "x ?= y" not
+R12408 Coq.ZArith.BinInt "x ?= y" not
+R12430 Coq.ZArith.Zcompare <> Zcompare_Eq_eq thm
+R12430 Coq.ZArith.Zcompare <> Zcompare_Eq_eq thm
+prf 12496 <> Zmax_spec
+R12530 Coq.Init.Logic "x = y" not
+R12521 Coq.ZArith.Zmax <> Zmax def
+R12535 Coqlib <> zlt def
+R12581 Coqlib <> zlt def
+R12581 Coqlib <> zlt def
+R12643 Coq.ZArith.Zcompare <> Zcompare_antisym thm
+R12643 Coq.ZArith.Zcompare <> Zcompare_antisym thm
+R12719 Coq.ZArith.Zcompare <> Zcompare_antisym thm
+R12719 Coq.ZArith.Zcompare <> Zcompare_antisym thm
+R12755 Coq.ZArith.BinInt "x ?= y" not
+R12755 Coq.ZArith.BinInt "x ?= y" not
+R12793 Coq.ZArith.Zcompare <> Zcompare_Eq_eq thm
+R12793 Coq.ZArith.Zcompare <> Zcompare_Eq_eq thm
+prf 12857 <> Zmax_bound_l
+R12899 Coq.ZArith.BinInt "x <= y" not
+R12902 Coq.ZArith.Zmax <> Zmax def
+R12889 Coq.ZArith.BinInt "x <= y" not
+R12941 Coq.ZArith.Zmax <> Zmax1 syndef
+R12941 Coq.ZArith.Zmax <> Zmax1 syndef
+prf 12971 <> Zmax_bound_r
+R13013 Coq.ZArith.BinInt "x <= y" not
+R13016 Coq.ZArith.Zmax <> Zmax def
+R13003 Coq.ZArith.BinInt "x <= y" not
+R13055 Coq.ZArith.Zmax <> Zmax2 syndef
+R13055 Coq.ZArith.Zmax <> Zmax2 syndef
+prf 13140 <> Zdiv_small
+R13186 Coq.Init.Logic "x = y" not
+R13182 Coq.ZArith.Zdiv "x / y" not
+R13188 Coq.ZArith.BinInt "" not
+R13168 Coq.ZArith.BinInt "x <= y < z" not
+R13166 Coq.ZArith.BinInt "" not
+R13218 Coq.ZArith.BinInt "x > y" not
+R13220 Coq.ZArith.BinInt "" not
+R13218 Coq.ZArith.BinInt "x > y" not
+R13220 Coq.ZArith.BinInt "" not
+R13304 Coq.Init.Logic "x = y" not
+R13306 Coq.ZArith.BinInt "" not
+R13278 Coq.ZArith.BinInt "x <= y < z" not
+R13276 Coq.ZArith.BinInt "" not
+R13287 Coq.ZArith.BinInt "x + y" not
+R13283 Coq.ZArith.BinInt "x * y" not
+R13287 Coq.ZArith.BinInt "x + y" not
+R13283 Coq.ZArith.BinInt "x * y" not
+R13260 Coq.ZArith.BinInt "x <= y < z" not
+R13258 Coq.ZArith.BinInt "" not
+R13304 Coq.Init.Logic "x = y" not
+R13306 Coq.ZArith.BinInt "" not
+R13278 Coq.ZArith.BinInt "x <= y < z" not
+R13276 Coq.ZArith.BinInt "" not
+R13287 Coq.ZArith.BinInt "x + y" not
+R13283 Coq.ZArith.BinInt "x * y" not
+R13287 Coq.ZArith.BinInt "x + y" not
+R13283 Coq.ZArith.BinInt "x * y" not
+R13260 Coq.ZArith.BinInt "x <= y < z" not
+R13258 Coq.ZArith.BinInt "" not
+R13337 Coq.Init.Logic "A \/ B" not
+R13333 Coq.Init.Logic "x = y" not
+R13335 Coq.ZArith.BinInt "" not
+R13346 Coq.Init.Logic "A \/ B" not
+R13342 Coq.ZArith.BinInt "x > y" not
+R13344 Coq.ZArith.BinInt "" not
+R13352 Coq.ZArith.BinInt "x > y" not
+R13350 Coq.ZArith.BinInt "- x" not
+R13356 Coq.ZArith.BinInt "" not
+R13337 Coq.Init.Logic "A \/ B" not
+R13333 Coq.Init.Logic "x = y" not
+R13335 Coq.ZArith.BinInt "" not
+R13346 Coq.Init.Logic "A \/ B" not
+R13342 Coq.ZArith.BinInt "x > y" not
+R13344 Coq.ZArith.BinInt "" not
+R13352 Coq.ZArith.BinInt "x > y" not
+R13350 Coq.ZArith.BinInt "- x" not
+R13356 Coq.ZArith.BinInt "" not
+R13427 Coq.ZArith.BinInt "x >= y" not
+R13423 Coq.ZArith.BinInt "x * y" not
+R13432 Coq.ZArith.BinInt "x * y" not
+R13434 Coq.ZArith.BinInt "" not
+R13427 Coq.ZArith.BinInt "x >= y" not
+R13423 Coq.ZArith.BinInt "x * y" not
+R13432 Coq.ZArith.BinInt "x * y" not
+R13434 Coq.ZArith.BinInt "" not
+R13444 Coq.ZArith.Zorder <> Zmult_ge_compat_l thm
+R13444 Coq.ZArith.Zorder <> Zmult_ge_compat_l thm
+R13520 Coq.ZArith.BinInt "x >= y" not
+R13513 Coq.ZArith.BinInt "x * y" not
+R13516 Coq.ZArith.BinInt "- x" not
+R13525 Coq.ZArith.BinInt "x * y" not
+R13527 Coq.ZArith.BinInt "" not
+R13520 Coq.ZArith.BinInt "x >= y" not
+R13513 Coq.ZArith.BinInt "x * y" not
+R13516 Coq.ZArith.BinInt "- x" not
+R13525 Coq.ZArith.BinInt "x * y" not
+R13527 Coq.ZArith.BinInt "" not
+R13537 Coq.ZArith.Zorder <> Zmult_ge_compat_l thm
+R13537 Coq.ZArith.Zorder <> Zmult_ge_compat_l thm
+R13583 Coq.ZArith.BinInt <> Zopp_mult_distr_r thm
+R13583 Coq.ZArith.BinInt <> Zopp_mult_distr_r thm
+R13647 Coq.ZArith.Zdiv "x 'mod' y" not
+R13647 Coq.ZArith.Zdiv "x 'mod' y" not
+R13664 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R13664 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R13693 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R13693 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+prf 13731 <> Zmod_small
+R13779 Coq.Init.Logic "x = y" not
+R13773 Coq.ZArith.Zdiv "x 'mod' y" not
+R13759 Coq.ZArith.BinInt "x <= y < z" not
+R13757 Coq.ZArith.BinInt "" not
+R13811 Coq.ZArith.BinInt "x > y" not
+R13813 Coq.ZArith.BinInt "" not
+R13811 Coq.ZArith.BinInt "x > y" not
+R13813 Coq.ZArith.BinInt "" not
+R13838 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R13838 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R13872 Coqlib <> Zdiv_small thm
+R13872 Coqlib <> Zdiv_small thm
+prf 13910 <> Zmod_unique
+R13982 Coq.Init.Logic "x = y" not
+R13976 Coq.ZArith.Zdiv "x 'mod' y" not
+R13962 Coq.ZArith.BinInt "x <= y < z" not
+R13960 Coq.ZArith.BinInt "" not
+R13945 Coq.Init.Logic "x = y" not
+R13953 Coq.ZArith.BinInt "x + y" not
+R13949 Coq.ZArith.BinInt "x * y" not
+R14021 Coq.ZArith.BinInt <> Zplus_comm thm
+R14021 Coq.ZArith.BinInt <> Zplus_comm thm
+R14044 Coq.ZArith.Zdiv <> Z_mod_plus thm
+R14044 Coq.ZArith.Zdiv <> Z_mod_plus thm
+R14062 Coqlib <> Zmod_small thm
+R14062 Coqlib <> Zmod_small thm
+prf 14099 <> Zdiv_unique
+R14169 Coq.Init.Logic "x = y" not
+R14165 Coq.ZArith.Zdiv "x / y" not
+R14151 Coq.ZArith.BinInt "x <= y < z" not
+R14149 Coq.ZArith.BinInt "" not
+R14134 Coq.Init.Logic "x = y" not
+R14142 Coq.ZArith.BinInt "x + y" not
+R14138 Coq.ZArith.BinInt "x * y" not
+R14208 Coq.ZArith.BinInt <> Zplus_comm thm
+R14208 Coq.ZArith.BinInt <> Zplus_comm thm
+R14230 Coq.ZArith.Zdiv <> Z_div_plus thm
+R14230 Coq.ZArith.Zdiv <> Z_div_plus thm
+R14251 Coqlib <> Zdiv_small thm
+R14251 Coqlib <> Zdiv_small thm
+prf 14297 <> Zdiv_Zdiv
+R14356 Coq.Init.Logic "x = y" not
+R14350 Coq.ZArith.Zdiv "x / y" not
+R14347 Coq.ZArith.Zdiv "x / y" not
+R14360 Coq.ZArith.Zdiv "x / y" not
+R14365 Coq.ZArith.BinInt "x * y" not
+R14337 Coq.ZArith.BinInt "x > y" not
+R14339 Coq.ZArith.BinInt "" not
+R14328 Coq.ZArith.BinInt "x > y" not
+R14330 Coq.ZArith.BinInt "" not
+R14402 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R14402 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R14435 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R14435 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R14474 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R14489 Coq.ZArith.Zdiv "x / y" not
+R14474 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R14489 Coq.ZArith.Zdiv "x / y" not
+R14512 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R14523 Coq.ZArith.Zdiv "x / y" not
+R14512 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R14523 Coq.ZArith.Zdiv "x / y" not
+R14557 Coq.ZArith.Zdiv "x / y" not
+R14557 Coq.ZArith.Zdiv "x / y" not
+R14581 Coq.ZArith.Zdiv "x 'mod' y" not
+R14581 Coq.ZArith.Zdiv "x 'mod' y" not
+R14610 Coq.ZArith.Zdiv "x / y" not
+R14610 Coq.ZArith.Zdiv "x / y" not
+R14635 Coq.ZArith.Zdiv "x 'mod' y" not
+R14635 Coq.ZArith.Zdiv "x 'mod' y" not
+R14691 Coq.ZArith.BinInt "x + y" not
+R14687 Coq.ZArith.BinInt "x * y" not
+R14666 Coqlib <> Zdiv_unique thm
+R14691 Coq.ZArith.BinInt "x + y" not
+R14687 Coq.ZArith.BinInt "x * y" not
+R14666 Coqlib <> Zdiv_unique thm
+R14753 Coq.ZArith.BinInt "x <= y" not
+R14751 Coq.ZArith.BinInt "" not
+R14759 Coq.ZArith.BinInt "x * y" not
+R14753 Coq.ZArith.BinInt "x <= y" not
+R14751 Coq.ZArith.BinInt "" not
+R14759 Coq.ZArith.BinInt "x * y" not
+R14771 Coq.ZArith.Zorder <> Zmult_le_0_compat thm
+R14771 Coq.ZArith.Zorder <> Zmult_le_0_compat thm
+R14834 Coq.ZArith.BinInt "x <= y" not
+R14828 Coq.ZArith.BinInt "x * y" not
+R14825 Coq.ZArith.BinInt "x + y" not
+R14827 Coq.ZArith.BinInt "" not
+R14839 Coq.ZArith.BinInt "x * y" not
+R14834 Coq.ZArith.BinInt "x <= y" not
+R14828 Coq.ZArith.BinInt "x * y" not
+R14825 Coq.ZArith.BinInt "x + y" not
+R14827 Coq.ZArith.BinInt "" not
+R14839 Coq.ZArith.BinInt "x * y" not
+R14853 Coq.ZArith.Zorder <> Zmult_le_compat_r thm
+R14853 Coq.ZArith.Zorder <> Zmult_le_compat_r thm
+R14905 Coq.ZArith.BinInt "x * y" not
+R14902 Coq.ZArith.BinInt "x + y" not
+R14904 Coq.ZArith.BinInt "" not
+R14925 Coq.ZArith.BinInt "x + y" not
+R14921 Coq.ZArith.BinInt "x * y" not
+R14905 Coq.ZArith.BinInt "x * y" not
+R14902 Coq.ZArith.BinInt "x + y" not
+R14904 Coq.ZArith.BinInt "" not
+R14925 Coq.ZArith.BinInt "x + y" not
+R14921 Coq.ZArith.BinInt "x * y" not
+R14958 Coq.ZArith.BinInt "x * y" not
+R14971 Coq.ZArith.BinInt "x * y" not
+R14958 Coq.ZArith.BinInt "x * y" not
+R14971 Coq.ZArith.BinInt "x * y" not
+prf 15012 <> Zmult_le_compat_l_neg
+R15080 Coq.ZArith.BinInt "x <= y" not
+R15076 Coq.ZArith.BinInt "x * y" not
+R15085 Coq.ZArith.BinInt "x * y" not
+R15066 Coq.ZArith.BinInt "x <= y" not
+R15069 Coq.ZArith.BinInt "" not
+R15056 Coq.ZArith.BinInt "x >= y" not
+R15051 Coq.ZArith.BinInt <> Z ind
+R15051 Coq.ZArith.BinInt <> Z ind
+R15051 Coq.ZArith.BinInt <> Z ind
+R15126 Coq.ZArith.BinInt "x >= y" not
+R15120 Coq.ZArith.BinInt "x * y" not
+R15118 Coq.ZArith.BinInt "- x" not
+R15132 Coq.ZArith.BinInt "x * y" not
+R15130 Coq.ZArith.BinInt "- x" not
+R15126 Coq.ZArith.BinInt "x >= y" not
+R15120 Coq.ZArith.BinInt "x * y" not
+R15118 Coq.ZArith.BinInt "- x" not
+R15132 Coq.ZArith.BinInt "x * y" not
+R15130 Coq.ZArith.BinInt "- x" not
+R15146 Coq.ZArith.Zorder <> Zmult_ge_compat_l thm
+R15146 Coq.ZArith.Zorder <> Zmult_ge_compat_l thm
+R15191 Coq.ZArith.BinInt "x * y" not
+R15202 Coq.ZArith.BinInt "- x" not
+R15208 Coq.ZArith.BinInt "x * y" not
+R15206 Coq.ZArith.BinInt "- x" not
+R15191 Coq.ZArith.BinInt "x * y" not
+R15202 Coq.ZArith.BinInt "- x" not
+R15208 Coq.ZArith.BinInt "x * y" not
+R15206 Coq.ZArith.BinInt "- x" not
+R15238 Coq.ZArith.BinInt "x * y" not
+R15249 Coq.ZArith.BinInt "- x" not
+R15255 Coq.ZArith.BinInt "x * y" not
+R15253 Coq.ZArith.BinInt "- x" not
+R15238 Coq.ZArith.BinInt "x * y" not
+R15249 Coq.ZArith.BinInt "- x" not
+R15255 Coq.ZArith.BinInt "x * y" not
+R15253 Coq.ZArith.BinInt "- x" not
+prf 15293 <> Zdiv_interval_1
+R15393 Coq.ZArith.BinInt "x <= y < z" not
+R15397 Coq.ZArith.Zdiv "x / y" not
+R15397 Coq.ZArith.Zdiv "x / y" not
+R15371 Coq.ZArith.BinInt "x <= y < z" not
+R15367 Coq.ZArith.BinInt "x * y" not
+R15381 Coq.ZArith.BinInt "x * y" not
+R15355 Coq.ZArith.BinInt "x > y" not
+R15357 Coq.ZArith.BinInt "" not
+R15346 Coq.ZArith.BinInt "x > y" not
+R15348 Coq.ZArith.BinInt "" not
+R15335 Coq.ZArith.BinInt "x <= y" not
+R15338 Coq.ZArith.BinInt "" not
+R15438 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R15438 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R15472 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R15472 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R15511 Coq.ZArith.Zdiv "x / y" not
+R15511 Coq.ZArith.Zdiv "x / y" not
+R15533 Coq.ZArith.Zdiv "x 'mod' y" not
+R15533 Coq.ZArith.Zdiv "x 'mod' y" not
+R15568 Coq.ZArith.BinInt "x < y" not
+R15573 Coq.ZArith.BinInt "x + y" not
+R15575 Coq.ZArith.BinInt "" not
+R15568 Coq.ZArith.BinInt "x < y" not
+R15573 Coq.ZArith.BinInt "x + y" not
+R15575 Coq.ZArith.BinInt "" not
+R15588 Coq.ZArith.Zorder <> Zmult_lt_reg_r thm
+R15588 Coq.ZArith.Zorder <> Zmult_lt_reg_r thm
+R15628 Coq.ZArith.Zorder <> Zle_lt_trans thm
+R15628 Coq.ZArith.Zorder <> Zle_lt_trans thm
+R15674 Coq.ZArith.BinInt "x * y" not
+R15671 Coq.ZArith.BinInt "x + y" not
+R15673 Coq.ZArith.BinInt "" not
+R15693 Coq.ZArith.BinInt "x + y" not
+R15689 Coq.ZArith.BinInt "x * y" not
+R15674 Coq.ZArith.BinInt "x * y" not
+R15671 Coq.ZArith.BinInt "x + y" not
+R15673 Coq.ZArith.BinInt "" not
+R15693 Coq.ZArith.BinInt "x + y" not
+R15689 Coq.ZArith.BinInt "x * y" not
+R15733 Coq.ZArith.Zorder <> Zmult_lt_reg_r thm
+R15733 Coq.ZArith.Zorder <> Zmult_lt_reg_r thm
+R15777 Coq.ZArith.BinInt "x * y" not
+R15790 Coq.ZArith.BinInt "x * y" not
+R15777 Coq.ZArith.BinInt "x * y" not
+R15790 Coq.ZArith.BinInt "x * y" not
+prf 15825 <> Zdiv_interval_2
+R15917 Coq.ZArith.BinInt "x <= y <= z" not
+R15921 Coq.ZArith.Zdiv "x / y" not
+R15921 Coq.ZArith.Zdiv "x / y" not
+R15905 Coq.ZArith.BinInt "x > y" not
+R15907 Coq.ZArith.BinInt "" not
+R15895 Coq.ZArith.BinInt "x >= y" not
+R15898 Coq.ZArith.BinInt "" not
+R15884 Coq.ZArith.BinInt "x <= y" not
+R15887 Coq.ZArith.BinInt "" not
+R15867 Coq.ZArith.BinInt "x <= y <= z" not
+R15961 Coq.ZArith.BinInt "x <= y < z" not
+R15966 Coq.ZArith.Zdiv "x / y" not
+R15966 Coq.ZArith.Zdiv "x / y" not
+R15974 Coq.ZArith.BinInt "x + y" not
+R15975 Coq.ZArith.BinInt "" not
+R15961 Coq.ZArith.BinInt "x <= y < z" not
+R15966 Coq.ZArith.Zdiv "x / y" not
+R15966 Coq.ZArith.Zdiv "x / y" not
+R15974 Coq.ZArith.BinInt "x + y" not
+R15975 Coq.ZArith.BinInt "" not
+R15987 Coqlib <> Zdiv_interval_1 thm
+R15987 Coqlib <> Zdiv_interval_1 thm
+R16041 Coq.ZArith.BinInt "x <= y" not
+R16037 Coq.ZArith.BinInt "x * y" not
+R16047 Coq.ZArith.BinInt "x * y" not
+R16049 Coq.ZArith.BinInt "" not
+R16041 Coq.ZArith.BinInt "x <= y" not
+R16037 Coq.ZArith.BinInt "x * y" not
+R16047 Coq.ZArith.BinInt "x * y" not
+R16049 Coq.ZArith.BinInt "" not
+R16059 Coqlib <> Zmult_le_compat_l_neg thm
+R16059 Coqlib <> Zmult_le_compat_l_neg thm
+R16111 Coq.ZArith.BinInt "x * y" not
+R16113 Coq.ZArith.BinInt "" not
+R16111 Coq.ZArith.BinInt "x * y" not
+R16113 Coq.ZArith.BinInt "" not
+R16162 Coq.ZArith.BinInt "x <= y" not
+R16156 Coq.ZArith.BinInt "x * y" not
+R16153 Coq.ZArith.BinInt "x + y" not
+R16155 Coq.ZArith.BinInt "" not
+R16160 Coq.ZArith.BinInt "" not
+R16172 Coq.ZArith.BinInt "x * y" not
+R16169 Coq.ZArith.BinInt "x + y" not
+R16171 Coq.ZArith.BinInt "" not
+R16162 Coq.ZArith.BinInt "x <= y" not
+R16156 Coq.ZArith.BinInt "x * y" not
+R16153 Coq.ZArith.BinInt "x + y" not
+R16155 Coq.ZArith.BinInt "" not
+R16160 Coq.ZArith.BinInt "" not
+R16172 Coq.ZArith.BinInt "x * y" not
+R16169 Coq.ZArith.BinInt "x + y" not
+R16171 Coq.ZArith.BinInt "" not
+R16186 Coq.ZArith.Zorder <> Zmult_le_compat_l thm
+R16186 Coq.ZArith.Zorder <> Zmult_le_compat_l thm
+R16237 Coq.ZArith.BinInt "x * y" not
+R16234 Coq.ZArith.BinInt "x + y" not
+R16236 Coq.ZArith.BinInt "" not
+R16241 Coq.ZArith.BinInt "" not
+R16253 Coq.ZArith.BinInt "x + y" not
+R16255 Coq.ZArith.BinInt "" not
+R16237 Coq.ZArith.BinInt "x * y" not
+R16234 Coq.ZArith.BinInt "x + y" not
+R16236 Coq.ZArith.BinInt "" not
+R16241 Coq.ZArith.BinInt "" not
+R16253 Coq.ZArith.BinInt "x + y" not
+R16255 Coq.ZArith.BinInt "" not
+prf 16339 <> Zdivides_trans
+R16393 Coq.ZArith.Znumtheory "( a | b )" not
+R16382 Coq.ZArith.Znumtheory "( a | b )" not
+R16371 Coq.ZArith.Znumtheory "( a | b )" not
+R16445 Coq.ZArith.BinInt "x * y" not
+R16445 Coq.ZArith.BinInt "x * y" not
+def 16474 <> Zdivide_dec
+R16515 Coq.Init.Specif "{ A } + { B }" not
+R16517 Coq.ZArith.Znumtheory "( a | b )" not
+R16529 Coq.Init.Logic "~ x" not
+R16530 Coq.ZArith.Znumtheory "( a | b )" not
+R16508 Coq.ZArith.BinInt "x > y" not
+R16510 Coq.ZArith.BinInt "" not
+R16502 Coq.ZArith.BinInt <> Z ind
+R16502 Coq.ZArith.BinInt <> Z ind
+R16566 Coqlib <> zeq def
+R16581 Coq.ZArith.BinInt "" not
+R16571 Coq.ZArith.Zdiv <> Zmod def
+R16566 Coqlib <> zeq def
+R16581 Coq.ZArith.BinInt "" not
+R16571 Coq.ZArith.Zdiv <> Zmod def
+R16603 Coq.ZArith.Zdiv "x / y" not
+R16603 Coq.ZArith.Zdiv "x / y" not
+R16638 Coq.ZArith.BinInt "x + y" not
+R16628 Coq.ZArith.BinInt "x * y" not
+R16633 Coq.ZArith.Zdiv "x / y" not
+R16643 Coq.ZArith.Zdiv "x 'mod' y" not
+R16638 Coq.ZArith.BinInt "x + y" not
+R16628 Coq.ZArith.BinInt "x * y" not
+R16633 Coq.ZArith.Zdiv "x / y" not
+R16643 Coq.ZArith.Zdiv "x 'mod' y" not
+R16658 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R16658 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R16696 Coq.ZArith.BinInt "x * y" not
+R16701 Coq.ZArith.Zdiv "x / y" not
+R16696 Coq.ZArith.BinInt "x * y" not
+R16701 Coq.ZArith.Zdiv "x / y" not
+R16757 Coq.ZArith.Zdiv <> Z_div_exact_1 thm
+R16757 Coq.ZArith.Zdiv <> Z_div_exact_1 thm
+R16797 Coq.ZArith.Zdiv <> Z_div_mult thm
+R16797 Coq.ZArith.Zdiv <> Z_div_mult thm
+def 16948 <> align
+R17004 Coq.ZArith.BinInt "x * y" not
+R16994 Coq.ZArith.Zdiv "x / y" not
+R16991 Coq.ZArith.BinInt "x - y" not
+R16982 Coq.ZArith.BinInt "x + y" not
+R16993 Coq.ZArith.BinInt "" not
+R16970 Coq.ZArith.BinInt <> Z ind
+R16958 Coq.ZArith.BinInt <> Z ind
+prf 17023 <> align_le
+R17056 Coq.ZArith.BinInt "x <= y" not
+R17059 Coqlib <> align def
+R17047 Coq.ZArith.BinInt "x > y" not
+R17049 Coq.ZArith.BinInt "" not
+R17116 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R17136 Coq.ZArith.BinInt "x - y" not
+R17132 Coq.ZArith.BinInt "x + y" not
+R17138 Coq.ZArith.BinInt "" not
+R17116 Coq.ZArith.Zdiv <> Z_div_mod_eq thm
+R17136 Coq.ZArith.BinInt "x - y" not
+R17132 Coq.ZArith.BinInt "x + y" not
+R17138 Coq.ZArith.BinInt "" not
+R17181 Coq.ZArith.BinInt "x * y" not
+R17175 Coq.ZArith.Zdiv "x / y" not
+R17172 Coq.ZArith.BinInt "x - y" not
+R17168 Coq.ZArith.BinInt "x + y" not
+R17174 Coq.ZArith.BinInt "" not
+R17208 Coq.ZArith.BinInt "x - y" not
+R17205 Coq.ZArith.BinInt "x - y" not
+R17201 Coq.ZArith.BinInt "x + y" not
+R17207 Coq.ZArith.BinInt "" not
+R17222 Coq.ZArith.Zdiv "x 'mod' y" not
+R17219 Coq.ZArith.BinInt "x - y" not
+R17215 Coq.ZArith.BinInt "x + y" not
+R17221 Coq.ZArith.BinInt "" not
+R17181 Coq.ZArith.BinInt "x * y" not
+R17175 Coq.ZArith.Zdiv "x / y" not
+R17172 Coq.ZArith.BinInt "x - y" not
+R17168 Coq.ZArith.BinInt "x + y" not
+R17174 Coq.ZArith.BinInt "" not
+R17208 Coq.ZArith.BinInt "x - y" not
+R17205 Coq.ZArith.BinInt "x - y" not
+R17201 Coq.ZArith.BinInt "x + y" not
+R17207 Coq.ZArith.BinInt "" not
+R17222 Coq.ZArith.Zdiv "x 'mod' y" not
+R17219 Coq.ZArith.BinInt "x - y" not
+R17215 Coq.ZArith.BinInt "x + y" not
+R17221 Coq.ZArith.BinInt "" not
+R17246 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R17262 Coq.ZArith.BinInt "x - y" not
+R17258 Coq.ZArith.BinInt "x + y" not
+R17264 Coq.ZArith.BinInt "" not
+R17246 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R17262 Coq.ZArith.BinInt "x - y" not
+R17258 Coq.ZArith.BinInt "x + y" not
+R17264 Coq.ZArith.BinInt "" not
+R17290 Coq.ZArith.BinInt <> Zmult_comm thm
+R17290 Coq.ZArith.BinInt <> Zmult_comm thm
+prf 17321 <> align_divides
+R17357 Coq.ZArith.Znumtheory "( a | b )" not
+R17362 Coqlib <> align def
+R17350 Coq.ZArith.BinInt "x > y" not
+R17352 Coq.ZArith.BinInt "" not
+R17411 Coq.ZArith.Znumtheory <> Zdivide_factor_l thm
+R17411 Coq.ZArith.Znumtheory <> Zdivide_factor_l thm
+def 17600 <> option_map
+R17651 Coq.Init.Datatypes <> option ind
+R17682 Coq.Init.Datatypes <> None constr
+R17690 Coq.Init.Datatypes <> None constr
+R17699 Coq.Init.Datatypes <> Some constr
+R17709 Coq.Init.Datatypes <> Some constr
+R17639 Coq.Init.Datatypes <> option ind
+def 17783 <> sum_left_map
+R17837 Coq.Init.Datatypes "x + y" not
+R17863 Coq.Init.Datatypes <> inl constr
+R17872 Coq.Init.Datatypes <> inl constr
+R17888 Coq.Init.Datatypes <> inr constr
+R17897 Coq.Init.Datatypes <> inr constr
+R17828 Coq.Init.Datatypes "x + y" not
+R17985 Coq.Lists.List <> in_eq thm
+R17991 Coq.Lists.List <> in_cons thm
+prf 18015 <> nth_error_in
+R18110 Coq.Lists.List <> In def
+R18098 Coq.Init.Logic "x = y" not
+R18079 Coq.Lists.List <> nth_error def
+R18100 Coq.Init.Datatypes <> Some constr
+R18061 Coq.Lists.List <> list ind
+R18052 Coq.Init.Datatypes <> nat ind
+R18227 Coq.Lists.List <> in_eq thm
+R18227 Coq.Lists.List <> in_eq thm
+R18285 Coq.Lists.List <> in_cons thm
+R18285 Coq.Lists.List <> in_cons thm
+R18318 Coqlib <> nth_error_in thm
+prf 18347 <> nth_error_nil
+R18416 Coq.Init.Logic "x = y" not
+R18393 Coq.Lists.List <> nth_error def
+R18405 Coq.Lists.List <> nil constr
+R18418 Coq.Init.Datatypes <> None constr
+R18387 Coq.Init.Datatypes <> nat ind
+R18494 Coqlib <> nth_error_nil thm
+def 18585 <> list_length_z_aux
+R18617 Coq.Lists.List <> list ind
+R18631 Coq.ZArith.BinInt <> Z ind
+R18646 Coq.ZArith.BinInt <> Z ind
+R18670 Coq.Lists.List <> nil constr
+R18688 Coq.Lists.List "x :: y" not
+R18697 Coqlib <> list_length_z_aux def
+R18719 Coq.ZArith.BinInt <> Zsucc def
+prf 18745 <> list_length_z_aux_shift
+R18830 Coq.Init.Logic "x = y" not
+R18808 Coqlib <> list_length_z_aux def
+R18854 Coq.ZArith.BinInt "x + y" not
+R18832 Coqlib <> list_length_z_aux def
+R18859 Coq.ZArith.BinInt "x - y" not
+R18793 Coq.Lists.List <> list ind
+R18924 Coq.ZArith.BinInt "x - y" not
+R18943 Coq.ZArith.BinInt "x - y" not
+R18935 Coq.ZArith.BinInt <> Zsucc def
+R18945 Coq.ZArith.BinInt <> Zsucc def
+R18924 Coq.ZArith.BinInt "x - y" not
+R18943 Coq.ZArith.BinInt "x - y" not
+R18935 Coq.ZArith.BinInt <> Zsucc def
+R18945 Coq.ZArith.BinInt <> Zsucc def
+def 18987 <> list_length_z
+R19025 Coq.ZArith.BinInt <> Z ind
+R19032 Coqlib <> list_length_z_aux def
+R19052 Coq.ZArith.BinInt "" not
+R19015 Coq.Lists.List <> list ind
+prf 19062 <> list_length_z_cons
+R19150 Coq.Init.Logic "x = y" not
+R19125 Coqlib <> list_length_z def
+R19143 Coq.Lists.List "x :: y" not
+R19169 Coq.ZArith.BinInt "x + y" not
+R19152 Coqlib <> list_length_z def
+R19171 Coq.ZArith.BinInt "" not
+R19114 Coq.Lists.List <> list ind
+R19231 Coqlib <> list_length_z_aux_shift thm
+R19260 Coq.ZArith.BinInt "" not
+R19258 Coq.ZArith.BinInt "" not
+R19231 Coqlib <> list_length_z_aux_shift thm
+R19260 Coq.ZArith.BinInt "" not
+R19258 Coq.ZArith.BinInt "" not
+prf 19284 <> list_length_z_pos
+R19353 Coq.ZArith.BinInt "x >= y" not
+R19337 Coqlib <> list_length_z def
+R19356 Coq.ZArith.BinInt "" not
+R19326 Coq.Lists.List <> list ind
+R19435 Coqlib <> list_length_z_cons thm
+R19435 Coqlib <> list_length_z_cons thm
+prf 19474 <> list_length_z_map
+R19565 Coq.Init.Logic "x = y" not
+R19541 Coqlib <> list_length_z def
+R19556 Coq.Lists.List <> map def
+R19567 Coqlib <> list_length_z def
+R19530 Coq.Lists.List <> list ind
+R19641 Coqlib <> list_length_z_cons thm
+R19641 Coqlib <> list_length_z_cons thm
+R19641 Coqlib <> list_length_z_cons thm
+R19641 Coqlib <> list_length_z_cons thm
+def 19797 <> list_nth_z
+R19822 Coq.Lists.List <> list ind
+R19834 Coq.ZArith.BinInt <> Z ind
+R19849 Coq.Init.Datatypes <> option ind
+R19880 Coq.Lists.List <> nil constr
+R19887 Coq.Init.Datatypes <> None constr
+R19899 Coq.Lists.List "x :: y" not
+R19911 Coqlib <> zeq def
+R19917 Coq.ZArith.BinInt "" not
+R19937 Coqlib <> list_nth_z def
+R19952 Coq.ZArith.BinInt <> Zpred def
+R19924 Coq.Init.Datatypes <> Some constr
+prf 19975 <> list_nth_z_in
+R20055 Coq.Lists.List <> In def
+R20043 Coq.Init.Logic "x = y" not
+R20028 Coqlib <> list_nth_z def
+R20045 Coq.Init.Datatypes <> Some constr
+R20013 Coq.Lists.List <> list ind
+R20127 Coqlib <> zeq def
+R20133 Coq.ZArith.BinInt "" not
+R20127 Coqlib <> zeq def
+R20133 Coq.ZArith.BinInt "" not
+prf 20181 <> list_nth_z_map
+R20275 Coq.Init.Logic "x = y" not
+R20247 Coqlib <> list_nth_z def
+R20259 Coq.Lists.List <> map def
+R20277 Coqlib <> option_map def
+R20291 Coqlib <> list_nth_z def
+R20234 Coq.Lists.List <> list ind
+R20365 Coqlib <> zeq def
+R20371 Coq.ZArith.BinInt "" not
+R20365 Coqlib <> zeq def
+R20371 Coq.ZArith.BinInt "" not
+prf 20400 <> list_nth_z_range
+R20485 Coq.ZArith.BinInt "x <= y < z" not
+R20483 Coq.ZArith.BinInt "" not
+R20492 Coqlib <> list_length_z def
+R20471 Coq.Init.Logic "x = y" not
+R20456 Coqlib <> list_nth_z def
+R20473 Coq.Init.Datatypes <> Some constr
+R20441 Coq.Lists.List <> list ind
+R20572 Coqlib <> list_length_z_cons thm
+R20572 Coqlib <> list_length_z_cons thm
+R20602 Coqlib <> zeq def
+R20608 Coq.ZArith.BinInt "" not
+R20602 Coqlib <> zeq def
+R20608 Coq.ZArith.BinInt "" not
+R20626 Coqlib <> list_length_z_pos thm
+R20626 Coqlib <> list_length_z_pos thm
+prf 20763 <> incl_cons_inv
+R20840 Coq.Lists.List <> incl def
+R20821 Coq.Lists.List <> incl def
+R20829 Coq.Lists.List "x :: y" not
+R20810 Coq.Lists.List <> list ind
+R20810 Coq.Lists.List <> list ind
+R20895 Coq.Lists.List <> in_cons thm
+R20895 Coq.Lists.List <> in_cons thm
+R20928 Coqlib <> incl_cons_inv thm
+prf 20958 <> incl_app_inv_l
+R21035 Coq.Lists.List <> incl def
+R21014 Coq.Lists.List <> incl def
+R21023 Coq.Lists.List "x ++ y" not
+R21003 Coq.Lists.List <> list ind
+R21003 Coq.Lists.List <> list ind
+R21003 Coq.Lists.List <> list ind
+R21091 Coq.Lists.List <> in_or_app thm
+R21091 Coq.Lists.List <> in_or_app thm
+prf 21132 <> incl_app_inv_r
+R21209 Coq.Lists.List <> incl def
+R21188 Coq.Lists.List <> incl def
+R21197 Coq.Lists.List "x ++ y" not
+R21177 Coq.Lists.List <> list ind
+R21177 Coq.Lists.List <> list ind
+R21177 Coq.Lists.List <> list ind
+R21265 Coq.Lists.List <> in_or_app thm
+R21265 Coq.Lists.List <> in_or_app thm
+R21315 Coq.Lists.List <> incl_tl thm
+R21323 Coq.Lists.List <> incl_refl thm
+R21333 Coqlib <> incl_app_inv_l thm
+R21348 Coqlib <> incl_app_inv_r thm
+prf 21379 <> incl_same_head
+R21454 Coq.Lists.List <> incl def
+R21469 Coq.Lists.List "x :: y" not
+R21461 Coq.Lists.List "x :: y" not
+R21440 Coq.Lists.List <> incl def
+R21429 Coq.Lists.List <> list ind
+R21429 Coq.Lists.List <> list ind
+prf 21604 <> list_map_exten
+R21723 Coq.Init.Logic "x = y" not
+R21709 Coq.Lists.List <> map def
+R21725 Coq.Lists.List <> map def
+R21696 Coq.Init.Logic "x = y" not
+R21682 Coq.Lists.List <> In def
+R21660 Coq.Lists.List <> list ind
+prf 21880 <> list_map_compose
+R21986 Coq.Init.Logic "x = y" not
+R21960 Coq.Lists.List <> map def
+R21972 Coq.Lists.List <> map def
+R21988 Coq.Lists.List <> map def
+R21949 Coq.Lists.List <> list ind
+prf 22098 <> list_map_identity
+R22179 Coq.Init.Logic "x = y" not
+R22151 Coq.Lists.List <> map def
+R22140 Coq.Lists.List <> list ind
+prf 22237 <> list_map_nth
+R22335 Coq.Init.Logic "x = y" not
+R22308 Coq.Lists.List <> nth_error def
+R22319 Coq.Lists.List <> map def
+R22337 Coqlib <> option_map def
+R22351 Coq.Lists.List <> nth_error def
+R22300 Coq.Init.Datatypes <> nat ind
+R22288 Coq.Lists.List <> list ind
+R22421 Coqlib <> nth_error_nil thm
+R22421 Coqlib <> nth_error_nil thm
+R22421 Coqlib <> nth_error_nil thm
+R22421 Coqlib <> nth_error_nil thm
+prf 22501 <> list_length_map
+R22593 Coq.Init.Logic "x = y" not
+R22566 Coq.Lists.List <> length def
+R22579 Coq.Lists.List <> map def
+R22595 Coq.Lists.List <> length def
+R22555 Coq.Lists.List <> list ind
+prf 22663 <> list_in_map_inv
+R22758 Coq.Init.Logic "'exists' x : t , p" not
+R22778 Coq.Init.Logic "A /\ B" not
+R22772 Coq.Init.Logic "x = y" not
+R22781 Coq.Lists.List <> In def
+R22735 Coq.Lists.List <> In def
+R22741 Coq.Lists.List <> map def
+R22717 Coq.Lists.List <> list ind
+prf 22966 <> list_append_map
+R23057 Coq.Init.Logic "x = y" not
+R23035 Coq.Lists.List <> map def
+R23050 Coq.Lists.List "x ++ y" not
+R23073 Coq.Lists.List "x ++ y" not
+R23059 Coq.Lists.List <> map def
+R23076 Coq.Lists.List <> map def
+R23024 Coq.Lists.List <> list ind
+R23024 Coq.Lists.List <> list ind
+prf 23208 <> in_cns
+R23271 Coq.Init.Logic "A <-> B" not
+R23257 Coq.Lists.List <> In def
+R23265 Coq.Lists.List "x :: y" not
+R23281 Coq.Init.Logic "A \/ B" not
+R23277 Coq.Init.Logic "x = y" not
+R23284 Coq.Lists.List <> In def
+R23248 Coq.Lists.List <> list ind
+prf 23335 <> in_app
+R23402 Coq.Init.Logic "A <-> B" not
+R23386 Coq.Lists.List <> In def
+R23395 Coq.Lists.List "x ++ y" not
+R23414 Coq.Init.Logic "A \/ B" not
+R23406 Coq.Lists.List <> In def
+R23417 Coq.Lists.List <> In def
+R23377 Coq.Lists.List <> list ind
+R23377 Coq.Lists.List <> list ind
+R23463 Coq.Lists.List <> in_app_or thm
+R23463 Coq.Lists.List <> in_app_or thm
+R23486 Coq.Lists.List <> in_or_app thm
+R23486 Coq.Lists.List <> in_or_app thm
+prf 23515 <> list_in_insert
+R23602 Coq.Lists.List <> In def
+R23611 Coq.Lists.List "x ++ y" not
+R23616 Coq.Lists.List "x :: y" not
+R23583 Coq.Lists.List <> In def
+R23592 Coq.Lists.List "x ++ y" not
+R23565 Coq.Lists.List <> list ind
+R23565 Coq.Lists.List <> list ind
+R23647 Coq.Lists.List <> in_or_app thm
+R23647 Coq.Lists.List <> in_or_app thm
+R23671 Coq.Lists.List <> in_app_or thm
+R23671 Coq.Lists.List <> in_app_or thm
+def 23806 <> list_disjoint
+R23899 Coq.Init.Logic "x <> y" not
+R23886 Coq.Lists.List <> In def
+R23875 Coq.Lists.List <> In def
+R23838 Coq.Lists.List <> list ind
+R23838 Coq.Lists.List <> list ind
+prf 23912 <> list_disjoint_cons_left
+R24012 Coqlib <> list_disjoint def
+R23982 Coqlib <> list_disjoint def
+R23999 Coq.Lists.List "x :: y" not
+R23971 Coq.Lists.List <> list ind
+R23971 Coq.Lists.List <> list ind
+prf 24108 <> list_disjoint_cons_right
+R24209 Coqlib <> list_disjoint def
+R24179 Coqlib <> list_disjoint def
+R24199 Coq.Lists.List "x :: y" not
+R24168 Coq.Lists.List <> list ind
+R24168 Coq.Lists.List <> list ind
+prf 24305 <> list_disjoint_notin
+R24405 Coq.Init.Logic "~ x" not
+R24407 Coq.Lists.List <> In def
+R24394 Coq.Lists.List <> In def
+R24371 Coqlib <> list_disjoint def
+R24353 Coq.Lists.List <> list ind
+R24353 Coq.Lists.List <> list ind
+prf 24508 <> list_disjoint_sym
+R24588 Coqlib <> list_disjoint def
+R24565 Coqlib <> list_disjoint def
+R24554 Coq.Lists.List <> list ind
+R24554 Coq.Lists.List <> list ind
+R24657 Coq.Init.Logic <> sym_not_equal def
+R24657 Coq.Init.Logic <> sym_not_equal def
+prf 24699 <> list_disjoint_dec
+R24799 Coq.Init.Specif "{ A } + { B }" not
+R24800 Coqlib <> list_disjoint def
+R24824 Coq.Init.Logic "~ x" not
+R24825 Coqlib <> list_disjoint def
+R24788 Coq.Lists.List <> list ind
+R24788 Coq.Lists.List <> list ind
+R24764 Coq.Init.Specif "{ A } + { B }" not
+R24766 Coq.Init.Logic "x = y" not
+R24774 Coq.Init.Logic "x <> y" not
+R24915 Coq.Lists.List <> In_dec thm
+R24915 Coq.Lists.List <> In_dec thm
+R25160 Coqlib <> list_disjoint_cons_left thm
+R25160 Coqlib <> list_disjoint_cons_left thm
+def 25301 <> list_equiv
+R25369 Coq.Init.Logic "A <-> B" not
+R25361 Coq.Lists.List <> In def
+R25373 Coq.Lists.List <> In def
+R25331 Coq.Lists.List <> list ind
+R25331 Coq.Lists.List <> list ind
+ind 25498 <> list_norepet
+constr 25545 <> list_norepet_nil
+constr 25590 <> list_norepet_cons
+R25523 Coq.Lists.List <> list ind
+R25569 Coqlib <> list_norepet ind
+R25582 Coq.Lists.List <> nil constr
+R25669 Coqlib <> list_norepet ind
+R25686 Coq.Lists.List "x :: y" not
+R25650 Coqlib <> list_norepet ind
+R25635 Coq.Init.Logic "~ x" not
+R25637 Coq.Lists.List <> In def
+prf 25701 <> list_norepet_dec
+R25796 Coq.Init.Specif "{ A } + { B }" not
+R25797 Coqlib <> list_norepet ind
+R25816 Coq.Init.Logic "~ x" not
+R25817 Coqlib <> list_norepet ind
+R25785 Coq.Lists.List <> list ind
+R25765 Coq.Init.Specif "{ A } + { B }" not
+R25767 Coq.Init.Logic "x = y" not
+R25775 Coq.Init.Logic "x <> y" not
+R25902 Coq.Lists.List <> In_dec thm
+R25902 Coq.Lists.List <> In_dec thm
+prf 26072 <> list_map_norepet
+R26218 Coqlib <> list_norepet ind
+R26232 Coq.Lists.List <> map def
+R26205 Coq.Init.Logic "x <> y" not
+R26193 Coq.Init.Logic "x <> y" not
+R26181 Coq.Lists.List <> In def
+R26171 Coq.Lists.List <> In def
+R26138 Coqlib <> list_norepet ind
+R26127 Coq.Lists.List <> list ind
+R26340 Coqlib <> list_in_map_inv thm
+R26340 Coqlib <> list_in_map_inv thm
+R26417 Coq.Init.Logic "x <> y" not
+R26417 Coq.Init.Logic "x <> y" not
+prf 26566 <> list_norepet_append_commut
+R26655 Coqlib <> list_norepet ind
+R26671 Coq.Lists.List "x ++ y" not
+R26630 Coqlib <> list_norepet ind
+R26646 Coq.Lists.List "x ++ y" not
+R26619 Coq.Lists.List <> list ind
+R26619 Coq.Lists.List <> list ind
+R26820 Coqlib <> list_norepet ind
+R26836 Coq.Lists.List "x ++ y" not
+R26841 Coq.Lists.List "x :: y" not
+R26795 Coq.Init.Logic "~ x" not
+R26797 Coq.Lists.List <> In def
+R26782 Coq.Init.Logic "~ x" not
+R26784 Coq.Lists.List <> In def
+R26757 Coqlib <> list_norepet ind
+R26773 Coq.Lists.List "x ++ y" not
+R26736 Coq.Lists.List <> list ind
+R26724 Coq.Lists.List <> list ind
+R26820 Coqlib <> list_norepet ind
+R26836 Coq.Lists.List "x ++ y" not
+R26841 Coq.Lists.List "x :: y" not
+R26795 Coq.Init.Logic "~ x" not
+R26797 Coq.Lists.List <> In def
+R26782 Coq.Init.Logic "~ x" not
+R26784 Coq.Lists.List <> In def
+R26757 Coqlib <> list_norepet ind
+R26773 Coq.Lists.List "x ++ y" not
+R26736 Coq.Lists.List <> list ind
+R26724 Coq.Lists.List <> list ind
+R26956 Coq.Lists.List <> in_app_or thm
+R26956 Coq.Lists.List <> in_app_or thm
+R27003 Coq.Lists.List <> in_or_app thm
+R27003 Coq.Lists.List <> in_or_app thm
+R27091 Coq.Lists.List <> in_or_app thm
+R27091 Coq.Lists.List <> in_or_app thm
+R27162 Coq.Lists.List <> app_nil_end thm
+R27162 Coq.Lists.List <> app_nil_end thm
+R27242 Coq.Lists.List <> in_or_app thm
+R27242 Coq.Lists.List <> in_or_app thm
+R27289 Coq.Lists.List <> in_or_app thm
+R27289 Coq.Lists.List <> in_or_app thm
+prf 27319 <> list_norepet_app
+R27399 Coq.Init.Logic "A <-> B" not
+R27375 Coqlib <> list_norepet ind
+R27392 Coq.Lists.List "x ++ y" not
+R27421 Coq.Init.Logic "A /\ B" not
+R27405 Coqlib <> list_norepet ind
+R27440 Coq.Init.Logic "A /\ B" not
+R27424 Coqlib <> list_norepet ind
+R27443 Coqlib <> list_disjoint def
+R27364 Coq.Lists.List <> list ind
+R27364 Coq.Lists.List <> list ind
+R27618 Coqlib <> in_app thm
+R27618 Coqlib <> in_app thm
+R27785 Coqlib <> in_app thm
+R27785 Coqlib <> in_app thm
+R27830 Coq.Lists.List <> in_eq thm
+R27830 Coq.Lists.List <> in_eq thm
+R27899 Coq.Lists.List <> in_cons thm
+R27899 Coq.Lists.List <> in_cons thm
+prf 27927 <> list_norepet_append
+R28049 Coqlib <> list_norepet ind
+R28066 Coq.Lists.List "x ++ y" not
+R28024 Coqlib <> list_disjoint def
+R28005 Coqlib <> list_norepet ind
+R27986 Coqlib <> list_norepet ind
+R27975 Coq.Lists.List <> list ind
+R27975 Coq.Lists.List <> list ind
+R28094 Coqlib <> list_norepet_app thm
+R28094 Coqlib <> list_norepet_app thm
+prf 28136 <> list_norepet_append_right
+R28228 Coqlib <> list_norepet ind
+R28201 Coqlib <> list_norepet ind
+R28218 Coq.Lists.List "x ++ y" not
+R28190 Coq.Lists.List <> list ind
+R28190 Coq.Lists.List <> list ind
+R28265 Coqlib <> list_norepet_app thm
+R28265 Coqlib <> list_norepet_app thm
+prf 28307 <> list_norepet_append_left
+R28398 Coqlib <> list_norepet ind
+R28371 Coqlib <> list_norepet ind
+R28388 Coq.Lists.List "x ++ y" not
+R28360 Coq.Lists.List <> list ind
+R28360 Coq.Lists.List <> list ind
+R28435 Coqlib <> list_norepet_app thm
+R28435 Coqlib <> list_norepet_app thm
+ind 28559 <> is_tail
+constr 28610 <> is_tail_refl
+constr 28656 <> is_tail_cons
+R28588 Coq.Lists.List <> list ind
+R28578 Coq.Lists.List <> list ind
+R28640 Coqlib <> is_tail ind
+R28709 Coqlib <> is_tail ind
+R28723 Coq.Lists.List "x :: y" not
+R28692 Coqlib <> is_tail ind
+prf 28738 <> is_tail_in
+R28807 Coq.Lists.List <> In def
+R28783 Coqlib <> is_tail ind
+R28794 Coq.Lists.List "x :: y" not
+prf 28916 <> is_tail_cons_left
+R28992 Coqlib <> is_tail ind
+R28968 Coqlib <> is_tail ind
+R28979 Coq.Lists.List "x :: y" not
+R29118 Coqlib <> is_tail_refl constr
+R29131 Coqlib <> is_tail_cons constr
+R29144 Coqlib <> is_tail_in thm
+R29155 Coqlib <> is_tail_cons_left thm
+prf 29189 <> is_tail_incl
+R29256 Coq.Lists.List <> incl def
+R29239 Coqlib <> is_tail ind
+R29230 Coq.Lists.List <> list ind
+R29230 Coq.Lists.List <> list ind
+prf 29321 <> is_tail_trans
+R29429 Coqlib <> is_tail ind
+R29412 Coqlib <> is_tail ind
+R29403 Coq.Lists.List <> list ind
+R29374 Coqlib <> is_tail ind
+R29363 Coq.Lists.List <> list ind
+R29363 Coq.Lists.List <> list ind
+R29504 Coqlib <> is_tail_cons_left thm
+R29504 Coqlib <> is_tail_cons_left thm
+sec 29646 <> FORALL2
+var 29665 FORALL2 A
+var 29683 FORALL2 B
+var 29701 FORALL2 P
+ind 29731 <> list_forall2
+constr 29777 <> list_forall2_nil
+constr 29826 <> list_forall2_cons
+R29755 Coq.Lists.List <> list ind
+R29745 Coq.Lists.List <> list ind
+R29801 Coqlib <> list_forall2 ind
+R29818 Coq.Lists.List <> nil constr
+R29814 Coq.Lists.List <> nil constr
+R29922 Coqlib <> list_forall2 ind
+R29950 Coq.Lists.List "x :: y" not
+R29939 Coq.Lists.List "x :: y" not
+R29894 Coqlib <> list_forall2 ind
+R29963 Coqlib FORALL2 <> sec
+prf 29979 <> list_forall2_imply
+R30194 Coqlib <> list_forall2 ind
+R30155 Coq.Lists.List <> In def
+R30143 Coq.Lists.List <> In def
+R30070 Coqlib <> list_forall2 ind
+R30059 Coq.Lists.List <> list ind
+R30046 Coq.Lists.List <> list ind
+def 30416 <> list_drop
+R30440 Coq.Init.Datatypes <> nat ind
+R30449 Coq.Lists.List <> list ind
+R30470 Coq.Lists.List <> list ind
+R30499 Coq.Init.Datatypes <> O constr
+R30510 Coq.Init.Datatypes <> S constr
+R30531 Coq.Lists.List <> nil constr
+R30538 Coq.Lists.List <> nil constr
+R30547 Coq.Lists.List "x :: y" not
+R30556 Coqlib <> list_drop def
+prf 30590 <> list_drop_incl
+R30671 Coq.Lists.List <> In def
+R30647 Coq.Lists.List <> In def
+R30653 Coqlib <> list_drop def
+R30638 Coq.Lists.List <> list ind
+prf 30767 <> list_drop_norepet
+R30838 Coqlib <> list_norepet ind
+R30852 Coqlib <> list_drop def
+R30820 Coqlib <> list_norepet ind
+R30811 Coq.Lists.List <> list ind
+prf 30951 <> list_map_drop
+R31038 Coq.Init.Logic "x = y" not
+R31016 Coqlib <> list_drop def
+R31029 Coq.Lists.List <> map def
+R31040 Coq.Lists.List <> map def
+R31047 Coqlib <> list_drop def
+R31005 Coq.Lists.List <> list ind
+def 31205 <> proj_sumbool
+R31247 Coq.Init.Datatypes <> bool ind
+R31277 Coq.Init.Datatypes <> false constr
+R31267 Coq.Init.Datatypes <> true constr
+R31234 Coq.Init.Specif "{ A } + { B }" not
+R31304 Coqlib <> proj_sumbool def
+R31334 Coqlib <> proj_sumbool def
+prf 31373 <> proj_sumbool_true
+R31442 Coq.Init.Logic "x = y" not
+R31427 Coqlib <> proj_sumbool def
+R31444 Coq.Init.Datatypes <> true constr
+R31417 Coq.Init.Specif "{ A } + { B }" not
+sec 31529 <> DECIDABLE_EQUALITY
+var 31559 DECIDABLE_EQUALITY A
+var 31577 DECIDABLE_EQUALITY dec_eq
+R31602 Coq.Init.Specif "{ A } + { B }" not
+R31604 Coq.Init.Logic "x = y" not
+R31612 Coq.Init.Logic "x <> y" not
+var 31627 DECIDABLE_EQUALITY B
+prf 31643 <> dec_eq_true
+R31726 Coq.Init.Logic "x = y" not
+prf 31806 <> dec_eq_false
+R31902 Coq.Init.Logic "x = y" not
+R31859 Coq.Init.Logic "x <> y" not
+prf 31983 <> dec_eq_sym
+R32067 Coq.Init.Logic "x = y" not
+R32171 Coqlib <> dec_eq_true thm
+R32171 Coqlib <> dec_eq_true thm
+R32200 Coqlib <> dec_eq_false thm
+R32200 Coqlib <> dec_eq_false thm
+R32230 Coqlib DECIDABLE_EQUALITY <> sec
+prf 32291 <> option_eq_dec
+R32407 Coq.Init.Specif "{ A } + { B }" not
+R32411 Coq.Init.Logic "x = y" not
+R32423 Coq.Init.Logic "x <> y" not
+R32397 Coq.Init.Datatypes <> option ind
+R32397 Coq.Init.Datatypes <> option ind
+R32355 Coq.Init.Specif "{ A } + { B }" not
+R32359 Coq.Init.Logic "x = y" not
+R32371 Coq.Init.Logic "x <> y" not
+prf 32469 <> prod_eq_dec
+R32647 Coq.Init.Specif "{ A } + { B }" not
+R32651 Coq.Init.Logic "x = y" not
+R32663 Coq.Init.Logic "x <> y" not
+R32642 Coq.Init.Datatypes "x * y" not
+R32642 Coq.Init.Datatypes "x * y" not
+R32598 Coq.Init.Specif "{ A } + { B }" not
+R32602 Coq.Init.Logic "x = y" not
+R32614 Coq.Init.Logic "x <> y" not
+R32531 Coq.Init.Specif "{ A } + { B }" not
+R32535 Coq.Init.Logic "x = y" not
+R32547 Coq.Init.Logic "x <> y" not

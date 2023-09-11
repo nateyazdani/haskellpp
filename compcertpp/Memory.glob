@@ -1,0 +1,141 @@
+FMemory
+R15 Coqlib <> <> lib
+sec 67 <> Mem
+var 84 Mem val
+constr 122 <> Valop
+rec 106 <> valop
+proj 134 <> valsize
+proj 158 <> valalign
+R151 Coq.ZArith.BinInt <> Z ind
+R176 Coq.ZArith.BinInt <> Z ind
+var 197 Mem memblocks
+var 216 Mem memvalues
+var 235 Mem mblock
+constr 274 <> Op
+rec 261 <> op
+proj 283 <> initmembl
+proj 310 <> initmemval
+proj 338 <> valid_block
+proj 385 <> mblock_eq_dec
+proj 452 <> alloc
+proj 504 <> block_size
+proj 547 <> free
+proj 592 <> load
+proj 660 <> store
+R424 Coq.Init.Specif "{ A } + { B }" not
+R428 Coq.Init.Logic "x = y" not
+R440 Coq.Init.Logic "x <> y" not
+R486 Coq.Init.Datatypes "x * y" not
+R473 Coq.ZArith.BinInt <> Z ind
+R540 Coq.ZArith.BinInt <> Z ind
+R644 Coq.Init.Datatypes <> option ind
+R637 Coq.Init.Datatypes "x * y" not
+R639 Coq.ZArith.BinInt <> Z ind
+R599 Coq.ZArith.BinInt <> Z ind
+R720 Coq.Init.Datatypes <> option ind
+R706 Coq.Init.Datatypes "x * y" not
+R708 Coq.ZArith.BinInt <> Z ind
+R668 Coq.ZArith.BinInt <> Z ind
+var 754 Mem o
+R758 Memory <> op rec
+var 773 Mem v
+R777 Memory <> valop rec
+constr 809 <> intro
+rec 794 <> prop
+proj 1033 <> store_some
+proj 1294 <> load_store_same
+proj 1442 <> load_store_other
+proj 1703 <> alloc_invalid_before
+proj 1840 <> alloc_valid_same
+proj 1943 <> alloc_valid_other
+proj 2086 <> free_valid_other
+proj 2222 <> load_alloc
+proj 2413 <> load_free_other
+proj 2598 <> alloc_block_size_same
+proj 2717 <> alloc_block_size_other
+proj 2881 <> free_block_size_other
+R1271 Coq.Init.Logic "x <> y" not
+R1228 Memory <> store proj
+R1261 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1237 Memory <> valsize proj
+R1274 Coq.Init.Datatypes <> None constr
+R1173 Coq.ZArith.BinInt "x <= y" not
+R1158 Coq.ZArith.BinInt "x + y" not
+R1160 Memory <> valsize proj
+R1176 Memory <> block_size proj
+R1148 Coq.ZArith.BinInt "x <= y" not
+R1146 Coq.ZArith.BinInt "" not
+R1115 Memory <> valid_block proj
+R1064 Coq.ZArith.Znumtheory "( a | b )" not
+R1065 Memory <> valalign proj
+R1419 Coq.Init.Logic "x = y" not
+R1396 Memory <> load proj
+R1421 Coq.Init.Datatypes <> Some constr
+R1375 Coq.Init.Logic "x = y" not
+R1349 Memory <> store proj
+R1377 Coq.Init.Datatypes <> Some constr
+R1657 Coq.Init.Logic "x = y" not
+R1628 Memory <> load proj
+R1649 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1659 Memory <> load proj
+R1679 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1585 Coq.Init.Logic "A \/ B" not
+R1580 Coq.Init.Logic "x <> y" not
+R1601 Coq.Init.Logic "A \/ B" not
+R1596 Coq.ZArith.BinInt "x <= y" not
+R1591 Coq.ZArith.BinInt "x + y" not
+R1612 Coq.ZArith.BinInt "x <= y" not
+R1606 Coq.ZArith.BinInt "x + y" not
+R1533 Coq.Init.Logic "x = y" not
+R1501 Memory <> store proj
+R1523 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1535 Coq.Init.Datatypes <> Some constr
+R1821 Coq.Init.Logic <> False ind
+R1796 Memory <> valid_block proj
+R1773 Coq.Init.Logic "x = y" not
+R1757 Memory <> alloc proj
+R1775 Coq.Init.Datatypes "( x , y , .. , z )" not
+R1917 Memory <> valid_block proj
+R1897 Coq.Init.Logic "x = y" not
+R1884 Memory <> alloc proj
+R1899 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2052 Memory <> valid_block proj
+R2031 Memory <> valid_block proj
+R2001 Coq.Init.Logic "x = y" not
+R1988 Memory <> alloc proj
+R2003 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2179 Memory <> valid_block proj
+R2194 Memory <> free proj
+R2157 Memory <> valid_block proj
+R2127 Coq.Init.Logic "x <> y" not
+R2358 Coq.Init.Logic "x = y" not
+R2333 Memory <> load proj
+R2370 Memory <> load proj
+R2282 Coq.Init.Logic "x = y" not
+R2266 Memory <> alloc proj
+R2284 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2539 Coq.Init.Logic "x = y" not
+R2500 Memory <> load proj
+R2531 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2511 Memory <> free proj
+R2551 Memory <> load proj
+R2571 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2453 Coq.Init.Logic "x <> y" not
+R2699 Coq.Init.Logic "x = y" not
+R2680 Memory <> block_size proj
+R2660 Coq.Init.Logic "x = y" not
+R2647 Memory <> alloc proj
+R2662 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2847 Coq.Init.Logic "x = y" not
+R2829 Memory <> block_size proj
+R2849 Memory <> block_size proj
+R2813 Coq.Init.Logic "x <> y" not
+R2780 Coq.Init.Logic "x = y" not
+R2767 Memory <> alloc proj
+R2782 Coq.Init.Datatypes "( x , y , .. , z )" not
+R2996 Coq.Init.Logic "x = y" not
+R2964 Memory <> block_size proj
+R2978 Memory <> free proj
+R2998 Memory <> block_size proj
+R2927 Coq.Init.Logic "x <> y" not
+R3028 Memory Mem <> sec

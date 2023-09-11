@@ -1,0 +1,101 @@
+FBuiltinTypes
+R15 Events <> <> lib
+R38 Coq.Lists.List <> <> lib
+R59 Coq.ZArith.ZArith <> <> lib
+mod 207 <> ATOM
+constr 233 ATOM make
+rec 221 ATOM t
+proj 242 ATOM ty
+proj 255 ATOM ty_eq_dec
+proj 306 ATOM val
+proj 326 ATOM val_eq_dec
+R284 Coq.Init.Specif "{ A } + { B }" not
+R287 Coq.Init.Logic "x = y" not
+R297 Coq.Init.Logic "x <> y" not
+R280 BuiltinTypes <> ty meth
+R280 BuiltinTypes <> ty meth
+R312 BuiltinTypes <> ty meth
+R365 Coq.Init.Specif "{ A } + { B }" not
+R368 Coq.Init.Logic "x = y" not
+R378 Coq.Init.Logic "x <> y" not
+R356 BuiltinTypes <> val meth
+R360 BuiltinTypes <> ty meth
+R356 BuiltinTypes <> val meth
+R360 BuiltinTypes <> ty meth
+R392 BuiltinTypes ATOM <> mod
+R412 BuiltinTypes ATOM ty_eq_dec proj
+sec 438 <> Semparam
+var 458 Semparam A
+R462 BuiltinTypes ATOM t rec
+var 479 Semparam nativeop
+constr 523 <> Semparam
+rec 504 <> semparam
+proj 536 <> evtr
+proj 549 <> evtr_sem
+proj 574 <> nativeop_sem
+proj 695 <> semZ
+proj 748 <> sembool
+proj 807 <> tyTRUE
+proj 828 <> TRUE
+proj 853 <> semTRUE
+proj 890 <> tyFALSE
+proj 912 <> FALSE
+proj 939 <> semFALSE
+proj 979 <> Zsem
+proj 1019 <> Zsem_semZ
+proj 1094 <> outcome_sem
+proj 1198 <> CONST
+proj 1250 <> semCONST
+R543 Events <> tr rec
+R560 Events <> trsem rec
+R566 BuiltinTypes <> evtr meth
+R673 Events <> trace proj
+R679 BuiltinTypes <> evtr meth
+R636 Coq.Init.Datatypes <> option ind
+R644 Coq.Init.Specif <> sigT ind
+R650 BuiltinTypes ATOM val proj
+R601 Coq.Lists.List <> list ind
+R607 Coq.Init.Specif <> sigT ind
+R613 BuiltinTypes ATOM val proj
+R736 Coq.Init.Datatypes <> option ind
+R743 Coq.ZArith.BinInt <> Z ind
+R721 BuiltinTypes ATOM val proj
+R792 Coq.Init.Datatypes <> option ind
+R799 Coq.Init.Datatypes <> bool ind
+R777 BuiltinTypes ATOM val proj
+R815 BuiltinTypes ATOM ty proj
+R834 BuiltinTypes ATOM val proj
+R843 BuiltinTypes <> tyTRUE meth
+R875 Coq.Init.Logic "x = y" not
+R862 BuiltinTypes <> sembool meth
+R870 BuiltinTypes <> TRUE meth
+R877 Coq.Init.Datatypes <> Some constr
+R882 Coq.Init.Datatypes <> true constr
+R899 BuiltinTypes ATOM ty proj
+R919 BuiltinTypes ATOM val proj
+R928 BuiltinTypes <> tyFALSE meth
+R963 Coq.Init.Logic "x = y" not
+R949 BuiltinTypes <> sembool meth
+R957 BuiltinTypes <> FALSE meth
+R965 Coq.Init.Datatypes <> Some constr
+R970 Coq.Init.Datatypes <> false constr
+R991 Coq.Init.Specif <> sigT ind
+R997 BuiltinTypes ATOM val proj
+R986 Coq.ZArith.BinInt <> Z ind
+R1082 Coq.Init.Logic "x = y" not
+R1074 BuiltinTypes <> semZ meth
+R1084 Coq.Init.Datatypes <> Some constr
+R1054 Coq.Init.Logic "x = y" not
+R1047 BuiltinTypes <> Zsem meth
+R1056 Coq.Init.Specif <> existT constr
+R1142 Events <> outcome proj
+R1150 BuiltinTypes <> evtr meth
+R1127 BuiltinTypes ATOM val proj
+R1223 BuiltinTypes ATOM val proj
+R1283 BuiltinTypes <> nativeop_sem meth
+R1335 Events <> E0 proj
+R1312 Coq.Init.Datatypes <> Some constr
+R1318 Coq.Init.Specif <> existT constr
+R1307 Coq.Lists.List <> nil constr
+R1297 BuiltinTypes <> CONST meth
+R1346 BuiltinTypes Semparam <> sec

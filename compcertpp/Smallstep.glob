@@ -1,0 +1,825 @@
+FSmallstep
+R1274 Coq.Init.Wf <> <> lib
+R1293 Coq.Arith.Wf_nat <> <> lib
+R1316 Coq.Logic.Classical <> <> lib
+R1342 Coqlib <> <> lib
+R1365 Events <> <> lib
+sec 1451 <> SmallStep
+var 1472 SmallStep ev
+R1477 Events <> tr rec
+syndef 1491 <> trace
+R1501 Events <> trace proj
+syndef 1521 <> traceinf
+R1534 Events <> traceinf proj
+syndef 1557 <> outcome
+R1569 Events <> outcome proj
+var 1594 SmallStep evsem
+R1602 Events <> trsem rec
+sec 1621 SmallStep CLOSURES
+var 1641 SmallStep.CLOSURES state
+var 1998 SmallStep.CLOSURES step
+R2013 Smallstep <> trace syndef
+def 2085 <> nostep
+R2128 Coq.Init.Logic "~ x" not
+ind 2265 <> star
+constr 2311 <> star_refl
+constr 2354 <> star_step
+R2281 Smallstep <> trace syndef
+R2338 Smallstep <> star ind
+R2345 Events <> E0 proj
+R2452 Smallstep <> star ind
+R2432 Coq.Init.Logic "x = y" not
+R2437 Events "x ** y" not
+R2413 Smallstep <> star ind
+prf 2473 <> star_one
+R2518 Smallstep <> star ind
+R2557 Smallstep <> star_step constr
+R2557 Smallstep <> star_step constr
+R2581 Smallstep <> star_refl constr
+R2581 Smallstep <> star_refl constr
+R2600 Events <> E0_right proj
+R2600 Events <> E0_right proj
+prf 2628 <> star_trans
+R2729 Smallstep <> star ind
+R2715 Coq.Init.Logic "x = y" not
+R2720 Events "x ** y" not
+R2696 Smallstep <> star ind
+R2660 Smallstep <> star ind
+R2797 Events <> E0_left proj
+R2797 Events <> E0_left proj
+R2821 Smallstep <> star_step constr
+R2821 Smallstep <> star_step constr
+R2850 Events <> Eapp_assoc proj
+R2850 Events <> Eapp_assoc proj
+prf 2898 <> star_left
+R2991 Smallstep <> star ind
+R2975 Coq.Init.Logic "x = y" not
+R2980 Events "x ** y" not
+R2955 Smallstep <> star ind
+R3012 Smallstep <> star_step constr
+prf 3030 <> star_right
+R3126 Smallstep <> star ind
+R3110 Coq.Init.Logic "x = y" not
+R3115 Events "x ** y" not
+R3072 Smallstep <> star ind
+R3165 Smallstep <> star_trans thm
+R3165 Smallstep <> star_trans thm
+R3190 Smallstep <> star_one thm
+R3190 Smallstep <> star_one thm
+sec 3227 SmallStep.CLOSURES Invariant
+var 3248 SmallStep.CLOSURES.Invariant P
+var 3279 SmallStep.CLOSURES.Invariant HP
+prf 3346 <> star_invariant
+R3395 Smallstep <> star ind
+R3480 Smallstep SmallStep.CLOSURES.Invariant <> sec
+ind 3577 <> plus
+constr 3622 <> plus_left
+R3592 Smallstep <> trace syndef
+R3721 Smallstep <> plus ind
+R3701 Coq.Init.Logic "x = y" not
+R3706 Events "x ** y" not
+R3682 Smallstep <> star ind
+prf 3742 <> plus_one
+R3788 Smallstep <> plus ind
+R3846 Smallstep <> star_refl constr
+R3846 Smallstep <> star_refl constr
+R3865 Events <> E0_right proj
+R3865 Events <> E0_right proj
+prf 3893 <> plus_star
+R3938 Smallstep <> star ind
+R3922 Smallstep <> plus ind
+R3998 Smallstep <> star_step constr
+R3998 Smallstep <> star_step constr
+prf 4029 <> plus_right
+R4122 Smallstep <> plus ind
+R4106 Coq.Init.Logic "x = y" not
+R4111 Events "x ** y" not
+R4070 Smallstep <> star ind
+R4181 Events <> E0_left proj
+R4181 Events <> E0_left proj
+R4202 Smallstep <> plus_one thm
+R4202 Smallstep <> plus_one thm
+R4228 Events <> Eapp_assoc proj
+R4228 Events <> Eapp_assoc proj
+R4253 Smallstep <> plus_left constr
+R4253 Smallstep <> plus_left constr
+R4280 Smallstep <> star_right thm
+R4280 Smallstep <> star_right thm
+prf 4312 <> plus_left'
+R4405 Smallstep <> plus ind
+R4389 Coq.Init.Logic "x = y" not
+R4394 Events "x ** y" not
+R4370 Smallstep <> plus ind
+R4443 Smallstep <> plus_left constr
+R4443 Smallstep <> plus_left constr
+R4467 Smallstep <> plus_star thm
+R4467 Smallstep <> plus_star thm
+prf 4496 <> plus_right'
+R4590 Smallstep <> plus ind
+R4574 Coq.Init.Logic "x = y" not
+R4579 Events "x ** y" not
+R4538 Smallstep <> plus ind
+R4628 Smallstep <> plus_right thm
+R4628 Smallstep <> plus_right thm
+R4653 Smallstep <> plus_star thm
+R4653 Smallstep <> plus_star thm
+prf 4682 <> plus_star_trans
+R4778 Smallstep <> plus ind
+R4764 Coq.Init.Logic "x = y" not
+R4769 Events "x ** y" not
+R4745 Smallstep <> star ind
+R4728 Smallstep <> plus ind
+R4860 Smallstep <> star_trans thm
+R4860 Smallstep <> star_trans thm
+R4889 Events <> Eapp_assoc proj
+R4889 Events <> Eapp_assoc proj
+prf 4919 <> star_plus_trans
+R5015 Smallstep <> plus ind
+R5001 Coq.Init.Logic "x = y" not
+R5006 Events "x ** y" not
+R4982 Smallstep <> plus ind
+R4965 Smallstep <> star ind
+R5076 Events <> E0_left proj
+R5076 Events <> E0_left proj
+R5101 Events <> Eapp_assoc proj
+R5101 Events <> Eapp_assoc proj
+R5149 Smallstep <> star_trans thm
+R5149 Smallstep <> star_trans thm
+R5177 Smallstep <> plus_star thm
+R5177 Smallstep <> plus_star thm
+prf 5220 <> plus_trans
+R5311 Smallstep <> plus ind
+R5297 Coq.Init.Logic "x = y" not
+R5302 Events "x ** y" not
+R5278 Smallstep <> plus ind
+R5261 Smallstep <> plus ind
+R5349 Smallstep <> plus_star_trans thm
+R5349 Smallstep <> plus_star_trans thm
+R5379 Smallstep <> plus_star thm
+R5379 Smallstep <> plus_star thm
+prf 5415 <> plus_inv
+R5477 Coq.Init.Logic "A \/ B" not
+R5480 Coq.Init.Logic "'exists' x , p" not
+R5491 Coq.Init.Logic "'exists' x , p" not
+R5502 Coq.Init.Logic "'exists' x , p" not
+R5527 Coq.Init.Logic "A /\ B" not
+R5544 Coq.Init.Logic "A /\ B" not
+R5530 Smallstep <> plus ind
+R5549 Coq.Init.Logic "x = y" not
+R5554 Events "x ** y" not
+R5446 Smallstep <> plus ind
+R5635 Events <> E0_right proj
+R5635 Events <> E0_right proj
+R5693 Events "x ** y" not
+R5693 Events "x ** y" not
+prf 5762 <> star_inv
+R5828 Coq.Init.Logic "A \/ B" not
+R5819 Coq.Init.Logic "A /\ B" not
+R5814 Coq.Init.Logic "x = y" not
+R5824 Coq.Init.Logic "x = y" not
+R5826 Events <> E0 proj
+R5833 Smallstep <> plus ind
+R5792 Smallstep <> star ind
+ind 5965 <> forever
+constr 6008 <> forever_intro
+R5984 Smallstep <> traceinf syndef
+R6085 Smallstep <> forever ind
+R6099 Events "x *** y" not
+R6063 Smallstep <> forever ind
+prf 6114 <> star_forever
+R6192 Smallstep <> forever coind
+R6206 Events "x *** y" not
+R6174 Smallstep <> forever coind
+R6146 Smallstep <> star ind
+R6252 Events <> E0_left_inf proj
+R6252 Events <> E0_left_inf proj
+R6290 Events <> Eappinf_assoc proj
+R6290 Events <> Eappinf_assoc proj
+var 6454 SmallStep.CLOSURES A
+var 6472 SmallStep.CLOSURES order
+ind 6508 <> forever_N
+constr 6559 <> forever_N_star
+constr 6727 <> forever_N_plus
+R6535 Smallstep <> traceinf syndef
+R6704 Smallstep <> forever_N ind
+R6684 Coq.Init.Logic "x = y" not
+R6688 Events "x *** y" not
+R6653 Smallstep <> forever_N ind
+R6609 Smallstep <> star ind
+R6850 Smallstep <> forever_N ind
+R6830 Coq.Init.Logic "x = y" not
+R6834 Events "x *** y" not
+R6799 Smallstep <> forever_N ind
+R6777 Smallstep <> plus ind
+var 6882 SmallStep.CLOSURES order_wf
+R6892 Coq.Init.Wf <> well_founded def
+prf 6919 <> forever_N_inv
+R6973 Coq.Init.Logic "'exists' x , p" not
+R6983 Coq.Init.Logic "'exists' x , p" not
+R6994 Coq.Init.Logic "'exists' x , p" not
+R7005 Coq.Init.Logic "'exists' x , p" not
+R7030 Coq.Init.Logic "A /\ B" not
+R7052 Coq.Init.Logic "A /\ B" not
+R7033 Smallstep <> forever_N coind
+R7057 Coq.Init.Logic "x = y" not
+R7061 Events "x *** y" not
+R6952 Smallstep <> forever_N coind
+R7108 Coq.Init.Wf <> well_founded_ind thm
+R7108 Coq.Init.Wf <> well_founded_ind thm
+R7214 Events <> E0_left_inf proj
+R7214 Events <> E0_left_inf proj
+R7342 Events "x *** y" not
+R7342 Events "x *** y" not
+R7380 Smallstep <> forever_N_star constr
+R7380 Smallstep <> forever_N_star constr
+R7411 Events <> Eappinf_assoc proj
+R7411 Events <> Eappinf_assoc proj
+R7506 Events "x *** y" not
+R7506 Events "x *** y" not
+R7555 Events <> E0_left_inf proj
+R7555 Events <> E0_left_inf proj
+R7585 Smallstep <> forever_N_plus constr
+R7585 Smallstep <> forever_N_plus constr
+R7643 Events <> Eappinf_assoc proj
+R7643 Events <> Eappinf_assoc proj
+prf 7676 <> forever_N_forever
+R7730 Smallstep <> forever coind
+R7711 Smallstep <> forever_N coind
+R7788 Smallstep <> forever_N_inv thm
+R7788 Smallstep <> forever_N_inv thm
+R7857 Smallstep <> forever_intro constr
+R7857 Smallstep <> forever_intro constr
+ind 7994 <> forever_plus
+constr 8043 <> forever_plus_intro
+R8019 Smallstep <> traceinf syndef
+R8165 Smallstep <> forever_plus ind
+R8145 Coq.Init.Logic "x = y" not
+R8149 Events "x *** y" not
+R8114 Smallstep <> forever_plus ind
+R8091 Smallstep <> plus ind
+prf 8192 <> forever_plus_inv
+R8248 Coq.Init.Logic "'exists' x , p" not
+R8259 Coq.Init.Logic "'exists' x , p" not
+R8269 Coq.Init.Logic "'exists' x , p" not
+R8294 Coq.Init.Logic "A /\ B" not
+R8316 Coq.Init.Logic "A /\ B" not
+R8297 Smallstep <> forever_plus coind
+R8321 Coq.Init.Logic "x = y" not
+R8325 Events "x *** y" not
+R8226 Smallstep <> forever_plus coind
+R8398 Events "x *** y" not
+R8398 Events "x *** y" not
+R8439 Smallstep <> star_inv thm
+R8496 Events <> E0_left_inf proj
+R8496 Events <> E0_left_inf proj
+R8545 Events <> Eappinf_assoc proj
+R8545 Events <> Eappinf_assoc proj
+prf 8578 <> forever_plus_forever
+R8634 Smallstep <> forever coind
+R8614 Smallstep <> forever_plus coind
+R8692 Smallstep <> forever_plus_inv thm
+R8692 Smallstep <> forever_plus_inv thm
+ind 8831 <> forever_silent
+constr 8869 <> forever_silent_intro
+R8955 Smallstep <> forever_silent ind
+R8928 Smallstep <> forever_silent ind
+R8919 Events <> E0 proj
+ind 9020 <> forever_silent_N
+constr 9066 <> forever_silent_N_star
+constr 9219 <> forever_silent_N_plus
+R9192 Smallstep <> forever_silent_N ind
+R9160 Smallstep <> forever_silent_N ind
+R9115 Smallstep <> star ind
+R9123 Events <> E0 proj
+R9323 Smallstep <> forever_silent_N ind
+R9291 Smallstep <> forever_silent_N ind
+R9268 Smallstep <> plus ind
+R9276 Events <> E0 proj
+prf 9354 <> forever_silent_N_inv
+R9418 Coq.Init.Logic "'exists' x , p" not
+R9429 Coq.Init.Logic "'exists' x , p" not
+R9455 Coq.Init.Logic "A /\ B" not
+R9449 Events <> E0 proj
+R9458 Smallstep <> forever_silent_N coind
+R9392 Smallstep <> forever_silent_N coind
+R9521 Coq.Init.Wf <> well_founded_ind thm
+R9521 Coq.Init.Wf <> well_founded_ind thm
+R9691 Events <> Eapp_E0_inv proj
+R9778 Smallstep <> forever_silent_N_star constr
+R9778 Smallstep <> forever_silent_N_star constr
+R9844 Events <> Eapp_E0_inv proj
+R9950 Smallstep <> forever_silent_N_plus constr
+R9950 Smallstep <> forever_silent_N_plus constr
+prf 10013 <> forever_silent_N_forever
+R10077 Smallstep <> forever_silent coind
+R10053 Smallstep <> forever_silent_N coind
+R10140 Smallstep <> forever_silent_N_inv thm
+R10140 Smallstep <> forever_silent_N_inv thm
+R10192 Smallstep <> forever_silent_intro constr
+R10192 Smallstep <> forever_silent_intro constr
+ind 10326 <> forever_reactive
+constr 10378 <> forever_reactive_intro
+R10354 Smallstep <> traceinf syndef
+R10484 Smallstep <> forever_reactive ind
+R10507 Events "x *** y" not
+R10453 Smallstep <> forever_reactive ind
+R10444 Coq.Init.Logic "x <> y" not
+R10447 Events <> E0 proj
+R10426 Smallstep <> star ind
+prf 10522 <> star_forever_reactive
+R10610 Smallstep <> forever_reactive coind
+R10633 Events "x *** y" not
+R10583 Smallstep <> forever_reactive coind
+R10567 Smallstep <> star ind
+R10677 Events <> Eappinf_assoc proj
+R10677 Events <> Eappinf_assoc proj
+R10716 Smallstep <> star_trans thm
+R10716 Smallstep <> star_trans thm
+R10758 Events <> Eapp_E0_inv proj
+ind 11507 <> program_behavior
+constr 11537 <> Terminates
+constr 11590 <> Diverges
+constr 11630 <> Reacts
+constr 11671 <> Goes_wrong
+R11569 Smallstep <> program_behavior ind
+R11558 Smallstep <> outcome syndef
+R11549 Smallstep <> trace syndef
+R11609 Smallstep <> program_behavior ind
+R11600 Smallstep <> trace syndef
+R11650 Smallstep <> program_behavior ind
+R11638 Smallstep <> traceinf syndef
+R11692 Smallstep <> program_behavior ind
+R11683 Smallstep <> trace syndef
+def 11722 <> not_wrong
+R11787 Smallstep <> Terminates constr
+R11805 Coq.Init.Logic <> True ind
+R11814 Smallstep <> Diverges constr
+R11828 Coq.Init.Logic <> True ind
+R11837 Smallstep <> Reacts constr
+R11849 Coq.Init.Logic <> True ind
+R11858 Smallstep <> Goes_wrong constr
+R11874 Coq.Init.Logic <> False ind
+R11738 Smallstep <> program_behavior ind
+var 12111 SmallStep.CLOSURES initial_state
+var 12150 SmallStep.CLOSURES final_state
+R12172 Smallstep <> outcome syndef
+ind 12200 <> program_behaves
+constr 12250 <> program_terminates
+constr 12402 <> program_diverges
+constr 12541 <> program_reacts
+constr 12661 <> program_goes_wrong
+constr 12841 <> program_goes_initially_wrong
+R12218 Smallstep <> program_behavior ind
+R12365 Smallstep <> program_behaves ind
+R12382 Smallstep <> Terminates constr
+R12318 Smallstep <> star ind
+R12508 Smallstep <> program_behaves ind
+R12525 Smallstep <> Diverges constr
+R12481 Smallstep <> forever_silent coind
+R12466 Smallstep <> star ind
+R12630 Smallstep <> program_behaves ind
+R12647 Smallstep <> Reacts constr
+R12600 Smallstep <> forever_reactive coind
+R12806 Smallstep <> program_behaves ind
+R12823 Smallstep <> Goes_wrong constr
+R12778 Coq.Init.Logic "~ x" not
+R12748 Smallstep <> nostep def
+R12727 Smallstep <> star ind
+R12915 Smallstep <> program_behaves ind
+R12932 Smallstep <> Goes_wrong constr
+R12943 Events <> E0 proj
+R12888 Coq.Init.Logic "~ x" not
+R12953 Smallstep SmallStep.CLOSURES <> sec
+sec 13262 SmallStep SIMULATION
+var 13350 SmallStep.SIMULATION state1
+var 13373 SmallStep.SIMULATION step1
+R13390 Smallstep <> trace syndef
+var 13424 SmallStep.SIMULATION initial_state1
+var 13465 SmallStep.SIMULATION final_state1
+R13489 Smallstep <> outcome syndef
+var 13577 SmallStep.SIMULATION state2
+var 13600 SmallStep.SIMULATION step2
+R13617 Smallstep <> trace syndef
+var 13651 SmallStep.SIMULATION initial_state2
+var 13692 SmallStep.SIMULATION final_state2
+R13716 Smallstep <> outcome syndef
+var 13910 SmallStep.SIMULATION match_states
+var 14015 SmallStep.SIMULATION match_initial_states
+R14074 Coq.Init.Logic "'exists' x , p" not
+R14105 Coq.Init.Logic "A /\ B" not
+R14112 Coq.Init.Logic "'exists' x , p" not
+R14148 Coq.Init.Logic "A /\ B" not
+R14125 Smallstep <> star ind
+R14140 Events <> E0 proj
+var 14192 SmallStep.SIMULATION match_final_states
+R14284 Coq.Init.Logic "'exists' x , p" not
+R14320 Coq.Init.Logic "A /\ B" not
+R14297 Smallstep <> star ind
+R14312 Events <> E0 proj
+sec 14658 SmallStep.SIMULATION SIMULATION_STAR_WF
+var 14856 SmallStep.SIMULATION.SIMULATION_STAR_WF order
+var 14900 SmallStep.SIMULATION.SIMULATION_STAR_WF order_wf
+R14910 Coq.Init.Wf <> well_founded def
+var 14942 SmallStep.SIMULATION.SIMULATION_STAR_WF simulation
+R15035 Coq.Init.Logic "'exists' x , p" not
+R15117 Coq.Init.Logic "A /\ B" not
+R15073 Coq.Init.Logic "A \/ B" not
+R15051 Smallstep <> plus ind
+R15099 Coq.Init.Logic "A /\ B" not
+R15077 Smallstep <> star ind
+prf 15155 <> simulation_star_star
+R15263 Coq.Init.Logic "'exists' x , p" not
+R15298 Coq.Init.Logic "A /\ B" not
+R15276 Smallstep <> star ind
+R15198 Smallstep <> star ind
+R15382 Smallstep <> star_refl constr
+R15382 Smallstep <> star_refl constr
+R15522 Smallstep <> star_trans thm
+R15522 Smallstep <> star_trans thm
+R15594 Smallstep <> plus_star thm
+R15594 Smallstep <> plus_star thm
+prf 15631 <> simulation_star_forever_silent
+R15737 Smallstep <> forever_silent coind
+R15683 Smallstep <> forever_silent coind
+R15856 Smallstep <> forever_silent_N coind
+R15800 Smallstep <> forever_silent coind
+R15856 Smallstep <> forever_silent_N coind
+R15800 Smallstep <> forever_silent coind
+R16027 Smallstep <> forever_silent_N_plus constr
+R16027 Smallstep <> forever_silent_N_plus constr
+R16119 Smallstep <> forever_silent_N_star constr
+R16119 Smallstep <> forever_silent_N_star constr
+R16220 Smallstep <> forever_silent_N_forever thm
+R16220 Smallstep <> forever_silent_N_forever thm
+prf 16265 <> simulation_star_forever_reactive
+R16379 Smallstep <> forever_reactive coind
+R16321 Smallstep <> forever_reactive coind
+R16464 Smallstep <> simulation_star_star thm
+R16464 Smallstep <> simulation_star_star thm
+prf 16587 <> simulation_star_wf_preservation
+R16714 Smallstep <> program_behaves ind
+R16655 Smallstep <> program_behaves ind
+R16636 Smallstep <> not_wrong def
+R16882 Smallstep <> simulation_star_star thm
+R16882 Smallstep <> simulation_star_star thm
+R17025 Smallstep <> star_trans thm
+R17025 Smallstep <> star_trans thm
+R17063 Smallstep <> star_trans thm
+R17063 Smallstep <> star_trans thm
+R17134 Events <> E0_left proj
+R17134 Events <> E0_left proj
+R17160 Events <> E0_right proj
+R17160 Events <> E0_right proj
+R17266 Smallstep <> simulation_star_star thm
+R17266 Smallstep <> simulation_star_star thm
+R17351 Smallstep <> star_trans thm
+R17351 Smallstep <> star_trans thm
+R17406 Events <> E0_left proj
+R17406 Events <> E0_left proj
+R17430 Smallstep <> simulation_star_forever_silent thm
+R17430 Smallstep <> simulation_star_forever_silent thm
+R17586 Events "x *** y" not
+R17583 Events <> E0 proj
+R17586 Events "x *** y" not
+R17583 Events <> E0 proj
+R17604 Smallstep <> star_forever_reactive thm
+R17604 Smallstep <> star_forever_reactive thm
+R17653 Smallstep <> simulation_star_forever_reactive thm
+R17653 Smallstep <> simulation_star_forever_reactive thm
+R17704 Events <> E0_left_inf proj
+R17704 Events <> E0_left_inf proj
+R17767 Smallstep SmallStep.SIMULATION.SIMULATION_STAR_WF <> sec
+sec 17796 SmallStep.SIMULATION SIMULATION_STAR
+var 18002 SmallStep.SIMULATION.SIMULATION_STAR measure
+R18021 Coq.Init.Datatypes <> nat ind
+var 18038 SmallStep.SIMULATION.SIMULATION_STAR simulation
+R18192 Coq.Init.Logic "A \/ B" not
+R18132 Coq.Init.Logic "'exists' x , p" not
+R18167 Coq.Init.Logic "A /\ B" not
+R18145 Smallstep <> plus ind
+R18227 Coq.Init.Logic "A /\ B" not
+R18213 Coq.Init.Peano "x < y" not
+R18237 Coq.Init.Logic "A /\ B" not
+R18232 Coq.Init.Logic "x = y" not
+R18234 Events <> E0 proj
+prf 18275 <> simulation_star_preservation
+R18399 Smallstep <> program_behaves ind
+R18340 Smallstep <> program_behaves ind
+R18321 Smallstep <> not_wrong def
+R18517 Coq.Arith.Wf_nat <> ltof def
+R18479 Smallstep <> simulation_star_wf_preservation thm
+R18517 Coq.Arith.Wf_nat <> ltof def
+R18479 Smallstep <> simulation_star_wf_preservation thm
+R18542 Coq.Arith.Wf_nat <> well_founded_ltof thm
+R18542 Coq.Arith.Wf_nat <> well_founded_ltof thm
+R18703 Smallstep <> star_refl constr
+R18703 Smallstep <> star_refl constr
+R18750 Smallstep SmallStep.SIMULATION.SIMULATION_STAR <> sec
+sec 18912 SmallStep.SIMULATION SIMULATION_STEP
+var 18941 SmallStep.SIMULATION.SIMULATION_STEP simulation
+R19034 Coq.Init.Logic "'exists' x , p" not
+R19064 Coq.Init.Logic "A /\ B" not
+prf 19098 <> simulation_step_preservation
+R19222 Smallstep <> program_behaves ind
+R19163 Smallstep <> program_behaves ind
+R19144 Smallstep <> not_wrong def
+R19333 Coq.Init.Datatypes "" not
+R19333 Coq.Init.Datatypes "" not
+R19506 Coq.Init.Logic "A \/ B" not
+R19446 Coq.Init.Logic "'exists' x , p" not
+R19481 Coq.Init.Logic "A /\ B" not
+R19459 Smallstep <> plus ind
+R19541 Coq.Init.Logic "A /\ B" not
+R19527 Coq.Init.Peano "x < y" not
+R19551 Coq.Init.Logic "A /\ B" not
+R19546 Coq.Init.Logic "x = y" not
+R19548 Events <> E0 proj
+R19506 Coq.Init.Logic "A \/ B" not
+R19446 Coq.Init.Logic "'exists' x , p" not
+R19481 Coq.Init.Logic "A /\ B" not
+R19459 Smallstep <> plus ind
+R19541 Coq.Init.Logic "A /\ B" not
+R19527 Coq.Init.Peano "x < y" not
+R19551 Coq.Init.Logic "A /\ B" not
+R19546 Coq.Init.Logic "x = y" not
+R19548 Events <> E0 proj
+R19672 Smallstep <> plus_one thm
+R19672 Smallstep <> plus_one thm
+R19703 Smallstep <> simulation_star_preservation thm
+R19703 Smallstep <> simulation_star_preservation thm
+R19750 Smallstep SmallStep.SIMULATION.SIMULATION_STEP <> sec
+sec 19905 SmallStep.SIMULATION SIMULATION_PLUS
+var 19934 SmallStep.SIMULATION.SIMULATION_PLUS simulation
+R20027 Coq.Init.Logic "'exists' x , p" not
+R20062 Coq.Init.Logic "A /\ B" not
+R20040 Smallstep <> plus ind
+prf 20096 <> simulation_plus_preservation
+R20220 Smallstep <> program_behaves ind
+R20161 Smallstep <> program_behaves ind
+R20142 Smallstep <> not_wrong def
+R20331 Coq.Init.Datatypes "" not
+R20331 Coq.Init.Datatypes "" not
+R20504 Coq.Init.Logic "A \/ B" not
+R20444 Coq.Init.Logic "'exists' x , p" not
+R20479 Coq.Init.Logic "A /\ B" not
+R20457 Smallstep <> plus ind
+R20539 Coq.Init.Logic "A /\ B" not
+R20525 Coq.Init.Peano "x < y" not
+R20549 Coq.Init.Logic "A /\ B" not
+R20544 Coq.Init.Logic "x = y" not
+R20546 Events <> E0 proj
+R20504 Coq.Init.Logic "A \/ B" not
+R20444 Coq.Init.Logic "'exists' x , p" not
+R20479 Coq.Init.Logic "A /\ B" not
+R20457 Smallstep <> plus ind
+R20539 Coq.Init.Logic "A /\ B" not
+R20525 Coq.Init.Peano "x < y" not
+R20549 Coq.Init.Logic "A /\ B" not
+R20544 Coq.Init.Logic "x = y" not
+R20546 Events <> E0 proj
+R20672 Smallstep <> simulation_star_preservation thm
+R20672 Smallstep <> simulation_star_preservation thm
+R20719 Smallstep SmallStep.SIMULATION.SIMULATION_PLUS <> sec
+sec 21036 SmallStep.SIMULATION SIMULATION_OPT
+var 21062 SmallStep.SIMULATION.SIMULATION_OPT measure
+R21081 Coq.Init.Datatypes <> nat ind
+var 21098 SmallStep.SIMULATION.SIMULATION_OPT simulation
+R21247 Coq.Init.Logic "A \/ B" not
+R21192 Coq.Init.Logic "'exists' x , p" not
+R21222 Coq.Init.Logic "A /\ B" not
+R21282 Coq.Init.Logic "A /\ B" not
+R21268 Coq.Init.Peano "x < y" not
+R21292 Coq.Init.Logic "A /\ B" not
+R21287 Coq.Init.Logic "x = y" not
+R21289 Events <> E0 proj
+prf 21330 <> simulation_opt_preservation
+R21453 Smallstep <> program_behaves ind
+R21394 Smallstep <> program_behaves ind
+R21375 Smallstep <> not_wrong def
+R21686 Coq.Init.Logic "A \/ B" not
+R21626 Coq.Init.Logic "'exists' x , p" not
+R21661 Coq.Init.Logic "A /\ B" not
+R21639 Smallstep <> plus ind
+R21723 Coq.Init.Logic "A /\ B" not
+R21709 Coq.Init.Peano "x < y" not
+R21733 Coq.Init.Logic "A /\ B" not
+R21728 Coq.Init.Logic "x = y" not
+R21730 Events <> E0 proj
+R21686 Coq.Init.Logic "A \/ B" not
+R21626 Coq.Init.Logic "'exists' x , p" not
+R21661 Coq.Init.Logic "A /\ B" not
+R21639 Smallstep <> plus ind
+R21723 Coq.Init.Logic "A /\ B" not
+R21709 Coq.Init.Peano "x < y" not
+R21733 Coq.Init.Logic "A /\ B" not
+R21728 Coq.Init.Logic "x = y" not
+R21730 Events <> E0 proj
+R21855 Smallstep <> plus_one thm
+R21855 Smallstep <> plus_one thm
+R21932 Smallstep <> simulation_star_preservation thm
+R21932 Smallstep <> simulation_star_preservation thm
+R21979 Smallstep SmallStep.SIMULATION.SIMULATION_OPT <> sec
+R22000 Smallstep SmallStep.SIMULATION <> sec
+R22472 Coq.Logic.Classical <> <> lib
+sec 22518 SmallStep INF_SEQ_DECOMP
+var 22544 SmallStep.INF_SEQ_DECOMP state
+var 22566 SmallStep.INF_SEQ_DECOMP step
+R22581 Smallstep <> trace syndef
+ind 22616 <> State
+constr 22633 <> ST
+R22690 Smallstep <> State ind
+R22670 Smallstep <> forever coind
+R22659 Smallstep <> traceinf syndef
+def 22709 <> state_of_State
+R22760 Smallstep <> ST constr
+R22728 Smallstep <> State ind
+def 22790 <> traceinf_of_State
+R22821 Smallstep <> traceinf syndef
+R22848 Smallstep <> ST constr
+R22812 Smallstep <> State ind
+ind 22878 <> Step
+constr 22923 <> Step_intro
+R22902 Smallstep <> State ind
+R22893 Smallstep <> State ind
+R22884 Smallstep <> trace syndef
+R22963 Smallstep <> Step ind
+R23044 Smallstep <> ST constr
+R22971 Smallstep <> ST constr
+R22989 Smallstep <> forever_intro constr
+R22980 Events "x *** y" not
+ind 23067 <> Steps
+constr 23104 <> Steps_refl
+constr 23140 <> Steps_left
+R23083 Smallstep <> State ind
+R23074 Smallstep <> State ind
+R23126 Smallstep <> Steps ind
+R23202 Smallstep <> Steps ind
+R23187 Smallstep <> Steps ind
+R23171 Smallstep <> Step ind
+prf 23223 <> Steps_trans
+R23293 Smallstep <> Steps ind
+R23278 Smallstep <> Steps ind
+R23252 Smallstep <> Steps ind
+def 23373 <> Reactive
+R23435 Coq.Init.Logic "'exists' x , p" not
+R23446 Coq.Init.Logic "'exists' x , p" not
+R23457 Coq.Init.Logic "'exists' x , p" not
+R23479 Coq.Init.Logic "A /\ B" not
+R23467 Smallstep <> Steps ind
+R23495 Coq.Init.Logic "A /\ B" not
+R23482 Smallstep <> Step ind
+R23500 Coq.Init.Logic "x <> y" not
+R23503 Events <> E0 proj
+R23419 Smallstep <> Steps ind
+R23386 Smallstep <> State ind
+def 23512 <> Silent
+R23590 Coq.Init.Logic "x = y" not
+R23592 Events <> E0 proj
+R23572 Smallstep <> Step ind
+R23558 Smallstep <> Steps ind
+R23523 Smallstep <> State ind
+prf 23603 <> Reactive_or_Silent
+R23646 Coq.Init.Logic "A \/ B" not
+R23650 Coq.Init.Logic "'exists' x , p" not
+R23672 Coq.Init.Logic "A /\ B" not
+R23661 Smallstep <> Steps ind
+R23714 Coq.Logic.Classical_Prop <> classic prfax
+R23723 Coq.Init.Logic "'exists' x , p" not
+R23745 Coq.Init.Logic "A /\ B" not
+R23734 Smallstep <> Steps ind
+R23714 Coq.Logic.Classical_Prop <> classic prfax
+R23723 Coq.Init.Logic "'exists' x , p" not
+R23745 Coq.Init.Logic "A /\ B" not
+R23734 Smallstep <> Steps ind
+R23805 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R23805 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R23851 Coq.Logic.Classical_Prop <> not_and_or thm
+R23851 Coq.Logic.Classical_Prop <> not_and_or thm
+R23925 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R23925 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R23978 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R23978 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R24029 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R24029 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R24081 Coq.Logic.Classical_Prop <> imply_to_and thm
+R24081 Coq.Logic.Classical_Prop <> imply_to_and thm
+R24130 Coq.Logic.Classical_Prop <> imply_to_and thm
+R24130 Coq.Logic.Classical_Prop <> imply_to_and thm
+prf 24219 <> Steps_star
+R24264 Coq.Init.Logic "'exists' x , p" not
+R24335 Coq.Init.Logic "A /\ B" not
+R24274 Smallstep <> star ind
+R24307 Smallstep <> state_of_State def
+R24285 Smallstep <> state_of_State def
+R24359 Coq.Init.Logic "x = y" not
+R24338 Smallstep <> traceinf_of_State def
+R24363 Events "x *** y" not
+R24367 Smallstep <> traceinf_of_State def
+R24247 Smallstep <> Steps ind
+R24420 Events <> E0 proj
+R24420 Events <> E0 proj
+R24437 Smallstep <> star_refl constr
+R24437 Smallstep <> star_refl constr
+R24456 Events <> E0_left_inf proj
+R24456 Events <> E0_left_inf proj
+R24528 Events "x ** y" not
+R24528 Events "x ** y" not
+R24559 Smallstep <> star_left thm
+R24559 Smallstep <> star_left thm
+R24608 Events <> Eappinf_assoc proj
+R24608 Events <> Eappinf_assoc proj
+prf 24641 <> Silent_forever_silent
+R24690 Smallstep <> forever_silent coind
+R24711 Smallstep <> state_of_State def
+R24821 Smallstep <> Step ind
+R24892 Smallstep <> ST constr
+R24829 Smallstep <> ST constr
+R24847 Smallstep <> forever_intro constr
+R24838 Events "x *** y" not
+R24821 Smallstep <> Step ind
+R24892 Smallstep <> ST constr
+R24829 Smallstep <> ST constr
+R24847 Smallstep <> forever_intro constr
+R24838 Events "x *** y" not
+R24937 Coq.Init.Logic "x = y" not
+R24939 Events <> E0 proj
+R24937 Coq.Init.Logic "x = y" not
+R24939 Events <> E0 proj
+R24982 Smallstep <> Steps_refl constr
+R24982 Smallstep <> Steps_refl constr
+R25029 Smallstep <> state_of_State def
+R25045 Smallstep <> ST constr
+R25002 Smallstep <> forever_silent_intro constr
+R25029 Smallstep <> state_of_State def
+R25045 Smallstep <> ST constr
+R25002 Smallstep <> forever_silent_intro constr
+R25141 Smallstep <> Steps_left constr
+R25141 Smallstep <> Steps_left constr
+prf 25180 <> Reactive_forever_reactive
+R25235 Smallstep <> forever_reactive coind
+R25277 Smallstep <> traceinf_of_State def
+R25258 Smallstep <> state_of_State def
+R25383 Smallstep <> Steps_refl constr
+R25383 Smallstep <> Steps_refl constr
+R25408 Smallstep <> Steps_star thm
+R25408 Smallstep <> Steps_star thm
+R25484 Events <> Eappinf_assoc proj
+R25484 Events <> Eappinf_assoc proj
+R25508 Smallstep <> forever_reactive_intro constr
+R25508 Smallstep <> forever_reactive_intro constr
+R25550 Smallstep <> star_right thm
+R25550 Smallstep <> star_right thm
+R25595 Events <> Eapp_E0_inv proj
+R25595 Events <> Eapp_E0_inv proj
+R25643 Smallstep <> forever_reactive coind
+R25695 Smallstep <> traceinf_of_State def
+R25714 Smallstep <> ST constr
+R25666 Smallstep <> state_of_State def
+R25682 Smallstep <> ST constr
+R25643 Smallstep <> forever_reactive coind
+R25695 Smallstep <> traceinf_of_State def
+R25714 Smallstep <> ST constr
+R25666 Smallstep <> state_of_State def
+R25682 Smallstep <> ST constr
+R25780 Smallstep <> Steps_trans thm
+R25780 Smallstep <> Steps_trans thm
+R25809 Smallstep <> Steps_left constr
+R25809 Smallstep <> Steps_left constr
+prf 25863 <> forever_silent_or_reactive
+R25955 Coq.Init.Logic "A \/ B" not
+R25929 Smallstep <> forever_reactive coind
+R25960 Coq.Init.Logic "'exists' x , p" not
+R25970 Coq.Init.Logic "'exists' x , p" not
+R25981 Coq.Init.Logic "'exists' x , p" not
+R26011 Coq.Init.Logic "A /\ B" not
+R25994 Smallstep <> star ind
+R26037 Coq.Init.Logic "A /\ B" not
+R26014 Smallstep <> forever_silent coind
+R26042 Coq.Init.Logic "x = y" not
+R26046 Events "x *** y" not
+R25907 Smallstep <> forever coind
+R26084 Smallstep <> Reactive_or_Silent thm
+R26104 Smallstep <> ST constr
+R26084 Smallstep <> Reactive_or_Silent thm
+R26104 Smallstep <> ST constr
+R26135 Smallstep <> forever_reactive coind
+R26186 Smallstep <> traceinf_of_State def
+R26205 Smallstep <> ST constr
+R26158 Smallstep <> state_of_State def
+R26174 Smallstep <> ST constr
+R26135 Smallstep <> forever_reactive coind
+R26186 Smallstep <> traceinf_of_State def
+R26205 Smallstep <> ST constr
+R26158 Smallstep <> state_of_State def
+R26174 Smallstep <> ST constr
+R26226 Smallstep <> Reactive_forever_reactive thm
+R26226 Smallstep <> Reactive_forever_reactive thm
+R26298 Smallstep <> Steps_star thm
+R26374 Smallstep <> state_of_State def
+R26402 Smallstep <> traceinf_of_State def
+R26374 Smallstep <> state_of_State def
+R26402 Smallstep <> traceinf_of_State def
+R26456 Smallstep <> Silent_forever_silent thm
+R26456 Smallstep <> Silent_forever_silent thm
+R26503 Smallstep SmallStep.INF_SEQ_DECOMP <> sec
+R26526 Smallstep SmallStep <> sec
