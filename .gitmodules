@@ -1,12 +1,12 @@
 [submodule "plzoo"]
-	path = plzoo
+	path = related/plzoo
 	url = https://github.com/andrejbauer/plzoo.git
 [submodule "concat"]
-	path = concat
+	path = related/concat
 	url = https://github.com/compiling-to-categories/concat.git
 [submodule "inline-c"]
-	path = inline-c
+	path = related/inline-c
 	url = https://github.com/fpco/inline-c.git
 [submodule "stgi"]
-	path = stgi
+	path = related/stgi
 	url = https://github.com/quchen/stgi.git
