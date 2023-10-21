@@ -10,3 +10,6 @@
 [submodule "stgi"]
 	path = related/stgi
 	url = https://github.com/quchen/stgi.git
+[submodule "related/minirust"]
+	path = related/minirust
+	url = git@github.com:minirust/minirust.git
